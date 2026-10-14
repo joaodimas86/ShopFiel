@@ -10,3 +10,31 @@
 @media(max-width:750px){.wrap{padding:0 18px}.header-row{min-height:66px}.brand strong{font-size:29px}.nav,.nav-cta{display:none}.menu-button{display:block}.hero-inner{display:block;min-height:570px}.hero-copy{padding:55px 0 40px}.hero h1{font-size:clamp(74px,15vw,115px);margin:25px 0}.hero-art{position:absolute;inset:0 0 0 25%;opacity:.4;z-index:0}.hero-copy>p{font-size:16px}.strap-row span:last-child{display:none}.catalog-section{padding:55px 0}.section-title{align-items:start;flex-direction:column}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.art-bg{height:190px}.card-info{padding:12px}.card-title{font-size:13px}.card-price{font-size:11px}.section-title h2{font-size:58px}.toolbar{flex-direction:column}.sort{display:flex;justify-content:space-between}.manifesto-inner{min-height:190px;gap:14px}.asterisk{font-size:75px}.manifesto a{display:none}.steps-section{padding:55px 0}.steps-grid{grid-template-columns:1fr;gap:28px}.partners{padding:55px 0}.partners-inner{grid-template-columns:1fr;gap:24px}.about-section{padding:55px 0}.footer-grid{grid-template-columns:1fr;gap:15px}.detail-inner{grid-template-columns:1fr}.detail-art{display:none}.detail-copy{padding:44px 20px 20px}.detail-copy h2{font-size:42px}.footer-bottom{flex-wrap:wrap;gap:12px}}
 @media(max-width:420px){.top-note{font-size:8px}.strap-row{font-size:8px}.hero h1{font-size:70px}.hero-actions{gap:12px}.hero-link{font-size:9px}.grid{gap:8px}.art-bg{height:155px}.art-number{font-size:30px}.card-kicker{font-size:8px}.card-more{font-size:10px}.deal{padding:10px}.deal a{font-size:9px;padding:8px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
+
+
+/* Fiel Shop — identidade aprovada e vitrine de lançamento */
+.brand{min-width:190px}.brand-logo{width:210px;height:auto;display:block}
+.feature-section{padding:79px 0 68px;background:#fff}
+.feature-heading{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:28px}
+.feature-heading h2{font:900 clamp(51px,6vw,84px)/.9 var(--display);margin:10px 0;color:#151515}
+.feature-heading h2 span{color:#9a9a9a}.feature-heading p{font-size:13px;color:#777;max-width:640px}
+.featured-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.feature-card{background:white;min-width:0}.feature-media{position:relative;background:#f1f1ef;aspect-ratio:4/4.3;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.feature-media svg{display:block;width:82%;height:78%;filter:drop-shadow(0 10px 10px #00000019)}
+.feature-chip{position:absolute;top:12px;left:12px;background:white;border:1px solid #e7e7e7;padding:5px 9px;font-size:10px;font-weight:900;z-index:2}
+.feature-image-note{position:absolute;bottom:12px;left:0;right:0;text-align:center;font-size:9px;color:#888;letter-spacing:.08em}
+.feature-copy{padding:15px 0 0}.feature-category{display:block;font-size:10px;letter-spacing:.07em;color:#969696;font-weight:800}
+.feature-name{font-weight:800;font-size:13px;line-height:1.5;min-height:61px;margin:8px 0}
+.feature-price{font-size:12px;color:#747474;margin:8px 0 14px}
+.feature-action{display:flex;width:100%;justify-content:space-between;padding:11px 12px;border:1px solid #111;background:white;font-size:10px;letter-spacing:.06em;font-weight:900}
+.feature-action:hover{background:#171717;color:white}
+.review-reveal{border-top:1px solid #e2e2e2}.review-reveal summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:900;letter-spacing:.07em;padding:25px 0;border-bottom:1px solid #e2e2e2}
+.review-reveal summary::-webkit-details-marker{display:none}.review-reveal summary:hover{color:#777}.review-reveal-inside{padding-top:35px}
+.catalog-section{padding:0 0 64px}.catalog-section .section-title h2{font-size:58px}
+.feature-dialog{border:0;padding:0;width:min(95vw,560px);box-shadow:0 23px 80px #0008}.feature-dialog::backdrop{background:#000a}.feature-dialog-content{padding:50px 35px 40px}
+.feature-dialog-content h2{font:900 48px/.95 var(--display);margin:14px 0 20px}
+.feature-dialog-content p{color:#6b6b6b;font-size:13px;line-height:1.7}
+.feature-dialog-content strong{display:block;margin-top:27px;font-size:12px;letter-spacing:.05em}
+.feature-close{position:absolute;right:13px;top:13px;border:1px solid #ddd;background:white;width:36px;height:36px;font-size:25px}
+@media(max-width:980px){.brand-logo{width:170px}.featured-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:750px){.brand-logo{width:177px}.feature-section{padding:55px 0 45px}.feature-heading h2{font-size:58px}.featured-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.feature-name{font-size:12px;min-height:76px}.feature-media{aspect-ratio:4/4.6}.feature-image-note{font-size:8px}.feature-dialog-content{padding:48px 20px 22px}.feature-dialog-content h2{font-size:39px}}
