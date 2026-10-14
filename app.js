@@ -1,0 +1,73 @@
+"use strict";
+const $=s=>document.querySelector(s);
+const valid=(url,market)=>market==="shopee"?/^https:\/\/s\.shopee\.com\.br\/[A-Za-z0-9]+$/.test(url):/^https:\/\/meli\.la\/[A-Za-z0-9]+$/.test(url);
+let items=[];
+const isVerified=x=>x.status==="verified"&&Boolean(x.product_name&&x.verified_at);
+const label=x=>isVerified(x)?x.product_name:"Achado #"+x.id;
+const company=x=>x.marketplace==="shopee"?"Shopee":"Mercado Livre";
+const el=(tag,className,text)=>{const node=document.createElement(tag);if(className)node.className=className;if(text!=null)node.textContent=text;return node;};
+function card(item){
+ const a=el("article","card");
+ const media=el("button","card-media");media.type="button";media.dataset.id=item.id;
+ const art=el("div","art-bg theme-"+(Number(item.id.replace(/\D/g,""))%4));
+ art.append(el("span","art-number",item.id),el("span","art-symbol","✳"),el("span","art-caption","PRODUTO EM CONFERÊNCIA"));
+ media.append(el("span","chip",company(item)),art);
+ const info=el("div","card-info");
+ info.append(el("div","card-kicker",isVerified(item)?"ITEM IDENTIFICADO":"DADOS EM CONFERÊNCIA"));
+ const title=el("button","card-title",label(item));title.type="button";title.dataset.id=item.id;
+ const price=el("p","card-price",item.price_brl!=null&&isVerified(item)?Number(item.price_brl).toLocaleString("pt-BR",{style:"currency",currency:"BRL"}):"Preço no parceiro");
+ const more=el("button","card-more","VER DETALHES ↗");more.type="button";more.dataset.id=item.id;
+ info.append(title,price,more);a.append(media,info);return a;
+}
+function render(){
+ const q=$("#search").value.toLocaleLowerCase("pt-BR").trim();
+ let result=items.filter(x=>(x.id+" "+(x.product_name||"")+" "+company(x)).toLocaleLowerCase("pt-BR").includes(q));
+ if($("#sort").value==="recent")result=result.slice().reverse();
+ if($("#sort").value==="verified")result=result.slice().sort((a,b)=>Number(isVerified(b))-Number(isVerified(a)));
+ $("#products").replaceChildren(...result.map(card));
+ $("#result-count").textContent=result.length+" registro(s) encontrado(s)";
+ $("#empty").hidden=result.length>0;
+}
+function show(id){
+ const x=items.find(p=>p.id===id);if(!x)return;
+ $("#detail-code").textContent=x.id+" · "+company(x);
+ $("#detail-title").textContent=label(x);
+ $("#detail-status").textContent=isVerified(x)?"DADOS CADASTRADOS":"IDENTIFICAÇÃO PENDENTE";
+ $("#detail-explain").textContent="Confira o nome exato, as fotos, o preço, o vendedor e as condições na plataforma antes de comprar.";
+ $("#detail-price").textContent="Consulte preço e disponibilidade na plataforma.";
+ const art=el("div","art-bg detail-art-inner");art.append(el("span","art-number",x.id),el("span","art-symbol","✳"));
+ $("#detail-visual").replaceChildren(art);
+ const link=$("#shopee-link");
+ link.href=x.url;
+ link.textContent="VER NO "+company(x).toUpperCase()+" ↗";
+ const active=$(".active-deal strong");active.textContent=company(x);
+ if(x.marketplace==="mercado_livre"){
+  $("#detail-status").textContent="LINK NÃO COMISSIONADO · PRODUTO EM CONFERÊNCIA";
+  $("#detail-explain").textContent="Sua afiliação no Mercado Livre ainda está pendente. Este é apenas um link de consulta, sem comissão confirmada. Verifique produto, vendedor e condições na plataforma.";
+ }
+ $("#item-dialog").showModal();
+}
+async function load(){
+ try{
+ const sources=[["./data/shopee-links-pendentes.json","shopee"],["./data/mercado-livre-links-pendentes.json","mercado_livre"]];
+ const responses=await Promise.all(sources.map(async ([url,market])=>{const r=await fetch(url,{cache:"no-store"});if(!r.ok)throw Error("Falha ao carregar "+market);const j=await r.json();return j.links||[];}));
+ items=responses.flat().filter(x=>x&&valid(String(x.url||""),x.marketplace)&&/^((SHP)|(ML))-\d{3}$/.test(String(x.id)));
+ $("#count-badge").textContent=items.length+" LINKS REGISTRADOS";
+ render();
+ }catch(err){
+ console.error(err);
+ $("#count-badge").textContent="INDISPONÍVEL";
+ $("#result-count").textContent="Erro ao carregar o catálogo.";
+ $("#empty").hidden=false;
+ $("#empty").textContent="Não foi possível carregar o catálogo. Tente atualizar a página.";
+ }
+}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-id]");if(b)show(b.dataset.id)});
+$("#search").addEventListener("input",render);
+$("#sort").addEventListener("change",render);
+$("#close-dialog").addEventListener("click",()=>$("#item-dialog").close());
+$("#item-dialog").addEventListener("click",e=>{if(e.target===e.currentTarget)e.currentTarget.close()});
+$("#menu-button").addEventListener("click",()=>{const m=$("#mobile-nav");m.hidden=!m.hidden;$("#menu-button").setAttribute("aria-expanded",String(!m.hidden))});
+$("#mobile-nav").addEventListener("click",e=>{if(e.target.closest("a")){$("#mobile-nav").hidden=true;$("#menu-button").setAttribute("aria-expanded","false")}});
+$("#year").textContent=new Date().getFullYear();
+load();
