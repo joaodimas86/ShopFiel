@@ -1,0 +1,98 @@
+{
+  "project": "Fiel Shop",
+  "type": "marketplace_links_inbox",
+  "marketplace": "mercado_livre",
+  "affiliate_status": "not_approved",
+  "note": "Links compartilhados pelo responsável, não comprovadamente comissionados. Nome/foto/preço/produto não identificados. Não apresentar como links de afiliados elegíveis até aprovação e validação.",
+  "total": 8,
+  "links": [
+    {
+      "id": "ML-001",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/1kzhf3G",
+      "affiliate_link_verified": false,
+      "status": "pending_identification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null
+    },
+    {
+      "id": "ML-002",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/2J1AeXd",
+      "affiliate_link_verified": false,
+      "status": "pending_identification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null
+    },
+    {
+      "id": "ML-003",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/19quDCV",
+      "affiliate_link_verified": false,
+      "status": "pending_identification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null
+    },
+    {
+      "id": "ML-004",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/1edXhpb",
+      "affiliate_link_verified": false,
+      "status": "pending_identification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null
+    },
+    {
+      "id": "ML-005",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/1dRFr4m",
+      "affiliate_link_verified": false,
+      "status": "pending_identification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null
+    },
+    {
+      "id": "ML-006",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/2nDdyka",
+      "affiliate_link_verified": false,
+      "status": "pending_identification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null
+    },
+    {
+      "id": "ML-007",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/19bLvkK",
+      "affiliate_link_verified": false,
+      "status": "pending_identification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null
+    },
+    {
+      "id": "ML-008",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/1Xi14RD",
+      "affiliate_link_verified": false,
+      "status": "pending_identification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null
+    }
+  ]
+}
