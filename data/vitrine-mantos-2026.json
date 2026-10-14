@@ -1,0 +1,113 @@
+{
+  "title": "Mantos da Temporada 2026/27",
+  "description": "Coleção editorial da vitrine Fiel Shop. Modelos verificados na coleção oficial Nike; anúncios Mercado Livre e links atribuídos ainda não identificados.",
+  "source": "https://www.nike.com.br/hotsite/corinthians",
+  "status": "planned_not_published",
+  "priority": "home_featured",
+  "products": [
+    {
+      "sku": "COR-2026-I-TORCEDOR-M",
+      "name": "Camisa Corinthians Nike I 2026/27 — Torcedor Pro Masculina",
+      "kit": "I",
+      "audience": "masculino",
+      "variant": "torcedor-pro",
+      "marketplace": "mercado_livre",
+      "link": null,
+      "link_type": "not_yet_identified",
+      "price": null,
+      "image": null,
+      "available": false
+    },
+    {
+      "sku": "COR-2026-II-TORCEDOR-M",
+      "name": "Camisa Corinthians Nike II 2026/27 — Torcedor Pro Masculina",
+      "kit": "II",
+      "audience": "masculino",
+      "variant": "torcedor-pro",
+      "marketplace": "mercado_livre",
+      "link": null,
+      "link_type": "not_yet_identified",
+      "price": null,
+      "image": null,
+      "available": false
+    },
+    {
+      "sku": "COR-2026-I-TORCEDOR-F",
+      "name": "Camisa Corinthians Nike I 2026/27 — Torcedora Pro Feminina",
+      "kit": "I",
+      "audience": "feminino",
+      "variant": "torcedor-pro",
+      "marketplace": "mercado_livre",
+      "link": null,
+      "link_type": "not_yet_identified",
+      "price": null,
+      "image": null,
+      "available": false
+    },
+    {
+      "sku": "COR-2026-II-TORCEDOR-F",
+      "name": "Camisa Corinthians Nike II 2026/27 — Torcedora Pro Feminina",
+      "kit": "II",
+      "audience": "feminino",
+      "variant": "torcedor-pro",
+      "marketplace": "mercado_livre",
+      "link": null,
+      "link_type": "not_yet_identified",
+      "price": null,
+      "image": null,
+      "available": false
+    },
+    {
+      "sku": "COR-2026-I-FA-M",
+      "name": "Camisa Corinthians Nike I 2026/27 — Fã Masculina",
+      "kit": "I",
+      "audience": "masculino",
+      "variant": "fa",
+      "marketplace": "mercado_livre",
+      "link": null,
+      "link_type": "not_yet_identified",
+      "price": null,
+      "image": null,
+      "available": false
+    },
+    {
+      "sku": "COR-2026-II-FA-M",
+      "name": "Camisa Corinthians Nike II 2026/27 — Fã Masculina",
+      "kit": "II",
+      "audience": "masculino",
+      "variant": "fa",
+      "marketplace": "mercado_livre",
+      "link": null,
+      "link_type": "not_yet_identified",
+      "price": null,
+      "image": null,
+      "available": false
+    },
+    {
+      "sku": "COR-2026-I-INFANTIL",
+      "name": "Camisa Corinthians Nike I 2026/27 — Infantil",
+      "kit": "I",
+      "audience": "infantil",
+      "variant": "torcedor",
+      "marketplace": "mercado_livre",
+      "link": null,
+      "link_type": "not_yet_identified",
+      "price": null,
+      "image": null,
+      "available": false
+    },
+    {
+      "sku": "COR-2026-II-INFANTIL",
+      "name": "Camisa Corinthians Nike II 2026/27 — Infantil",
+      "kit": "II",
+      "audience": "infantil",
+      "variant": "torcedor",
+      "marketplace": "mercado_livre",
+      "link": null,
+      "link_type": "not_yet_identified",
+      "price": null,
+      "image": null,
+      "available": false
+    }
+  ]
+}
