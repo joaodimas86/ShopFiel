@@ -4,7 +4,7 @@
   "marketplace": "mercado_livre",
   "affiliate_status": "not_approved",
   "note": "Links compartilhados pelo responsável, não comprovadamente comissionados. Nome/foto/preço/produto não identificados. Não apresentar como links de afiliados elegíveis até aprovação e validação.",
-  "total": 10,
+  "total": 13,
   "links": [
     {
       "id": "ML-001",
@@ -109,6 +109,39 @@
       "id": "ML-010",
       "marketplace": "mercado_livre",
       "url": "https://meli.la/1PoFi5Y",
+      "affiliate_link_verified": false,
+      "status": "pending_identification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null
+    },
+    {
+      "id": "ML-011",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/2N5Lq2e",
+      "affiliate_link_verified": false,
+      "status": "pending_identification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null
+    },
+    {
+      "id": "ML-012",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/1xxrBPm",
+      "affiliate_link_verified": false,
+      "status": "pending_identification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null
+    },
+    {
+      "id": "ML-013",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/1MfGMth",
       "affiliate_link_verified": false,
       "status": "pending_identification",
       "product_name": null,
