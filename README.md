@@ -1,44 +1,42 @@
 # Fiel Shop 🖤🤍
 
-Vitrine independente de links de produtos para torcedores. **Não é loja oficial do Corinthians**.
+Primeira versão da vitrine independente para torcedores do Corinthians. Não há vínculo oficial com o clube.
 
-## Status da primeira versão
-- Layout de e-commerce responsivo: página inicial, catálogo, pesquisa, detalhes e informações sobre compras externas.
-- 25 links Shopee cadastrados em `data/shopee-links-pendentes.json`.
-- 13 links Mercado Livre cadastrados em `data/mercado-livre-links-pendentes.json`, **sem afiliação/ganho de comissão validado**.
-- Produtos ainda sem identificação confirmada. O catálogo mostra códigos e **não inventa fotos, preços ou avaliações**.
-- Nenhum checkout ou pagamento dentro da Fiel Shop. Compras, envios, suporte a pedidos e preços ficam com o marketplace.
+## Entregue
+- Página inicial responsiva com identidade preta e branca e monograma FS inspirado na terceira opção de logo aprovada.
+- Seção **Mantos da Temporada 2026/27**: oito modelos de referência em `data/vitrine-mantos-2026.json`, com ilustrações genéricas e detalhes. Os modelos **não** têm anúncios associados nem preços confirmados.
+- Área recolhível de conferência com **25 links da Shopee** em `data/shopee-links-pendentes.json` e **13 links do Mercado Livre** em `data/mercado-livre-links-pendentes.json`.
+- Pesquisa e visualização dos registros; saída para o marketplace somente quando o usuário selecionar um endereço recebido.
+- Sem checkout próprio. As compras são realizadas nos marketplaces.
 
-## Publicação sem hospedagem paga: GitHub Pages
-1. Abra `Settings` deste repositório no GitHub.
-2. Na barra lateral, clique em `Pages`.
-3. Em `Build and deployment`, escolha `Deploy from a branch`.
-4. Em `Branch`, selecione `main` e `/(root)`, depois clique em `Save`.
-5. Aguarde a conclusão da publicação. A URL esperada após a ativação é `https://joaodimas86.github.io/ShopFiel/`. **Não significa que a URL já esteja ativa.**
+## Status comercial
+- Shopee: cadastro de afiliado aprovado segundo informação do responsável; links individuais ainda precisam de identificação e validação.
+- Mercado Livre: a afiliação não está aprovada; links recebidos **não** têm comissão confirmada.
+- Amazon: futura possibilidade, sem ofertas cadastradas.
+- **Não mostramos preços, avaliações, estoque, imagens oficiais ou promessas de comissão sem verificar.**
 
-O GitHub Pages precisa permanecer público se usar o repositório público atual. Não publique chaves, senhas, dados de clientes ou informações confidenciais neste repositório.
+## Como abrir localmente
+O projeto atual usa HTML/CSS/JavaScript simples e JSON estático. Não é necessário instalar Node.js.
 
-## Como testar localmente
-O site é HTML + CSS + JavaScript e não precisa de Node.js. Como o catálogo é carregado com `fetch()`, **não** abra `index.html` diretamente pelo sistema de arquivos: sirva a pasta por um servidor local.
-
-Por exemplo:
 ```bash
 python -m http.server 8000
 ```
 
-Acesse `http://localhost:8000/`.
+Abra `http://localhost:8000/` — abrir `index.html` diretamente pelo explorador de arquivos não carregará o JSON de modo confiável.
 
-## Estrutura
-- `index.html`: página e diálogos.
-- `style.css`: identidade visual responsiva.
-- `app.js`: pesquisa, listagem, detalhes e saídas para marketplaces.
-- `data/*.json`: arquivos de links recebidos, aguardando verificação.
+## Publicar uma prévia no GitHub Pages
+1. No GitHub, acesse **Settings → Pages** do repositório `joaodimas86/ShopFiel`.
+2. Escolha **Deploy from a branch**, branch `main`, pasta `/(root)`.
+3. Salve e aguarde a publicação.
+4. Após ativação, a URL esperada é `https://joaodimas86.github.io/ShopFiel/`.
 
-## Próximas etapas
-- Identificar produtos reais pelos links, com autorização de uso das imagens e atualização de preços.
-- Confirmar a validade de rastreamento dos links da Shopee.
-- Concluir afiliação Mercado Livre antes de anunciar comissões.
-- Criar painel administrativo com autenticação segura.
-- Revisar acessibilidade, testes em celular, identidade e documentação legal antes de campanha pública.
+**A URL acima não significa que a publicação já está ativa.** A página contém `noindex,nofollow` para impedir indexação antes da revisão final.
 
-Nenhum link deve ser interpretado automaticamente como comissão garantida. A confirmação depende do programa de afiliados e das regras de atribuição.
+## Pendências essenciais
+- Identificar produtos associados aos 38 links; conferir fotos, originalidade, preços e permissão de utilização dos dados.
+- Mapear anúncios verificados de múltiplos marketplaces para o mesmo produto.
+- Validar rastreamento e regras dos programas de afiliados.
+- Criar painel protegido com autenticação; o repositório público **não** é área segura para credenciais.
+- Concluir páginas legais e revisar a marca antes do lançamento comercial.
+
+Projeto em pré-lançamento. Não inserir segredos, CPF ou dados de clientes no repositório.
