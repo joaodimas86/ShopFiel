@@ -2,7 +2,7 @@
   "project": "Fiel Shop",
   "type": "affiliate_links_inbox",
   "description": "Links encaminhados pelo responsável. Cada link precisa de identificação do produto, conferência de validade e confirmação das regras de comissão antes de ativar no catálogo.",
-  "total": 20,
+  "total": 24,
   "links": [
     {
       "id": "SHP-001",
@@ -236,6 +236,54 @@
       "id": "SHP-020",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/1qcnosuhLp",
+      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "status": "pending_verification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null,
+      "notes": null
+    },
+    {
+      "id": "SHP-021",
+      "marketplace": "shopee",
+      "url": "https://s.shopee.com.br/6Almz4csLw",
+      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "status": "pending_verification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null,
+      "notes": null
+    },
+    {
+      "id": "SHP-022",
+      "marketplace": "shopee",
+      "url": "https://s.shopee.com.br/60SMmldVgv",
+      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "status": "pending_verification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null,
+      "notes": null
+    },
+    {
+      "id": "SHP-023",
+      "marketplace": "shopee",
+      "url": "https://s.shopee.com.br/6VOdNgbbg2",
+      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "status": "pending_verification",
+      "product_name": null,
+      "product_image": null,
+      "price_brl": null,
+      "verified_at": null,
+      "notes": null
+    },
+    {
+      "id": "SHP-024",
+      "marketplace": "shopee",
+      "url": "https://s.shopee.com.br/6L5DBNcF11",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "pending_verification",
       "product_name": null,
