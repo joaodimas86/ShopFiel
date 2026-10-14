@@ -3,7 +3,7 @@ const $=s=>document.querySelector(s);
 const valid=(url,market)=>market==="shopee"?/^https:\/\/s\.shopee\.com\.br\/[A-Za-z0-9]+$/.test(url):/^https:\/\/meli\.la\/[A-Za-z0-9]+$/.test(url);
 let items=[];
 const isVerified=x=>x.status==="verified"&&Boolean(x.product_name&&x.verified_at);
-const label=x=>isVerified(x)?x.product_name:"Achado #"+x.id;
+const label=x=>isVerified(x)?x.product_name:"Referência "+x.id;
 const company=x=>x.marketplace==="shopee"?"Shopee":"Mercado Livre";
 const el=(tag,className,text)=>{const node=document.createElement(tag);if(className)node.className=className;if(text!=null)node.textContent=text;return node;};
 function card(item){
@@ -71,3 +71,37 @@ $("#menu-button").addEventListener("click",()=>{const m=$("#mobile-nav");m.hidde
 $("#mobile-nav").addEventListener("click",e=>{if(e.target.closest("a")){$("#mobile-nav").hidden=true;$("#menu-button").setAttribute("aria-expanded","false")}});
 $("#year").textContent=new Date().getFullYear();
 load();
+
+
+async function loadFeatured(){
+ const holder=$("#featured-products");if(!holder)return;
+ try{
+  const response=await fetch("./data/vitrine-mantos-2026.json",{cache:"no-store"});
+  if(!response.ok)throw Error("Coleção indisponível");
+  const source=await response.json();
+  const products=Array.isArray(source.products)?source.products:[];
+  const fragment=document.createDocumentFragment();
+  const shirt=(kit)=>{const light=kit==="I",fill=light?"#f5f5f4":"#232323",line=light?"#bcbcbc":"#dddddd";
+   const svg=document.createElementNS("http://www.w3.org/2000/svg","svg");
+   svg.setAttribute("viewBox","0 0 240 260");svg.setAttribute("aria-hidden","true");
+   svg.innerHTML='<path d="M66 45 95 29h50l29 16 37 35-21 42-25-15v118H75V107L50 122 29 80Z" fill="'+fill+'" stroke="'+line+'" stroke-width="2"/>'+(light?'':'<path d="M84 35h13v188H84zm34 0h13v188h-13zm34 0h13v188h-13z" fill="#efefef"/>')+'<path d="M94 30q26 29 51 0" fill="none" stroke="'+line+'" stroke-width="5"/>';
+   return svg;
+  };
+  for(const item of products){
+   const card=el("article","feature-card");
+   const media=el("div","feature-media");media.append(el("span","feature-chip","2026/27"),shirt(item.kit),el("small","feature-image-note","ILUSTRAÇÃO DE LAYOUT"));
+   const content=el("div","feature-copy");content.append(el("small","feature-category","MANTOS SAGRADOS / "+(item.audience||"").toUpperCase()),el("h3","feature-name",item.name),el("p","feature-price","Ofertas em conferência"));
+   const action=el("button","feature-action","VER INFORMAÇÕES ↗");action.type="button";action.addEventListener("click",()=>showFeature(item));
+   content.append(action);card.append(media,content);fragment.append(card);
+  }
+  holder.replaceChildren(fragment);
+ }catch(err){console.error(err);holder.textContent="Coleção temporariamente indisponível.";}
+}
+function showFeature(item){
+ let dialog=$("#feature-dialog");
+ if(!dialog){dialog=el("dialog","feature-dialog");dialog.id="feature-dialog";document.body.append(dialog);}
+ dialog.replaceChildren();
+ const close=el("button","feature-close","×");close.type="button";close.setAttribute("aria-label","Fechar informações");close.addEventListener("click",()=>dialog.close());
+ const wrap=el("div","feature-dialog-content");wrap.append(el("small","feature-category","COLEÇÃO 2026/27"),el("h2","",item.name),el("p","","Estamos identificando anúncios correspondentes a este modelo nas plataformas parceiras. Nenhum preço ou link de compra foi associado ainda."),el("strong","","MERCADO LIVRE · SHOPEE · AMAZON"),el("p","","Assim que houver anúncios verificados, você poderá escolher onde finalizar a compra. A Fiel Shop é uma vitrine independente e não recebe pagamentos."));dialog.append(close,wrap);dialog.showModal();
+}
+loadFeatured();
