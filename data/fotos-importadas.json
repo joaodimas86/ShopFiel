@@ -23,6 +23,15 @@
       "assets/produtos/SHP-003/05-estadio-costas.webp",
       "assets/produtos/SHP-003/06-escudo.webp",
       "assets/produtos/SHP-003/07-detalhe.webp"
+    ],
+    "SHP-004": [
+      "assets/produtos/SHP-004/01-branca-frente-costas.webp",
+      "assets/produtos/SHP-004/02-branca-lifestyle.webp",
+      "assets/produtos/SHP-004/03-preta-frente-costas.webp",
+      "assets/produtos/SHP-004/04-preta-detalhe-frente.webp",
+      "assets/produtos/SHP-004/05-branca-detalhe-frente.webp",
+      "assets/produtos/SHP-004/06-preta-costas.webp",
+      "assets/produtos/SHP-004/07-branca-costas.webp"
     ]
   },
   "failed": []
