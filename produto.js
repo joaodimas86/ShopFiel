@@ -74,6 +74,11 @@ function priceBlock(product){
 function buyBlock(product){
   const box=$("#pd-buy-area");
   box.replaceChildren();
+  if(product.availability==="pending_new_link"){
+    box.append(make("div","pd-buy-disabled","NOVO LINK DE COMPRA EM PREPARAÇÃO"));
+    box.append(make("p","pd-stock-note","Estamos aguardando o anúncio atualizado para este produto. Assim que o novo link de afiliado for confirmado, a compra será habilitada."));
+    return;
+  }
   if(product.availability==="out_of_stock"){
     box.append(make("div","pd-buy-disabled","ESGOTADO NA ÚLTIMA CONFERÊNCIA"));
     box.append(make("p","pd-stock-note","Anúncio marcado como esgotado na captura de 15/10/2026. A disponibilidade atual precisa ser consultada no marketplace."));
