@@ -110,7 +110,7 @@ function updateCategoryCounts(){
    "historicas":state.items.filter(p=>p.category_id==="historicas").length,
    "souvenirs":state.items.filter(p=>p.category_id==="souvenirs").length
  };
- $("[data-category-count]").forEach(node=>{
+ document.querySelectorAll("[data-category-count]").forEach(node=>{
    const id=node.getAttribute("data-category-count");
    node.textContent=counts[id]+" "+(counts[id]===1?"PRODUTO":"PRODUTOS");
  });
