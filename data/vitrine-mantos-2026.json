@@ -16,7 +16,8 @@
       "link_type": "not_yet_identified",
       "price": null,
       "image": null,
-      "available": false
+      "available": false,
+      "category_id": "camisas-atuais"
     },
     {
       "sku": "COR-2026-II-TORCEDOR-M",
@@ -29,7 +30,8 @@
       "link_type": "not_yet_identified",
       "price": null,
       "image": null,
-      "available": false
+      "available": false,
+      "category_id": "camisas-atuais"
     },
     {
       "sku": "COR-2026-I-TORCEDOR-F",
@@ -42,7 +44,8 @@
       "link_type": "not_yet_identified",
       "price": null,
       "image": null,
-      "available": false
+      "available": false,
+      "category_id": "camisas-atuais"
     },
     {
       "sku": "COR-2026-II-TORCEDOR-F",
@@ -55,7 +58,8 @@
       "link_type": "not_yet_identified",
       "price": null,
       "image": null,
-      "available": false
+      "available": false,
+      "category_id": "camisas-atuais"
     },
     {
       "sku": "COR-2026-I-FA-M",
@@ -68,7 +72,8 @@
       "link_type": "not_yet_identified",
       "price": null,
       "image": null,
-      "available": false
+      "available": false,
+      "category_id": "camisas-atuais"
     },
     {
       "sku": "COR-2026-II-FA-M",
@@ -81,7 +86,8 @@
       "link_type": "not_yet_identified",
       "price": null,
       "image": null,
-      "available": false
+      "available": false,
+      "category_id": "camisas-atuais"
     },
     {
       "sku": "COR-2026-I-INFANTIL",
@@ -94,7 +100,8 @@
       "link_type": "not_yet_identified",
       "price": null,
       "image": null,
-      "available": false
+      "available": false,
+      "category_id": "camisas-atuais"
     },
     {
       "sku": "COR-2026-II-INFANTIL",
@@ -107,7 +114,9 @@
       "link_type": "not_yet_identified",
       "price": null,
       "image": null,
-      "available": false
+      "available": false,
+      "category_id": "camisas-atuais"
     }
-  ]
+  ],
+  "collection_id": "camisas-atuais"
 }
