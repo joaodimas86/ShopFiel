@@ -169,7 +169,7 @@
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camiseta Masculina 100% Algodão Estampa Corinthians",
-      "product_image": null,
+      "product_image": "./assets/produtos/SHP-004/01-branca-frente-costas.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -193,12 +193,24 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Camiseta casual com estampa do Corinthians, anunciada pelo vendedor como confeccionada em 100% algodão. Confira composição, cores, tabela de medidas e as fotos da peça diretamente no anúncio.",
+      "description": "Camiseta casual Corinthians com estampa frontal temática e lettering em destaque nas costas. As imagens mostram opções em preto e branco. Confirme as variações, composição e medidas diretamente no anúncio.",
       "highlights": [
-        "Camiseta casual com tema Corinthians.",
-        "Tamanhos, material, estampas e variações devem ser confirmados na Shopee."
+        "Fotos de frente e costas nas versões preta e branca.",
+        "Estampa temática frontal e lettering nas costas.",
+        "Consulte tabela de medidas, material e disponibilidade na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
+      "images": [
+        "./assets/produtos/SHP-004/01-branca-frente-costas.webp",
+        "./assets/produtos/SHP-004/02-branca-lifestyle.webp",
+        "./assets/produtos/SHP-004/03-preta-frente-costas.webp",
+        "./assets/produtos/SHP-004/04-preta-detalhe-frente.webp",
+        "./assets/produtos/SHP-004/05-branca-detalhe-frente.webp",
+        "./assets/produtos/SHP-004/06-preta-costas.webp",
+        "./assets/produtos/SHP-004/07-branca-costas.webp"
+      ],
+      "photo_added_on": "2026-10-15",
+      "image_source_note": "Sete fotos da camiseta com lettering nas costas fornecidas pelo responsável."
     },
     {
       "id": "SHP-005",
