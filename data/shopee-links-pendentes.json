@@ -718,12 +718,19 @@
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/6L5DBNcF11",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Camiseta Feminina Corinthians Bordada",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Descrição do vendedor: Camiseta Feminina Corinthians Bordado Oficial Licenciado. Imagem e produto identificados via captura; declaração de licenciamento ainda não confirmada de modo independente. Utilizar link de afiliado curto original.",
+      "category_id": "casuais",
+      "subcategory_id": "feminino",
+      "seller_shop_id": "1021676691",
+      "seller_product_id": "58259857899",
+      "price_snapshot": null,
+      "listing_title_verified_at": "2026-10-15",
+      "availability": "not_verified"
     },
     {
       "id": "SHP-025",
@@ -738,5 +745,5 @@
       "notes": null
     }
   ],
-  "identified_count": 23
+  "identified_count": 24
 }
