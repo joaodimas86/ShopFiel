@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Conheça os detalhes de um produto selecionado pela Fiel Shop e compre na Shopee com o link do parceiro.">
+  <title>Detalhes do produto | Fiel Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./produto.css">
+  <script defer src="./produto.js"></script>
+</head>
+<body class="pd-page">
+  <div class="top-note">UMA VITRINE INDEPENDENTE, FEITA PARA A FIEL &nbsp; ✳ &nbsp; DE TORCEDOR PARA TORCEDOR</div>
+  <header class="site-header">
+    <div class="wrap header-row pd-header">
+      <a class="brand" href="./index.html" aria-label="Fiel Shop, voltar à loja"><img class="brand-logo" src="./assets/logo-fiel-shop.svg" alt="Fiel Shop — De torcedor para torcedor" width="220" height="70"></a>
+      <nav class="pd-nav" aria-label="Navegação"><a href="./index.html">Início</a><a href="./index.html#catalogo">Coleções</a><a href="./index.html#mantos">Produtos</a></nav>
+      <a class="pd-header-cta" href="./index.html#catalogo">VER A LOJA ↗</a>
+    </div>
+  </header>
+  <main class="pd-main">
+    <div class="wrap">
+      <nav class="pd-breadcrumb" aria-label="Caminho do produto">
+        <a href="./index.html">Fiel Shop</a><span aria-hidden="true">/</span>
+        <a id="pd-breadcrumb-category" href="./index.html#catalogo">Produtos</a><span aria-hidden="true">/</span>
+        <span id="pd-breadcrumb-current">Detalhes</span>
+      </nav>
+      <div class="pd-message" id="pd-message" role="status">Carregando detalhes do produto...</div>
+      <div id="pd-detail" hidden>
+        <section class="pd-product" aria-labelledby="pd-title">
+          <div class="pd-gallery">
+            <div class="pd-image" id="pd-image" aria-label="Imagem ilustrativa do produto"></div>
+            <div class="pd-gallery-caption"><span>IMAGEM ILUSTRATIVA</span><span>CONFIRA AS FOTOS REAIS NA SHOPEE</span></div>
+          </div>
+          <div class="pd-purchase">
+            <div class="pd-eyebrow" id="pd-eyebrow"></div>
+            <h1 id="pd-title"></h1>
+            <p class="pd-subtitle" id="pd-summary"></p>
+            <div class="pd-divider"></div>
+            <div class="pd-price-block" id="pd-price"></div>
+            <div id="pd-buy-area"></div>
+            <div class="pd-purchase-note">
+              <strong>Compra concluída na Shopee</strong>
+              <p>Você escolhe aqui e finaliza o pedido na plataforma parceira. Frete, tamanho, estoque, preço e condições são informados pelo vendedor. A Fiel Shop pode receber comissão pela indicação.</p>
+            </div>
+            <a class="pd-back-link" id="pd-return-category" href="./index.html#mantos">← VOLTAR PARA A COLEÇÃO</a>
+          </div>
+        </section>
+        <section class="pd-details" aria-labelledby="pd-description-title">
+          <div class="pd-description">
+            <div class="pd-section-kicker">SAIBA MAIS</div>
+            <h2 id="pd-description-title">SOBRE O <span>PRODUTO.</span></h2>
+            <p id="pd-long-description"></p>
+            <h3>DESTAQUES</h3>
+            <ul id="pd-highlights"></ul>
+          </div>
+          <aside class="pd-check" aria-labelledby="pd-check-title">
+            <div class="pd-section-kicker">ANTES DE COMPRAR</div>
+            <h2 id="pd-check-title">CONFIRA NO <span>ANÚNCIO.</span></h2>
+            <ol id="pd-checklist"></ol>
+            <p>Os detalhes acima são uma apresentação editorial. As especificações do anúncio, sua disponibilidade e a procedência devem ser confirmadas diretamente na Shopee.</p>
+          </aside>
+        </section>
+        <section class="pd-related-section" id="pd-related-section" aria-labelledby="pd-related-title" hidden>
+          <div class="pd-related-header">
+            <div><div class="pd-section-kicker">CONTINUE EXPLORANDO</div><h2 id="pd-related-title">VOCÊ TAMBÉM PODE <span>CURTIR.</span></h2></div>
+            <a href="./index.html#catalogo">VER TODAS AS COLEÇÕES ↗</a>
+          </div>
+          <div class="pd-related-grid" id="pd-related"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="pd-footer">
+    <div class="wrap pd-footer-inner">
+      <div><strong>FIEL SHOP</strong><span>De torcedor para torcedor.</span></div>
+      <div>Vitrine independente. Não somos loja oficial do Corinthians.<br>Os produtos são vendidos pelos respectivos parceiros.</div>
+    </div>
+  </footer>
+</body>
+</html>
