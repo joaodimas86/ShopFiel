@@ -6,8 +6,8 @@ Vitrine **independente** para torcedores do Corinthians, publicada em [GitHub Pa
 - Identidade preto, branco e cinza, com logo aprovado.
 - Categorias: **Camisas Atuais 2026/27**, **Moda Casual**, **Camisas Históricas** e **Souvenirs e Acessórios**.
 - Cards individuais, busca por nome, ordenação e layout responsivo.
-- Catálogo Shopee em `data/shopee-links-pendentes.json`: **25 links encurtados originais, numerados em sequência de SHP-001 a SHP-025**; **24 anúncios identificados** em 15/10/2026, **SHP-025 ainda sem identificação**.
-- **Numeração revisada em 15/10/2026** por solicitação do responsável: a posição SHP-006 em branco havia sido criada por engano e foi excluída. Assim, o link `https://s.shopee.com.br/4fwtN9zlPK` corresponde ao **SHP-006**, e todos os seguintes voltaram à numeração de SHP-007 até SHP-025. **Nenhuma URL encurtada original foi alterada.**
+- Catálogo Shopee em `data/shopee-links-pendentes.json`: **26 links encurtados originais, numerados em sequência de SHP-001 a SHP-026**; **25 anúncios identificados** a partir das capturas de 15/10/2026. Somente **SHP-026** ainda não foi identificado.
+- **Numeração corrigida em 15/10/2026:** o verdadeiro **SHP-006** é a Camisa Masculina Modelo Torcedor Corinthians Azul com link de afiliado `https://s.shopee.com.br/3g4Te0vNd1`, enviado posteriormente pelo responsável. Os antigos SHP-006 a SHP-025 agora são SHP-007 a SHP-026. Todos os **25 links antigos e o novo link curto foram preservados sem alterações**.
 - A coleção 2026/27 contém 8 modelos apenas como referência, sem ofertas associadas.
 - Todos os botões de compra Shopee utilizam as URLs `s.shopee.com.br/...` originais fornecidas pelo afiliado.
 - SHP-003 foi marcado esgotado na captura de 15/10/2026 e não tem botão de compra ativo até revisão.
@@ -35,7 +35,7 @@ Configuração: Settings → Pages → Deploy from a branch → `main` → `/(ro
 Endereço: https://joaodimas86.github.io/ShopFiel/
 
 ## Antes do lançamento comercial
-1. Identificar o anúncio do SHP-025 por meio do link encurtado original.
+1. Identificar o anúncio do SHP-026 por meio do link encurtado original.
 2. Concluir conferência de preços, estoques, originalidade e direitos de uso das imagens.
 3. Testar manualmente os links curtos em navegador/app para conferir rastreamento do afiliado.
 4. Adicionar políticas e formas de contato adequadas; revisar necessidades de LGPD.
