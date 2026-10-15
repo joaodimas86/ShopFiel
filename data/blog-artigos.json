@@ -1,0 +1,250 @@
+{
+  "publication": "Arquibancada Fiel",
+  "publisher": "Fiel Shop",
+  "published": "2026-10-15",
+  "articles": [
+    {
+      "slug": "como-escolher-tamanho-camisa-de-futebol",
+      "title": "Como escolher o tamanho certo de uma camisa de futebol",
+      "seoTitle": "Tamanho de Camisa de Futebol: Como Escolher | Fiel Shop",
+      "description": "Aprenda a medir uma camiseta, comparar tabelas e escolher o caimento certo de uma camisa de futebol antes de comprar online.",
+      "category": "Guia de compra",
+      "label": "GUIA DE COMPRA",
+      "read": "6 min",
+      "cover": "../assets/produtos/SHP-001/01-frente.webp",
+      "topic": "TAMANHOS",
+      "datePublished": "2026-10-15",
+      "lead": "Encontrar uma camisa bonita é fácil. Difícil é acertar o tamanho quando cada vendedor, tecido e modelagem veste de um jeito. Veja um método simples para reduzir as dúvidas antes da compra.",
+      "sections": [
+        {
+          "id": "medir",
+          "title": "Comece por uma camiseta que já veste bem",
+          "html": "<p>Separe uma camiseta parecida com a que você pretende comprar. Coloque a peça sobre uma superfície plana, sem esticar. Meça a <strong>largura de uma axila à outra</strong> e o <strong>comprimento do ombro até a barra</strong>. Se o caimento das mangas é importante para você, meça essa parte também.</p><p>Anote os centímetros e compare com a tabela do anúncio. É mais confiável do que confiar apenas no tamanho P, M, G ou GG, porque letras iguais podem representar medidas diferentes em cada loja.</p><p>Se o vendedor mostrar a largura da camiseta aberta, compare com a largura da sua peça aberta; não confunda com a circunferência do tórax. Se a tabela trouxer apenas medidas do corpo, confirme com a loja como interpretá-las.</p>"
+        },
+        {
+          "id": "modelagem",
+          "title": "Entenda regular, slim e oversized",
+          "html": "<p>Modelos <strong>regular</strong> costumam seguir um corte tradicional. Camisetas <strong>slim</strong> normalmente ficam mais próximas do corpo; já a modelagem <strong>oversized</strong> busca um visual propositalmente solto, com volume maior nos ombros e no tronco. Esses termos descrevem uma intenção de estilo, não uma padronização de medidas.</p><p>Se você prefere mobilidade ou pretende usar outra peça por baixo, observe especialmente largura e comprimento. Para um visual mais ajustado, confira as medidas da região do peito e da barra. Evite comprar uma numeração maior automaticamente só porque a camiseta é de futebol.</p>"
+        },
+        {
+          "id": "tecido",
+          "title": "Confira composição, elasticidade e cuidados",
+          "html": "<p>Algodão, poliéster e misturas de fibras podem ter toque e comportamento diferentes. Um tecido mais elástico pode vestir de forma distinta de um tecido rígido, mesmo com medidas parecidas. A composição indicada no anúncio não permite garantir quanto uma peça vai ceder ou encolher.</p><p>Leia as instruções do fabricante e a etiqueta da roupa. Se a informação sobre o tecido não estiver clara, pergunte ao vendedor antes de fechar o pedido.</p>"
+        },
+        {
+          "id": "avaliacoes",
+          "title": "Use as avaliações para tirar dúvidas reais",
+          "html": "<p>Procure comentários de compradores que descrevam a altura, o tipo de caimento e o tamanho escolhido. Fotos de clientes podem ajudar a perceber comprimento e largura, mas iluminação, poses e diferenças entre lotes influenciam a aparência.</p><p>Confira também a versão selecionada: em alguns anúncios, cada cor ou estampa tem fotos diferentes. Uma imagem bonita não substitui a confirmação da variante que será enviada.</p>"
+        },
+        {
+          "id": "checklist",
+          "title": "Checklist antes de comprar",
+          "html": "<ul><li>A tabela informa as medidas em centímetros?</li><li>Ela representa a peça aberta ou as medidas do corpo?</li><li>O tipo de corte é realmente o que você procura?</li><li>Há avaliações sobre tamanho, tecido e entrega?</li><li>O vendedor explica a política de troca e devolução?</li></ul><p>Nas fichas da Fiel Shop você conhece as peças; para escolher o tamanho e confirmar as condições atuais, utilize sempre as informações do anúncio na Shopee.</p>"
+        }
+      ],
+      "related": [
+        "camisas-retro-corinthians",
+        "como-lavar-camisa-de-futebol"
+      ],
+      "products": [
+        {
+          "id": "SHP-001",
+          "label": "Camisa Urban Ouro",
+          "note": "Estilo casual com detalhes em dourado"
+        },
+        {
+          "id": "SHP-004",
+          "label": "Camiseta estampada",
+          "note": "Fotos das versões preta e branca"
+        }
+      ],
+      "categoryId": "casuais"
+    },
+    {
+      "slug": "camisas-retro-corinthians",
+      "title": "Camisas retrô do Corinthians: o que observar antes de comprar",
+      "seoTitle": "Camisas Retrô do Corinthians: Guia de Compra | Fiel Shop",
+      "description": "Guia para escolher camisas retrô do Corinthians: referências históricas, escudos, acabamento, tamanhos, autenticidade e licenciamento.",
+      "category": "Camisas históricas",
+      "label": "HISTÓRIA E ESTILO",
+      "read": "7 min",
+      "cover": "../assets/produtos/SHP-002/01-frente.webp",
+      "topic": "RETRÔ",
+      "datePublished": "2026-10-15",
+      "lead": "Uma camisa retrô pode lembrar uma temporada, um jogador ou a primeira ida ao estádio. Mas nem toda peça anunciada como retrô é uma reprodução fiel ou licenciada. Veja os detalhes que merecem atenção.",
+      "sections": [
+        {
+          "id": "tipo",
+          "title": "O que exatamente é uma camisa retrô?",
+          "html": "<p>Na prática, o termo pode indicar peças inspiradas em uniformes antigos, releituras com mudanças de gola ou tecido, camisetas temáticas e reproduções de determinadas temporadas. A palavra <strong>retrô</strong>, sozinha, não confirma que o produto foi produzido na época ou que tem origem oficial.</p><p>Comece pensando no que você quer: uma lembrança visual de um momento da história do clube ou uma peça com detalhes fiéis a determinado modelo? São objetivos diferentes. Uma releitura pode ser bonita, desde que o anúncio deixe sua proposta clara.</p>"
+        },
+        {
+          "id": "detalhes",
+          "title": "Observe gola, listras, escudo e inscrições",
+          "html": "<p>Os detalhes contam a história visual das camisas: tipo de gola, largura e posição das listras, bordado ou impressão do escudo, numeração e inscrições. Alguns modelos fazem referências a patrocinadores e expressões associados a épocas específicas.</p><p>Se o anúncio disser que reproduz exatamente uma determinada temporada, compare com registros confiáveis daquela época. Não conclua que um conjunto de elementos é historicamente preciso apenas porque aparece em uma foto de venda.</p>"
+        },
+        {
+          "id": "memoria",
+          "title": "Democracia Corinthiana e memória da torcida",
+          "html": "<p>Peças que fazem referência à <strong>Democracia Corinthiana</strong> e ao número 8 chamam atenção pelo significado cultural e esportivo. O interesse pode nascer tanto do design quanto do desejo de lembrar um período marcante da história do clube.</p><p>Para conhecer o contexto por trás dessas estampas, procure fontes históricas, entrevistas e registros do período. O valor simbólico de uma camiseta não dispensa a conferência de sua procedência comercial.</p>"
+        },
+        {
+          "id": "autenticidade",
+          "title": "Como verificar procedência e licenciamento",
+          "html": "<p>Afirmações como “original”, “oficial” e “licenciado” precisam de confirmação independente. O título escrito pelo vendedor não é, por si, prova de autenticidade. Confira informações sobre fabricante, etiquetas, empresa responsável, condições de venda e, quando disponível, documentação da licença.</p><p>Leia avaliações com fotos do produto efetivamente entregue. Examine comentários sobre qualidade de acabamento, costuras, diferenças de cor e durabilidade das estampas. Avaliações ajudam, mas também não substituem a verificação da origem.</p>"
+        },
+        {
+          "id": "caimento",
+          "title": "Escolha o tamanho pelo caimento, não pela década",
+          "html": "<p>Uma polo de inspiração antiga pode ter proporções muito diferentes de uma camiseta esportiva moderna. Compare as medidas em centímetros com uma peça que você já usa. Observe comprimento, manga e gola — três elementos que mudam bastante a experiência de uso.</p><p>Se você planeja colecionar e guardar a camisa, confira também as instruções de conservação de estampas, bordados e aplicações antes de lavar ou passar.</p>"
+        }
+      ],
+      "related": [
+        "como-escolher-tamanho-camisa-de-futebol",
+        "como-lavar-camisa-de-futebol"
+      ],
+      "products": [
+        {
+          "id": "SHP-002",
+          "label": "Polo Retrô Kalunga",
+          "note": "Estilo que remete às décadas passadas"
+        },
+        {
+          "id": "SHP-003",
+          "label": "Camiseta Democracia Nº 8",
+          "note": "Compra aguardando novo link de afiliado"
+        }
+      ],
+      "categoryId": "historicas"
+    },
+    {
+      "slug": "presentes-para-corinthianos",
+      "title": "Presentes para corinthianos: ideias além da camisa de futebol",
+      "seoTitle": "Presentes para Corinthianos: Ideias para a Fiel | Fiel Shop",
+      "description": "Sugestões de presentes para corinthianos: copos, acessórios de churrasco, bandeiras, roupas e itens para diferentes perfis.",
+      "category": "Presentes e acessórios",
+      "label": "PRESENTES PARA A FIEL",
+      "read": "6 min",
+      "cover": null,
+      "topic": "PRESENTES",
+      "datePublished": "2026-10-15",
+      "lead": "Tem alguém na família que vive falando do Timão? Não é preciso comprar sempre outra camisa. O presente ideal depende do jeito de torcer: há quem prefira decorar a casa, colecionar acessórios ou receber os amigos no dia do jogo.",
+      "sections": [
+        {
+          "id": "perfil",
+          "title": "Comece pelo perfil de quem vai receber",
+          "html": "<p>Antes de olhar preços, faça três perguntas: essa pessoa coleciona camisas? Gosta de objetos úteis no dia a dia? Costuma reunir amigos para ver futebol? Essas pistas valem mais do que escolher o produto com o maior escudo.</p><p>Considere o espaço disponível, a frequência de uso e a chance de a pessoa já ter algo parecido. Também pense se ela gosta de peças discretas ou prefere estampar o amor pelo clube em tudo.</p>"
+        },
+        {
+          "id": "churrasco",
+          "title": "Para quem reúne a Fiel no churrasco",
+          "html": "<p>Kits de churrasco, tábuas, facas e utensílios temáticos combinam com quem gosta de organizar encontros em dias de jogo. Confira quais peças acompanham o kit, os materiais, as dimensões e os cuidados de limpeza. Nomes parecidos de anúncios não significam necessariamente conjuntos iguais.</p><p>Se a pessoa já tem muitos utensílios, um item específico pode ser mais útil do que outro kit completo. A apresentação pode contar, mas a funcionalidade precisa vir primeiro.</p>"
+        },
+        {
+          "id": "copos",
+          "title": "Para quem coleciona copos e lembranças",
+          "html": "<p>Copos de vidro, conjuntos para servir e recipientes térmicos são alternativas para os torcedores que gostam de montar seu cantinho de jogos. Compare capacidade, material e orientações de limpeza. Em produtos térmicos, confirme no anúncio quais características foram declaradas pelo fabricante.</p><p>Presentes de menor porte também podem ser interessantes quando você não conhece o tamanho de roupa da pessoa.</p>"
+        },
+        {
+          "id": "ambiente",
+          "title": "Para decorar a casa ou o espaço de jogos",
+          "html": "<p>Bandeiras, mantas e cobertores temáticos podem trazer o clima da torcida para um ambiente. Vale medir a parede, sofá ou cama antes de comprar. Confira acabamento, material e dimensões do item anunciado para evitar surpresas na entrega.</p><p>Um produto pensado para exposição pode precisar de cuidados diferentes de algo para uso cotidiano.</p>"
+        },
+        {
+          "id": "roupas",
+          "title": "Para quem prefere vestir o Corinthians",
+          "html": "<p>Se a pessoa adora roupas, considere camisetas casuais, polos ou peças de inspiração retrô. O maior risco de um presente-surpresa é errar o tamanho: procure descobrir uma medida de uma peça que ela já usa ou prefira uma loja com tabela de medidas clara.</p><p>O estilo importa. Há quem prefira o preto e branco discreto, quem adore referências históricas e quem goste de estampas grandes com proposta urbana.</p>"
+        },
+        {
+          "id": "final",
+          "title": "Confira estas informações antes de presentear",
+          "html": "<ul><li>As fotos e as avaliações mostram o produto que você receberá?</li><li>Cor, tamanho e itens inclusos estão claros?</li><li>O prazo de entrega atende à data do presente?</li><li>O vendedor informa condições de devolução?</li><li>A procedência e eventuais alegações de licenciamento foram verificadas?</li></ul><p>A Fiel Shop apresenta uma seleção independente de anúncios. Preço, frete, estoque e pagamento são tratados na plataforma parceira, não no nosso blog.</p>"
+        }
+      ],
+      "related": [
+        "camisas-retro-corinthians",
+        "como-escolher-tamanho-camisa-de-futebol"
+      ],
+      "products": [
+        {
+          "id": "SHP-009",
+          "label": "Kit churrasco",
+          "note": "Acessórios para encontro entre torcedores"
+        },
+        {
+          "id": "SHP-019",
+          "label": "Kit 6 copos",
+          "note": "Conjunto temático para servir"
+        },
+        {
+          "id": "SHP-020",
+          "label": "Copo térmico",
+          "note": "Acessório para o dia a dia"
+        }
+      ],
+      "categoryId": "souvenirs"
+    },
+    {
+      "slug": "como-lavar-camisa-de-futebol",
+      "title": "Como lavar e guardar camisas de futebol sem danificar as estampas",
+      "seoTitle": "Como Lavar Camisa de Futebol: Cuidados | Fiel Shop",
+      "description": "Dicas para lavar, secar, passar e guardar camisas de futebol e camisetas estampadas respeitando a etiqueta de cuidados.",
+      "category": "Cuidados com a roupa",
+      "label": "CUIDADOS COM AS PEÇAS",
+      "read": "5 min",
+      "cover": "../assets/produtos/SHP-004/01-branca-frente-costas.webp",
+      "topic": "CUIDADOS",
+      "datePublished": "2026-10-15",
+      "lead": "Uma camisa de futebol pode guardar memórias de uma temporada inteira. Para conservar estampa, tecido e forma, pequenos cuidados ajudam. Mas não existe uma receita única: a etiqueta da peça vem sempre em primeiro lugar.",
+      "sections": [
+        {
+          "id": "etiqueta",
+          "title": "Leia a etiqueta antes da primeira lavagem",
+          "html": "<p>Comece pelos símbolos e instruções do fabricante. Eles informam os cuidados adequados ao tecido, às cores e aos detalhes aplicados. Uma camiseta de algodão pode precisar de cuidados diferentes de uma camisa com fibras sintéticas ou transferências de estampa.</p><p>Quando uma dica geral da internet contrariar a etiqueta, siga a indicação do fabricante. Se o anúncio não trouxer instruções, peça informações ao vendedor.</p>"
+        },
+        {
+          "id": "cores",
+          "title": "Separe as cores e examine as aplicações",
+          "html": "<p>Organize a lavagem de acordo com as cores e as orientações do tecido. Especialmente em peças novas, a transferência de cor pode ser um risco. Zíperes, velcros e acessórios ásperos também podem causar atrito com estampas e bordados.</p><p>Se a etiqueta permitir, virar uma camiseta estampada do avesso pode ajudar a reduzir o contato direto da arte com outras peças durante a lavagem.</p>"
+        },
+        {
+          "id": "lavar",
+          "title": "Evite intensidade desnecessária",
+          "html": "<p>Use produto de lavagem compatível com a peça e respeite as quantidades indicadas. Não aumente a temperatura da água nem escolha ciclos intensos sem verificar os símbolos. Produtos químicos fortes podem afetar a cor ou o acabamento de certos tecidos.</p><p>Se surgir uma mancha, identifique primeiro o tipo de tecido. Evite esfregar agressivamente em cima de uma estampa, sobretudo se houver bordado ou aplicação sensível.</p>"
+        },
+        {
+          "id": "secar",
+          "title": "Secagem, secadora e ferro exigem atenção",
+          "html": "<p>Calor excessivo pode danificar alguns tipos de estampa e aplicação. Antes de usar secadora ou passar a roupa, confira exatamente o que a etiqueta permite. Não encoste ferro diretamente em uma arte impressa ou escudo aplicado sem instrução expressa do fabricante.</p><p>Na secagem, procure uma forma de apoiar a peça que não estique ou deforme o tecido, especialmente quando ele estiver molhado e mais pesado.</p>"
+        },
+        {
+          "id": "guardar",
+          "title": "Guarde as peças secas e sem pressão desnecessária",
+          "html": "<p>Guarde as camisas apenas depois de completamente secas. Prefira um local limpo, arejado e livre de umidade. Se houver estampas delicadas, evite dobrar ou comprimir a aplicação no mesmo ponto por muito tempo.</p><p>Para quem gosta de colecionar, organizar por estilo ou período pode facilitar a escolha sem precisar manusear a coleção inteira. Fotografar as peças também ajuda a manter um registro do acervo pessoal.</p>"
+        },
+        {
+          "id": "compra",
+          "title": "Use a experiência para escolher a próxima camisa",
+          "html": "<p>Observe quais tecidos e modelagens mantiveram o bom caimento por mais tempo no seu dia a dia. Essa experiência é útil na próxima compra. Na Fiel Shop você pode conhecer diferentes opções, mas a composição real e os cuidados específicos devem ser conferidos no anúncio do vendedor.</p>"
+        }
+      ],
+      "related": [
+        "como-escolher-tamanho-camisa-de-futebol",
+        "camisas-retro-corinthians"
+      ],
+      "products": [
+        {
+          "id": "SHP-004",
+          "label": "Camiseta estampada",
+          "note": "Fotos da peça em preto e branco"
+        },
+        {
+          "id": "SHP-002",
+          "label": "Polo retrô",
+          "note": "Exemplo de peça com vários acabamentos"
+        }
+      ],
+      "categoryId": "casuais"
+    }
+  ]
+}
