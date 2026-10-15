@@ -14,6 +14,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: true
+      - name: Instalar conversor de imagens
+        run: python3 -m pip install --quiet pillow
       - name: Baixar arquivos de imagens enviados para Fiel Shop
         shell: bash
         run: |
@@ -70,11 +72,16 @@ jobs:
                   })
                   with urllib.request.urlopen(request, timeout=20) as response:
                     content = response.read(4_000_000)
-                  if not (content[:4] == b"RIFF" and content[8:12] == b"WEBP"):
-                    raise ValueError("O CDN não retornou uma imagem WEBP válida")
+                    mime = response.headers.get("content-type", "")
+                  print("RESPOSTA", url, "tipo", mime, "bytes", len(content), "início", repr(content[:18]), flush=True)
                   if len(content) < 5000:
                     raise ValueError("Imagem incompleta")
-                  dest.write_bytes(content)
+                  from io import BytesIO
+                  from PIL import Image
+                  with Image.open(BytesIO(content)) as photo:
+                    if photo.width < 200 or photo.height < 200:
+                      raise ValueError("Imagem muito pequena")
+                    photo.convert("RGB").save(dest, "WEBP", quality=85, method=5)
                   print("OK", sku, filename, len(content), "bytes")
                   successes[sku].append(str(dest))
                   break
