@@ -2,7 +2,7 @@
   "project": "Fiel Shop",
   "type": "affiliate_links_inbox",
   "description": "Links encaminhados pelo responsável. Cada link precisa de identificação do produto, conferência de validade e confirmação das regras de comissão antes de ativar no catálogo.",
-  "total": 26,
+  "total": 25,
   "links": [
     {
       "id": "SHP-001",
@@ -164,18 +164,6 @@
     {
       "id": "SHP-006",
       "marketplace": "shopee",
-      "url": null,
-      "source": "link não enviado; reservado por solicitação do responsável em 15/10/2026",
-      "status": "awaiting_user_link",
-      "product_name": null,
-      "product_image": null,
-      "price_brl": null,
-      "verified_at": null,
-      "notes": "Número SHP-006 reservado. O antigo SHP-006 agora é SHP-007 e todos os itens seguintes foram deslocados +1. Não publicar até receber o link encurtado e identificar o anúncio."
-    },
-    {
-      "id": "SHP-007",
-      "marketplace": "shopee",
       "url": "https://s.shopee.com.br/4fwtN9zlPK",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
@@ -205,11 +193,10 @@
         "sales_count_at_least": 265,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-006"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-008",
+      "id": "SHP-007",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/7ptv923tBM",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -238,11 +225,10 @@
         "sales_count_at_least": 15,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-007"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-009",
+      "id": "SHP-008",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/60SGxhevap",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -271,11 +257,10 @@
         "sales_count_at_least": 603,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-008"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-010",
+      "id": "SHP-009",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/3Vkvz9eZS7",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -304,11 +289,10 @@
         "sales_count_at_least": 35,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-009"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-011",
+      "id": "SHP-010",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/9pezWpxeL1",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -337,11 +321,10 @@
         "sales_count_at_least": 181,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-010"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-012",
+      "id": "SHP-011",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/5LCaAcQlgD",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -370,11 +353,10 @@
         "sales_count_at_least": 108,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-011"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-013",
+      "id": "SHP-012",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/2BFYOs5rtz",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -403,11 +385,10 @@
         "sales_count_at_least": 69,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-012"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-014",
+      "id": "SHP-013",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/6AlhAGpUtX",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -437,11 +418,10 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "variation_note": "Faixa de preços por tamanho/variação (R$45–85), não é preço fixo.",
-      "previous_id": "SHP-013"
+      "variation_note": "Faixa de preços por tamanho/variação (R$45–85), não é preço fixo."
     },
     {
-      "id": "SHP-015",
+      "id": "SHP-014",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/4VdTBGGYnQ",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -470,11 +450,10 @@
         "sales_count_at_least": 4,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-014"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-016",
+      "id": "SHP-015",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/3qNqTn3iVy",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -503,11 +482,10 @@
         "sales_count_at_least": 71,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-015"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-017",
+      "id": "SHP-016",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/2LZ2hAJX5z",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -536,11 +514,10 @@
         "sales_count_at_least": 114,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-016"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-018",
+      "id": "SHP-017",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/20wE1Bu40o",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -569,11 +546,10 @@
         "sales_count_at_least": 28,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-017"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-019",
+      "id": "SHP-018",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/2BFeDUtQfr",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -602,11 +578,10 @@
         "sales_count_at_least": 102,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-018"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-020",
+      "id": "SHP-019",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/1gJNcZvKgm",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -635,11 +610,10 @@
         "sales_count_at_least": 68,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-019"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-021",
+      "id": "SHP-020",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/1qcnosuhLp",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -669,11 +643,10 @@
         "sales_count_at_least": 2000,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-020"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-022",
+      "id": "SHP-021",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/6Almz4csLw",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -702,11 +675,10 @@
         "sales_count_at_least": 21,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified",
-      "previous_id": "SHP-021"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-023",
+      "id": "SHP-022",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/60SMmldVgv",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -722,11 +694,10 @@
       "listing_title_verified_at": "2026-10-15",
       "price_snapshot": null,
       "rating_snapshot": null,
-      "availability": "not_verified",
-      "previous_id": "SHP-022"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-024",
+      "id": "SHP-023",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/6VOdNgbbg2",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -740,11 +711,10 @@
       "seller_shop_id": "1316691667",
       "seller_product_id": "23993549670",
       "availability": "not_verified",
-      "listing_title_verified_at": "2026-10-15",
-      "previous_id": "SHP-023"
+      "listing_title_verified_at": "2026-10-15"
     },
     {
-      "id": "SHP-025",
+      "id": "SHP-024",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/6L5DBNcF11",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -760,11 +730,10 @@
       "seller_product_id": "58259857899",
       "price_snapshot": null,
       "listing_title_verified_at": "2026-10-15",
-      "availability": "not_verified",
-      "previous_id": "SHP-024"
+      "availability": "not_verified"
     },
     {
-      "id": "SHP-026",
+      "id": "SHP-025",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/qkGdbShJi",
       "source": "links compartilhados pelo responsável da Fiel Shop",
@@ -773,12 +742,10 @@
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null,
-      "previous_id": "SHP-025"
+      "notes": null
     }
   ],
   "identified_count": 24,
   "total_received_links": 25,
-  "pending_count": 2,
-  "renumbering_note": "15/10/2026: reservado SHP-006 que havia sido pulado. Antigos SHP-006 a SHP-025 passaram a SHP-007 a SHP-026; URLs de afiliado não foram alteradas."
+  "correction_note": "15/10/2026: numeração corrigida por solicitação do responsável. Removida posição em branco SHP-006 criada indevidamente; 25 links originais em sequência, sem alterações nas URLs curtas. SHP-025 permanece sem identificação."
 }
