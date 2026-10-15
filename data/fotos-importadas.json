@@ -39,6 +39,16 @@
       "assets/produtos/SHP-005/03-no-corpo.webp",
       "assets/produtos/SHP-005/04-escudo.webp",
       "assets/produtos/SHP-005/05-detalhe-lateral.webp"
+    ],
+    "SHP-006": [
+      "assets/produtos/SHP-006/01-frente.webp",
+      "assets/produtos/SHP-006/02-modelo-frente.webp",
+      "assets/produtos/SHP-006/03-escudo-manga.webp",
+      "assets/produtos/SHP-006/04-modelo-pose.webp",
+      "assets/produtos/SHP-006/05-gola-escudo.webp",
+      "assets/produtos/SHP-006/06-etiqueta.webp",
+      "assets/produtos/SHP-006/07-costas.webp",
+      "assets/produtos/SHP-006/08-detalhe-costas.webp"
     ]
   },
   "failed": []

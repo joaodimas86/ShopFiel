@@ -269,9 +269,9 @@
       "url": "https://s.shopee.com.br/3g4Te0vNd1",
       "source": "link encurtado e captura da página do anúncio enviados pelo responsável em 15/10/2026",
       "status": "identified",
-      "product_name": "Camisa Masculina Modelo Torcedor Corinthians Azul",
+      "product_name": "Camisa Masculina Corinthians Preta Nike Total 90 com Detalhes Laranja",
       "category_id": "casuais",
-      "product_image": null,
+      "product_image": "./assets/produtos/SHP-006/01-frente.webp",
       "price_brl": null,
       "verified_at": null,
       "price_snapshot": {
@@ -281,11 +281,11 @@
         "other_type": null,
         "observed_on": "2026-10-15",
         "live_price": false,
-        "source": "captura da Shopee enviada pelo responsável"
+        "source": "captura antiga do anúncio na Shopee enviada pelo responsável; preço histórico, ainda não reconfirmado para a variante preta Total 90"
       },
       "availability": "not_verified",
       "listing_title_verified_at": "2026-10-15",
-      "notes": "A imagem mostra camisa escura com detalhes laranja; o título do anúncio diz 'azul'. Confirmar cor, variações e originalidade diretamente na Shopee. Não associar a uniforme de temporada sem confirmação. Para comissão, utilizar o link curto original informado pelo responsável. O usuário confirmou que o link anteriormente atribuído a SHP-007 abre este mesmo anúncio; link duplicado armazenado apenas como alternativa.",
+      "notes": "Título e fotos de capa atualizados em 15/10/2026 pelo responsável para o visual preto/laranja Total 90. O título histórico do anúncio consultado citava 'azul'; conferir a variante disponibilizada no destino Shopee antes de concluir a compra. Não afirmar que é uniforme oficial/licenciado sem verificação independente. Manter o link de afiliado encurtado e alternativo sem alterações.",
       "alternate_affiliate_links": [
         {
           "url": "https://s.shopee.com.br/4fwtN9zlPK",
@@ -295,15 +295,28 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Camisa masculina de proposta torcedor, apresentada no anúncio como modelo azul. Verifique a cor e os detalhes da variação escolhida nas fotos atuais da Shopee.",
+      "description": "Camisa masculina Corinthians em preto com detalhes laranja, apresentada nas imagens como modelo Nike Total 90. O visual inclui gola com contraste laranja, escudo no peito, faixas e acabamento geométrico no corpo. A galeria mostra frente, costas, caimento no modelo e detalhes de escudo, gola, etiqueta e costuras. Confira na Shopee a variante oferecida pelo vendedor, a tabela de medidas, a composição e a procedência antes da compra.",
       "highlights": [
-        "Uma opção para levar o Corinthians ao dia a dia.",
-        "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
+        "Modelo preto com detalhes laranja, inspirado na estética Nike Total 90.",
+        "Oito fotografias: frente, costas, camisa no corpo, gola, escudo e etiqueta.",
+        "Confirme na Shopee o modelo e a cor selecionados, tamanhos, composição, originalidade e disponibilidade."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
+      "description_source": "Texto editorial da Fiel Shop com base nas oito fotos fornecidas diretamente pelo responsável. Título escolhido pelo responsável, sem verificação independente de licença/autenticidade.",
       "featured_in": [
         "camisas-atuais"
-      ]
+      ],
+      "images": [
+        "./assets/produtos/SHP-006/01-frente.webp",
+        "./assets/produtos/SHP-006/02-modelo-frente.webp",
+        "./assets/produtos/SHP-006/03-escudo-manga.webp",
+        "./assets/produtos/SHP-006/04-modelo-pose.webp",
+        "./assets/produtos/SHP-006/05-gola-escudo.webp",
+        "./assets/produtos/SHP-006/06-etiqueta.webp",
+        "./assets/produtos/SHP-006/07-costas.webp",
+        "./assets/produtos/SHP-006/08-detalhe-costas.webp"
+      ],
+      "photo_added_on": "2026-10-15",
+      "image_source_note": "Oito fotos fornecidas pelo responsável da Fiel Shop em 15/10/2026, convertidas em WebP para a galeria; conferir direito de uso e correspondência com a variante anunciada."
     },
     {
       "id": "SHP-007",
