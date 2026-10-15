@@ -46,6 +46,15 @@ jobs:
               ("06-escudo.webp", "sg-11134201-8259z-mt8i0c06st1g2f"),
               ("07-detalhe.webp", "sg-11134201-825b7-mt8i0c3j670k59"),
             ],
+            "SHP-004": [
+              ("01-branca-frente-costas.webp", "sg-11134201-82599-mtk0igic4t1g8c"),
+              ("02-branca-lifestyle.webp", "sg-11134201-8258x-mtk0ih136xvq77"),
+              ("03-preta-frente-costas.webp", "sg-11134201-8258w-mtk0iguyb4zl26"),
+              ("04-preta-detalhe-frente.webp", "sg-11134201-8259o-mtk0igw89se9d0"),
+              ("05-branca-detalhe-frente.webp", "sg-11134201-825b4-mtk0igvpuscj34"),
+              ("06-preta-costas.webp", "sg-11134201-82595-mtk0igvvo2yve8"),
+              ("07-branca-costas.webp", "sg-11134201-8258f-mtk0igv5aj2b5f"),
+            ],
           }
           successes = {}
           failed = []
@@ -110,6 +119,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nenhuma alteração necessária"
           else
-            git commit -m "Adiciona fotografias reais SHP-001, SHP-002 e SHP-003"
+            git commit -m "Adiciona fotografias reais SHP-004 e mantém galerias anteriores"
             git push
           fi
