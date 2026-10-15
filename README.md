@@ -6,11 +6,13 @@ Vitrine **independente** para torcedores do Corinthians, publicada em [GitHub Pa
 - Identidade preto, branco e cinza, com o logo escolhido pelo responsável.
 - Navegação por **Camisas Atuais 2026/27**, **Moda Casual**, **Camisas Históricas** e **Souvenirs e Acessórios**.
 - Cards por produto, busca por nome, ordenação, contagem por categoria e layout responsivo.
-- Catálogo Shopee em `data/shopee-links-pendentes.json`: **24 de 25 links identificados** a partir de capturas enviadas pelo responsável em 15/10/2026.
+- Catálogo Shopee em `data/shopee-links-pendentes.json`: **24 links identificados**, de **25 links curtos recebidos**; há agora **26 posições numeradas** porque o SHP-006 ficou reservado a partir de capturas enviadas pelo responsável em 15/10/2026.
 - A coleção 2026/27 apresenta 8 modelos **apenas como referência**, ainda sem ofertas associadas; nenhuma compra é simulada.
 - Shopee: os botões de compra **usam apenas as URLs curtas originais `s.shopee.com.br/...`**, pois são os links fornecidos pelo afiliado.
 - O SHP-003 foi marcado **esgotado em 15/10/2026** e não tem botão de compra ativo até nova verificação.
-- `SHP-025` ainda **não foi identificado**: não deve aparecer como produto público.
+- `SHP-006` é uma posição **reservada**, sem link enviado ainda; não deve aparecer como produto público.
+- `SHP-026` contém o link originalmente cadastrado como SHP-025, mas ainda **não foi identificado**; não deve aparecer como produto público.
+- **Correção de numeração em 15/10/2026:** os antigos SHP-006 até SHP-025 foram renomeados como SHP-007 até SHP-026. **Nenhuma URL de afiliado foi alterada.**
 - Os 13 links recebidos do Mercado Livre ficam em `data/mercado-livre-links-pendentes.json` para conferência posterior. Não há comissão confirmada no Mercado Livre.
 - Sem checkout próprio: compra e pagamento são realizados no marketplace.
 
@@ -35,7 +37,7 @@ Configuração: Settings → Pages → Deploy from a branch → `main` → `/(ro
 Endereço: https://joaodimas86.github.io/ShopFiel/
 
 ## Antes do lançamento comercial
-1. Receber a identificação do SHP-025.
+1. Receber o link encurtado ausente do SHP-006 e identificar o anúncio ligado ao SHP-026.
 2. Concluir conferência de preços, estoques, originalidade e direitos de uso das imagens.
 3. Testar manualmente os links curtos em navegador/app para conferir rastreamento do afiliado.
 4. Adicionar políticas e formas de contato adequadas; revisar necessidades de LGPD.
