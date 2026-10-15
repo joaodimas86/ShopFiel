@@ -2,7 +2,7 @@
   "project": "Fiel Shop",
   "type": "affiliate_links_inbox",
   "description": "Links encaminhados pelo responsável. Cada link precisa de identificação do produto, conferência de validade e confirmação das regras de comissão antes de ativar no catálogo.",
-  "total": 26,
+  "total": 25,
   "links": [
     {
       "id": "SHP-001",
@@ -183,12 +183,18 @@
       },
       "availability": "not_verified",
       "listing_title_verified_at": "2026-10-15",
-      "notes": "A imagem mostra camisa escura com detalhes laranja; o título do anúncio diz 'azul'. Confirmar cor, variações e originalidade diretamente na Shopee. Não associar a uniforme de temporada sem confirmação. Para comissão, utilizar o link curto original informado pelo responsável."
+      "notes": "A imagem mostra camisa escura com detalhes laranja; o título do anúncio diz 'azul'. Confirmar cor, variações e originalidade diretamente na Shopee. Não associar a uniforme de temporada sem confirmação. Para comissão, utilizar o link curto original informado pelo responsável. O usuário confirmou que o link anteriormente atribuído a SHP-007 abre este mesmo anúncio; link duplicado armazenado apenas como alternativa.",
+      "alternate_affiliate_links": [
+        {
+          "url": "https://s.shopee.com.br/4fwtN9zlPK",
+          "note": "Segundo link encurtado que também abre a camisa SHP-006, confirmado pelo responsável; não usar como principal"
+        }
+      ]
     },
     {
       "id": "SHP-007",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/4fwtN9zlPK",
+      "url": "https://s.shopee.com.br/7ptv923tBM",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camisa Polo Corinthians CP Retrô Torcedora Feminina",
@@ -217,12 +223,14 @@
         "sales_count_at_least": 265,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_note": "O usuário confirmou que o link que estava no SHP-008 abre a Polo Retrô Feminina CP."
     },
     {
       "id": "SHP-008",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/7ptv923tBM",
+      "url": "https://s.shopee.com.br/60SGxhevap",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camiseta Masculina Listrada Corinthians Mulheres Negras 2.0.2.4",
@@ -249,12 +257,14 @@
         "sales_count_at_least": 15,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-009",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/60SGxhevap",
+      "url": "https://s.shopee.com.br/3Vkvz9eZS7",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Kit Churrasco Corinthians com Tábua, Faca, Garfo e Afiador",
@@ -281,12 +291,14 @@
         "sales_count_at_least": 603,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-010",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/3Vkvz9eZS7",
+      "url": "https://s.shopee.com.br/9pezWpxeL1",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Faca para Churrasco em Aço Inoxidável Corinthians",
@@ -313,12 +325,14 @@
         "sales_count_at_least": 35,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-011",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/9pezWpxeL1",
+      "url": "https://s.shopee.com.br/5LCaAcQlgD",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Moletom Corinthians Democracia Corinthiana 2025",
@@ -345,12 +359,14 @@
         "sales_count_at_least": 181,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-012",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/5LCaAcQlgD",
+      "url": "https://s.shopee.com.br/2BFYOs5rtz",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Taça Corinthians Série Ouro Presente",
@@ -377,12 +393,14 @@
         "sales_count_at_least": 108,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-013",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/2BFYOs5rtz",
+      "url": "https://s.shopee.com.br/6AlhAGpUtX",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Capinha Anti-impacto Corinthians para Samsung — Diversos Modelos",
@@ -409,12 +427,14 @@
         "sales_count_at_least": 69,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-014",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/6AlhAGpUtX",
+      "url": "https://s.shopee.com.br/4VdTBGGYnQ",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Bandeira Grande Corinthians — Tamanhos Grande e Pequeno",
@@ -442,12 +462,14 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "variation_note": "Faixa de preços por tamanho/variação (R$45–85), não é preço fixo."
+      "variation_note": "Faixa de preços por tamanho/variação (R$45–85), não é preço fixo.",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-015",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/4VdTBGGYnQ",
+      "url": "https://s.shopee.com.br/3qNqTn3iVy",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Kit Camiseta Retrô Corinthians 1914 Tricô Edição Limitada",
@@ -474,12 +496,14 @@
         "sales_count_at_least": 4,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-016",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/3qNqTn3iVy",
+      "url": "https://s.shopee.com.br/2LZ2hAJX5z",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camisa Corinthians Lifestyle 1910 Listrada SCCP Masculina",
@@ -506,12 +530,14 @@
         "sales_count_at_least": 71,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-017",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/2LZ2hAJX5z",
+      "url": "https://s.shopee.com.br/20wE1Bu40o",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camiseta Gola Redonda Unissex Corinthians Versículo",
@@ -538,12 +564,14 @@
         "sales_count_at_least": 114,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-018",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/20wE1Bu40o",
+      "url": "https://s.shopee.com.br/2BFeDUtQfr",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camiseta Oversized Unissex Evolução dos Escudos do Corinthians",
@@ -570,12 +598,14 @@
         "sales_count_at_least": 28,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-019",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/2BFeDUtQfr",
+      "url": "https://s.shopee.com.br/1gJNcZvKgm",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Kit 6 Copos de Vidro Americano Corinthians Licenciado 190ml",
@@ -602,12 +632,14 @@
         "sales_count_at_least": 102,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-020",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/1gJNcZvKgm",
+      "url": "https://s.shopee.com.br/1qcnosuhLp",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Copo Térmico Timão 360ml Personalizado",
@@ -634,12 +666,14 @@
         "sales_count_at_least": 68,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-021",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/1qcnosuhLp",
+      "url": "https://s.shopee.com.br/6Almz4csLw",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Cobertor Solteiro Corinthians Microfibra 1,50m x 2,00m Jolitex",
@@ -667,12 +701,14 @@
         "sales_count_at_least": 2000,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-022",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/6Almz4csLw",
+      "url": "https://s.shopee.com.br/60SMmldVgv",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Capinha de Silicone Anti-impacto Corinthians para Samsung",
@@ -699,12 +735,14 @@
         "sales_count_at_least": 21,
         "observed_on": "2026-10-15"
       },
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-023",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/60SMmldVgv",
+      "url": "https://s.shopee.com.br/6VOdNgbbg2",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Chinelo Corinthians Slide Nuvem Timão",
@@ -718,12 +756,14 @@
       "listing_title_verified_at": "2026-10-15",
       "price_snapshot": null,
       "rating_snapshot": null,
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-024",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/6VOdNgbbg2",
+      "url": "https://s.shopee.com.br/6L5DBNcF11",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Kit Camisetas Pai e Filho Corinthians Estampadas",
@@ -735,12 +775,14 @@
       "seller_shop_id": "1316691667",
       "seller_product_id": "23993549670",
       "availability": "not_verified",
-      "listing_title_verified_at": "2026-10-15"
+      "listing_title_verified_at": "2026-10-15",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     },
     {
       "id": "SHP-025",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/6L5DBNcF11",
+      "url": "https://s.shopee.com.br/qkGdbShJi",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camiseta Feminina Corinthians Bordada",
@@ -754,22 +796,12 @@
       "seller_product_id": "58259857899",
       "price_snapshot": null,
       "listing_title_verified_at": "2026-10-15",
-      "availability": "not_verified"
-    },
-    {
-      "id": "SHP-026",
-      "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/qkGdbShJi",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
-      "product_image": null,
-      "price_brl": null,
-      "verified_at": null,
-      "notes": null
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
+      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
     }
   ],
   "identified_count": 25,
-  "total_received_links": 26,
-  "correction_note": "Em 15/10/2026, o responsável enviou o verdadeiro SHP-006: https://s.shopee.com.br/3g4Te0vNd1 (Camisa Masculina Modelo Torcedor Corinthians Azul). Inserido como sexto item; todos os 25 links anteriores continuam preservados, e antigos SHP-006 a SHP-025 passaram a SHP-007 a SHP-026. O SHP-026 original ainda exige identificação."
+  "total_received_links": 25,
+  "correction_note": "15/10/2026: usuário confirmou que URL antiga SHP-007 (4fwtN9zlPK) abre camisa SHP-006 e que URL antiga SHP-008 (7ptv923tBM) abre polo feminina SHP-007. O 4fwt foi preservado como URL alternativa no SHP-006, e os endereços de SHP-007 a SHP-025 foram deslocados uma posição para cima. O antigo SHP-026 (qkGdbShJi) ficou com SHP-025. Conferir destinos SHP-008 a SHP-025 independentemente antes de garantir associação."
 }
