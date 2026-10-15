@@ -22,6 +22,18 @@ const collections={
 };
 
 function productVisual(product,season){
+ const photos=Array.isArray(product.images)?product.images.filter(src=>typeof src==="string"&&/^\.\/assets\/produtos\/SHP-\d{3}\/[A-Za-z0-9_-]+\.webp$/.test(src)):[];
+ if(photos.length){
+   const art=make("div","shop-visual shop-visual-photo");
+   const img=make("img","shop-product-image");
+   img.src=photos[0];
+   img.alt="Foto do produto: "+(product.product_name||product.name||"Fiel Shop");
+   img.loading="lazy";
+   img.decoding="async";
+   img.addEventListener("error",()=>art.replaceWith(productVisual({...product,images:[]},season)),{once:true});
+   art.append(img);
+   return art;
+ }
  const name=searchTerm(product.product_name||product.name||"");
  const category=season?"camisas-atuais":product.category_id;
  let kind="shirt";
