@@ -9,12 +9,30 @@
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/9V297awrtB",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Camisa Corinthians Urban Ouro Masculina Oficial",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": "Primeiro link enviado individualmente; confirmar se é produto ou vitrine"
+      "notes": "Produto identificado por captura de tela enviada pelo responsável. A descrição 'Oficial' consta do título do vendedor, sem autenticação independente de originalidade. Preservar exclusivamente a URL curta como link de compra; não usar URL longa com parâmetros ao divulgar. Foto do anúncio não licenciada para reutilização.",
+      "category_id": "casuais",
+      "seller_product_id": "22793859764",
+      "seller_shop_id": "698219490",
+      "price_snapshot": {
+        "pix_brl": 170.92,
+        "other_payment_methods_brl": 179.91,
+        "observed_on": "2026-10-15",
+        "source": "captura de tela enviada pelo responsável",
+        "live_price": false
+      },
+      "sizes_observed": [
+        "P",
+        "M",
+        "G",
+        "GG",
+        "EGG"
+      ],
+      "listing_title_verified_at": "2026-10-15"
     },
     {
       "id": "SHP-002",
@@ -304,5 +322,6 @@
       "verified_at": null,
       "notes": null
     }
-  ]
+  ],
+  "identified_count": 1
 }
