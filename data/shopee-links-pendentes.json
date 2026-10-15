@@ -207,7 +207,7 @@
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camisa Corinthians Invasão 2.0.2.6 (Todos os Patrocinadores)",
-      "product_image": "./assets/produtos/SHP-005/01-branca-frente-costas.webp",
+      "product_image": null,
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -231,27 +231,17 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Camisa Corinthians Invasão 2026. Nas fotos fornecidas, a camiseta tem estampa temática frontal do Corinthians e inscrição em destaque nas costas, nas cores preta e branca. Confira no anúncio as variantes disponíveis, a composição e as medidas.",
+      "description": "Camisa Corinthians Invasão 2026. Fotos anteriores retiradas por não corresponderem ao produto. Aguardando publicação das cinco imagens corretas enviadas pelo responsável.",
       "highlights": [
-        "Fotos de variantes preta e branca: confirme as opções disponíveis no anúncio.",
-        "Estampa frontal temática do Corinthians e lettering nas costas nas fotos apresentadas.",
-        "Consulte composição, tabela de medidas, entrega e disponibilidade na Shopee."
+        "Imagens corretas recebidas: camisa branca com escudo do Corinthians e detalhes laterais.",
+        "Fotos em atualização; confirme composição, tamanhos e disponibilidade no anúncio."
       ],
       "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
       "featured_in": [
         "camisas-atuais"
       ],
-      "images": [
-        "./assets/produtos/SHP-005/01-branca-frente-costas.webp",
-        "./assets/produtos/SHP-005/02-branca-lifestyle.webp",
-        "./assets/produtos/SHP-005/03-preta-frente-costas.webp",
-        "./assets/produtos/SHP-005/04-preta-detalhe-frente.webp",
-        "./assets/produtos/SHP-005/05-branca-detalhe-frente.webp",
-        "./assets/produtos/SHP-005/06-preta-costas.webp",
-        "./assets/produtos/SHP-005/07-branca-costas.webp"
-      ],
-      "photo_added_on": "2026-10-15",
-      "image_source_note": "Fotos indicadas pelo responsável para o SHP-005; conferir variantes e direito de uso."
+      "images": [],
+      "image_source_note": "As fotos anteriormente associadas eram de outro produto e foram removidas do cadastro."
     },
     {
       "id": "SHP-006",
