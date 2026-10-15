@@ -219,7 +219,7 @@
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camisa Corinthians Invasão 2.0.2.6 (Todos os Patrocinadores)",
-      "product_image": null,
+      "product_image": "./assets/produtos/SHP-005/01-frente.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -243,17 +243,25 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Camisa Corinthians Invasão 2026. Fotos anteriores retiradas por não corresponderem ao produto. Aguardando publicação das cinco imagens corretas enviadas pelo responsável.",
+      "description": "Camisa Corinthians Invasão 2026, apresentada nas fotos enviadas na versão branca. O modelo fotografado tem escudo do Corinthians no peito, detalhes laterais em preto e recortes de tecido na região das laterais. A galeria mostra frente, costas, a peça no corpo e closes do escudo e do acabamento. Consulte o anúncio para confirmar se esta é a variação disponível, além de tamanhos, composição, procedência e condições de compra.",
       "highlights": [
-        "Imagens corretas recebidas: camisa branca com escudo do Corinthians e detalhes laterais.",
-        "Fotos em atualização; confirme composição, tamanhos e disponibilidade no anúncio."
+        "Fotos reais da versão branca: frente, costas, caimento, escudo e acabamento lateral.",
+        "Escudo com acabamento em relevo nas imagens, detalhes pretos e recortes nas laterais.",
+        "Consulte vendedor para confirmar modelo, autenticidade, opções, medidas, composição e disponibilidade."
       ],
       "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
       "featured_in": [
         "camisas-atuais"
       ],
-      "images": [],
-      "image_source_note": "As fotos anteriormente associadas eram de outro produto e foram removidas do cadastro."
+      "images": [
+        "./assets/produtos/SHP-005/01-frente.webp",
+        "./assets/produtos/SHP-005/02-costas.webp",
+        "./assets/produtos/SHP-005/03-no-corpo.webp",
+        "./assets/produtos/SHP-005/04-escudo.webp",
+        "./assets/produtos/SHP-005/05-detalhe-lateral.webp"
+      ],
+      "image_source_note": "Cinco fotografias da camisa branca fornecidas diretamente pelo responsável em 15/10/2026 e otimizadas para WebP. Correspondência com as variações do anúncio e autorização de uso devem ser confirmadas.",
+      "photo_added_on": "2026-10-15"
     },
     {
       "id": "SHP-006",
