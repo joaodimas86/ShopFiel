@@ -210,3 +210,11 @@ body{background:#fff}
  .shop-card-title{min-height:82px}
 }
 @media(prefers-reduced-motion:reduce){.shop-card,.shop-visual svg{transition:none}}
+
+/* Os cards agora abrem uma página interna; o link de afiliado fica no detalhe. */
+.shop-card-link,.shop-card-link:visited{color:var(--ink);text-decoration:none}
+.shop-card-link:hover .shop-card-action,.shop-card-link:focus-visible .shop-card-action{background:#444;color:#fff}
+.shop-card-link:focus-visible{outline:3px solid #6c6c6c;outline-offset:4px}
+.shop-card-link .shop-card-action{cursor:pointer}
+.shop-card-link.is-unavailable .shop-card-action{background:#151515;border-color:#151515;color:#fff;cursor:pointer}
+.shop-card-link.is-unavailable:hover .shop-card-action{background:#444}
