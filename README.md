@@ -4,12 +4,13 @@ Vitrine **independente** para torcedores do Corinthians, publicada em [GitHub Pa
 
 ## Loja / versão atual
 - Identidade preta, branca e cinza, com logo aprovado.
-- Departamentos: **Camisas Atuais 2026/27**, **Moda Casual**, **Camisas Históricas** e **Souvenirs e Acessórios**.
+- Departamentos: **Camisas Disponíveis**, **Moda Casual**, **Camisas Históricas** e **Souvenirs e Acessórios**.
 - Vitrine responsiva, busca, ordenação, contagem de itens e **cards clicáveis que abrem páginas individuais** em `produto.html?id=SHP-XXX`. O visitante lê a descrição e só então pode seguir pelo botão **COMPRAR NA SHOPEE**.
 - Catálogo em `data/shopee-links-pendentes.json`: **25 fichas de produtos identificados** a partir das capturas de 15/10/2026; 25 links curtos em uso e um link alternativo preservado.
 - **Correção concluída:** o SHP-006 usa `3g4Te0vNd1`, o SHP-007 usa `7ptv923tBM` e os seguintes utilizam a sequência confirmada pelo responsável. O outro link `4fwtN9zlPK` está preservado como alternativa histórica do SHP-006, fora dos botões principais.
 - **Conferência do responsável em 15/10/2026:** os 25 produtos e seus respectivos links da última lista foram confirmados como corretos. O link principal de cada produto continua sendo sua URL encurtada no JSON; nenhuma foi substituída por URL longa.
-- Os oito modelos 2026/27 são apenas referências editoriais, sem ofertas de compra associadas.
+- **Correção de 15/10/2026:** a coleção de camisas antes mostrava oito modelos Nike 2026/27 sem anúncios e sem links clicáveis. Para não confundir visitantes, agora apresenta somente **SHP-005** (Camisa Invasão 2026) e **SHP-006** (Camisa Modelo Torcedor), ambos com links Shopee verificados pelo responsável. A categoria mantém a chave interna `camisas-atuais`, mas agora é identificada publicamente como **Camisas Disponíveis**. Os oito modelos de referência seguem preservados em `data/vitrine-mantos-2026.json` para uma futura coleção, sem simular ofertas nem dizer que os dois anúncios são uniformes oficiais 2026/27.
+- As fichas SHP-005 e SHP-006 permanecem também em Moda Casual, com uma única URL principal de afiliado cada.
 - SHP-003 aparece esgotado na captura de 15/10/2026 e fica sem botão de compra ativo até nova verificação.
 - Os 13 links Mercado Livre seguem preservados separadamente, sem comissão confirmada.
 - Sem checkout próprio: compra e pagamento ocorrem no marketplace parceiro.
@@ -25,7 +26,7 @@ Vitrine **independente** para torcedores do Corinthians, publicada em [GitHub Pa
 - As 25 fichas já receberam texto editorial inicial, sem presumir estoque, material, licenciamento ou autenticidade não comprovados.
 - As ilustrações continuam genéricas, não fotos reais dos vendedores. Trocar por fotos apenas com autorização/licença adequada e fonte confiável.
 - Se o ID não existir ou o JSON estiver indisponível, a página mostra um aviso e caminho para retornar à loja.
-- O link de retorno para a coleção usa `?categoria=historicas#mantos` (ou a categoria do item) para restaurar a navegação na vitrine.
+- O link de retorno para a coleção usa `?categoria=historicas#mantos` (ou a categoria do item) para restaurar a navegação. Produtos em destaque na seção Camisas passam também `&colecao=camisas-atuais` na página individual, de modo que o retorno volte para a seção de origem.
 
 ## Política de dados de anúncios
 - **Valores de capturas não são preços ao vivo**. Quando exibidos, aparecem como valores históricos de 15/10/2026; cupons, variações, estoque e frete podem mudar.
