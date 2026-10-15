@@ -1,0 +1,56 @@
+name: Corrigir fotos SHP-005
+on:
+  push:
+    paths:
+      - ".github/workflows/corrigir-fotos-shp005.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  corrigir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Transferir galeria da camisa para SHP-005
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets/produtos/SHP-005
+          cp -n assets/produtos/SHP-004/*.webp assets/produtos/SHP-005/
+          python3 - <<'PY'
+          import json, pathlib
+          path=pathlib.Path("data/shopee-links-pendentes.json")
+          data=json.loads(path.read_text(encoding="utf-8"))
+          p4=next(p for p in data["links"] if p["id"]=="SHP-004")
+          p5=next(p for p in data["links"] if p["id"]=="SHP-005")
+          if p4.get("images") and len(p4["images"])!=7: raise RuntimeError("SHP-004 com fotos inesperadas")
+          photos=sorted(str("./"+p) for p in pathlib.Path("assets/produtos/SHP-005").glob("*.webp"))
+          if len(photos)!=7: raise RuntimeError(f"Não foram copiadas as 7 fotos: {photos}")
+          if p4.get("images"):
+              photos=[image.replace("SHP-004","SHP-005") for image in p4["images"]]
+          if any("SHP-005" not in p for p in photos): raise RuntimeError("Destinos das fotos incorretos")
+          p5["images"]=photos
+          p5["product_image"]=photos[0]
+          p5["photo_added_on"]="2026-10-15"
+          p5["image_source_note"]="Fotos indicadas pelo responsável para o SHP-005; conferir variantes e direito de uso."
+          p5["description"]="Camisa Corinthians Invasão 2026. Nas fotos fornecidas, a camiseta tem estampa temática frontal do Corinthians e inscrição em destaque nas costas, nas cores preta e branca. Confira no anúncio as variantes disponíveis, a composição e as medidas."
+          p5["highlights"]=["Fotos de variantes preta e branca: confirme as opções disponíveis no anúncio.","Estampa frontal temática do Corinthians e lettering nas costas nas fotos apresentadas.","Consulte composição, tabela de medidas, entrega e disponibilidade na Shopee."]
+          p4.pop("images",None)
+          p4["product_image"]=None
+          p4.pop("photo_added_on",None)
+          p4.pop("image_source_note",None)
+          p4["description"]="Camiseta casual com estampa do Corinthians, anunciada pelo vendedor como confeccionada em 100% algodão. Confira composição, cores, tabela de medidas e as fotos da peça diretamente no anúncio."
+          p4["highlights"]=["Camiseta casual com tema Corinthians.","Tamanhos, material, estampas e variações devem ser confirmados na Shopee."]
+          if p4["url"]!="https://s.shopee.com.br/9APIjEaHSx" or p5["url"]!="https://s.shopee.com.br/7faUwcl9ex": raise RuntimeError("Link afiliado diferente")
+          path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          print("Fotos SHP-005:",len(photos),"links de afiliado preservados")
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/produtos/SHP-005 data/shopee-links-pendentes.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Corrige destino das fotos SHP-005 e deixa SHP-004 aguardando as fotos corretas"
+            git push
+          fi
