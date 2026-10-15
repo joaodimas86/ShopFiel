@@ -108,240 +108,593 @@
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/9APIjEaHSx",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Camiseta Masculina 100% Algodão Estampa Corinthians",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": "Recebido anúncio completo e imagem. Nome, preço, categoria e disponibilidade ainda aguardam extração/validação. Sempre preservar URL curta original de afiliado.",
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
       "seller_product_id": "58266716613",
       "seller_shop_id": "743399123",
       "metadata_source": "URL longa do anúncio enviada pelo responsável em 2026-10-15",
-      "identification_pending": true
+      "identification_pending": true,
+      "category_id": "casuais",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 27.18,
+        "type": "com cupom",
+        "other_amount_brl": 30.89,
+        "other_type": "sem cupom",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": null,
+      "availability": "not_verified"
     },
     {
       "id": "SHP-005",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/7faUwcl9ex",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Camisa Corinthians Invasão 2.0.2.6 (Todos os Patrocinadores)",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": "Recebido anúncio completo e imagem. Nome, preço, categoria e disponibilidade ainda aguardam extração/validação. Sempre preservar URL curta original de afiliado.",
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
       "seller_product_id": "58266289174",
       "seller_shop_id": "1590053309",
       "metadata_source": "URL longa do anúncio enviada pelo responsável em 2026-10-15",
-      "identification_pending": true
+      "identification_pending": true,
+      "category_id": "casuais",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 180.5,
+        "type": "Pix com cupom",
+        "other_amount_brl": 200,
+        "other_type": "sem cupom",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": null,
+      "availability": "not_verified"
     },
     {
       "id": "SHP-006",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/4fwtN9zlPK",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Camisa Polo Corinthians CP Retrô Torcedora Feminina",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": "Recebido anúncio completo e imagem. Nome, preço, categoria e disponibilidade ainda aguardam extração/validação. Sempre preservar URL curta original de afiliado.",
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
       "seller_product_id": "23598070713",
       "seller_shop_id": "698219490",
       "metadata_source": "URL longa do anúncio enviada pelo responsável em 2026-10-15",
-      "identification_pending": true
+      "identification_pending": true,
+      "category_id": "historicas",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 175.66,
+        "type": "Pix",
+        "other_amount_brl": 184.9,
+        "other_type": "outros métodos",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 4.9,
+        "review_count": 127,
+        "sales_count_at_least": 265,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-007",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/7ptv923tBM",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Camiseta Masculina Listrada Corinthians Mulheres Negras 2.0.2.4",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "casuais",
+      "seller_product_id": "58265837209",
+      "seller_shop_id": "1590053309",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 152,
+        "type": "Pix",
+        "other_amount_brl": 159.99,
+        "other_type": "outros métodos",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 4.9,
+        "review_count": 7,
+        "sales_count_at_least": 15,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-008",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/60SGxhevap",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Kit Churrasco Corinthians com Tábua, Faca, Garfo e Afiador",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "souvenirs",
+      "seller_product_id": "15449242643",
+      "seller_shop_id": "646806886",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 183.67,
+        "type": "Pix com cupom",
+        "other_amount_brl": 233.93,
+        "other_type": "outros métodos sem cupom",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 5,
+        "review_count": 365,
+        "sales_count_at_least": 603,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-009",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/3Vkvz9eZS7",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Faca para Churrasco em Aço Inoxidável Corinthians",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "souvenirs",
+      "seller_product_id": "58255799771",
+      "seller_shop_id": "1633737924",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 79.95,
+        "type": "preço anunciado",
+        "other_amount_brl": null,
+        "other_type": null,
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 5,
+        "review_count": 17,
+        "sales_count_at_least": 35,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-010",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/9pezWpxeL1",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Moletom Corinthians Democracia Corinthiana 2025",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "casuais",
+      "seller_product_id": "20099585377",
+      "seller_shop_id": "469067380",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 63.51,
+        "type": "com cupom",
+        "other_amount_brl": 73,
+        "other_type": "sem cupom",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 4.8,
+        "review_count": 83,
+        "sales_count_at_least": 181,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-011",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/5LCaAcQlgD",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Taça Corinthians Série Ouro Presente",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "souvenirs",
+      "seller_product_id": "18298189969",
+      "seller_shop_id": "401562820",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 52.99,
+        "type": "preço anunciado",
+        "other_amount_brl": null,
+        "other_type": null,
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 4.9,
+        "review_count": 45,
+        "sales_count_at_least": 108,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-012",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/2BFYOs5rtz",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Capinha Anti-impacto Corinthians para Samsung — Diversos Modelos",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "souvenirs",
+      "seller_product_id": "58264672451",
+      "seller_shop_id": "1848758302",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 17.2,
+        "type": "com cupom",
+        "other_amount_brl": 18.2,
+        "other_type": "sem cupom",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 4.9,
+        "review_count": 23,
+        "sales_count_at_least": 69,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-013",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/6AlhAGpUtX",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Bandeira Grande Corinthians — Tamanhos Grande e Pequeno",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "souvenirs",
+      "seller_product_id": "23394156483",
+      "seller_shop_id": "563968623",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 45,
+        "type": "menor preço da faixa",
+        "other_amount_brl": 85,
+        "other_type": "maior preço da faixa",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 4.9,
+        "review_count": 58,
+        "sales_count_at_least": 107,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified",
+      "variation_note": "Faixa de preços por tamanho/variação (R$45–85), não é preço fixo."
     },
     {
       "id": "SHP-014",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/4VdTBGGYnQ",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Kit Camiseta Retrô Corinthians 1914 Tricô Edição Limitada",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "historicas",
+      "seller_product_id": "48659464240",
+      "seller_shop_id": "587072692",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 741.52,
+        "type": "Pix com cupom",
+        "other_amount_brl": 817.99,
+        "other_type": "outros métodos sem cupom",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 5,
+        "review_count": 3,
+        "sales_count_at_least": 4,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-015",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/3qNqTn3iVy",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Camisa Corinthians Lifestyle 1910 Listrada SCCP Masculina",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "historicas",
+      "seller_product_id": "47252847374",
+      "seller_shop_id": "698219490",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 230.05,
+        "type": "Pix com cupom",
+        "other_amount_brl": 254.9,
+        "other_type": "outros métodos sem cupom",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 5,
+        "review_count": 33,
+        "sales_count_at_least": 71,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-016",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/2LZ2hAJX5z",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Camiseta Gola Redonda Unissex Corinthians Versículo",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "casuais",
+      "seller_product_id": "23698299050",
+      "seller_shop_id": "1479116716",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 29.57,
+        "type": "preço anunciado",
+        "other_amount_brl": null,
+        "other_type": null,
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 4.6,
+        "review_count": 47,
+        "sales_count_at_least": 114,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-017",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/20wE1Bu40o",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Camiseta Oversized Unissex Evolução dos Escudos do Corinthians",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "casuais",
+      "seller_product_id": "22495049783",
+      "seller_shop_id": "1685567889",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 38.98,
+        "type": "preço anunciado",
+        "other_amount_brl": null,
+        "other_type": null,
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 5,
+        "review_count": 13,
+        "sales_count_at_least": 28,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-018",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/2BFeDUtQfr",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Kit 6 Copos de Vidro Americano Corinthians Licenciado 190ml",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "souvenirs",
+      "seller_product_id": "22398394018",
+      "seller_shop_id": "1049583557",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 65.9,
+        "type": "preço anunciado",
+        "other_amount_brl": null,
+        "other_type": null,
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 5,
+        "review_count": 48,
+        "sales_count_at_least": 102,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-019",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/1gJNcZvKgm",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Copo Térmico Timão 360ml Personalizado",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "souvenirs",
+      "seller_product_id": "46010823238",
+      "seller_shop_id": "393058924",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 32.25,
+        "type": "com cupom",
+        "other_amount_brl": 37.5,
+        "other_type": "sem cupom",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 5,
+        "review_count": 29,
+        "sales_count_at_least": 68,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-020",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/1qcnosuhLp",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Cobertor Solteiro Corinthians Microfibra 1,50m x 2,00m Jolitex",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "souvenirs",
+      "seller_product_id": "23393119541",
+      "seller_shop_id": "310274254",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 75.48,
+        "type": "preço anunciado antes de início de oferta-relâmpago",
+        "other_amount_brl": null,
+        "other_type": null,
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável",
+        "note": "Print indica oferta-relâmpago programada para 16/10; não sugerir que a promoção está ativa."
+      },
+      "rating_snapshot": {
+        "rating": 4.9,
+        "review_count": 1200,
+        "sales_count_at_least": 2000,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-021",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/6Almz4csLw",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Capinha de Silicone Anti-impacto Corinthians para Samsung",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "souvenirs",
+      "seller_product_id": "23194800853",
+      "seller_shop_id": "1489259796",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": {
+        "amount_brl": 18.8,
+        "type": "com cupom",
+        "other_amount_brl": 19.8,
+        "other_type": "sem cupom",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      },
+      "rating_snapshot": {
+        "rating": 4.9,
+        "review_count": 8,
+        "sales_count_at_least": 21,
+        "observed_on": "2026-10-15"
+      },
+      "availability": "not_verified"
     },
     {
       "id": "SHP-022",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/60SMmldVgv",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Chinelo Corinthians Slide Nuvem Timão",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "category_id": "souvenirs",
+      "seller_product_id": "58250486387",
+      "seller_shop_id": "337932294",
+      "listing_title_verified_at": "2026-10-15",
+      "price_snapshot": null,
+      "rating_snapshot": null,
+      "availability": "not_verified"
     },
     {
       "id": "SHP-023",
@@ -380,5 +733,5 @@
       "notes": null
     }
   ],
-  "identified_count": 3
+  "identified_count": 22
 }
