@@ -105,3 +105,33 @@ function showFeature(item){
  const wrap=el("div","feature-dialog-content");wrap.append(el("small","feature-category","COLEÇÃO 2026/27"),el("h2","",item.name),el("p","","Estamos identificando anúncios correspondentes a este modelo nas plataformas parceiras. Nenhum preço ou link de compra foi associado ainda."),el("strong","","MERCADO LIVRE · SHOPEE · AMAZON"),el("p","","Assim que houver anúncios verificados, você poderá escolher onde finalizar a compra. A Fiel Shop é uma vitrine independente e não recebe pagamentos."));dialog.append(close,wrap);dialog.showModal();
 }
 loadFeatured();
+
+/* Navegação por categorias. Os links pendentes ainda não são classificados automaticamente. */
+const collections = Object.freeze({
+  "camisas-atuais":{kicker:"LANÇAMENTOS · TEMPORADA 2026/27",title:"CAMISAS",accent:"ATUAIS.",description:"Conheça os uniformes da temporada. As imagens são ilustrativas e as ofertas serão liberadas após conferirmos cada anúncio."},
+  "casuais":{kicker:"VESTUÁRIO · DIA A DIA",title:"MODA",accent:"CASUAL.",description:"Camisetas, polos e roupas para torcer em qualquer ocasião.",empty:"Moda casual em preparação",note:"Os produtos desta seção serão exibidos depois que identificarmos e conferirmos os respectivos anúncios."},
+  "historicas":{kicker:"HISTÓRIA · TRADIÇÃO",title:"CAMISAS",accent:"HISTÓRICAS.",description:"Uniformes clássicos, camisas retrô e modelos de outras temporadas.",empty:"Camisas históricas em preparação",note:"Vamos incluir modelos antigos e retrô conforme confirmarmos procedência e disponibilidade."},
+  "souvenirs":{kicker:"PRESENTES · ACESSÓRIOS",title:"SOUVENIRS",accent:"& ACESSÓRIOS.",description:"Produtos para presentear e levar a paixão por futebol além da arquibancada.",empty:"Souvenirs e acessórios em preparação",note:"Esta categoria receberá produtos assim que identificarmos os links e verificarmos as informações."}
+});
+let currentCollection = "camisas-atuais";
+function selectCollection(key){
+ const selected=collections[key];if(!selected)return;
+ currentCollection=key;
+ $("#collection-kicker").textContent=selected.kicker;
+ const heading=$("#collection-title");heading.replaceChildren(document.createTextNode(selected.title+" "),el("span","",selected.accent));
+ $("#collection-description").textContent=selected.description;
+ const populated=key==="camisas-atuais";
+ $("#featured-products").hidden=!populated;
+ $("#collection-empty").hidden=populated;
+ if(!populated){$("#collection-empty-title").textContent=selected.empty;$("#collection-empty-description").textContent=selected.note;}
+ document.querySelectorAll("[data-category-target]").forEach(link=>{
+  const active=link.dataset.categoryTarget===key;
+  link.classList.toggle("is-selected",active);
+  if(active)link.setAttribute("aria-current","true");else link.removeAttribute("aria-current");
+ });
+}
+document.addEventListener("click",event=>{
+ const trigger=event.target.closest("[data-category-target]");
+ if(trigger)selectCollection(trigger.dataset.categoryTarget);
+});
+selectCollection("camisas-atuais");
