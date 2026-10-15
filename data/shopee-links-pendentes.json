@@ -701,12 +701,17 @@
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/6VOdNgbbg2",
       "source": "links compartilhados pelo responsável da Fiel Shop",
-      "status": "pending_verification",
-      "product_name": null,
+      "status": "identified",
+      "product_name": "Kit Camisetas Pai e Filho Corinthians Estampadas",
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": null
+      "notes": "Identificado via captura; preço não confirmado. Usar URL curta original do afiliado.",
+      "category_id": "casuais",
+      "seller_shop_id": "1316691667",
+      "seller_product_id": "23993549670",
+      "availability": "not_verified",
+      "listing_title_verified_at": "2026-10-15"
     },
     {
       "id": "SHP-024",
@@ -733,5 +738,5 @@
       "notes": null
     }
   ],
-  "identified_count": 22
+  "identified_count": 23
 }
