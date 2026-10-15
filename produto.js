@@ -19,6 +19,18 @@ const categories={
 const categoryHref = id => "./index.html?categoria="+encodeURIComponent(id)+"#mantos";
 
 function productVisual(product,season){
+ const photos=productPhotos(product);
+ if(photos.length){
+   const art=make("div","shop-visual shop-visual-photo");
+   const img=make("img","shop-product-image");
+   img.src=photos[0];
+   img.alt="Foto do produto: "+(product.product_name||product.name||"Fiel Shop");
+   img.loading="lazy";
+   img.decoding="async";
+   img.addEventListener("error",()=>art.replaceWith(productVisual({...product,images:[]},season)),{once:true});
+   art.append(img);
+   return art;
+ }
  const name=searchTerm(product.product_name||product.name||"");
  const category=season?"camisas-atuais":product.category_id;
  let kind="shirt";
@@ -137,6 +149,50 @@ function showError(message){
   $("#pd-message").append(link);
   $("#pd-detail").hidden=true;
 }
+function productPhotos(product){
+ return Array.isArray(product.images)?product.images.filter(src=>typeof src==="string"&&/^\.\/assets\/produtos\/SHP-\d{3}\/[A-Za-z0-9_-]+\.webp$/.test(src)):[];
+}
+
+function renderGallery(product){
+ const figure=$("#pd-image");
+ const thumbs=$("#pd-thumbnails");
+ const photos=productPhotos(product);
+ figure.replaceChildren(productVisual(product,false));
+ thumbs.replaceChildren();
+ thumbs.hidden=photos.length<2;
+ const cap1=$("#pd-gallery-caption-main");
+ const cap2=$("#pd-gallery-caption-sub");
+ if(cap1)cap1.textContent=photos.length?"FOTOS DO PRODUTO":"IMAGEM ILUSTRATIVA";
+ if(cap2)cap2.textContent=photos.length?"CONFIRA CARACTERÍSTICAS E DISPONIBILIDADE NA SHOPEE":"CONFIRA AS FOTOS REAIS NA SHOPEE";
+ if(!photos.length)return;
+ photos.forEach((src,i)=>{
+   const thumb=make("button","pd-thumb"+(i===0?" is-active":""));
+   thumb.type="button";
+   thumb.setAttribute("aria-label","Visualizar foto "+(i+1)+" de "+photos.length);
+   thumb.setAttribute("aria-pressed",String(i===0));
+   const img=make("img","");
+   img.src=src;
+   img.alt="";
+   img.loading="lazy";
+   img.decoding="async";
+   thumb.append(img);
+   thumb.addEventListener("click",()=>{
+     const main=figure.querySelector(".shop-product-image");
+     if(main){
+       main.src=src;
+       main.alt="Foto "+(i+1)+" de "+photos.length+": "+product.product_name;
+     }else{
+       figure.replaceChildren(productVisual({...product,images:[src]},false));
+     }
+     [...thumbs.children].forEach((item,index)=>{
+       item.classList.toggle("is-active",index===i);
+       item.setAttribute("aria-pressed",String(index===i));
+     });
+   });
+   thumbs.append(thumb);
+ });
+}
+
 function renderProduct(product,allProducts){
   const fromCollection=new URLSearchParams(window.location.search).get("colecao");
   const visibleCategory=fromCollection==="camisas-atuais"&&Array.isArray(product.featured_in)&&product.featured_in.includes("camisas-atuais")?"camisas-atuais":product.category_id;
@@ -155,7 +211,7 @@ function renderProduct(product,allProducts){
   for(const detail of (product.highlights||[]))highlights.append(make("li","",detail));
   $("#pd-checklist").replaceChildren(...checklist(product).map(line=>make("li","",line)));
   const figure=$("#pd-image");
-  figure.replaceChildren(productVisual(product,false));
+  renderGallery(product);
   figure.dataset.category=product.category_id||"";
   $("#pd-return-category").href=categoryLink;
   priceBlock(product);
