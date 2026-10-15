@@ -128,3 +128,13 @@ a,button{accent-color:#151515}
  .collection-back-link{align-self:flex-start;margin-bottom:12px}
  .collection-empty{padding:45px 20px}
 }
+
+
+/* Produtos identificados sem licença de foto: visual neutro, sem reproduzir marca do clube */
+.lifestyle-product-media{background:#ececea}
+.casual-swatch{width:78%;height:77%;background:#171717;border:1px solid #b5964f;box-shadow:0 12px 24px #0002;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative;color:#d7bd77}
+.casual-swatch:before,.casual-swatch:after{content:"";height:4px;background:#bea361;position:absolute;left:0;right:0}
+.casual-swatch:before{top:9px}.casual-swatch:after{bottom:9px}
+.casual-swatch-monogram{font:900 clamp(34px,5vw,65px)/1 var(--display);letter-spacing:.025em}
+.casual-swatch-label{color:#d3c6a3;font-size:8px;letter-spacing:.11em;text-align:center;padding:0 12px}
+.lifestyle-product-media .feature-chip{background:#fff;color:#151515}
