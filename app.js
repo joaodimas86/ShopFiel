@@ -74,8 +74,10 @@ function snapshotDetails(product){
 }
 function actualProductCard(product){
  const out=unavailable(product);
- const card=make("article","shop-card"+(out?" is-unavailable":""));
+ const card=make("a","shop-card shop-card-link"+(out?" is-unavailable":""));
+ card.href="./produto.html?id="+encodeURIComponent(product.id);
  card.dataset.code=product.id;
+ card.setAttribute("aria-label","Ver detalhes de "+product.product_name);
  const media=make("div","shop-card-media");
  media.append(productVisual(product,false));
  media.append(make("span","shop-card-badge",out?"ESGOTADO NA CAPTURA":"SHOPEE"));
@@ -85,18 +87,8 @@ function actualProductCard(product){
  const price=snapshotDetails(product);
  if(price)body.append(price);
  else body.append(make("p","shop-card-price-note","Consulte o valor atualizado no anúncio"));
- if(out){
-   body.append(make("p","shop-stock-note","Produto esgotado na captura de 15/10/2026."));
-   const disabled=make("span","shop-card-action unavailable-action","SEM ESTOQUE NA CONFERÊNCIA");
-   body.append(disabled);
- }else{
-   const link=make("a","shop-card-action","VER NA SHOPEE ↗");
-   link.href=product.url;
-   link.target="_blank";
-   link.rel="noopener noreferrer sponsored nofollow";
-   link.setAttribute("aria-label","Ver anúncio de "+product.product_name+" na Shopee");
-   body.append(link);
- }
+ if(out)body.append(make("p","shop-stock-note","Produto esgotado na captura de 15/10/2026."));
+ body.append(make("span","shop-card-action","VER DETALHES ↗"));
  card.append(media,body);
  return card;
 }
@@ -206,7 +198,8 @@ async function init(){
    state.season=(collection.products||[]).filter(p=>p.category_id==="camisas-atuais");
    state.loaded=true;
    updateCategoryCounts();
-   selectCollection("casuais");
+   const requestedCategory=new URLSearchParams(window.location.search).get("categoria");
+   selectCollection(requestedCategory&&collections[requestedCategory]?requestedCategory:"casuais");
  }catch(error){
    console.error(error);
    state.loaded=true;
