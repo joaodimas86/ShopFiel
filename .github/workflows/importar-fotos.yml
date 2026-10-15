@@ -1,0 +1,108 @@
+name: Importar fotografias dos produtos
+on:
+  push:
+    paths:
+      - ".github/workflows/importar-fotos.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fotografias:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter repositório
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Baixar arquivos de imagens enviados para Fiel Shop
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, time, urllib.request
+          items = {
+            "SHP-001": [
+              ("01-frente.webp", "sg-11134201-7rd53-m7wnagx1ni68b6"),
+              ("02-angulo.webp", "sg-11134201-7rd6i-m7wnagxbpx5hf0"),
+              ("03-escudo.webp", "sg-11134201-7rd6h-m7wnagx1nijree"),
+              ("04-costas.webp", "sg-11134201-7rd61-m7wnagwrpbthb8"),
+              ("05-look.webp", "sg-11134201-7rd74-m7wnagxbn447da"),
+              ("06-selo.webp", "sg-11134201-7rd4e-m7wnanv1hpyh8d"),
+            ],
+            "SHP-002": [
+              ("01-frente.webp", "br-11134207-7r98o-m1o5ab9ey2o8b4"),
+              ("02-angulo.webp", "br-11134207-7r98o-m1o5ab9etuyw20"),
+              ("03-costas.webp", "br-11134207-7r98o-m1o5ab9ev9jcc9"),
+              ("04-escudo.webp", "br-11134207-7r98o-m1o5ab9ewo3s91"),
+              ("05-look.webp", "br-11134207-7r98o-m1o5ab9f0vt4ce"),
+            ],
+            "SHP-003": [
+              ("01-frente.webp", "sg-11134201-82593-mt8i0byrri8794"),
+              ("02-costas.webp", "sg-11134201-8259j-mt8i0bvftki258"),
+              ("03-frente-costas.webp", "sg-11134201-82597-mt8i0bfozz0q30"),
+              ("04-estadio-frente.webp", "sg-11134201-8259b-mt8i0brmfpc1dc"),
+              ("05-estadio-costas.webp", "sg-11134201-8259r-mt8i0bzpjwg114"),
+              ("06-escudo.webp", "sg-11134201-8259z-mt8i0c06st1g2f"),
+              ("07-detalhe.webp", "sg-11134201-825b7-mt8i0c3j670k59"),
+            ],
+          }
+          successes = {}
+          failed = []
+          for sku, entries in items.items():
+            folder = pathlib.Path("assets/produtos") / sku
+            folder.mkdir(parents=True, exist_ok=True)
+            successes[sku] = []
+            for filename, image_id in entries:
+              dest = folder / filename
+              if dest.is_file() and dest.stat().st_size > 1000:
+                successes[sku].append(str(dest))
+                continue
+              source_hosts = [
+                "https://down-br.img.susercontent.com/file/",
+                "https://down-sg.img.susercontent.com/file/",
+                "https://cf.shopee.com.br/file/",
+              ]
+              for prefix in source_hosts:
+                url = prefix + image_id
+                try:
+                  request = urllib.request.Request(url, headers={
+                    "User-Agent": "Mozilla/5.0 (compatible; FielShop/1.0)",
+                    "Accept": "image/webp,image/*;q=0.9,*/*;q=0.2",
+                  })
+                  with urllib.request.urlopen(request, timeout=20) as response:
+                    content = response.read(4_000_000)
+                  if not (content[:4] == b"RIFF" and content[8:12] == b"WEBP"):
+                    raise ValueError("O CDN não retornou uma imagem WEBP válida")
+                  if len(content) < 5000:
+                    raise ValueError("Imagem incompleta")
+                  dest.write_bytes(content)
+                  print("OK", sku, filename, len(content), "bytes")
+                  successes[sku].append(str(dest))
+                  break
+                except Exception as exc:
+                  print("Falhou", url, type(exc).__name__, str(exc)[:150])
+                  time.sleep(.2)
+              else:
+                failed.append(str(dest))
+          pathlib.Path("data").mkdir(exist_ok=True)
+          pathlib.Path("data/fotos-importadas.json").write_text(
+            json.dumps({"images": successes, "failed": failed}, indent=2, ensure_ascii=False)+"\n",
+            encoding="utf-8"
+          )
+          print("Resumo:", json.dumps({sku: len(files) for sku, files in successes.items()}))
+          if failed:
+            print("FALTANDO:", ", ".join(failed))
+          if sum(map(len, successes.values())) == 0:
+            raise SystemExit("Nenhuma foto pôde ser importada. Verifique os URLs do CDN.")
+          PY
+      - name: Registrar fotografias no repositório
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/produtos data/fotos-importadas.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração necessária"
+          else
+            git commit -m "Adiciona fotografias reais SHP-001, SHP-002 e SHP-003"
+            git push
+          fi
