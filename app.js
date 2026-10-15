@@ -3,7 +3,8 @@ const $=s=>document.querySelector(s);
 const valid=(url,market)=>market==="shopee"?/^https:\/\/s\.shopee\.com\.br\/[A-Za-z0-9]+$/.test(url):/^https:\/\/meli\.la\/[A-Za-z0-9]+$/.test(url);
 let items=[];
 const isVerified=x=>x.status==="verified"&&Boolean(x.product_name&&x.verified_at);
-const label=x=>isVerified(x)?x.product_name:"Referência "+x.id;
+const isIdentified=x=>Boolean(x.product_name)&&["identified","verified"].includes(x.status);
+const label=x=>isIdentified(x)?x.product_name:"Referência "+x.id;
 const company=x=>x.marketplace==="shopee"?"Shopee":"Mercado Livre";
 const el=(tag,className,text)=>{const node=document.createElement(tag);if(className)node.className=className;if(text!=null)node.textContent=text;return node;};
 function card(item){
@@ -13,7 +14,7 @@ function card(item){
  art.append(el("span","art-number",item.id),el("span","art-symbol","✳"),el("span","art-caption","PRODUTO EM CONFERÊNCIA"));
  media.append(el("span","chip",company(item)),art);
  const info=el("div","card-info");
- info.append(el("div","card-kicker",isVerified(item)?"ITEM IDENTIFICADO":"DADOS EM CONFERÊNCIA"));
+ info.append(el("div","card-kicker",isIdentified(item)?"PRODUTO IDENTIFICADO":"DADOS EM CONFERÊNCIA"));
  const title=el("button","card-title",label(item));title.type="button";title.dataset.id=item.id;
  const price=el("p","card-price",item.price_brl!=null&&isVerified(item)?Number(item.price_brl).toLocaleString("pt-BR",{style:"currency",currency:"BRL"}):"Preço no parceiro");
  const more=el("button","card-more","VER DETALHES ↗");more.type="button";more.dataset.id=item.id;
@@ -23,7 +24,7 @@ function render(){
  const q=$("#search").value.toLocaleLowerCase("pt-BR").trim();
  let result=items.filter(x=>(x.id+" "+(x.product_name||"")+" "+company(x)).toLocaleLowerCase("pt-BR").includes(q));
  if($("#sort").value==="recent")result=result.slice().reverse();
- if($("#sort").value==="verified")result=result.slice().sort((a,b)=>Number(isVerified(b))-Number(isVerified(a)));
+ if($("#sort").value==="verified")result=result.slice().sort((a,b)=>Number(isIdentified(b))-Number(isIdentified(a)));
  $("#products").replaceChildren(...result.map(card));
  $("#result-count").textContent=result.length+" registro(s) encontrado(s)";
  $("#empty").hidden=result.length>0;
@@ -32,7 +33,7 @@ function show(id){
  const x=items.find(p=>p.id===id);if(!x)return;
  $("#detail-code").textContent=x.id+" · "+company(x);
  $("#detail-title").textContent=label(x);
- $("#detail-status").textContent=isVerified(x)?"DADOS CADASTRADOS":"IDENTIFICAÇÃO PENDENTE";
+ $("#detail-status").textContent=isIdentified(x)?"PRODUTO IDENTIFICADO · CONFIRA PREÇO E ORIGINALIDADE":"IDENTIFICAÇÃO PENDENTE";
  $("#detail-explain").textContent="Confira o nome exato, as fotos, o preço, o vendedor e as condições na plataforma antes de comprar.";
  $("#detail-price").textContent="Consulte preço e disponibilidade na plataforma.";
  const art=el("div","art-bg detail-art-inner");art.append(el("span","art-number",x.id),el("span","art-symbol","✳"));
@@ -54,6 +55,7 @@ async function load(){
  items=responses.flat().filter(x=>x&&valid(String(x.url||""),x.marketplace)&&/^((SHP)|(ML))-\d{3}$/.test(String(x.id)));
  $("#count-badge").textContent=items.length+" LINKS REGISTRADOS";
  render();
+ renderSelectedCollection();
  }catch(err){
  console.error(err);
  $("#count-badge").textContent="INDISPONÍVEL";
@@ -120,15 +122,49 @@ function selectCollection(key){
  $("#collection-kicker").textContent=selected.kicker;
  const heading=$("#collection-title");heading.replaceChildren(document.createTextNode(selected.title+" "),el("span","",selected.accent));
  $("#collection-description").textContent=selected.description;
- const populated=key==="camisas-atuais";
- $("#featured-products").hidden=!populated;
- $("#collection-empty").hidden=populated;
- if(!populated){$("#collection-empty-title").textContent=selected.empty;$("#collection-empty-description").textContent=selected.note;}
+ renderSelectedCollection();
  document.querySelectorAll("[data-category-target]").forEach(link=>{
   const active=link.dataset.categoryTarget===key;
   link.classList.toggle("is-selected",active);
   if(active)link.setAttribute("aria-current","true");else link.removeAttribute("aria-current");
  });
+}
+function renderSelectedCollection(){
+ const key=currentCollection;
+ const grid=$("#featured-products"),empty=$("#collection-empty");
+ if(!grid||!empty)return;
+ if(key==="camisas-atuais"){
+   grid.hidden=false;empty.hidden=true;
+   if(grid.dataset.collectionMode==="catalog-items"){
+     grid.dataset.collectionMode="season-items";
+     loadFeatured();
+   }
+   return;
+ }
+ const found=items.filter(x=>x.category_id===key&&isIdentified(x)&&valid(x.url,x.marketplace));
+ if(!found.length){
+   grid.hidden=true;empty.hidden=false;
+   const selected=collections[key];
+   $("#collection-empty-title").textContent=selected.empty;
+   $("#collection-empty-description").textContent=selected.note;
+   return;
+ }
+ grid.hidden=false;empty.hidden=true;
+ grid.dataset.collectionMode="catalog-items";
+ const fragment=document.createDocumentFragment();
+ for(const item of found){
+   const product=el("article","feature-card");
+   const visual=el("div","feature-media lifestyle-product-media");
+   const art=el("div","casual-swatch");
+   art.append(el("span","casual-swatch-monogram","FIEL"),el("span","casual-swatch-label","IMAGEM DO PRODUTO EM CONFERÊNCIA"));
+   visual.append(el("span","feature-chip",company(item)),art);
+   const details=el("div","feature-copy");
+   details.append(el("small","feature-category","MODA CASUAL · "+item.id),el("h3","feature-name",item.product_name),el("p","feature-price","Consulte o preço atualizado no parceiro"));
+   const action=el("a","feature-action","VER NA "+company(item).toUpperCase()+" ↗");
+   action.href=item.url;action.target="_blank";action.rel="nofollow sponsored noopener noreferrer";
+   details.append(action);product.append(visual,details);fragment.append(product);
+ }
+ grid.replaceChildren(fragment);
 }
 document.addEventListener("click",event=>{
  const trigger=event.target.closest("[data-category-target]");
