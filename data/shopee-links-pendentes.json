@@ -169,7 +169,7 @@
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camiseta Masculina 100% Algodão Estampa Corinthians",
-      "product_image": "./assets/produtos/SHP-004/01-branca-frente-costas.webp",
+      "product_image": null,
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -193,25 +193,12 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Camiseta casual com arte do Corinthians na frente e lettering “CORINTHIANS” nas costas. As fotos apresentam versões preta e branca. O vendedor anuncia composição em 100% algodão; confirme modelagem, medidas, opções de cor e material no anúncio atualizado antes de comprar.",
+      "description": "Camiseta casual com estampa do Corinthians, anunciada pelo vendedor como confeccionada em 100% algodão. Confira composição, cores, tabela de medidas e as fotos da peça diretamente no anúncio.",
       "highlights": [
-        "Estampa na parte frontal com escudo e arte temática do Corinthians.",
-        "Inscrição “CORINTHIANS” em destaque nas costas.",
-        "Imagens das versões preta e branca; verifique as opções de compra disponíveis na Shopee.",
-        "Composição anunciada como 100% algodão; confirme detalhes e numeração com o vendedor."
+        "Camiseta casual com tema Corinthians.",
+        "Tamanhos, material, estampas e variações devem ser confirmados na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
-      "images": [
-        "./assets/produtos/SHP-004/01-branca-frente-costas.webp",
-        "./assets/produtos/SHP-004/02-branca-lifestyle.webp",
-        "./assets/produtos/SHP-004/03-preta-frente-costas.webp",
-        "./assets/produtos/SHP-004/04-preta-detalhe-frente.webp",
-        "./assets/produtos/SHP-004/05-branca-detalhe-frente.webp",
-        "./assets/produtos/SHP-004/06-preta-costas.webp",
-        "./assets/produtos/SHP-004/07-branca-costas.webp"
-      ],
-      "image_source_note": "Fotografias de anúncio compartilhadas pelo responsável para a vitrine; direito de uso e variações disponíveis devem ser confirmados.",
-      "photo_added_on": "2026-10-15"
+      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-005",
@@ -220,7 +207,7 @@
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camisa Corinthians Invasão 2.0.2.6 (Todos os Patrocinadores)",
-      "product_image": null,
+      "product_image": "./assets/produtos/SHP-005/01-branca-frente-costas.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -244,15 +231,27 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Camisa temática da Invasão 2026, anunciada com os patrocinadores. Uma peça para quem gosta de referências de arquibancada; confira as versões e fotos oferecidas pelo vendedor.",
+      "description": "Camisa Corinthians Invasão 2026. Nas fotos fornecidas, a camiseta tem estampa temática frontal do Corinthians e inscrição em destaque nas costas, nas cores preta e branca. Confira no anúncio as variantes disponíveis, a composição e as medidas.",
       "highlights": [
-        "Uma opção para levar o Corinthians ao dia a dia.",
-        "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
+        "Fotos de variantes preta e branca: confirme as opções disponíveis no anúncio.",
+        "Estampa frontal temática do Corinthians e lettering nas costas nas fotos apresentadas.",
+        "Consulte composição, tabela de medidas, entrega e disponibilidade na Shopee."
       ],
       "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
       "featured_in": [
         "camisas-atuais"
-      ]
+      ],
+      "images": [
+        "./assets/produtos/SHP-005/01-branca-frente-costas.webp",
+        "./assets/produtos/SHP-005/02-branca-lifestyle.webp",
+        "./assets/produtos/SHP-005/03-preta-frente-costas.webp",
+        "./assets/produtos/SHP-005/04-preta-detalhe-frente.webp",
+        "./assets/produtos/SHP-005/05-branca-detalhe-frente.webp",
+        "./assets/produtos/SHP-005/06-preta-costas.webp",
+        "./assets/produtos/SHP-005/07-branca-costas.webp"
+      ],
+      "photo_added_on": "2026-10-15",
+      "image_source_note": "Fotos indicadas pelo responsável para o SHP-005; conferir variantes e direito de uso."
     },
     {
       "id": "SHP-006",
