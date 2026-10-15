@@ -14,7 +14,7 @@ const categories={
   "casuais":"Moda Casual",
   "historicas":"Camisas Históricas",
   "souvenirs":"Souvenirs e Acessórios",
-  "camisas-atuais":"Camisas Atuais"
+  "camisas-atuais":"Camisas Disponíveis"
 };
 const categoryHref = id => "./index.html?categoria="+encodeURIComponent(id)+"#mantos";
 
@@ -133,8 +133,10 @@ function showError(message){
   $("#pd-detail").hidden=true;
 }
 function renderProduct(product,allProducts){
-  const category=categories[product.category_id]||"Fiel Shop";
-  const categoryLink=categoryHref(product.category_id);
+  const fromCollection=new URLSearchParams(window.location.search).get("colecao");
+  const visibleCategory=fromCollection==="camisas-atuais"&&Array.isArray(product.featured_in)&&product.featured_in.includes("camisas-atuais")?"camisas-atuais":product.category_id;
+  const category=categories[visibleCategory]||"Fiel Shop";
+  const categoryLink=categoryHref(visibleCategory);
   const breadcrumb=$("#pd-breadcrumb-category");
   breadcrumb.textContent=category;
   breadcrumb.href=categoryLink;
