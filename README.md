@@ -7,12 +7,15 @@ Vitrine **independente** para torcedores do Corinthians, publicada em [GitHub Pa
 - Departamentos: **Camisas Atuais 2026/27**, **Moda Casual**, **Camisas Históricas** e **Souvenirs e Acessórios**.
 - Vitrine responsiva, busca, ordenação, contagem de itens e botões levando diretamente à Shopee.
 - Catálogo em `data/shopee-links-pendentes.json`: **25 fichas de produtos identificados** a partir das capturas de 15/10/2026; 25 links curtos em uso e um link alternativo preservado.
-- **Correção de correspondência feita em 15/10/2026:** o usuário confirmou que `4fwtN9zlPK`, anteriormente no SHP-007, abre a camisa do SHP-006 e que `7ptv923tBM`, anteriormente no SHP-008, abre a polo feminina SHP-007. O primeiro foi preservado como link alternativo no SHP-006, que mantém seu link principal `3g4Te0vNd1`. Para SHP-007 a SHP-025, os links principais foram realocados uma posição para cima. O último link `qkGdbShJi` passou para SHP-025.
-- **Estado da conferência:** a associação SHP-007 foi confirmada pelo usuário; os destinos dos links SHP-008 a SHP-025 foram *inferidos pelo deslocamento* e requerem testes pontuais, especialmente no início e no final da série. A numeração e a unicidade dos links no JSON, por si, não confirmam o redirecionamento.
+- **Correção concluída:** o SHP-006 usa `3g4Te0vNd1`, o SHP-007 usa `7ptv923tBM` e os seguintes utilizam a sequência confirmada pelo responsável. O outro link `4fwtN9zlPK` está preservado como alternativa histórica do SHP-006, fora dos botões principais.
+- **Conferência do responsável em 15/10/2026:** os 25 produtos e seus respectivos links da última lista foram confirmados como corretos. O link principal de cada produto continua sendo sua URL encurtada no JSON; nenhuma foi substituída por URL longa.
 - Os oito modelos 2026/27 são apenas referências editoriais, sem ofertas de compra associadas.
 - SHP-003 aparece esgotado na captura de 15/10/2026 e fica sem botão de compra ativo até nova verificação.
 - Os 13 links Mercado Livre seguem preservados separadamente, sem comissão confirmada.
 - Sem checkout próprio: compra e pagamento ocorrem no marketplace parceiro.
+
+
+**Auditoria de comissão:** todos os links principais são encurtados em `s.shopee.com.br`. O botão `VER NA SHOPEE` utiliza `product.url` do catálogo original, sem trocar por `shopee.com.br/product/...`. A atribuição e pagamento efetivos das comissões devem ser conferidos no painel Shopee Afiliados, pois o formato do link e a implementação do site não garantem comissão por si sós.
 
 ## Política de dados de anúncios
 - **Valores de capturas não são preços ao vivo**. Quando exibidos, aparecem como valores históricos de 15/10/2026; cupons, variações, estoque e frete podem mudar.
@@ -35,7 +38,7 @@ Configuração: Settings → Pages → Deploy from a branch → `main` → `/(ro
 Endereço: https://joaodimas86.github.io/ShopFiel/
 
 ## Antes do lançamento comercial
-1. Conferir se os destinos realocados correspondem aos produtos, com prioridade para SHP-008 e SHP-025.
+1. Verificar o rastreamento das comissões no painel Shopee Afiliados em uma compra elegível; os destinos dos 25 links foram confirmados pelo responsável.
 2. Concluir conferência de preços, estoques, originalidade e direitos de uso das imagens.
 3. Testar manualmente os links curtos em navegador/app para conferir rastreamento do afiliado.
 4. Adicionar políticas e formas de contato adequadas; revisar necessidades de LGPD.
