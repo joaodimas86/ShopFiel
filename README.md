@@ -35,6 +35,19 @@ Vitrine **independente** para torcedores do Corinthians, publicada em [GitHub Pa
 - A marca Fiel Shop e sua identidade não representam afiliação oficial ao Corinthians.
 - Dados e links são publicados em um repositório público; nunca inserir segredos, credenciais ou dados privados.
 
+## Blog e SEO orgânico (15/10/2026)
+- **Arquibancada Fiel** em `blog/index.html`, integrado à home, menus e rodapé. Os artigos são HTML estático, legíveis sem JavaScript.
+- **Quatro artigos:** `blog/como-escolher-tamanho-camisa-de-futebol.html`, `blog/camisas-retro-corinthians.html`, `blog/presentes-para-corinthianos.html`, `blog/como-lavar-camisa-de-futebol.html`.
+- Fonte editorial mantida em `data/blog-artigos.json`; alterações no JSON também precisam ser refletidas no HTML público de cada artigo.
+- Cada artigo tem `title`, `description`, canonical, OG, cabeçalhos, sumário com âncoras, links para posts/produtos e marcação JSON-LD `BlogPosting` + `BreadcrumbList`. Artigos indicam a Fiel Shop como organização autora, sem alegar experiências de teste não realizadas.
+- **A home teve a meta `noindex` removida** e tem canonical e `index,follow`. O blog também está indexável.
+- **Páginas de produto ainda têm `noindex`**: template dinâmico em JS, metadata por produto ainda requer versão pré-renderizada/canonical próprio e auditoria editorial. Não colocá-las no sitemap até a revisão.
+- `sitemap.xml` lista a home, o índice do blog e os quatro artigos. Enviar manualmente `https://joaodimas86.github.io/ShopFiel/sitemap.xml` no Google Search Console após verificar a propriedade.
+- Em GitHub Pages de projeto, `/ShopFiel/robots.txt` **não** funciona como robots.txt na raiz do host `joaodimas86.github.io`; a configuração correta de robots.txt fica para quando houver domínio próprio.
+- Antes da divulgação ampla, revisar direitos de uso das fotos, afirmações sobre produto oficial/licenciado e conteúdo editorial, além de verificar desempenho e indexação no Search Console.
+- Ao criar artigo novo: gerar HTML estático com SEO e JSON-LD, inserir no índice, adicionar links internos e atualizar `sitemap.xml` após publicação.
+- Tráfego, posicionamento e snippets do Google não são garantidos; conteúdo útil precisa de manutenção e acompanhamento.
+
 ## Como rodar localmente
 Site HTML/CSS/JavaScript estático sem etapa de build. É necessário um servidor local para carregar JSON:
 

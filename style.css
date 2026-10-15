@@ -225,3 +225,17 @@ body{background:#fff}
 .shop-visual-photo .shop-product-image{position:relative;z-index:2;display:block;width:100%;height:100%;object-fit:contain;background:#fff;filter:none}
 .shop-card-media .shop-visual-photo img{width:100%;height:100%;object-fit:contain}
 .shop-card:hover .shop-visual-photo img{transform:scale(1.02);transition:transform .2s ease}
+/* Entrada editorial Arquibancada Fiel na home */
+.bl-home-teaser{background:#f2f2ef;padding:70px 0 80px;border-top:1px solid #ddd}
+.bl-home-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:28px}
+.bl-home-heading h2{font:900 clamp(43px,5.6vw,68px)/.95 var(--display);margin:13px 0}
+.bl-home-heading h2 span{color:#999}.bl-home-heading p{font-size:14px;color:#666;line-height:1.7;margin:12px 0 0}
+.bl-home-heading>a{font-size:11px;font-weight:900;letter-spacing:.06em;border:1px solid #151515;white-space:nowrap;padding:14px 18px}
+.bl-home-heading>a:hover{background:#151515;color:#fff}
+.bl-home-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.bl-home-cards>a{background:white;border:1px solid #ddd;min-height:225px;display:flex;flex-direction:column;padding:25px;gap:16px}
+.bl-home-cards>a:hover{box-shadow:0 12px 25px #00000013;transform:translateY(-2px)}
+.bl-home-cards small{font-size:10px;font-weight:900;letter-spacing:.13em;color:#888}
+.bl-home-cards strong{font:900 clamp(25px,2.8vw,38px)/1.04 var(--display);flex:1}
+.bl-home-cards span{font-size:10px;font-weight:900}
+@media(max-width:750px){.bl-home-teaser{padding:51px 0}.bl-home-heading{display:block}.bl-home-heading>a{display:inline-block;margin-top:22px}.bl-home-cards{grid-template-columns:1fr}.bl-home-cards>a{min-height:145px;padding:20px;gap:12px}.bl-home-cards strong{font-size:30px}}
