@@ -96,8 +96,11 @@ async function loadFeatured(){
    const action=el("button","feature-action","VER INFORMAÇÕES ↗");action.type="button";action.addEventListener("click",()=>showFeature(item));
    content.append(action);card.append(media,content);fragment.append(card);
   }
-  holder.replaceChildren(fragment);
- }catch(err){console.error(err);holder.textContent="Coleção temporariamente indisponível.";}
+  if(currentCollection==="camisas-atuais"){
+   holder.replaceChildren(fragment);
+   holder.dataset.collectionMode="season-items";
+  }
+ }catch(err){console.error(err);if(currentCollection==="camisas-atuais")holder.textContent="Coleção temporariamente indisponível.";}
 }
 function showFeature(item){
  let dialog=$("#feature-dialog");
