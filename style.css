@@ -72,3 +72,59 @@ a,button{accent-color:#151515}
 
 /* Mantém apenas o nome no cabeçalho compacto, sem mostrar fragmentos do monograma */
 .brand::before{content:"";position:absolute;top:0;left:0;right:0;height:12px;background:#fff;z-index:2;pointer-events:none}
+
+
+/* Departamentos Fiel Shop — coleção por categoria */
+[hidden]{display:none!important}
+.department-nav{background:#fff;border-bottom:1px solid #dedede;position:relative;z-index:5}
+.department-nav-inner{display:flex;align-items:center;justify-content:center;gap:clamp(13px,3vw,46px);min-height:51px}
+.department-nav a{display:inline-flex;align-items:center;justify-content:center;min-height:49px;font-size:11px;letter-spacing:.025em;font-weight:800;border-bottom:3px solid transparent;white-space:nowrap;transition:border-color .15s}
+.department-nav a:hover,.department-nav a[aria-current="true"]{border-bottom-color:#131313}
+.collections-section{background:#f6f6f4;padding:68px 0 70px}
+.collections-heading h2{font:900 clamp(52px,6vw,82px)/.93 var(--display);margin:10px 0 14px}
+.collections-heading h2 span{color:#919191}
+.collections-heading p{font-size:14px;color:#666;margin:0;max-width:650px}
+.collections-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:32px}
+.collection-card{color:#fff;position:relative;overflow:hidden;display:flex;flex-direction:column;min-width:0;min-height:270px;padding:19px;background:#1b1b1b;transition:transform .18s,box-shadow .18s}
+.collection-card:hover{transform:translateY(-3px);box-shadow:0 10px 25px #0003}
+.collection-card.is-selected{outline:3px solid #151515;outline-offset:3px}
+.collection-card-casual{background:#3c3c3c}.collection-card-history{background:#202020}.collection-card-souvenirs{background:#515151}
+.collection-card:before{content:"";pointer-events:none;position:absolute;inset:0;background:repeating-linear-gradient(135deg,transparent 0 25px,#ffffff08 25px 27px);opacity:.9}
+.collection-number{position:relative;z-index:1;font-size:9px;font-weight:800;letter-spacing:.1em;color:#cecece}
+.collection-graphic{position:absolute;inset:22px -20px 15px;display:flex;justify-content:center;align-items:center;pointer-events:none;transform:rotate(-10deg)}
+.collection-graphic>span{font:900 clamp(65px,8vw,115px)/1 var(--display);white-space:nowrap;color:#ffffff1e;letter-spacing:-.06em}
+.collection-graphic-slash{color:#ffffff55}
+.collection-label{position:relative;z-index:1;display:block;margin-top:auto;font:900 clamp(28px,3vw,39px)/.95 var(--display);letter-spacing:.005em;text-transform:uppercase}
+.collection-description{position:relative;z-index:1;font-size:11px;font-weight:500;color:#d1d1d1;margin-top:9px;max-width:165px}
+.collection-arrow{position:absolute;z-index:1;right:19px;bottom:18px;font-size:23px}
+.collection-back-link{font-size:10px;font-weight:900;white-space:nowrap;border-bottom:1px solid #111;padding-bottom:6px;align-self:center}
+.collection-empty{border:1px solid #d9d9d9;background:#f6f6f5;text-align:center;padding:72px 20px;margin-top:20px}
+.collection-empty span{font-size:10px;font-weight:900;letter-spacing:.15em;color:#888}
+.collection-empty h3{font:900 clamp(29px,4vw,48px)/1 var(--display);margin:13px 0}
+.collection-empty p{max-width:510px;margin:0 auto 22px;color:#777;font-size:13px}
+.collection-empty a{font-size:11px;font-weight:900;border-bottom:1px solid #111;padding-bottom:5px}
+.mobile-nav a.is-selected{color:#000;border-left:3px solid #151515}
+@media(max-width:980px){
+ .department-nav-inner{gap:15px;justify-content:space-between}
+ .department-nav a{font-size:10px}
+ .collections-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .collection-card{min-height:235px}
+ .collection-label{font-size:38px}
+}
+@media(max-width:750px){
+ .department-nav{overflow-x:auto;scrollbar-width:none}
+ .department-nav::-webkit-scrollbar{display:none}
+ .department-nav-inner{width:max-content;min-width:100%;justify-content:flex-start;gap:22px}
+ .department-nav a{font-size:11px;min-height:47px}
+ .collections-section{padding:46px 0 49px}
+ .collections-heading h2{font-size:58px}
+ .collections-grid{gap:9px;margin-top:25px}
+ .collection-card{min-height:217px;padding:14px}
+ .collection-number{font-size:8px;letter-spacing:.03em}
+ .collection-label{font-size:clamp(27px,7vw,35px)}
+ .collection-description{font-size:10px;max-width:130px}
+ .collection-arrow{font-size:18px;right:11px;bottom:12px}
+ .feature-heading{align-items:flex-start;flex-direction:column;gap:10px}
+ .collection-back-link{align-self:flex-start;margin-bottom:12px}
+ .collection-empty{padding:45px 20px}
+}
