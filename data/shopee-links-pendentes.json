@@ -204,7 +204,10 @@
         "Uma opção para levar o Corinthians ao dia a dia.",
         "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
+      "featured_in": [
+        "camisas-atuais"
+      ]
     },
     {
       "id": "SHP-006",
@@ -243,7 +246,10 @@
         "Uma opção para levar o Corinthians ao dia a dia.",
         "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
+      "featured_in": [
+        "camisas-atuais"
+      ]
     },
     {
       "id": "SHP-007",
