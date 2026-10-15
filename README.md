@@ -24,14 +24,14 @@ Vitrine **independente** para torcedores do Corinthians, publicada em [GitHub Pa
 - Exemplo: `produto.html?id=SHP-002` apresenta a galeria com 5 fotos, as informações e o botão externo utilizando **exatamente** a URL curta de `links[].url`. O SHP-003 mostra 7 fotos mas mantém a compra desabilitada enquanto aguarda um novo link.
 - **Como editar a descrição:** no arquivo `data/shopee-links-pendentes.json`, encontre o produto pelo `id` e atualize `description` (parágrafo principal) e `highlights` (lista de destaques). Nome, categoria e preço de referência continuam em seus campos existentes.
 - As 25 fichas já receberam texto editorial inicial, sem presumir estoque, material, licenciamento ou autenticidade não comprovados.
-- **Fotos reais integradas para SHP-001 (6), SHP-002 (5) e SHP-003 (7)**, hospedadas em `assets/produtos/SHP-XXX/`. A vitrine mostra a imagem principal e as páginas de detalhe mostram miniaturas clicáveis. Outros produtos continuam com ilustrações genéricas, até envio e conferência de suas fotografias.
+- **Fotos reais integradas para SHP-001 (6), SHP-002 (5), SHP-003 (7) e SHP-004 (7)**, hospedadas em `assets/produtos/SHP-XXX/`. A vitrine mostra a imagem principal e as páginas de detalhe mostram miniaturas clicáveis. Outros produtos continuam com ilustrações genéricas, até envio e conferência de suas fotografias.
 - Se o ID não existir ou o JSON estiver indisponível, a página mostra um aviso e caminho para retornar à loja.
 - O link de retorno para a coleção usa `?categoria=historicas#mantos` (ou a categoria do item) para restaurar a navegação. Produtos em destaque na seção Camisas passam também `&colecao=camisas-atuais` na página individual, de modo que o retorno volte para a seção de origem.
 
 ## Política de dados de anúncios
 - **Valores de capturas não são preços ao vivo**. Quando exibidos, aparecem como valores históricos de 15/10/2026; cupons, variações, estoque e frete podem mudar.
 - Não afirmar que o produto é original, oficial ou licenciado com base somente no texto do anúncio. Isso requer validação independente.
-- **Imagens:** SHP-001, SHP-002 e SHP-003 usam fotografias do anúncio compartilhadas pelo responsável; confirmar autorização/licença de uso e atribuição quando aplicável. Os demais cards ainda exibem ilustrações genéricas.
+- **Imagens:** SHP-001, SHP-002, SHP-003 e SHP-004 usam fotografias do anúncio compartilhadas pelo responsável; confirmar autorização/licença de uso e atribuição quando aplicável. Os demais cards ainda exibem ilustrações genéricas.
 - A marca Fiel Shop e sua identidade não representam afiliação oficial ao Corinthians.
 - Dados e links são publicados em um repositório público; nunca inserir segredos, credenciais ou dados privados.
 
