@@ -11,12 +11,12 @@ Vitrine **independente** para torcedores do Corinthians, publicada em [GitHub Pa
 - **Conferência do responsável em 15/10/2026:** os 25 produtos e seus respectivos links da última lista foram confirmados como corretos. O link principal de cada produto continua sendo sua URL encurtada no JSON; nenhuma foi substituída por URL longa.
 - **Correção de 15/10/2026:** a coleção de camisas antes mostrava oito modelos Nike 2026/27 sem anúncios e sem links clicáveis. Para não confundir visitantes, agora apresenta somente **SHP-005** (Camisa Invasão 2026) e **SHP-006** (Camisa Modelo Torcedor), ambos com links Shopee verificados pelo responsável. A categoria mantém a chave interna `camisas-atuais`, mas agora é identificada publicamente como **Camisas Disponíveis**. Os oito modelos de referência seguem preservados em `data/vitrine-mantos-2026.json` para uma futura coleção, sem simular ofertas nem dizer que os dois anúncios são uniformes oficiais 2026/27.
 - As fichas SHP-005 e SHP-006 permanecem também em Moda Casual, com uma única URL principal de afiliado cada.
-- SHP-003 aparece esgotado na captura de 15/10/2026 e fica sem botão de compra ativo até nova verificação.
+- **SHP-003** teve o selo de esgotado removido por solicitação do responsável em 15/10/2026. Seu estado é `pending_new_link`: a ficha segue visível, com botão de compra desabilitado enquanto aguarda o novo link ativo de afiliado. O link antigo foi preservado no registro mas não é oferecido ao visitante.
 - Os 13 links Mercado Livre seguem preservados separadamente, sem comissão confirmada.
 - Sem checkout próprio: compra e pagamento ocorrem no marketplace parceiro.
 
 
-**Auditoria de comissão:** os 25 links principais são encurtados em `s.shopee.com.br`. O botão **COMPRAR NA SHOPEE**, situado exclusivamente em cada página de produto, usa `product.url` do JSON sem substituí-lo por `shopee.com.br/product/...`. A vitrine utiliza apenas links internos para `produto.html?id=...`. O SHP-003 continua sem botão de compra por estar esgotado na última captura. A comissão efetiva deve ser verificada no painel Shopee Afiliados; o formato de URL sozinho não a garante.
+**Auditoria de comissão:** os 25 links principais são encurtados em `s.shopee.com.br`. O botão **COMPRAR NA SHOPEE**, situado exclusivamente em cada página de produto, usa `product.url` do JSON sem substituí-lo por `shopee.com.br/product/...`. A vitrine utiliza apenas links internos para `produto.html?id=...`. O SHP-003 continua sem botão de compra porque aguarda novo link de afiliado; o link antigo não é exibido como CTA. A comissão efetiva deve ser verificada no painel Shopee Afiliados; o formato de URL sozinho não a garante.
 
 
 ## Páginas de produto e descrições
