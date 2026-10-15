@@ -11,7 +11,7 @@
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camisa Corinthians Urban Ouro Masculina Oficial",
-      "product_image": null,
+      "product_image": "./assets/produtos/SHP-001/01-frente.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado por captura de tela enviada pelo responsável. A descrição 'Oficial' consta do título do vendedor, sem autenticação independente de originalidade. Preservar exclusivamente a URL curta como link de compra; não usar URL longa com parâmetros ao divulgar. Foto do anúncio não licenciada para reutilização.",
@@ -41,7 +41,17 @@
         "Uma opção para levar o Corinthians ao dia a dia.",
         "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
+      "images": [
+        "./assets/produtos/SHP-001/01-frente.webp",
+        "./assets/produtos/SHP-001/02-angulo.webp",
+        "./assets/produtos/SHP-001/03-escudo.webp",
+        "./assets/produtos/SHP-001/04-costas.webp",
+        "./assets/produtos/SHP-001/05-look.webp",
+        "./assets/produtos/SHP-001/06-selo.webp"
+      ],
+      "image_source_note": "Fotografias do anúncio compartilhadas pelo responsável para uso na Fiel Shop; confirmar direito de uso.",
+      "photo_added_on": "2026-10-15"
     },
     {
       "id": "SHP-002",
@@ -50,7 +60,7 @@
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camisa Polo Retrô Corinthians 1990 Kalunga Masculina Oficial",
-      "product_image": null,
+      "product_image": "./assets/produtos/SHP-002/01-frente.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Título e preço identificados pelo print do responsável, não são valores em tempo real; 'Oficial' é afirmação do vendedor, autenticidade não verificada. Para compras usar somente URL curta original.",
@@ -87,7 +97,16 @@
         "Visual inspirado em referências históricas e no estilo retrô.",
         "Confira composição, numeração e detalhes da peça na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
+      "images": [
+        "./assets/produtos/SHP-002/01-frente.webp",
+        "./assets/produtos/SHP-002/02-angulo.webp",
+        "./assets/produtos/SHP-002/03-costas.webp",
+        "./assets/produtos/SHP-002/04-escudo.webp",
+        "./assets/produtos/SHP-002/05-look.webp"
+      ],
+      "image_source_note": "Fotografias do anúncio compartilhadas pelo responsável para uso na Fiel Shop; confirmar direito de uso.",
+      "photo_added_on": "2026-10-15"
     },
     {
       "id": "SHP-003",
@@ -96,7 +115,7 @@
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
       "product_name": "Camiseta Retrô Corinthians Democracia N° 8 Masculina Oficial",
-      "product_image": null,
+      "product_image": "./assets/produtos/SHP-003/01-frente.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "A ficha permanece visível, mas o usuário solicitou remover o selo de esgotado e informou que enviará um novo link ativo ao final da atualização do catálogo. Não exibir botão de compra usando o link antigo. O link curto original permanece preservado no histórico deste cadastro.",
@@ -130,7 +149,18 @@
       ],
       "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
       "link_update_status": "awaiting_replacement_affiliate_link",
-      "link_update_requested_on": "2026-10-15"
+      "link_update_requested_on": "2026-10-15",
+      "images": [
+        "./assets/produtos/SHP-003/01-frente.webp",
+        "./assets/produtos/SHP-003/02-costas.webp",
+        "./assets/produtos/SHP-003/03-frente-costas.webp",
+        "./assets/produtos/SHP-003/04-estadio-frente.webp",
+        "./assets/produtos/SHP-003/05-estadio-costas.webp",
+        "./assets/produtos/SHP-003/06-escudo.webp",
+        "./assets/produtos/SHP-003/07-detalhe.webp"
+      ],
+      "image_source_note": "Fotografias do anúncio compartilhadas pelo responsável para uso na Fiel Shop; confirmar direito de uso.",
+      "photo_added_on": "2026-10-15"
     },
     {
       "id": "SHP-004",
