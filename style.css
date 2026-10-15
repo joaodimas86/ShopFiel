@@ -38,3 +38,34 @@
 .feature-close{position:absolute;right:13px;top:13px;border:1px solid #ddd;background:white;width:36px;height:36px;font-size:25px}
 @media(max-width:980px){.brand-logo{width:170px}.featured-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:750px){.brand-logo{width:177px}.feature-section{padding:55px 0 45px}.feature-heading h2{font-size:58px}.featured-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.feature-name{font-size:12px;min-height:76px}.feature-media{aspect-ratio:4/4.6}.feature-image-note{font-size:8px}.feature-dialog-content{padding:48px 20px 22px}.feature-dialog-content h2{font-size:39px}}
+
+
+/* Identidade oficial aprovada — marca preta e branca */
+:root{--ink:#111;--paper:#fff;--muted:#676767;--border:#e3e3e3}
+.brand{position:relative;overflow:hidden;width:204px;height:58px;flex:0 0 204px}
+.brand-logo{display:block;position:absolute;width:206px;max-width:none;height:auto;left:-1px;top:-111px}
+.hero-art{background:linear-gradient(145deg,#292929,#111)}
+.hero-art:before{content:"";position:absolute;inset:0;background-image:linear-gradient(90deg,#111a,#0002),url("https://dcdn-us.mitiendanube.com/stores/007/757/700/themes/morelia/2-slide-1779930958028-7649906998-9615210119d6466e11e95f6606f0f4291779930961-480-0.webp");background-size:cover;background-position:center;opacity:.65}
+.hero-art:after{background:linear-gradient(90deg,#10101044,#10101022)}
+.hero-brand{position:absolute;z-index:3;bottom:35px;right:7%;width:min(66%,315px);aspect-ratio:315/261;background:#fff;box-shadow:0 25px 60px #0008;display:flex;align-items:center;justify-content:center;padding:5px}
+.hero-brand img{width:100%;height:100%;object-fit:contain}
+.art-tag{right:10%;top:7%;font-size:20px;background:#111b}
+.nav-cta,.btn,.card-more,.feature-action,.deal a{background:#111;color:#fff;border-color:#111}
+.nav-cta:hover,.btn:hover,.card-more:hover,.feature-action:hover,.deal a:hover{background:#343434;color:#fff}
+.btn.light{background:#fff;color:#111}
+.btn.light:hover{background:#e6e6e6;color:#111}
+.hero-link{color:#fff}
+.feature-action{background:#fff;color:#111}
+a,button{accent-color:#151515}
+@media(max-width:980px){.brand{width:180px;flex-basis:180px}.brand-logo{width:184px;top:-99px}.hero-brand{right:4%;width:72%}}
+@media(max-width:750px){
+ .brand{width:182px;flex-basis:182px;height:56px}.brand-logo{width:186px;top:-100px}
+ .hero-inner{min-height:680px}
+ .hero-copy{padding:50px 0 200px}
+ .hero-art{opacity:1;inset:0 0 0 0}
+ .hero-art:before{opacity:.2}
+ .hero-art:after{background:linear-gradient(180deg,#101010db 0%,#101010cc 60%,#10101088)}
+ .hero-brand{bottom:19px;right:18px;width:170px;box-shadow:0 10px 25px #0005}
+ .art-tag{display:none}
+ .hero h1{font-size:clamp(69px,14vw,95px)}
+}
