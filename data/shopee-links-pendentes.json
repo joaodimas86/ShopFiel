@@ -99,7 +99,7 @@
       "product_image": null,
       "price_brl": null,
       "verified_at": null,
-      "notes": "A captura apresenta ESGOTADO. Não mostrar botão de compra ativo até confirmar reposição. 'Oficial' aparece no título, sem validação de autenticidade.",
+      "notes": "A ficha permanece visível, mas o usuário solicitou remover o selo de esgotado e informou que enviará um novo link ativo ao final da atualização do catálogo. Não exibir botão de compra usando o link antigo. O link curto original permanece preservado no histórico deste cadastro.",
       "category_id": "historicas",
       "seller_product_id": "55017972877",
       "seller_shop_id": "1310381126",
@@ -117,18 +117,20 @@
         "observed_on": "2026-10-15"
       },
       "color_observed": "Preto",
-      "availability": "out_of_stock",
-      "availability_verified_at": "2026-10-15",
+      "availability": "pending_new_link",
+      "availability_verified_at": null,
       "listing_title_verified_at": "2026-10-15",
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Camiseta retrô dedicada à Democracia Corinthiana e ao número 8, uma lembrança de um dos capítulos mais marcantes do clube. O anúncio aparecia esgotado na última conferência.",
+      "description": "Camiseta retrô dedicada à Democracia Corinthiana e ao número 8, uma homenagem a um dos capítulos mais marcantes da história do clube. A compra ficará disponível após a atualização do link de afiliado.",
       "highlights": [
         "Visual inspirado em referências históricas e no estilo retrô.",
         "Confira composição, numeração e detalhes da peça na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
+      "link_update_status": "awaiting_replacement_affiliate_link",
+      "link_update_requested_on": "2026-10-15"
     },
     {
       "id": "SHP-004",
