@@ -69,3 +69,6 @@ a,button{accent-color:#151515}
  .art-tag{display:none}
  .hero h1{font-size:clamp(69px,14vw,95px)}
 }
+
+/* Mantém apenas o nome no cabeçalho compacto, sem mostrar fragmentos do monograma */
+.brand::before{content:"";position:absolute;top:0;left:0;right:0;height:12px;background:#fff;z-index:2;pointer-events:none}
