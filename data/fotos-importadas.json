@@ -1,0 +1,29 @@
+{
+  "images": {
+    "SHP-001": [
+      "assets/produtos/SHP-001/01-frente.webp",
+      "assets/produtos/SHP-001/02-angulo.webp",
+      "assets/produtos/SHP-001/03-escudo.webp",
+      "assets/produtos/SHP-001/04-costas.webp",
+      "assets/produtos/SHP-001/05-look.webp",
+      "assets/produtos/SHP-001/06-selo.webp"
+    ],
+    "SHP-002": [
+      "assets/produtos/SHP-002/01-frente.webp",
+      "assets/produtos/SHP-002/02-angulo.webp",
+      "assets/produtos/SHP-002/03-costas.webp",
+      "assets/produtos/SHP-002/04-escudo.webp",
+      "assets/produtos/SHP-002/05-look.webp"
+    ],
+    "SHP-003": [
+      "assets/produtos/SHP-003/01-frente.webp",
+      "assets/produtos/SHP-003/02-costas.webp",
+      "assets/produtos/SHP-003/03-frente-costas.webp",
+      "assets/produtos/SHP-003/04-estadio-frente.webp",
+      "assets/produtos/SHP-003/05-estadio-costas.webp",
+      "assets/produtos/SHP-003/06-escudo.webp",
+      "assets/produtos/SHP-003/07-detalhe.webp"
+    ]
+  },
+  "failed": []
+}
