@@ -13,9 +13,9 @@ const money = n => Number(n).toLocaleString("pt-BR",{style:"currency",currency:"
 const searchTerm = text => String(text||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 const isIdentified = product => product&&product.status==="identified"&&product.product_name&&affiliateUrl(product.url);
 const unavailable = product => product.availability==="out_of_stock";
-const state={items:[],season:[],category:"casuais",query:"",sort:"featured",loaded:false};
+const state={items:[],category:"casuais",query:"",sort:"featured",loaded:false};
 const collections={
- "camisas-atuais":{kicker:"LANÇAMENTOS · TEMPORADA 2026/27",title:"CAMISAS",accent:"ATUAIS.",description:"Modelos da temporada para conhecer. As ofertas ainda estão em conferência; esta coleção não tem links de compra ativos."},
+ "camisas-atuais":{kicker:"CAMISAS COM LINKS CONFERIDOS",title:"CAMISAS",accent:"DA FIEL.",description:"Modelos selecionados com anúncios na Shopee. Os uniformes oficiais Nike 2026/27 ainda aguardam ofertas específicas verificadas."},
  "casuais":{kicker:"ROUPAS PARA O DIA A DIA",title:"MODA",accent:"CASUAL.",description:"Camisetas, polos e moletons para levar o Timão para qualquer lugar."},
  "historicas":{kicker:"TRADIÇÃO QUE NÃO ACABA",title:"CAMISAS",accent:"HISTÓRICAS.",description:"Modelos retrô e homenagens às temporadas e momentos que marcaram a Fiel."},
  "souvenirs":{kicker:"PRESENTES PARA A FIEL",title:"SOUVENIRS",accent:"& ACESSÓRIOS.",description:"Copos, capinhas, bandeiras, itens para casa e presentes para torcedores."}
@@ -75,7 +75,7 @@ function snapshotDetails(product){
 function actualProductCard(product){
  const out=unavailable(product);
  const card=make("a","shop-card shop-card-link"+(out?" is-unavailable":""));
- card.href="./produto.html?id="+encodeURIComponent(product.id);
+ card.href="./produto.html?id="+encodeURIComponent(product.id)+"&colecao="+encodeURIComponent(state.category);
  card.dataset.code=product.id;
  card.setAttribute("aria-label","Ver detalhes de "+product.product_name);
  const media=make("div","shop-card-media");
@@ -92,39 +92,27 @@ function actualProductCard(product){
  card.append(media,body);
  return card;
 }
-function seasonCard(product){
- const card=make("article","shop-card season-card");
- const media=make("div","shop-card-media");
- media.append(productVisual({name:product.name,category_id:"camisas-atuais"},true));
- media.append(make("span","shop-card-badge","2026/27"));
- const body=make("div","shop-card-body");
- body.append(make("span","shop-card-eyebrow",(product.audience||"").toUpperCase()+" · MODELO REFERÊNCIA"));
- body.append(make("h3","shop-card-title",product.name));
- body.append(make("p","shop-card-price-note","Oferta ainda não associada a um anúncio"));
- body.append(make("span","shop-card-action unavailable-action","EM PREPARAÇÃO"));
- card.append(media,body);
- return card;
-}
 function filteredProducts(){
- const season=state.category==="camisas-atuais";
- const source=season?state.season:state.items.filter(p=>p.category_id===state.category&&isIdentified(p));
+ const source=state.items.filter(p=>state.category==="camisas-atuais"?
+   Array.isArray(p.featured_in)&&p.featured_in.includes("camisas-atuais"):
+   p.category_id===state.category);
  const query=searchTerm(state.query).trim();
- let values=source.filter(p=>searchTerm((p.product_name||p.name||"")+" "+(p.id||"")).includes(query));
- if(state.sort==="az")values=values.sort((a,b)=>(a.product_name||a.name).localeCompare(b.product_name||b.name,"pt-BR"));
- if(state.sort==="za")values=values.sort((a,b)=>(b.product_name||b.name).localeCompare(a.product_name||a.name,"pt-BR"));
- if(!season&&state.sort==="featured")values=values.sort((a,b)=>Number(unavailable(a))-Number(unavailable(b)));
+ let values=source.filter(p=>searchTerm((p.product_name||"")+" "+(p.id||"")).includes(query));
+ if(state.sort==="az")values=values.sort((a,b)=>a.product_name.localeCompare(b.product_name,"pt-BR"));
+ if(state.sort==="za")values=values.sort((a,b)=>b.product_name.localeCompare(a.product_name,"pt-BR"));
+ if(state.sort==="featured")values=values.sort((a,b)=>Number(unavailable(a))-Number(unavailable(b)));
  return values;
 }
 function updateCategoryCounts(){
  const counts={
-   "camisas-atuais":state.season.length,
-   "casuais":state.items.filter(p=>p.category_id==="casuais"&&isIdentified(p)).length,
-   "historicas":state.items.filter(p=>p.category_id==="historicas"&&isIdentified(p)).length,
-   "souvenirs":state.items.filter(p=>p.category_id==="souvenirs"&&isIdentified(p)).length
+   "camisas-atuais":state.items.filter(p=>Array.isArray(p.featured_in)&&p.featured_in.includes("camisas-atuais")).length,
+   "casuais":state.items.filter(p=>p.category_id==="casuais").length,
+   "historicas":state.items.filter(p=>p.category_id==="historicas").length,
+   "souvenirs":state.items.filter(p=>p.category_id==="souvenirs").length
  };
- $$("[data-category-count]").forEach(node=>{
+ $("[data-category-count]").forEach(node=>{
    const id=node.getAttribute("data-category-count");
-   node.textContent=id==="camisas-atuais"?(counts[id]+" MODELOS · SEM OFERTAS"):(counts[id]+" PRODUTOS");
+   node.textContent=counts[id]+" "+(counts[id]===1?"PRODUTO":"PRODUTOS");
  });
 }
 function renderCollection(){
@@ -137,7 +125,7 @@ function renderCollection(){
  }
  const results=filteredProducts();
  counter.textContent=results.length+" "+(results.length===1?"item":"itens");
- area.replaceChildren(...results.map(p=>state.category==="camisas-atuais"?seasonCard(p):actualProductCard(p)));
+ area.replaceChildren(...results.map(actualProductCard));
  area.hidden=results.length===0;
  empty.hidden=results.length!==0;
  if(!results.length){
@@ -158,7 +146,7 @@ function selectCollection(category){
  heading.replaceChildren(document.createTextNode(selected.title+" "),make("span","",selected.accent));
  $("#collection-description").textContent=selected.description;
  $("#catalog-disclaimer").textContent=category==="camisas-atuais"?
- "Coleção editorial: modelos ilustrados sem ofertas ou links de compra confirmados.":
+ "Camisas com anúncios identificados na Shopee. Não representam necessariamente uniformes oficiais Nike 2026/27. Valores de 15/10/2026; confirme preço, estoque, tamanho e procedência na Shopee.":
  "Valores vistos em capturas de 15/10/2026, sujeitos a mudanças. O vendedor confirma preço, disponibilidade, tamanhos e autenticidade. Compra feita na Shopee.";
  $$("[data-category-target]").forEach(a=>{
    const active=a.dataset.categoryTarget===category;
@@ -188,14 +176,10 @@ $("#year").textContent=new Date().getFullYear();
 
 async function init(){
  try{
-   const routes=["./data/shopee-links-pendentes.json","./data/vitrine-mantos-2026.json"];
-   const [catalog,collection]=await Promise.all(routes.map(async path=>{
-     const response=await fetch(path,{cache:"no-store"});
-     if(!response.ok)throw Error("Falha ao carregar "+path);
-     return response.json();
-   }));
+   const response=await fetch("./data/shopee-links-pendentes.json",{cache:"no-store"});
+   if(!response.ok)throw Error("Não foi possível carregar o catálogo Shopee.");
+   const catalog=await response.json();
    state.items=(catalog.links||[]).filter(isIdentified);
-   state.season=(collection.products||[]).filter(p=>p.category_id==="camisas-atuais");
    state.loaded=true;
    updateCategoryCounts();
    const requestedCategory=new URLSearchParams(window.location.search).get("categoria");
