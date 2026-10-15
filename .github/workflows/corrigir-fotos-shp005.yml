@@ -26,7 +26,7 @@ jobs:
           p4=next(p for p in data["links"] if p["id"]=="SHP-004")
           p5=next(p for p in data["links"] if p["id"]=="SHP-005")
           if p4.get("images") and len(p4["images"])!=7: raise RuntimeError("SHP-004 com fotos inesperadas")
-          photos=sorted(str("./"+p) for p in pathlib.Path("assets/produtos/SHP-005").glob("*.webp"))
+          photos=sorted("./"+str(p) for p in pathlib.Path("assets/produtos/SHP-005").glob("*.webp"))
           if len(photos)!=7: raise RuntimeError(f"Não foram copiadas as 7 fotos: {photos}")
           if p4.get("images"):
               photos=[image.replace("SHP-004","SHP-005") for image in p4["images"]]
