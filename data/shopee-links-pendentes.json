@@ -32,7 +32,10 @@
         "GG",
         "EGG"
       ],
-      "listing_title_verified_at": "2026-10-15"
+      "listing_title_verified_at": "2026-10-15",
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-002",
@@ -69,7 +72,10 @@
         "EGG"
       ],
       "availability": "not_verified",
-      "listing_title_verified_at": "2026-10-15"
+      "listing_title_verified_at": "2026-10-15",
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-003",
@@ -101,7 +107,10 @@
       "color_observed": "Preto",
       "availability": "out_of_stock",
       "availability_verified_at": "2026-10-15",
-      "listing_title_verified_at": "2026-10-15"
+      "listing_title_verified_at": "2026-10-15",
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-004",
@@ -130,7 +139,10 @@
         "source": "print do anúncio enviado pelo responsável"
       },
       "rating_snapshot": null,
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-005",
@@ -159,7 +171,10 @@
         "source": "print do anúncio enviado pelo responsável"
       },
       "rating_snapshot": null,
-      "availability": "not_verified"
+      "availability": "not_verified",
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-006",
@@ -189,7 +204,10 @@
           "url": "https://s.shopee.com.br/4fwtN9zlPK",
           "note": "Segundo link encurtado que também abre a camisa SHP-006, confirmado pelo responsável; não usar como principal"
         }
-      ]
+      ],
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-007",
@@ -225,7 +243,8 @@
       },
       "availability": "not_verified",
       "affiliate_link_mapping_status": "confirmed_by_owner",
-      "affiliate_link_mapping_note": "O usuário confirmou que o link que estava no SHP-008 abre a Polo Retrô Feminina CP."
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-008",
@@ -258,8 +277,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-009",
@@ -292,8 +312,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-010",
@@ -326,8 +347,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-011",
@@ -360,8 +382,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-012",
@@ -394,8 +417,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-013",
@@ -428,8 +452,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-014",
@@ -463,8 +488,9 @@
       },
       "availability": "not_verified",
       "variation_note": "Faixa de preços por tamanho/variação (R$45–85), não é preço fixo.",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-015",
@@ -497,8 +523,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-016",
@@ -531,8 +558,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-017",
@@ -565,8 +593,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-018",
@@ -599,8 +628,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-019",
@@ -633,8 +663,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-020",
@@ -667,8 +698,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-021",
@@ -702,8 +734,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-022",
@@ -736,8 +769,9 @@
         "observed_on": "2026-10-15"
       },
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-023",
@@ -757,8 +791,9 @@
       "price_snapshot": null,
       "rating_snapshot": null,
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-024",
@@ -776,8 +811,9 @@
       "seller_product_id": "23993549670",
       "availability": "not_verified",
       "listing_title_verified_at": "2026-10-15",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     },
     {
       "id": "SHP-025",
@@ -797,11 +833,14 @@
       "price_snapshot": null,
       "listing_title_verified_at": "2026-10-15",
       "availability": "not_verified",
-      "affiliate_link_mapping_status": "shift_inferred_pending_spot_check",
-      "affiliate_link_mapping_note": "Endereço realocado por deslocamento de uma posição detectado pelo usuário (SHP-007 e SHP-008). Demais destinos ainda exigem conferência pontual."
+      "affiliate_link_mapping_status": "confirmed_by_owner",
+      "affiliate_link_mapping_confirmed_at": "2026-10-15",
+      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos"
     }
   ],
   "identified_count": 25,
   "total_received_links": 25,
-  "correction_note": "15/10/2026: usuário confirmou que URL antiga SHP-007 (4fwtN9zlPK) abre camisa SHP-006 e que URL antiga SHP-008 (7ptv923tBM) abre polo feminina SHP-007. O 4fwt foi preservado como URL alternativa no SHP-006, e os endereços de SHP-007 a SHP-025 foram deslocados uma posição para cima. O antigo SHP-026 (qkGdbShJi) ficou com SHP-025. Conferir destinos SHP-008 a SHP-025 independentemente antes de garantir associação."
+  "correction_note": "O responsável confirmou em 15/10/2026 a correspondência entre todos os 25 produtos e os 25 links encurtados de afiliado da listagem mais recente. Os botões de compra leem diretamente a URL curta original em links[].url. A atribuição de comissão depende da Shopee e não foi verificada no painel de afiliados.",
+  "owner_confirmed_product_links_count": 25,
+  "owner_confirmed_on": "2026-10-15"
 }
