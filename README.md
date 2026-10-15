@@ -3,16 +3,16 @@
 Vitrine **independente** para torcedores do Corinthians, publicada em [GitHub Pages](https://joaodimas86.github.io/ShopFiel/). **Não é uma loja oficial do clube.**
 
 ## Loja / versão atual
-- Identidade preto, branco e cinza, com logo aprovado.
-- Categorias: **Camisas Atuais 2026/27**, **Moda Casual**, **Camisas Históricas** e **Souvenirs e Acessórios**.
-- Cards individuais, busca por nome, ordenação e layout responsivo.
-- Catálogo Shopee em `data/shopee-links-pendentes.json`: **26 links encurtados originais, numerados em sequência de SHP-001 a SHP-026**; **25 anúncios identificados** a partir das capturas de 15/10/2026. Somente **SHP-026** ainda não foi identificado.
-- **Numeração corrigida em 15/10/2026:** o verdadeiro **SHP-006** é a Camisa Masculina Modelo Torcedor Corinthians Azul com link de afiliado `https://s.shopee.com.br/3g4Te0vNd1`, enviado posteriormente pelo responsável. Os antigos SHP-006 a SHP-025 agora são SHP-007 a SHP-026. Todos os **25 links antigos e o novo link curto foram preservados sem alterações**.
-- A coleção 2026/27 contém 8 modelos apenas como referência, sem ofertas associadas.
-- Todos os botões de compra Shopee utilizam as URLs `s.shopee.com.br/...` originais fornecidas pelo afiliado.
-- SHP-003 foi marcado esgotado na captura de 15/10/2026 e não tem botão de compra ativo até revisão.
-- 13 links Mercado Livre arquivados em `data/mercado-livre-links-pendentes.json`, ainda sem comissão confirmada.
-- Não há checkout próprio: as compras são realizadas no marketplace parceiro.
+- Identidade preta, branca e cinza, com logo aprovado.
+- Departamentos: **Camisas Atuais 2026/27**, **Moda Casual**, **Camisas Históricas** e **Souvenirs e Acessórios**.
+- Vitrine responsiva, busca, ordenação, contagem de itens e botões levando diretamente à Shopee.
+- Catálogo em `data/shopee-links-pendentes.json`: **25 fichas de produtos identificados** a partir das capturas de 15/10/2026; 25 links curtos em uso e um link alternativo preservado.
+- **Correção de correspondência feita em 15/10/2026:** o usuário confirmou que `4fwtN9zlPK`, anteriormente no SHP-007, abre a camisa do SHP-006 e que `7ptv923tBM`, anteriormente no SHP-008, abre a polo feminina SHP-007. O primeiro foi preservado como link alternativo no SHP-006, que mantém seu link principal `3g4Te0vNd1`. Para SHP-007 a SHP-025, os links principais foram realocados uma posição para cima. O último link `qkGdbShJi` passou para SHP-025.
+- **Estado da conferência:** a associação SHP-007 foi confirmada pelo usuário; os destinos dos links SHP-008 a SHP-025 foram *inferidos pelo deslocamento* e requerem testes pontuais, especialmente no início e no final da série. A numeração e a unicidade dos links no JSON, por si, não confirmam o redirecionamento.
+- Os oito modelos 2026/27 são apenas referências editoriais, sem ofertas de compra associadas.
+- SHP-003 aparece esgotado na captura de 15/10/2026 e fica sem botão de compra ativo até nova verificação.
+- Os 13 links Mercado Livre seguem preservados separadamente, sem comissão confirmada.
+- Sem checkout próprio: compra e pagamento ocorrem no marketplace parceiro.
 
 ## Política de dados de anúncios
 - **Valores de capturas não são preços ao vivo**. Quando exibidos, aparecem como valores históricos de 15/10/2026; cupons, variações, estoque e frete podem mudar.
@@ -35,7 +35,7 @@ Configuração: Settings → Pages → Deploy from a branch → `main` → `/(ro
 Endereço: https://joaodimas86.github.io/ShopFiel/
 
 ## Antes do lançamento comercial
-1. Identificar o anúncio do SHP-026 por meio do link encurtado original.
+1. Conferir se os destinos realocados correspondem aos produtos, com prioridade para SHP-008 e SHP-025.
 2. Concluir conferência de preços, estoques, originalidade e direitos de uso das imagens.
 3. Testar manualmente os links curtos em navegador/app para conferir rastreamento do afiliado.
 4. Adicionar políticas e formas de contato adequadas; revisar necessidades de LGPD.
