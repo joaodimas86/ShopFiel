@@ -80,7 +80,7 @@ function actualProductCard(product){
  card.setAttribute("aria-label","Ver detalhes de "+product.product_name);
  const media=make("div","shop-card-media");
  media.append(productVisual(product,false));
- media.append(make("span","shop-card-badge",out?"ESGOTADO NA CAPTURA":"SHOPEE"));
+ media.append(make("span","shop-card-badge",out?"ESGOTADO NA CAPTURA":product.availability==="pending_new_link"?"LINK EM ATUALIZAÇÃO":"SHOPEE"));
  const body=make("div","shop-card-body");
  body.append(make("span","shop-card-eyebrow",product.id+" · "+(collections[product.category_id]?.title||"FIEL SHOP")));
  body.append(make("h3","shop-card-title",product.product_name));
@@ -88,6 +88,7 @@ function actualProductCard(product){
  if(price)body.append(price);
  else body.append(make("p","shop-card-price-note","Consulte o valor atualizado no anúncio"));
  if(out)body.append(make("p","shop-stock-note","Produto esgotado na captura de 15/10/2026."));
+ if(product.availability==="pending_new_link")body.append(make("p","shop-stock-note","Novo link de compra em preparação."));
  body.append(make("span","shop-card-action","VER DETALHES ↗"));
  card.append(media,body);
  return card;
