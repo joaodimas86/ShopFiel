@@ -218,3 +218,10 @@ body{background:#fff}
 .shop-card-link .shop-card-action{cursor:pointer}
 .shop-card-link.is-unavailable .shop-card-action{background:#151515;border-color:#151515;color:#fff;cursor:pointer}
 .shop-card-link.is-unavailable:hover .shop-card-action{background:#444}
+
+/* Fotografias reais carregadas do catálogo: mantém fallback ilustrativo para outros itens. */
+.shop-visual-photo{background:#fff}
+.shop-visual-photo::before{display:none}
+.shop-visual-photo .shop-product-image{position:relative;z-index:2;display:block;width:100%;height:100%;object-fit:contain;background:#fff;filter:none}
+.shop-card-media .shop-visual-photo img{width:100%;height:100%;object-fit:contain}
+.shop-card:hover .shop-visual-photo img{transform:scale(1.02);transition:transform .2s ease}
