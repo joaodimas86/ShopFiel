@@ -1,42 +1,44 @@
 # Fiel Shop 🖤🤍
 
-Primeira versão da vitrine independente para torcedores do Corinthians. Não há vínculo oficial com o clube.
+Vitrine **independente** para torcedores do Corinthians, publicada em [GitHub Pages](https://joaodimas86.github.io/ShopFiel/). **Não é uma loja oficial do clube.**
 
-## Entregue
-- Página inicial responsiva com identidade preta e branca e monograma FS inspirado na terceira opção de logo aprovada.
-- Seção **Mantos da Temporada 2026/27**: oito modelos de referência em `data/vitrine-mantos-2026.json`, com ilustrações genéricas e detalhes. Os modelos **não** têm anúncios associados nem preços confirmados.
-- Área recolhível de conferência com **25 links da Shopee** em `data/shopee-links-pendentes.json` e **13 links do Mercado Livre** em `data/mercado-livre-links-pendentes.json`.
-- Pesquisa e visualização dos registros; saída para o marketplace somente quando o usuário selecionar um endereço recebido.
-- Sem checkout próprio. As compras são realizadas nos marketplaces.
+## Loja / versão atual
+- Identidade preto, branco e cinza, com o logo escolhido pelo responsável.
+- Navegação por **Camisas Atuais 2026/27**, **Moda Casual**, **Camisas Históricas** e **Souvenirs e Acessórios**.
+- Cards por produto, busca por nome, ordenação, contagem por categoria e layout responsivo.
+- Catálogo Shopee em `data/shopee-links-pendentes.json`: **24 de 25 links identificados** a partir de capturas enviadas pelo responsável em 15/10/2026.
+- A coleção 2026/27 apresenta 8 modelos **apenas como referência**, ainda sem ofertas associadas; nenhuma compra é simulada.
+- Shopee: os botões de compra **usam apenas as URLs curtas originais `s.shopee.com.br/...`**, pois são os links fornecidos pelo afiliado.
+- O SHP-003 foi marcado **esgotado em 15/10/2026** e não tem botão de compra ativo até nova verificação.
+- `SHP-025` ainda **não foi identificado**: não deve aparecer como produto público.
+- Os 13 links recebidos do Mercado Livre ficam em `data/mercado-livre-links-pendentes.json` para conferência posterior. Não há comissão confirmada no Mercado Livre.
+- Sem checkout próprio: compra e pagamento são realizados no marketplace.
 
-## Status comercial
-- Shopee: cadastro de afiliado aprovado segundo informação do responsável; links individuais ainda precisam de identificação e validação.
-- Mercado Livre: a afiliação não está aprovada; links recebidos **não** têm comissão confirmada.
-- Amazon: futura possibilidade, sem ofertas cadastradas.
-- **Não mostramos preços, avaliações, estoque, imagens oficiais ou promessas de comissão sem verificar.**
+## Política de dados de anúncios
+- **Valores de capturas não são preços ao vivo**. Quando exibidos, aparecem como valores históricos de 15/10/2026; cupons, variações, estoque e frete podem mudar.
+- Não afirmar que o produto é original, oficial ou licenciado com base somente no texto do anúncio. Isso requer validação independente.
+- **Imagens dos cards são ilustrações genéricas**, não fotografias dos anúncios; obter direito de uso das fotografias originais antes de colocá-las na vitrine.
+- A marca Fiel Shop e sua identidade não representam afiliação oficial ao Corinthians.
+- Dados e links são publicados em um repositório público; nunca inserir segredos, credenciais ou dados privados.
 
-## Como abrir localmente
-O projeto atual usa HTML/CSS/JavaScript simples e JSON estático. Não é necessário instalar Node.js.
+## Como rodar localmente
+Site HTML/CSS/JavaScript estático sem etapa de build. É necessário um servidor local para carregar JSON:
 
 ```bash
 python -m http.server 8000
 ```
 
-Abra `http://localhost:8000/` — abrir `index.html` diretamente pelo explorador de arquivos não carregará o JSON de modo confiável.
+Abra `http://localhost:8000/`.
 
-## Publicar uma prévia no GitHub Pages
-1. No GitHub, acesse **Settings → Pages** do repositório `joaodimas86/ShopFiel`.
-2. Escolha **Deploy from a branch**, branch `main`, pasta `/(root)`.
-3. Salve e aguarde a publicação.
-4. Após ativação, a URL esperada é `https://joaodimas86.github.io/ShopFiel/`.
+## GitHub Pages
+Configuração: Settings → Pages → Deploy from a branch → `main` → `/(root)`.
+Endereço: https://joaodimas86.github.io/ShopFiel/
 
-**A URL acima não significa que a publicação já está ativa.** A página contém `noindex,nofollow` para impedir indexação antes da revisão final.
+## Antes do lançamento comercial
+1. Receber a identificação do SHP-025.
+2. Concluir conferência de preços, estoques, originalidade e direitos de uso das imagens.
+3. Testar manualmente os links curtos em navegador/app para conferir rastreamento do afiliado.
+4. Adicionar políticas e formas de contato adequadas; revisar necessidades de LGPD.
+5. Identificar ofertas reais da temporada 2026/27 e dos demais marketplaces.
 
-## Pendências essenciais
-- Identificar produtos associados aos 38 links; conferir fotos, originalidade, preços e permissão de utilização dos dados.
-- Mapear anúncios verificados de múltiplos marketplaces para o mesmo produto.
-- Validar rastreamento e regras dos programas de afiliados.
-- Criar painel protegido com autenticação; o repositório público **não** é área segura para credenciais.
-- Concluir páginas legais e revisar a marca antes do lançamento comercial.
-
-Projeto em pré-lançamento. Não inserir segredos, CPF ou dados de clientes no repositório.
+A página continua com `noindex,nofollow` enquanto está em revisão.
