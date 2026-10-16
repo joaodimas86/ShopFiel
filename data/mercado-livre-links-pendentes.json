@@ -94,18 +94,51 @@
       "product_name": null,
       "product_image": null,
       "price_brl": null,
-      "verified_at": null
+      "verified_at": null,
+      "availability": "pending_new_link",
+      "notes": "Responsável informou problema no link em 16/10/2026 e solicitou pular este item. Manter fora da vitrine até correção e identificação."
     },
     {
       "id": "ML-004",
       "marketplace": "mercado_livre",
       "url": "https://meli.la/1edXhpb",
       "affiliate_link_verified": false,
-      "status": "pending_identification",
-      "product_name": null,
-      "product_image": null,
+      "status": "identified",
+      "product_name": "Camisa Polo Corinthians Retrô Listrada Japão 2012 Coimbra",
+      "product_image": "./assets/produtos/ML-004/01-modelo-frente.webp",
       "price_brl": null,
-      "verified_at": null
+      "verified_at": null,
+      "category_id": "historicas",
+      "availability": "not_verified",
+      "description": "Há camisas que fazem a memória da torcida entrar em campo outra vez. A Camisa Polo Corinthians Retrô Listrada Japão 2012 Coimbra traz essa inspiração para o dia a dia, com fundo preto, listras brancas e detalhes que remetem à campanha comemorada pela Fiel. O escudo bordado ganha destaque no peito ao lado de um bordado em caracteres japoneses, em dourado, com detalhe vermelho. A gola polo com abertura em V e a etiqueta Linha Ouro completam o visual clássico mostrado nas fotos. Uma opção para vestir a paixão pelo Timão em encontros com amigos, dias de jogo ou para presentear um corinthiano que guarda as lembranças de 2012. A descrição do anúncio identifica a marca Coimbra e menciona algodão; confira a composição exata na etiqueta e a tabela de medidas no Mercado Livre antes de escolher seu tamanho.",
+      "highlights": [
+        "Polo masculina de manga curta, preta com listras verticais brancas, conforme as fotos.",
+        "Escudo do Corinthians bordado e detalhe japonês em dourado com elemento vermelho no peito.",
+        "Gola polo com abertura em V e etiqueta Linha Ouro apresentada nas imagens.",
+        "Modelo anunciado como retrô comemorativo Japão 2012, da marca Coimbra.",
+        "A descrição enviada menciona algodão, mas não informa percentuais. Confirme a composição na etiqueta e no anúncio; não se afirma 100% algodão.",
+        "Galeria com a peça no modelo, no cabide e detalhes do escudo, bordado japonês, gola e etiqueta.",
+        "Consulte medidas, numeração, procedência, cuidados de lavagem e condições atuais da oferta no Mercado Livre."
+      ],
+      "price_snapshot": {
+        "amount_brl": 168.21,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em conversa em 16/10/2026; condições de pagamento não especificadas."
+      },
+      "description_source": "Texto editorial original baseado na descrição e nas imagens fornecidas pelo responsável em 16/10/2026. Nome comemorativo Japão 2012, marca Coimbra e referência a algodão são informações do anúncio. Composição percentual e licenciamento não foram verificados. Não se afirmam desempenho ou durabilidade superiores.",
+      "images": [
+        "./assets/produtos/ML-004/01-modelo-frente.webp",
+        "./assets/produtos/ML-004/02-polo-cabide.webp",
+        "./assets/produtos/ML-004/03-escudo-bordado.webp",
+        "./assets/produtos/ML-004/04-detalhe-japones.webp",
+        "./assets/produtos/ML-004/05-gola-etiqueta.webp",
+        "./assets/produtos/ML-004/06-linha-ouro.webp",
+        "./assets/produtos/ML-004/07-detalhes.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Oito anexos fornecidos pelo responsável, com uma foto repetida da manga. Sete imagens usadas na galeria e otimizadas em WebP sem ampliação; capa com o modelo vestindo a polo."
     },
     {
       "id": "ML-005",
@@ -207,5 +240,5 @@
       "verified_at": null
     }
   ],
-  "identified_count": 2
+  "identified_count": 3
 }
