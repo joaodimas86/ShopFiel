@@ -108,7 +108,17 @@ function buyBlock(product){
   link.rel="noopener noreferrer sponsored nofollow";
   link.setAttribute("aria-label","Comprar "+product.product_name+" no "+marketplace+", em nova aba");
   box.append(link);
-  box.append(make("p","pd-affiliate-note","Você será direcionado ao "+marketplace+" pelo link disponibilizado na Shop Fiel."));
+  for(const offer of (Array.isArray(product.additional_offers)?product.additional_offers:[])){
+    if(offer.marketplace!=="mercado_livre"||typeof offer.url!=="string"||!/^https:\/\/meli\.la\/[A-Za-z0-9]+$/.test(offer.url)||["pending_new_link","out_of_stock"].includes(offer.availability))continue;
+    const alternative=make("a","pd-buy-cta","COMPRAR NO MERCADO LIVRE ↗");
+    alternative.href=offer.url;
+    alternative.target="_blank";
+    alternative.rel="noopener noreferrer sponsored nofollow";
+    alternative.setAttribute("aria-label","Comprar "+product.product_name+" no Mercado Livre, em nova aba");
+    alternative.style.marginTop="12px";
+    box.append(alternative);
+  }
+  box.append(make("p","pd-affiliate-note","Você será direcionado ao marketplace escolhido pelo link disponibilizado na Shop Fiel. Confira os preços e condições de cada anúncio."));
 }
 function checklist(product){
   const name=searchTerm(product.product_name);

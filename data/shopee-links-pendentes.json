@@ -316,7 +316,16 @@
         "./assets/produtos/SHP-006/08-detalhe-costas.webp"
       ],
       "photo_added_on": "2026-10-15",
-      "image_source_note": "Oito fotos fornecidas pelo responsável da Shop Fiel em 15/10/2026, convertidas em WebP para a galeria; conferir direito de uso e correspondência com a variante anunciada."
+      "image_source_note": "Oito fotos fornecidas pelo responsável da Shop Fiel em 15/10/2026, convertidas em WebP para a galeria; conferir direito de uso e correspondência com a variante anunciada.",
+      "additional_offers": [
+        {
+          "marketplace": "mercado_livre",
+          "url": "https://meli.la/2N5Lq2e",
+          "source_product_id": "ML-011",
+          "availability": "not_verified",
+          "mapping_confirmed_by_owner_on": "2026-10-16"
+        }
+      ]
     },
     {
       "id": "SHP-007",

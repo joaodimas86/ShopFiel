@@ -388,11 +388,14 @@
       "marketplace": "mercado_livre",
       "url": "https://meli.la/2N5Lq2e",
       "affiliate_link_verified": false,
-      "status": "pending_identification",
-      "product_name": null,
+      "status": "linked_to_existing_product",
+      "product_name": "Camisa Masculina Corinthians Preta Nike Total 90 com Detalhes Laranja",
       "product_image": null,
       "price_brl": null,
-      "verified_at": null
+      "verified_at": null,
+      "canonical_product_id": "SHP-006",
+      "notes": "Responsável confirmou ser o mesmo produto do SHP-006 e solicitou apenas botão Mercado Livre na página existente. Não criar ficha duplicada. Link curto original preservado.",
+      "mapping_confirmed_by_owner_on": "2026-10-16"
     },
     {
       "id": "ML-012",
