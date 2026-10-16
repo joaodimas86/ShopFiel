@@ -1203,7 +1203,14 @@
         "./assets/produtos/SHP-022/09-rosa-horizontal.webp"
       ],
       "photo_added_on": "2026-10-16",
-      "image_source_note": "Nove imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP na resolução original de 800 × 800 pixels. Capa com a opção preta; galeria com opções clara e rosa. Aparelhos e objetos de cenário não são apresentados como itens inclusos."
+      "image_source_note": "Nove imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP na resolução original de 800 × 800 pixels. Capa com a opção preta; galeria com opções clara e rosa. Aparelhos e objetos de cenário não são apresentados como itens inclusos.",
+      "price_snapshot": {
+        "amount_brl": 19.63,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço atual informado pelo responsável em conversa em 16/10/2026; condições de pagamento e variação não especificadas."
+      }
     },
     {
       "id": "SHP-023",

@@ -79,7 +79,8 @@ function snapshotDetails(product){
  if(qualifier==="menor preço da faixa")qualifier="menor valor entre variações";
  const wrap=make("div","shop-snapshot");
  wrap.append(make("strong","shop-snapshot-amount",money(amount)));
- const description=make("span","shop-snapshot-label","Valor visto em 15/10");
+ const observed=/^\d{4}-\d{2}-\d{2}$/.test(snapshot.observed_on||"")?snapshot.observed_on.slice(8,10)+"/"+snapshot.observed_on.slice(5,7):"15/10";
+ const description=make("span","shop-snapshot-label","Valor de referência em "+observed);
  if(qualifier)description.textContent+=" · "+qualifier;
  wrap.append(description);
  return wrap;
@@ -157,8 +158,8 @@ function selectCollection(category){
  heading.replaceChildren(document.createTextNode(selected.title+" "),make("span","",selected.accent));
  $("#collection-description").textContent=selected.description;
  $("#catalog-disclaimer").textContent=category==="camisas-atuais"?
- "Camisas com anúncios identificados na Shopee. Não representam necessariamente uniformes oficiais Nike 2026/27. Valores de 15/10/2026; confirme preço, estoque, tamanho e procedência na Shopee.":
- "Valores vistos em capturas de 15/10/2026, sujeitos a mudanças. O vendedor confirma preço, disponibilidade, tamanhos e autenticidade. Compra feita na Shopee.";
+ "Camisas com anúncios identificados na Shopee. Não representam necessariamente uniformes oficiais Nike 2026/27. Valores de referência; confirme preço, estoque, tamanho e procedência na Shopee.":
+ "Valores de referência datados nas fichas, sujeitos a mudanças. O vendedor confirma preço, disponibilidade, tamanhos e autenticidade. Compra feita na Shopee.";
  $$("[data-category-target]").forEach(a=>{
    const active=a.dataset.categoryTarget===category;
    a.classList.toggle("is-selected",active);

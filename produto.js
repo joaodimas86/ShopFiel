@@ -76,7 +76,8 @@ function priceBlock(product){
     box.append(make("span","pd-price-overline","REFERÊNCIA DE PREÇO · NÃO É VALOR AO VIVO"));
     box.append(make("strong","pd-price-value",money(amount)));
     const qualifier=snapshot.type|| (snapshot.pix_brl!==undefined?"Pix na captura":"");
-    box.append(make("small","pd-price-foot","Valor visto em 15/10/2026"+(qualifier?" · "+qualifier:"")+". Preço, cupons e frete podem mudar."));
+    const observed=/^\d{4}-\d{2}-\d{2}$/.test(snapshot.observed_on||"")?snapshot.observed_on.split("-").reverse().join("/"):"15/10/2026";
+    box.append(make("small","pd-price-foot","Valor de referência em "+observed+(qualifier?" · "+qualifier:"")+". Preço, cupons e frete podem mudar."));
   }else{
     box.append(make("span","pd-price-overline","CONSULTE O PREÇO ATUAL"));
     box.append(make("strong","pd-price-placeholder","VALOR NA SHOPEE"));
