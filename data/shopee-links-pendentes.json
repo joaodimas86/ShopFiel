@@ -883,8 +883,8 @@
       "url": "https://s.shopee.com.br/20wE1Bu40o",
       "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
-      "product_name": "Camiseta Gola Redonda Unissex Corinthians Versículo",
-      "product_image": null,
+      "product_name": "Camiseta Corinthians Unissex 100% Algodão com Estampa Dicionário",
+      "product_image": "./assets/produtos/SHP-017/01-camiseta-branca-estampa.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -911,12 +911,25 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Camiseta unissex com estampa que combina tema do Corinthians e versículo. Consulte a arte, a modelagem e as medidas na página do vendedor.",
+      "description": "Tem paixão que faz parte da nossa definição. A Camiseta Corinthians Unissex 100% Algodão com Estampa Dicionário transforma o nome do Timão em uma arte tipográfica para vestir o orgulho de ser Fiel. Na foto, a peça branca traz lettering preto em formato de verbete, combinando com jeans, bermuda e looks casuais para acompanhar o jogo ou encontrar os amigos. Segundo a descrição do vendedor, o modelo tem gola redonda, tecido 100% algodão e impressão DTF. A modelagem é tradicional, de tamanho padrão, e não oversized. O anúncio informa opções adultas, infantis e plus size; compare as medidas com uma camiseta sua antes de selecionar a variação na Shopee. Uma opção de presente para corinthianos que preferem uma estampa discreta e cheia de significado.",
       "highlights": [
-        "Uma opção para levar o Corinthians ao dia a dia.",
-        "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
+        "Composição informada pelo vendedor: 100% algodão. Estampa produzida por impressão DTF.",
+        "Gola redonda e modelagem tradicional unissex, em tamanho padrão; não é oversized.",
+        "A foto apresenta a versão branca com estampa preta em formato de dicionário. Confira as cores disponíveis no anúncio.",
+        "Adulto — altura × largura: P 67 × 47 cm; M 69 × 49 cm; G 71 × 51 cm; GG 73 × 56 cm.",
+        "Infantil — altura × largura: 10 52 × 38 cm; 12 55 × 41 cm; 14 58 × 44 cm.",
+        "Plus size — altura × largura: G1 78 × 59 cm; G2 82 × 60 cm; G3 85 × 65 cm; G4 85 × 69 cm; G5 87 × 71 cm. Mangas de G4 e G5: 22 cm, conforme a tabela enviada.",
+        "As medidas podem variar até 2 cm para mais ou para menos. Meça uma peça sua esticada sobre uma mesa para comparar.",
+        "O vendedor informa possibilidade de encolhimento de até 5% após a primeira lavagem. Siga as instruções de conservação da peça.",
+        "Para comprar cores ou tamanhos diferentes, selecione cada combinação e adicione separadamente ao carrinho da Shopee.",
+        "A imagem é ilustrativa; a tonalidade pode variar conforme a tela. Consulte estoque, preço, prazo e variações atuais com o vendedor."
       ],
-      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado na foto e na descrição fornecidas pelo responsável em 16/10/2026. O nome editorial foi ajustado para estampa em formato de dicionário, conforme a imagem, em lugar da referência anterior a versículo. Composição, DTF, modelagem, medidas e encolhimento são informações do vendedor. Promessas absolutas de não encolher, não desbotar, estampa não rachar, qualidade superior e entrega antecipada não foram reproduzidas.",
+      "images": [
+        "./assets/produtos/SHP-017/01-camiseta-branca-estampa.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Uma foto fornecida pelo responsável em 16/10/2026 e otimizada em WebP na resolução original de 930 × 930 pixels. Capa e imagem do produto com a camiseta branca dobrada e sua estampa tipográfica."
     },
     {
       "id": "SHP-018",
