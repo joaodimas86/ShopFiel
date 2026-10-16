@@ -324,26 +324,18 @@
       "url": "https://s.shopee.com.br/7ptv923tBM",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
-      "product_name": "Camisa Polo Corinthians CP Retrô Torcedora Feminina",
-      "product_image": null,
+      "product_name": "Camisa Polo Feminina Corinthians CP Retrô – Creme e Preta",
+      "product_image": "./assets/produtos/SHP-007/01-modelo-frente.webp",
       "price_brl": null,
       "verified_at": null,
-      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine. Fotos e descrição editorial aprovadas em 16/10/2026. O preço histórico da captura foi movido para historical_price_snapshot: exibir consulta na Shopee, não um preço fixo. A peça não deve ser anunciada como oficial/licenciada sem confirmação.",
       "seller_product_id": "23598070713",
       "seller_shop_id": "698219490",
       "metadata_source": "URL longa do anúncio enviada pelo responsável em 2026-10-15",
       "identification_pending": true,
       "category_id": "historicas",
       "listing_title_verified_at": "2026-10-15",
-      "price_snapshot": {
-        "amount_brl": 175.66,
-        "type": "Pix",
-        "other_amount_brl": 184.9,
-        "other_type": "outros métodos",
-        "observed_on": "2026-10-15",
-        "live_price": false,
-        "source": "print do anúncio enviado pelo responsável"
-      },
+      "price_snapshot": null,
       "rating_snapshot": {
         "rating": 4.9,
         "review_count": 127,
@@ -354,12 +346,37 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Polo feminina de estilo retrô, com identidade corinthiana. Uma alternativa à camiseta tradicional para compor um visual de torcedora no dia a dia.",
+      "description": "A TRADIÇÃO DO TIMÃO NUNCA SAI DE MODA. Para quem carrega o Corinthians no coração e gosta de um visual cheio de personalidade, a Camisa Polo Feminina Corinthians CP Retrô combina inspiração clássica e estilo contemporâneo. Com sua tonalidade creme, gola preta contrastante, detalhes laterais escuros e o monograma CP no peito, a peça traz uma releitura elegante da identidade corinthiana. Uma opção para quem quer demonstrar a paixão pelo Timão além dos dias de jogo, seja em um passeio, encontro com amigos ou na rotina. Porque ser Fiel também é uma questão de estilo. Confira as sete fotos e consulte na Shopee os tamanhos, a composição do tecido, as instruções de lavagem, a procedência e a disponibilidade.",
       "highlights": [
-        "Visual inspirado em referências históricas e no estilo retrô.",
-        "Confira composição, numeração e detalhes da peça na Shopee."
+        "Modelo feminino em tom creme, com gola polo preta, acabamento em V e mangas curtas.",
+        "Monograma CP no peito e inscrição CORINTHIANS na parte superior das costas.",
+        "Laterais pretas em contraste com o corpo da camisa.",
+        "Galeria com sete imagens da frente, costas, caimento e detalhes do produto.",
+        "Consulte no anúncio a composição, tabela de medidas, cuidados de lavagem, preço e disponibilidade."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto original preparado para a Fiel Shop, aprovado pelo responsável em 16/10/2026 e fundamentado nas sete fotos enviadas; tecido, licenciamento e estoque não verificados.",
+      "images": [
+        "./assets/produtos/SHP-007/01-modelo-frente.webp",
+        "./assets/produtos/SHP-007/02-modelo-meio-corpo.webp",
+        "./assets/produtos/SHP-007/03-modelo-detalhe.webp",
+        "./assets/produtos/SHP-007/04-visual-completo.webp",
+        "./assets/produtos/SHP-007/05-detalhe-monograma.webp",
+        "./assets/produtos/SHP-007/06-costas-modelo.webp",
+        "./assets/produtos/SHP-007/07-costas.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Sete imagens originais enviadas diretamente pelo responsável da Fiel Shop em 16/10/2026. Correspondência com as cores, variações e procedência do anúncio deve ser confirmada com o vendedor.",
+      "meta_title": "Camisa Polo Feminina Corinthians CP Retrô Creme e Preta | Fiel Shop",
+      "meta_description": "Conheça a camisa polo feminina Corinthians CP retrô em creme e preto. Gola contrastante, monograma no peito e sete fotos. Veja na Fiel Shop.",
+      "historical_price_snapshot": {
+        "amount_brl": 175.66,
+        "type": "Pix",
+        "other_amount_brl": 184.9,
+        "other_type": "outros métodos",
+        "observed_on": "2026-10-15",
+        "live_price": false,
+        "source": "print do anúncio enviado pelo responsável"
+      }
     },
     {
       "id": "SHP-008",

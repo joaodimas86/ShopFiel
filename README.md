@@ -24,11 +24,12 @@ Vitrine **independente** para torcedores do Corinthians, publicada em [GitHub Pa
 - Exemplo: `produto.html?id=SHP-002` apresenta a galeria com 5 fotos, as informações e o botão externo utilizando **exatamente** a URL curta de `links[].url`. O SHP-003 mostra 7 fotos mas mantém a compra desabilitada enquanto aguarda um novo link.
 - **Como editar a descrição:** no arquivo `data/shopee-links-pendentes.json`, encontre o produto pelo `id` e atualize `description` (parágrafo principal) e `highlights` (lista de destaques). Nome, categoria e preço de referência continuam em seus campos existentes.
 - As 25 fichas já receberam texto editorial inicial, sem presumir estoque, material, licenciamento ou autenticidade não comprovados.
-- **Fotos reais integradas para SHP-001 (6), SHP-002 (5), SHP-003 (7), SHP-004 (7), SHP-005 (5) e SHP-006 (8)**, hospedadas em `assets/produtos/SHP-XXX/`. A vitrine mostra a imagem principal e as páginas de detalhe mostram miniaturas clicáveis. Outros produtos continuam com ilustrações genéricas, até envio e conferência de suas fotografias.
+- **Fotos reais integradas para SHP-001 (6), SHP-002 (5), SHP-003 (7), SHP-004 (7), SHP-005 (5), SHP-006 (8) e SHP-007 (7)**, hospedadas em `assets/produtos/SHP-XXX/`. A vitrine mostra a imagem principal e as páginas de detalhe mostram miniaturas clicáveis. Outros produtos continuam com ilustrações genéricas, até envio e conferência de suas fotografias.
 - Se o ID não existir ou o JSON estiver indisponível, a página mostra um aviso e caminho para retornar à loja.
 - O link de retorno para a coleção usa `?categoria=historicas#mantos` (ou a categoria do item) para restaurar a navegação. Produtos em destaque na seção Camisas passam também `&colecao=camisas-atuais` na página individual, de modo que o retorno volte para a seção de origem.
 
 
+- **SHP-007:** polo feminina Corinthians CP retrô creme e preta, sete fotos enviadas pelo responsável em 16/10/2026; descrição editorial SEO aprovada; preço atual não verificado e consultar na Shopee. Link curto de afiliado preservado.
 - **SHP-006:** título editorial fornecido pelo responsável: “Camisa Masculina Corinthians Preta Nike Total 90 com Detalhes Laranja”. Oito imagens reais foram enviadas para sua galeria; a capa é a frente recortada. O anúncio anteriormente identificado mencionava “azul”, então é necessário conferir a variante preta/laranja no destino antes da compra. O link encurtado principal e eventual alternativo foram preservados. O nome Nike/Total 90 descreve a apresentação visual, sem comprovação de licenciamento/autenticidade.
 
 ## Política de dados de anúncios

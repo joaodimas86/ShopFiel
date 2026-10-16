@@ -49,6 +49,15 @@
       "assets/produtos/SHP-006/06-etiqueta.webp",
       "assets/produtos/SHP-006/07-costas.webp",
       "assets/produtos/SHP-006/08-detalhe-costas.webp"
+    ],
+    "SHP-007": [
+      "assets/produtos/SHP-007/01-modelo-frente.webp",
+      "assets/produtos/SHP-007/02-modelo-meio-corpo.webp",
+      "assets/produtos/SHP-007/03-modelo-detalhe.webp",
+      "assets/produtos/SHP-007/04-visual-completo.webp",
+      "assets/produtos/SHP-007/05-detalhe-monograma.webp",
+      "assets/produtos/SHP-007/06-costas-modelo.webp",
+      "assets/produtos/SHP-007/07-costas.webp"
     ]
   },
   "failed": []
