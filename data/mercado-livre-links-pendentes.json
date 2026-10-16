@@ -346,11 +346,42 @@
       "marketplace": "mercado_livre",
       "url": "https://meli.la/1PoFi5Y",
       "affiliate_link_verified": false,
-      "status": "pending_identification",
-      "product_name": null,
-      "product_image": null,
+      "status": "identified",
+      "product_name": "Camisa Corinthians Retrô Preta Topper Pepsi Masculina",
+      "product_image": "./assets/produtos/ML-010/01-modelo-frente.webp",
       "price_brl": null,
-      "verified_at": null
+      "verified_at": null,
+      "category_id": "historicas",
+      "availability": "not_verified",
+      "description": "Tem camisa que basta olhar para lembrar da torcida, dos jogos e das histórias contadas entre amigos. A Camisa Corinthians Retrô Preta Topper Pepsi Masculina traz essa memória para o guarda-roupa, com corpo preto, recortes brancos e escudo central em destaque. A marca Topper acima do escudo, a inscrição Pepsi no peito e nas costas e os detalhes nas mangas compõem o visual de inspiração nos anos 2000 apresentado no anúncio. Com mangas curtas, gola redonda e costas sem número nas fotos, a peça combina com jeans, bermuda e a vontade de vestir o Timão em qualquer dia da semana. Uma opção para acompanhar os jogos, presentear um corinthiano ou ampliar uma coleção de camisas retrô. Confira a composição, a tabela de medidas e a procedência no Mercado Livre antes de escolher seu tamanho.",
+      "highlights": [
+        "Camisa retrô masculina preta, com recortes brancos e gola redonda, conforme as imagens.",
+        "Escudo do Corinthians centralizado, com estrelas acima e marca Topper no peito.",
+        "Patrocínio Pepsi na frente, nas costas e nas mangas, conforme as fotos enviadas.",
+        "Mangas curtas e costas sem número na versão apresentada.",
+        "Modelo anunciado como inspirado nos anos 2000; não se atribui temporada exata ou fabricação naquela época.",
+        "Tecido descrito pelo vendedor como leve e confortável. A composição não foi informada; confira a etiqueta e as especificações do anúncio.",
+        "Galeria com frente no modelo, peça no cabide, escudo, manga e duas vistas das costas.",
+        "Produto informado como novo. Consulte medidas, conservação, disponibilidade e condições atuais no Mercado Livre; licenciamento e autenticidade não foram verificados de forma independente."
+      ],
+      "price_snapshot": {
+        "amount_brl": 155,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em 16/10/2026; condições de pagamento não especificadas."
+      },
+      "description_source": "Texto editorial original baseado nas sete imagens e na descrição fornecidas pelo responsável em 16/10/2026. Inspiração nos anos 2000, condição nova e características de conforto são informações do vendedor. Marca Topper e patrocínio Pepsi descrevem o visual das fotos, sem comprovação independente de autenticidade ou licenciamento. Não se afirma composição ou temporada exata.",
+      "images": [
+        "./assets/produtos/ML-010/01-modelo-frente.webp",
+        "./assets/produtos/ML-010/02-frente-cabide.webp",
+        "./assets/produtos/ML-010/03-escudo-topper.webp",
+        "./assets/produtos/ML-010/04-manga-pepsi.webp",
+        "./assets/produtos/ML-010/05-costas-detalhe.webp",
+        "./assets/produtos/ML-010/06-costas-completa.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Sete anexos recebidos, sendo a última foto das costas repetida. Seis imagens usadas na galeria e otimizadas em WebP sem ampliação. Capa com vista frontal no modelo."
     },
     {
       "id": "ML-011",
@@ -386,5 +417,5 @@
       "verified_at": null
     }
   ],
-  "identified_count": 8
+  "identified_count": 9
 }
