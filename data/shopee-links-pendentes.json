@@ -666,8 +666,8 @@
       "url": "https://s.shopee.com.br/6AlhAGpUtX",
       "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
-      "product_name": "Capinha Anti-impacto Corinthians para Samsung — Diversos Modelos",
-      "product_image": null,
+      "product_name": "Capinha Corinthians para Samsung em TPU Flexível com Impressão UV",
+      "product_image": "./assets/produtos/SHP-013/01-escudo-branco.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -694,12 +694,26 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Capinha com tema do Corinthians anunciada para diversos modelos Samsung. Antes da compra, escolha no anúncio a versão compatível com o seu aparelho.",
+      "description": "A paixão pelo Timão acompanha você em cada mensagem, foto e dia de jogo. A Capinha Corinthians para Samsung em TPU Flexível com Impressão UV leva a identidade da Fiel para o celular, com opções de estampa que destacam o escudo em branco ou uma composição escura com grafismos. Segundo a descrição fornecida do anúncio, a capa é feita em TPU flexível e possui borda elevada ao redor da câmera, pensada para ajudar a reduzir o contato das lentes com superfícies. Uma opção para personalizar o aparelho ou presentear quem gosta de carregar o Corinthians por perto. O catálogo identifica esta oferta para diversos modelos Samsung: selecione a versão exata do seu celular no anúncio da Shopee antes de comprar. As fotos ilustram as estampas; o formato da capa e os recortes de câmera variam conforme o aparelho.",
       "highlights": [
-        "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
-        "Consulte medidas, características e itens inclusos no anúncio."
+        "Capinha com tema Corinthians e opções de estampa com o escudo em branco ou em composição escura, conforme as fotos.",
+        "Material informado na descrição do anúncio: TPU flexível com impressão UV.",
+        "Borda elevada ao redor da câmera, conforme informado pelo vendedor; não implica película ou vidro protetor de lente separado.",
+        "Oferta identificada no catálogo para diversos modelos Samsung. Confirme seu modelo exato entre as variações disponíveis na Shopee.",
+        "As imagens apresentam recortes de outro aparelho para ilustrar as estampas. Não use as fotos como confirmação de compatibilidade; confira o formato da versão escolhida.",
+        "As fotos com duas capas mostram exemplos de estampas e não comprovam a venda de um kit. Confira quantidade e itens inclusos no anúncio.",
+        "A capa pode ajudar a proteger o aparelho no uso cotidiano, mas não garante proteção contra toda queda, impacto ou arranhão."
       ],
-      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado nas cinco fotos e na descrição fornecidas pelo responsável em 16/10/2026, preservando a identificação prévia do anúncio como Samsung. As fotos mostram configuração de câmera de outro aparelho e são tratadas como referência de estampas. TPU, impressão UV e borda elevada são informações da descrição fornecida. Não foram verificadas resistência a água, desbotamento, quedas, marcas de dedo ou licenciamento.",
+      "images": [
+        "./assets/produtos/SHP-013/01-escudo-branco.webp",
+        "./assets/produtos/SHP-013/02-duas-estampas.webp",
+        "./assets/produtos/SHP-013/03-escudo-embalagem.webp",
+        "./assets/produtos/SHP-013/04-estampa-preta.webp",
+        "./assets/produtos/SHP-013/05-estampa-detalhe.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Cinco fotos fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP, preservando a resolução original de 450 × 450 pixels. Capa com escudo branco. Imagens ilustram estampas; compatibilidade, recortes e quantidade devem ser conferidos na variante do anúncio."
     },
     {
       "id": "SHP-014",
