@@ -1280,7 +1280,7 @@
       "product_image": "./assets/produtos/SHP-024/01-pai-filho-frente.webp",
       "price_brl": null,
       "verified_at": null,
-      "notes": "Identificado via captura; preço não confirmado. Usar URL curta original do afiliado.",
+      "notes": "Identificado via captura e atualizado com fotos e descrição enviadas pelo responsável. Preço de referência de R$ 122,47 informado em 16/10/2026. Usar URL curta original do afiliado.",
       "category_id": "casuais",
       "seller_shop_id": "1316691667",
       "seller_product_id": "23993549670",
@@ -1307,7 +1307,14 @@
         "./assets/produtos/SHP-024/04-infantil-frente-costas.webp"
       ],
       "photo_added_on": "2026-10-16",
-      "image_source_note": "Quatro imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP sem ampliar a resolução original. Capa com pai e filho juntos; galeria com vista das costas e apresentação das peças adulta e infantil."
+      "image_source_note": "Quatro imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP sem ampliar a resolução original. Capa com pai e filho juntos; galeria com vista das costas e apresentação das peças adulta e infantil.",
+      "price_snapshot": {
+        "amount_brl": 122.47,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em conversa em 16/10/2026; condições de pagamento e variação não especificadas."
+      }
     },
     {
       "id": "SHP-025",
