@@ -145,11 +145,41 @@
       "marketplace": "mercado_livre",
       "url": "https://meli.la/1dRFr4m",
       "affiliate_link_verified": false,
-      "status": "pending_identification",
-      "product_name": null,
-      "product_image": null,
+      "status": "identified",
+      "product_name": "Camisa Retrô Corinthians 1998 Masculina DDD Embratel Branca",
+      "product_image": "./assets/produtos/ML-005/01-camisa-frente.webp",
       "price_brl": null,
-      "verified_at": null
+      "verified_at": null,
+      "category_id": "historicas",
+      "availability": "not_verified",
+      "description": "Há detalhes que fazem uma geração inteira voltar a torcer como naquele tempo. A Camisa Retrô Corinthians 1998 Masculina DDD Embratel Branca resgata a identidade alvinegra do fim dos anos 1990, com o patrocínio em destaque no peito e nas costas, escudo aplicado em patch e faixas pretas nos ombros e nas mangas. A gola polo com abertura em V completa o visual clássico de uma peça pensada para quem gosta de vestir as memórias do Timão. Para acompanhar o jogo, encontrar amigos ou presentear um colecionador de camisas retrô, o modelo leva essa inspiração ao look casual. Segundo a descrição do vendedor, a composição é 100% poliéster, com modelagem masculina e mangas curtas, e o produto é apresentado como oficial licenciado. Confira a tabela de medidas, a identificação de procedência e as condições atuais no Mercado Livre.",
+      "highlights": [
+        "Camisa retrô masculina inspirada no modelo Corinthians 1998, conforme a identificação do anúncio.",
+        "Cor branca com detalhes pretos, patrocínio DDD Embratel na frente e nas costas e detalhe Edição Retrô 1998 na manga, conforme as fotos.",
+        "Composição informada pelo vendedor: 100% poliéster.",
+        "Gola polo com abertura em V, mangas curtas e escudo aplicado em patch, conforme a descrição fornecida.",
+        "Conteúdo informado: 1 camiseta. Outras peças e acessórios dos looks não são apresentados como inclusos.",
+        "Produto descrito pelo vendedor como oficial licenciado. Confira identificação, etiqueta e procedência no anúncio.",
+        "Compare a tabela de medidas com uma peça sua antes de escolher o tamanho e siga as instruções de conservação da etiqueta.",
+        "Cores podem variar conforme a tela. Consulte estoque, prazo de entrega e condições de compra atuais no Mercado Livre."
+      ],
+      "description_source": "Texto editorial original baseado nas cinco fotos e na descrição fornecidas pelo responsável em 16/10/2026. Temporada de referência, composição, modelagem, patch e licenciamento são informações do anúncio; não houve verificação independente da autenticidade ou de desempenho do tecido. Não se reproduzem promessas de caimento perfeito, qualidade superior ou atendimento como se fossem serviços da Shop Fiel.",
+      "images": [
+        "./assets/produtos/ML-005/01-camisa-frente.webp",
+        "./assets/produtos/ML-005/02-modelo-frente.webp",
+        "./assets/produtos/ML-005/03-costas.webp",
+        "./assets/produtos/ML-005/04-detalhes-mangas.webp",
+        "./assets/produtos/ML-005/05-look-casual.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Cinco imagens fornecidas pelo responsável e otimizadas em WebP sem ampliação. Capa frontal da camisa; galeria com modelo, costas, detalhes das mangas e look casual.",
+      "price_snapshot": {
+        "amount_brl": 164.88,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em 16/10/2026; condições de pagamento não especificadas."
+      }
     },
     {
       "id": "ML-006",
@@ -240,5 +270,5 @@
       "verified_at": null
     }
   ],
-  "identified_count": 3
+  "identified_count": 4
 }
