@@ -8,7 +8,7 @@ const make = (tag,klass,value) => {
   if(value!==undefined)element.textContent=value;
   return element;
 };
-const affiliateUrl = url => typeof url==="string"&&/^https:\/\/s\.shopee\.com\.br\/[A-Za-z0-9]+(?:\?share_channel_code=1)?$/.test(url);
+const affiliateUrl = url => typeof url==="string"&&/^https:\/\/(?:s\.shopee\.com\.br\/[A-Za-z0-9]+(?:\?share_channel_code=1)?|meli\.la\/[A-Za-z0-9]+)$/.test(url);
 const money = n => Number(n).toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
 const searchTerm = text => String(text||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 const isIdentified = product => product&&product.status==="identified"&&product.product_name&&affiliateUrl(product.url);
@@ -22,7 +22,7 @@ const collections={
 };
 
 function productVisual(product,season){
- const photos=Array.isArray(product.images)?product.images.filter(src=>typeof src==="string"&&/^\.\/assets\/produtos\/SHP-\d{3}\/[A-Za-z0-9_-]+\.webp$/.test(src)):[];
+ const photos=Array.isArray(product.images)?product.images.filter(src=>typeof src==="string"&&/^\.\/assets\/produtos\/(?:SHP|ML)-\d{3}\/[A-Za-z0-9_-]+\.webp$/.test(src)):[];
  if(photos.length){
    const art=make("div","shop-visual shop-visual-photo");
    const img=make("img","shop-product-image");
@@ -93,7 +93,7 @@ function actualProductCard(product){
  card.setAttribute("aria-label","Ver detalhes de "+product.product_name);
  const media=make("div","shop-card-media");
  media.append(productVisual(product,false));
- media.append(make("span","shop-card-badge",out?"ESGOTADO NA CAPTURA":product.availability==="pending_new_link"?"LINK EM ATUALIZAÇÃO":"SHOPEE"));
+ media.append(make("span","shop-card-badge",out?"ESGOTADO NA CAPTURA":product.availability==="pending_new_link"?"LINK EM ATUALIZAÇÃO":product.marketplace==="mercado_livre"?"MERCADO LIVRE":"SHOPEE"));
  const body=make("div","shop-card-body");
  body.append(make("span","shop-card-eyebrow",product.id+" · "+(collections[product.category_id]?.title||"SHOP FIEL")));
  body.append(make("h3","shop-card-title",product.product_name));
@@ -159,7 +159,7 @@ function selectCollection(category){
  $("#collection-description").textContent=selected.description;
  $("#catalog-disclaimer").textContent=category==="camisas-atuais"?
  "Camisas com anúncios identificados na Shopee. Não representam necessariamente uniformes oficiais Nike 2026/27. Valores de referência; confirme preço, estoque, tamanho e procedência na Shopee.":
- "Valores de referência datados nas fichas, sujeitos a mudanças. O vendedor confirma preço, disponibilidade, tamanhos e autenticidade. Compra feita na Shopee.";
+ "Valores de referência datados nas fichas, sujeitos a mudanças. O vendedor confirma preço, disponibilidade, tamanhos e autenticidade. Compra feita no marketplace indicado.";
  $$("[data-category-target]").forEach(a=>{
    const active=a.dataset.categoryTarget===category;
    a.classList.toggle("is-selected",active);
@@ -188,10 +188,8 @@ $("#year").textContent=new Date().getFullYear();
 
 async function init(){
  try{
-   const response=await fetch("./data/shopee-links-pendentes.json",{cache:"no-store"});
-   if(!response.ok)throw Error("Não foi possível carregar o catálogo Shopee.");
-   const catalog=await response.json();
-   state.items=(catalog.links||[]).filter(isIdentified);
+   const payloads=await Promise.all(["./data/shopee-links-pendentes.json","./data/mercado-livre-links-pendentes.json"].map(async path=>{const response=await fetch(path,{cache:"no-store"});if(!response.ok)throw Error("Não foi possível carregar o catálogo.");return response.json();}));
+   state.items=payloads.flatMap(catalog=>catalog.links||[]).filter(isIdentified);
    state.loaded=true;
    updateCategoryCounts();
    const requestedCategory=new URLSearchParams(window.location.search).get("categoria");

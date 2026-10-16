@@ -8,7 +8,7 @@ const make = (tag,klass,value) => {
   return element;
 };
 const searchTerm = text => String(text||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
-const affiliateUrl = url => typeof url==="string" && /^https:\/\/s\.shopee\.com\.br\/[A-Za-z0-9]+(?:\?share_channel_code=1)?$/.test(url);
+const affiliateUrl = url => typeof url==="string"&&/^https:\/\/(?:s\.shopee\.com\.br\/[A-Za-z0-9]+(?:\?share_channel_code=1)?|meli\.la\/[A-Za-z0-9]+)$/.test(url);
 const money = n => Number(n).toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
 const categories={
   "casuais":"Moda Casual",
@@ -80,7 +80,7 @@ function priceBlock(product){
     box.append(make("small","pd-price-foot","Valor de referência em "+observed+(qualifier?" · "+qualifier:"")+". Preço, cupons e frete podem mudar."));
   }else{
     box.append(make("span","pd-price-overline","CONSULTE O PREÇO ATUAL"));
-    box.append(make("strong","pd-price-placeholder","VALOR NA SHOPEE"));
+    box.append(make("strong","pd-price-placeholder","CONSULTE O ANÚNCIO"));
     box.append(make("small","pd-price-foot","O vendedor informa o preço e as condições atualizadas."));
   }
 }
@@ -101,13 +101,14 @@ function buyBlock(product){
     box.append(make("div","pd-buy-disabled","LINK DE COMPRA EM CONFERÊNCIA"));
     return;
   }
-  const link=make("a","pd-buy-cta","COMPRAR NA SHOPEE ↗");
+  const marketplace=product.marketplace==="mercado_livre"?"Mercado Livre":"Shopee";
+  const link=make("a","pd-buy-cta","COMPRAR "+(marketplace==="Shopee"?"NO MARKETPLACE":"NO MERCADO LIVRE")+" ↗");
   link.href=product.url;
   link.target="_blank";
   link.rel="noopener noreferrer sponsored nofollow";
-  link.setAttribute("aria-label","Comprar "+product.product_name+" na Shopee, em nova aba");
+  link.setAttribute("aria-label","Comprar "+product.product_name+" no "+marketplace+", em nova aba");
   box.append(link);
-  box.append(make("p","pd-affiliate-note","Você será direcionado à Shopee pelo link de indicação da Shop Fiel."));
+  box.append(make("p","pd-affiliate-note","Você será direcionado ao "+marketplace+" pelo link disponibilizado na Shop Fiel."));
 }
 function checklist(product){
   const name=searchTerm(product.product_name);
@@ -151,7 +152,7 @@ function showError(message){
   $("#pd-detail").hidden=true;
 }
 function productPhotos(product){
- return Array.isArray(product.images)?product.images.filter(src=>typeof src==="string"&&/^\.\/assets\/produtos\/SHP-\d{3}\/[A-Za-z0-9_-]+\.webp$/.test(src)):[];
+ return Array.isArray(product.images)?product.images.filter(src=>typeof src==="string"&&/^\.\/assets\/produtos\/(?:SHP|ML)-\d{3}\/[A-Za-z0-9_-]+\.webp$/.test(src)):[];
 }
 
 function renderGallery(product){
@@ -164,7 +165,7 @@ function renderGallery(product){
  const cap1=$("#pd-gallery-caption-main");
  const cap2=$("#pd-gallery-caption-sub");
  if(cap1)cap1.textContent=photos.length?"FOTOS DO PRODUTO":"IMAGEM ILUSTRATIVA";
- if(cap2)cap2.textContent=photos.length?"CONFIRA CARACTERÍSTICAS E DISPONIBILIDADE NA SHOPEE":"CONFIRA AS FOTOS REAIS NA SHOPEE";
+ if(cap2)cap2.textContent=photos.length?"CONFIRA CARACTERÍSTICAS E DISPONIBILIDADE NO MARKETPLACE":"CONFIRA AS FOTOS REAIS NO MARKETPLACE";
  if(!photos.length)return;
  photos.forEach((src,i)=>{
    const thumb=make("button","pd-thumb"+(i===0?" is-active":""));
@@ -203,9 +204,9 @@ function renderProduct(product,allProducts){
   breadcrumb.textContent=category;
   breadcrumb.href=categoryLink;
   $("#pd-breadcrumb-current").textContent=product.product_name;
-  $("#pd-eyebrow").textContent=product.id+" · "+category.toUpperCase()+" · SHOPEE";
+  $("#pd-eyebrow").textContent=product.id+" · "+category.toUpperCase()+" · "+(product.marketplace==="mercado_livre"?"MERCADO LIVRE":"SHOPEE");
   $("#pd-title").textContent=product.product_name;
-  $("#pd-summary").textContent=product.description||"Um produto selecionado pela Shop Fiel. Confira informações e variações no anúncio da Shopee.";
+  $("#pd-summary").textContent=product.description||"Um produto selecionado pela Shop Fiel. Confira informações e variações no anúncio do vendedor.";
   $("#pd-long-description").textContent=product.description||"Produto disponível para consulta no anúncio do vendedor.";
   const highlights=$("#pd-highlights");
   highlights.replaceChildren();
@@ -226,15 +227,13 @@ function renderProduct(product,allProducts){
 }
 async function init(){
   const id=new URLSearchParams(window.location.search).get("id");
-  if(!id||!/^SHP-\d{3}$/.test(id)){
+  if(!id||!/^(?:SHP|ML)-\d{3}$/.test(id)){
     showError("Produto não encontrado. Volte à vitrine e escolha um item.");
     return;
   }
   try{
-    const response=await fetch("./data/shopee-links-pendentes.json",{cache:"no-store"});
-    if(!response.ok)throw Error("Não foi possível carregar o catálogo.");
-    const payload=await response.json();
-    const products=Array.isArray(payload.links)?payload.links:[];
+    const payloads=await Promise.all(["./data/shopee-links-pendentes.json","./data/mercado-livre-links-pendentes.json"].map(async path=>{const response=await fetch(path,{cache:"no-store"});if(!response.ok)throw Error("Não foi possível carregar o catálogo.");return response.json();}));
+    const products=payloads.flatMap(payload=>Array.isArray(payload.links)?payload.links:[]);
     const product=products.find(p=>p.id===id&&p.status==="identified"&&p.product_name&&affiliateUrl(p.url));
     if(!product){showError("Este produto não está disponível na vitrine no momento.");return;}
     renderProduct(product,products);

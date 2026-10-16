@@ -11,11 +11,40 @@
       "marketplace": "mercado_livre",
       "url": "https://meli.la/1kzhf3G",
       "affiliate_link_verified": false,
-      "status": "pending_identification",
-      "product_name": null,
-      "product_image": null,
+      "status": "identified",
+      "product_name": "Miniatura Neo Química Arena com LED em Impressão 3D PLA",
+      "product_image": "./assets/produtos/ML-001/01-arena-led.webp",
       "price_brl": null,
-      "verified_at": null
+      "verified_at": null,
+      "category_id": "souvenirs",
+      "availability": "not_verified",
+      "description": "O lugar de tantos encontros com a Fiel, agora no seu cantinho corinthiano. A Miniatura Neo Química Arena com LED em Impressão 3D PLA reproduz o estádio do Corinthians em uma peça decorativa para a mesa de trabalho, a estante ou a sala gamer. A iluminação destaca o campo e as arquibancadas, criando um ponto de atenção na decoração e uma ideia de presente para quem vive a torcida pelo Timão. Segundo a descrição fornecida, a miniatura é produzida artesanalmente em PLA, nas cores branca e preta, com fita de LED e botão de liga e desliga. A embalagem contém uma miniatura e uma fonte de energia. Confira no Mercado Livre as dimensões, a voltagem da fonte e as condições atuais da oferta antes da compra.",
+      "highlights": [
+        "Miniatura decorativa da Neo Química Arena, produzida em impressão 3D, conforme a descrição enviada.",
+        "Material informado: PLA. Apresentação em branco e preto, com detalhes do estádio e do campo.",
+        "Iluminação por fita de LED com botão de liga e desliga, conforme o anúncio.",
+        "Conteúdo informado: 1 miniatura do estádio e 1 fonte de energia. Consulte dimensões e especificações elétricas com o vendedor.",
+        "Uma opção de decoração para escritório, quarto, estante ou sala gamer e de presente para torcedores do Corinthians.",
+        "Produto decorativo, não é brinquedo. Pequenas marcas da impressão 3D fazem parte do processo artesanal.",
+        "Fotos ambientadas ilustram sugestões de uso e não comprovam escala ou dimensões exatas. Cores podem variar conforme a tela."
+      ],
+      "price_snapshot": {
+        "amount_brl": 237.5,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em 16/10/2026; condições de pagamento não especificadas."
+      },
+      "description_source": "Texto original baseado nas cinco imagens e descrição fornecidas pelo responsável em 16/10/2026. Não se afirma licenciamento oficial, dimensão não informada ou verificação independente do desempenho elétrico.",
+      "photo_added_on": "2026-10-16",
+      "images": [
+        "./assets/produtos/ML-001/01-arena-led.webp",
+        "./assets/produtos/ML-001/02-vista-superior.webp",
+        "./assets/produtos/ML-001/03-ambiente.webp",
+        "./assets/produtos/ML-001/04-apresentacao.webp",
+        "./assets/produtos/ML-001/05-arena-angulo.webp"
+      ],
+      "image_source_note": "Cinco imagens fornecidas pelo responsável em 16/10/2026 e convertidas para WebP sem ampliação. Fotos ambientadas são ilustrativas; capa com a miniatura iluminada."
     },
     {
       "id": "ML-002",
@@ -149,5 +178,6 @@
       "price_brl": null,
       "verified_at": null
     }
-  ]
+  ],
+  "identified_count": 1
 }
