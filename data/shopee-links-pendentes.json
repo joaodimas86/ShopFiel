@@ -772,8 +772,8 @@
       "url": "https://s.shopee.com.br/3qNqTn3iVy",
       "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
-      "product_name": "Kit Camiseta Retrô Corinthians 1914 Tricô Edição Limitada",
-      "product_image": null,
+      "product_name": "Kit Camisa Retrô Corinthians 1914 em Tricô Off-White de Manga Longa",
+      "product_image": "./assets/produtos/SHP-015/01-modelo-detalhes.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -800,12 +800,26 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Kit de camiseta com referência a 1914, apresentado como retrô em tricô e edição limitada pelo vendedor. Consulte o conteúdo do kit e as opções de tamanho no anúncio.",
+      "description": "Antes das grandes coleções de troféus, houve uma conquista que abriu o caminho. O Kit Camisa Retrô Corinthians 1914 em Tricô Off-White de Manga Longa homenageia o ano do primeiro título paulista do Timão e leva essa memória para o guarda-roupa da Fiel. A peça combina o tom off-white com gola, punhos e barra em preto, além de amarração no peito e emblema de inspiração histórica. O resultado é um visual retrô para acompanhar o jogo, compor um look casual ou presentear quem gosta de vestir a história do Corinthians. O anúncio identifica a peça como tricô de edição limitada; as fotos também apresentam uma faixa comemorativa e uma carta sobre 1914. Confira na Shopee o conteúdo exato do kit, a numeração, a composição e as condições da edição antes de comprar.",
       "highlights": [
-        "Visual inspirado em referências históricas e no estilo retrô.",
-        "Confira composição, numeração e detalhes da peça na Shopee."
+        "Camisa retrô de manga longa em tom off-white, com gola, punhos e barra em preto, conforme as fotos.",
+        "Gola polo com amarração no peito e emblema de inspiração histórica; a imagem do vendedor descreve o emblema como bordado.",
+        "Peça anunciada como tricô de edição limitada. Composição, quantidade produzida e numeração individual devem ser confirmadas com o vendedor.",
+        "Referência a 1914, ano do primeiro título paulista do Corinthians.",
+        "A galeria apresenta a camisa, vistas de frente e costas, faixa comemorativa e carta sobre a conquista. Confirme quais itens acompanham a variação escolhida.",
+        "As imagens do vendedor exibem a indicação “Produto oficial”. Confira a procedência e a identificação de licenciamento no anúncio e no produto.",
+        "Consulte tabela de medidas, tamanhos disponíveis e instruções de lavagem e conservação na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado na identificação prévia do anúncio e nas cinco imagens fornecidas pelo responsável em 16/10/2026. Referência ao primeiro título paulista de 1914 conferida na publicação da CBF https://www.cbf.com.br/futebol-brasileiro/noticias/detalhes/competicoes-campeonato-brasileiro-serie-a/corinthians-celebra-114-anos-de-historia . Tricô e edição limitada são informações do anúncio; bordado e produto oficial são indicações das imagens, sem verificação independente de licenciamento ou tiragem. Conteúdo exato do kit e composição não confirmados.",
+      "images": [
+        "./assets/produtos/SHP-015/01-modelo-detalhes.webp",
+        "./assets/produtos/SHP-015/02-frente-costas.webp",
+        "./assets/produtos/SHP-015/03-off-white.webp",
+        "./assets/produtos/SHP-015/04-faixa.webp",
+        "./assets/produtos/SHP-015/05-carta-1914.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Cinco imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP na resolução original de 1000 × 1000 pixels. Capa com a camisa no modelo; galeria com frente/costas, cor, faixa e carta. Inclusão de acessórios deve ser conferida no anúncio."
     },
     {
       "id": "SHP-016",
