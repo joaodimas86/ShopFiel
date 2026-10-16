@@ -328,14 +328,20 @@
       "product_image": "./assets/produtos/SHP-007/01-modelo-frente.webp",
       "price_brl": null,
       "verified_at": null,
-      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine. Fotos e descrição editorial aprovadas em 16/10/2026. O preço histórico da captura foi movido para historical_price_snapshot: exibir consulta na Shopee, não um preço fixo. A peça não deve ser anunciada como oficial/licenciada sem confirmação.",
+      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine. Fotos e descrição editorial aprovadas em 16/10/2026. Preço de referência de R$ 175,66 autorizado pelo responsável em 16/10/2026; captura anterior preservada em historical_price_snapshot. A peça não deve ser anunciada como oficial/licenciada sem confirmação.",
       "seller_product_id": "23598070713",
       "seller_shop_id": "698219490",
       "metadata_source": "URL longa do anúncio enviada pelo responsável em 2026-10-15",
       "identification_pending": true,
       "category_id": "historicas",
       "listing_title_verified_at": "2026-10-15",
-      "price_snapshot": null,
+      "price_snapshot": {
+        "amount_brl": 175.66,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em conversa em 16/10/2026; condições de pagamento não especificadas."
+      },
       "rating_snapshot": {
         "rating": 4.9,
         "review_count": 127,
