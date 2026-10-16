@@ -19,64 +19,57 @@
   <link rel="stylesheet" href="./style.css?v=20261015-fotos">
   <script defer src="./app.js?v=20261015-fotos"></script>
 <style id="fs-banner-style">
-/* Fiel Shop | editorial hero inspirado na linguagem fotográfica da antiga Fiel Store */
-.fs-carousel{position:relative;background:#090909;color:#fff;isolation:isolate;overflow:hidden}
-.fs-slide{position:absolute;inset:0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .5s ease,visibility .5s}
-.fs-slide.is-active{position:relative;opacity:1;visibility:visible;pointer-events:auto}
-.fs-campaign{min-height:470px;position:relative;display:flex;align-items:center;overflow:hidden;background:#111}
-.fs-campaign:before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#080808 0%,#0a0a0af5 20%,#101010d6 42%,#10101050 66%,#07070745 100%)}
-.fs-campaign:after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.33;background:repeating-linear-gradient(130deg,transparent 0 39px,#fff1 40px 40.5px)}
-.fs-campaign-visual{position:absolute;inset:0;z-index:0;overflow:hidden}
-.fs-campaign-photo{position:absolute;left:33%;top:0;width:53%;height:100%;object-fit:cover;object-position:center 27%;filter:brightness(.85) contrast(1.13) saturate(.91)}
-.fs-campaign-photo-detail{position:absolute;right:0;top:0;width:28%;height:100%;object-fit:cover;object-position:center center;filter:brightness(.72) contrast(1.12) saturate(.9);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 24%);mask-image:linear-gradient(90deg,transparent 0,#000 24%)}
-.fs-campaign-invasao .fs-campaign-photo{left:40%;width:48%;object-position:center 35%;filter:brightness(.75) contrast(1.1)}
-.fs-campaign-invasao .fs-campaign-photo-detail{width:28%;filter:grayscale(.45) brightness(.65) contrast(1.12)}
-.fs-campaign-copy{position:relative;z-index:2;padding-top:56px;padding-bottom:60px;pointer-events:none}
-.fs-campaign-copy>*{pointer-events:auto}
-.fs-campaign-copybox{max-width:625px}
-.fs-campaign-label{display:inline-flex;align-items:center;gap:9px;font-size:10px;font-weight:900;letter-spacing:.18em;color:#ddd;text-transform:uppercase}
-.fs-campaign-label:before{content:"";width:29px;height:2px;background:#fff}
-.fs-campaign-title{font:900 clamp(66px,7.7vw,118px)/.85 var(--display);letter-spacing:-.025em;margin:26px 0 14px;color:#fff;text-transform:uppercase;text-shadow:0 5px 18px #0005}
-.fs-campaign-title strong{display:block;font:400 clamp(68px,8.5vw,128px)/.89 'Permanent Marker',Impact,cursive;letter-spacing:-.06em;transform:rotate(-3deg);transform-origin:left center;color:#f2f2f2}
-.fs-campaign-title strong.fs-orange{color:#ff8a29}
-.fs-campaign-copy p{color:#e6e6e6;max-width:375px;font-size:13px;line-height:1.62;margin:23px 0 25px;font-weight:500}
-.fs-campaign-cta{display:inline-flex;align-items:center;gap:25px;padding:13px 18px;background:#fff;border-radius:3px;color:#111;font-size:11px;font-weight:900;letter-spacing:.055em;box-shadow:0 10px 25px #0005;transition:transform .2s,background .2s}
-.fs-campaign-cta:hover{background:#e8e8e8;transform:translateY(-2px)}
-.fs-campaign-footnote{display:block;margin-top:16px;color:#ccc;font-size:9px;letter-spacing:.06em;max-width:370px}
-.fs-campaign-bottom{position:absolute;z-index:2;bottom:18px;right:28px;display:flex;align-items:center;gap:9px;color:#eee;font-size:10px;font-weight:900;letter-spacing:.15em;text-shadow:0 2px 10px #000}
-.fs-campaign-bottom:before{content:"";width:33px;height:1px;background:#fff8}
-.fs-carousel-controls{position:absolute;bottom:16px;left:max(28px,calc((100vw - 1164px)/2));z-index:4;display:flex;gap:7px;align-items:center}
-.fs-carousel-controls .fs-dot{width:31px;height:4px;border:0;background:#ffffff66;padding:0}
-.fs-carousel-controls .fs-dot.is-active{background:#fff;width:50px}
-.fs-carousel-controls .fs-arrow{border:1px solid #ffffff80;background:#1119;color:#fff;border-radius:50%;width:31px;height:31px;font-size:18px;line-height:1;display:grid;place-items:center}
-.fs-carousel-controls .fs-arrow:hover{background:#fff;color:#111}
-.fs-carousel-controls .fs-arrow:first-of-type{margin-left:15px}
-@media(max-width:980px){
-.fs-campaign{min-height:435px}.fs-campaign-title{font-size:clamp(66px,8.7vw,100px)}.fs-campaign-title strong{font-size:clamp(70px,9.5vw,112px)}
-.fs-campaign-photo{left:34%;width:60%}.fs-campaign-photo-detail{right:-5%;width:30%}.fs-campaign-copybox{max-width:560px}
-}
+/* FIEL SHOP — Banners editoriais feitos a partir das fotos reais dos produtos.
+   Desktop e mobile possuem peças gráficas próprias para evitar cortes improvisados. */
+.fs-pro-hero{position:relative;background:#0d0e10;color:#fff;overflow:hidden;isolation:isolate}
+.fs-pro-track{position:relative}
+.fs-pro-slide{position:absolute;inset:0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .55s ease,visibility .55s ease}
+.fs-pro-slide.is-active{position:relative;opacity:1;visibility:visible;pointer-events:auto}
+.fs-pro-poster{display:block;position:relative;width:100%;background:#141414}
+.fs-pro-picture,.fs-pro-picture img{display:block;width:100%}
+.fs-pro-picture img{height:auto;max-height:720px;object-fit:cover;aspect-ratio:8/3}
+.fs-pro-poster:focus-visible{outline:4px solid #fca041;outline-offset:-6px}
+.fs-pro-poster:hover .fs-pro-picture img{filter:brightness(1.06)}
+.fs-pro-picture img{transition:filter .22s}
+.fs-pro-meta{background:#111;color:#fff;border-top:1px solid #ffffff2a}
+.fs-pro-meta-row{min-height:59px;display:flex;gap:20px;align-items:center;justify-content:space-between}
+.fs-pro-meta-left{display:flex;align-items:center;gap:14px;min-width:0}
+.fs-pro-index{font:900 15px/1 var(--display);letter-spacing:.05em;white-space:nowrap}
+.fs-pro-caption{font-size:10px;color:#b7b7b7;letter-spacing:.13em;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fs-pro-meta-right{display:flex;align-items:center;gap:16px}
+.fs-pro-open{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:#f1f1ed;color:#131313;font-size:10px;font-weight:900;letter-spacing:.08em;padding:11px 17px;white-space:nowrap}.fs-pro-open:hover{background:#d8d8d3;color:#111}
+.fs-pro-dots{display:flex;align-items:center;gap:7px}
+.fs-pro-dot{width:27px;height:4px;padding:0;border:0;background:#757575;transition:width .2s,background .2s}
+.fs-pro-dot.is-active{width:49px;background:#fff}
+.fs-pro-arrows{display:flex;align-items:center;gap:4px}
+.fs-pro-arrow{width:38px;height:38px;border:1px solid #535353;background:transparent;color:#fff;font-size:20px;line-height:1;display:grid;place-items:center}
+.fs-pro-arrow:hover{background:#f0f0f0;color:#111}
+.fs-sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 @media(max-width:750px){
-.fs-campaign{min-height:482px;align-items:flex-start}
-.fs-campaign:before{background:linear-gradient(180deg,#090909c9 0%,#0909098a 35%,#08080865 52%,#080808df 100%),linear-gradient(90deg,#090909b0 0%,transparent 75%)}
-.fs-campaign-photo{left:19%;width:81%;object-position:center 16%;filter:brightness(.83) contrast(1.08)}
-.fs-campaign-photo-detail{width:38%;opacity:.65;right:-12%}
-.fs-campaign-invasao .fs-campaign-photo{left:28%;width:72%}
-.fs-campaign-copy{padding-top:28px;padding-bottom:85px;width:100%}
-.fs-campaign-copybox{max-width:100%}
-.fs-campaign-label{font-size:9px}
-.fs-campaign-title{font-size:clamp(61px,12.5vw,88px);margin-top:24px;line-height:.91}
-.fs-campaign-title strong{font-size:clamp(63px,13vw,93px)}
-.fs-campaign-copy p{font-size:12px;line-height:1.55;max-width:300px;margin:20px 0}
-.fs-campaign-cta{font-size:10px;padding:12px 15px}
-.fs-campaign-footnote{font-size:8px;max-width:260px}
-.fs-campaign-bottom{bottom:24px;right:17px;font-size:8px}
-.fs-carousel-controls{left:18px;bottom:23px}
-.fs-carousel-controls .fs-dot{width:21px}
-.fs-carousel-controls .fs-dot.is-active{width:31px}
-.fs-carousel-controls .fs-arrow{width:29px;height:29px}
+.fs-pro-picture img{max-height:none;aspect-ratio:768/990;object-fit:contain}
+
+.fs-pro-meta-row{min-height:57px;gap:7px}
+.fs-pro-meta-left{gap:8px}.fs-pro-index{font-size:13px}.fs-pro-caption{display:none}
+.fs-pro-meta-right{gap:7px}.fs-pro-open{font-size:9px;padding:10px 9px;letter-spacing:0}.fs-pro-dot{width:17px}.fs-pro-dot.is-active{width:28px}
+.fs-pro-arrow{width:32px;height:32px;font-size:17px}
 }
-@media(max-width:400px){.fs-campaign{min-height:500px}.fs-campaign-title{font-size:58px}.fs-campaign-title strong{font-size:63px}.fs-campaign-copy p{max-width:250px}}
-@media(prefers-reduced-motion:reduce){.fs-slide,.fs-campaign-cta{transition:none}}
+@media(max-width:365px){.fs-pro-meta-right{gap:5px}.fs-pro-open{font-size:8px;padding:10px 6px}.fs-pro-dot{width:14px}.fs-pro-dot.is-active{width:21px}}
+@media(prefers-reduced-motion:reduce){.fs-pro-slide,.fs-pro-dot,.fs-pro-poster:after{transition:none}}
+
+/* Vitrine com editoria de moda e fotografia nas portas de entrada do catálogo. */
+.collection-card{isolation:isolate;min-height:300px;box-shadow:0 8px 19px #00000009}
+.collection-card:before{opacity:1;background-position:center;background-size:cover;transform:scale(1.005);transition:transform .45s ease;filter:grayscale(.22)}
+.collection-card:hover:before{transform:scale(1.055)}
+.collection-card-current:before{background-image:linear-gradient(180deg,#0a0a0a70 0%,#10101030 22%,#080808e8 94%),url('./assets/produtos/SHP-006/04-modelo-pose.webp');background-position:center 27%}
+.collection-card-casual:before{background-image:linear-gradient(180deg,#0707075e 0%,#07070727 20%,#060606eb 95%),url('./assets/produtos/SHP-004/03-preta-frente-costas.webp')}
+.collection-card-history:before{background-image:linear-gradient(180deg,#0808088a 0%,#10101040 20%,#080808ed 95%),url('./assets/produtos/SHP-002/01-frente.webp')}
+.collection-card-souvenirs:before{background-image:radial-gradient(circle at 85% 5%,#ffffff12,transparent 60%),repeating-linear-gradient(-36deg,#ffffff13 0 2px,transparent 2px 24px),linear-gradient(145deg,#404040,#070707)}
+.collection-number,.collection-label,.collection-description,.category-quantity,.collection-arrow{position:relative;z-index:2;text-shadow:0 2px 12px #000b}
+.collection-graphic{opacity:.45}
+.collection-label{font-size:clamp(29px,3.1vw,43px)}
+.collection-description{font-size:11px;line-height:1.5;color:#eee}
+.category-quantity{border-color:#fff;background:#ffffff12;padding:7px 10px}
+@media(max-width:750px){.collection-card{min-height:235px}.collection-label{font-size:clamp(27px,7vw,36px)}.collection-description{font-size:10px}}
 </style>
 </head>
 <body>
@@ -96,49 +89,28 @@
   </div>
 </nav>
 <main>
-<section id="inicio" class="fs-carousel" aria-label="Campanhas e destaques da Fiel Shop" aria-roledescription="carrossel">
-  <article class="fs-slide is-active" data-fs-slide aria-hidden="false" aria-label="1 de 2: Camisa Corinthians Total 90">
-    <div class="fs-campaign fs-campaign-total90">
-      <div class="fs-campaign-visual" aria-hidden="true">
-        <img class="fs-campaign-photo" src="./assets/produtos/SHP-006/04-modelo-pose.webp" alt="" fetchpriority="high">
-        <img class="fs-campaign-photo-detail" src="./assets/produtos/SHP-006/05-gola-escudo.webp" alt="" fetchpriority="high">
-      </div>
-      <div class="wrap fs-campaign-copy">
-        <div class="fs-campaign-copybox">
-          <span class="fs-campaign-label">FIEL SHOP · ESTILO TOTAL 90</span>
-          <h1 class="fs-campaign-title">É TUDO<br><strong class="fs-orange">NOSSO.</strong></h1>
-          <p>A camisa preta com detalhes laranja que carrega a atitude de quem vive o Corinthians todos os dias.</p>
-          <a class="fs-campaign-cta" href="./produto.html?id=SHP-006">CONHECER A CAMISA <span aria-hidden="true">↗</span></a>
-          <small class="fs-campaign-footnote">Confira a cor, a procedência e as opções disponíveis no anúncio parceiro.</small>
-        </div>
-      </div>
-      <span class="fs-campaign-bottom">DE TORCEDOR PARA TORCEDOR</span>
+<section id="inicio" class="fs-pro-hero" aria-label="Destaques da Fiel Shop" aria-roledescription="carrossel">
+  <h1 class="fs-sr-only">Fiel Shop: camisas do Corinthians, roupas e acessórios para torcedores</h1>
+  <div class="fs-pro-track">
+    <div class="fs-pro-slide is-active" data-fs-slide aria-hidden="false">
+      <a class="fs-pro-poster" href="./produto.html?id=SHP-006" aria-label="Conhecer Camisa Corinthians Nike Total 90 preta com detalhes laranja">
+        <picture class="fs-pro-picture"><source media="(max-width: 750px)" srcset="./assets/banners/total90-mobile.webp"><img src="./assets/banners/total90-desktop.webp" alt="Campanha Total 90 da Fiel Shop: O manto tem atitude. Modelo veste camisa preta do Corinthians com detalhes laranja." width="1920" height="720" fetchpriority="high"></picture>
+      </a>
     </div>
-  </article>
-  <article class="fs-slide" data-fs-slide aria-hidden="true" aria-label="2 de 2: Camisa Corinthians Invasão 2026">
-    <div class="fs-campaign fs-campaign-invasao">
-      <div class="fs-campaign-visual" aria-hidden="true">
-        <img class="fs-campaign-photo" src="./assets/produtos/SHP-005/03-no-corpo.webp" alt="" loading="lazy">
-        <img class="fs-campaign-photo-detail" src="./assets/produtos/SHP-005/04-escudo.webp" alt="" loading="lazy">
-      </div>
-      <div class="wrap fs-campaign-copy">
-        <div class="fs-campaign-copybox">
-          <span class="fs-campaign-label">FIEL SHOP · INVASÃO 2026</span>
-          <h2 class="fs-campaign-title">A FIEL<br><strong>INVADIU.</strong></h2>
-          <p>O manto branco Invasão 2026: escudo em destaque, detalhes em preto e identidade de arquibancada.</p>
-          <a class="fs-campaign-cta" href="./produto.html?id=SHP-005" tabindex="-1">VER CAMISA INVASÃO <span aria-hidden="true">↗</span></a>
-          <small class="fs-campaign-footnote">Confira tamanhos, composição e variações diretamente na Shopee.</small>
-        </div>
-      </div>
-      <span class="fs-campaign-bottom">A PAIXÃO NÃO TEM FIM</span>
+    <div class="fs-pro-slide" data-fs-slide aria-hidden="true">
+      <a class="fs-pro-poster" href="./produto.html?id=SHP-005" aria-label="Conhecer Camisa Corinthians Invasão 2026 na versão branca" tabindex="-1">
+        <picture class="fs-pro-picture"><source media="(max-width: 750px)" srcset="./assets/banners/invasao-mobile.webp"><img src="./assets/banners/invasao-desktop.webp" alt="Campanha da Fiel Shop para a camisa branca Corinthians Invasão 2026: A Fiel não tem fronteiras." width="1920" height="720" loading="lazy"></picture>
+      </a>
     </div>
-  </article>
-  <div class="fs-carousel-controls" aria-label="Navegação dos banners">
-    <button class="fs-dot is-active" type="button" data-fs-dot="0" aria-pressed="true" aria-label="Banner 1: Total 90"></button>
-    <button class="fs-dot" type="button" data-fs-dot="1" aria-pressed="false" aria-label="Banner 2: Invasão 2026"></button>
-    <button class="fs-arrow" type="button" data-fs-prev aria-label="Banner anterior">‹</button>
-    <button class="fs-arrow" type="button" data-fs-next aria-label="Próximo banner">›</button>
   </div>
+  <div class="fs-pro-meta"><div class="wrap fs-pro-meta-row">
+    <div class="fs-pro-meta-left"><span class="fs-pro-index" id="fs-pro-index">01 / 02</span><span class="fs-pro-caption" id="fs-pro-caption">TOTAL 90 · PRETO + LARANJA</span></div>
+    <div class="fs-pro-meta-right">
+      <a class="fs-pro-open" id="fs-pro-link" href="./produto.html?id=SHP-006">VER A CAMISA ↗</a>
+      <div class="fs-pro-dots" aria-label="Escolher banner"><button type="button" class="fs-pro-dot is-active" data-fs-dot="0" aria-label="Banner da Total 90" aria-pressed="true"></button><button type="button" class="fs-pro-dot" data-fs-dot="1" aria-label="Banner Invasão 2026" aria-pressed="false"></button></div>
+      <div class="fs-pro-arrows"><button type="button" class="fs-pro-arrow" data-fs-prev aria-label="Banner anterior">←</button><button type="button" class="fs-pro-arrow" data-fs-next aria-label="Próximo banner">→</button></div>
+    </div>
+  </div></div>
 </section>
 <div class="strap"><div class="wrap strap-row"><span>◆ FEITO PARA A FIEL</span><span>↗ ESCOLHA ONDE COMPRAR</span><span>✳ SELEÇÃO PARA O TORCEDOR</span></div></div>
 <section class="collections-section" id="catalogo" aria-labelledby="collections-heading">
@@ -174,27 +146,36 @@
 
 <script id="fs-banner-script">
 (function(){
- const root=document.querySelector(".fs-carousel");if(!root)return;
- const slides=[...root.querySelectorAll("[data-fs-slide]")];
- const dots=[...root.querySelectorAll("[data-fs-dot]")];
- const motion=window.matchMedia("(prefers-reduced-motion: reduce)");
- let current=0,timer=null,startX=null;
- function select(i){current=(i+slides.length)%slides.length;
-  slides.forEach((el,n)=>{const active=n===current;el.classList.toggle("is-active",active);el.setAttribute("aria-hidden",String(!active));
-   el.querySelectorAll("a").forEach(link=>{link.tabIndex=active?0:-1})});
-  dots.forEach((dot,n)=>{const active=n===current;dot.classList.toggle("is-active",active);dot.setAttribute("aria-pressed",String(active))})}
- function stop(){if(timer){clearInterval(timer);timer=null}}
- function play(){stop();if(!motion.matches&&!document.hidden)timer=setInterval(()=>select(current+1),6500)}
- root.querySelector("[data-fs-prev]").addEventListener("click",()=>{select(current-1);play()});
- root.querySelector("[data-fs-next]").addEventListener("click",()=>{select(current+1);play()});
- dots.forEach((dot,n)=>dot.addEventListener("click",()=>{select(n);play()}));
- root.addEventListener("mouseenter",stop);root.addEventListener("mouseleave",play);
- root.addEventListener("focusin",stop);root.addEventListener("focusout",ev=>{if(!root.contains(ev.relatedTarget))play()});
- root.addEventListener("touchstart",ev=>{startX=ev.changedTouches[0].screenX},{passive:true});
- root.addEventListener("touchend",ev=>{if(startX===null)return;const dx=ev.changedTouches[0].screenX-startX;startX=null;if(Math.abs(dx)>45){select(current+(dx<0?1:-1));play()}},{passive:true});
- document.addEventListener("visibilitychange",()=>document.hidden?stop():play());
- if(motion.addEventListener)motion.addEventListener("change",play);
- select(0);play();
+  'use strict';
+  const root=document.querySelector('.fs-pro-hero');if(!root)return;
+  const slides=[...root.querySelectorAll('[data-fs-slide]')];
+  const dots=[...root.querySelectorAll('[data-fs-dot]')];
+  const index=root.querySelector('#fs-pro-index');
+  const caption=root.querySelector('#fs-pro-caption');
+  const activeLink=root.querySelector('#fs-pro-link');
+  const productUrls=['./produto.html?id=SHP-006','./produto.html?id=SHP-005'];
+  const captions=['TOTAL 90 · PRETO + LARANJA','INVASÃO 2026 · VERSÃO BRANCA'];
+  const mq=window.matchMedia('(prefers-reduced-motion: reduce)');
+  let current=0,timer=null,touchX=null;
+  const stop=()=>{if(timer!==null){clearInterval(timer);timer=null}};
+  function change(next){current=(next+slides.length)%slides.length;
+    slides.forEach((slide,i)=>{const active=i===current;slide.classList.toggle('is-active',active);slide.setAttribute('aria-hidden',String(!active));slide.querySelectorAll('a').forEach(a=>a.tabIndex=active?0:-1)});
+    dots.forEach((dot,i)=>{dot.classList.toggle('is-active',i===current);dot.setAttribute('aria-pressed',String(i===current))});
+    index.textContent=String(current+1).padStart(2,'0')+' / '+String(slides.length).padStart(2,'0');
+    caption.textContent=captions[current];
+    activeLink.href=productUrls[current];
+  }
+  function play(){stop();if(!mq.matches&&!document.hidden)timer=setInterval(()=>change(current+1),7000)}
+  dots.forEach((dot,i)=>dot.addEventListener('click',()=>{change(i);play()}));
+  root.querySelector('[data-fs-prev]').addEventListener('click',()=>{change(current-1);play()});
+  root.querySelector('[data-fs-next]').addEventListener('click',()=>{change(current+1);play()});
+  root.addEventListener('mouseenter',stop);root.addEventListener('mouseleave',play);
+  root.addEventListener('focusin',stop);root.addEventListener('focusout',ev=>{if(!root.contains(ev.relatedTarget))play()});
+  root.addEventListener('touchstart',ev=>{touchX=ev.changedTouches[0].screenX},{passive:true});
+  root.addEventListener('touchend',ev=>{if(touchX===null)return;const dx=ev.changedTouches[0].screenX-touchX;touchX=null;if(Math.abs(dx)>45){change(current+(dx<0?1:-1));play()}},{passive:true});
+  document.addEventListener('visibilitychange',()=>document.hidden?stop():play());
+  if(mq.addEventListener)mq.addEventListener('change',play);
+  change(0);play();
 })();
 </script>
 </body>
