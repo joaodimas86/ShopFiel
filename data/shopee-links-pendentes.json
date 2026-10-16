@@ -721,8 +721,8 @@
       "url": "https://s.shopee.com.br/4VdTBGGYnQ",
       "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
-      "product_name": "Bandeira Grande Corinthians — Tamanhos Grande e Pequeno",
-      "product_image": null,
+      "product_name": "Bandeira do Corinthians Grande Preta e Branca com Escudo",
+      "product_image": "./assets/produtos/SHP-014/01-bandeira-grande.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -750,12 +750,21 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Bandeira do Corinthians para decorar o espaço da Fiel, anunciada em tamanhos diferentes. Consulte as medidas disponíveis, o acabamento e o material na Shopee.",
+      "description": "Deixe seu espaço com a cara da Fiel. A Bandeira do Corinthians Grande Preta e Branca com Escudo traz as cores do Timão em faixas contrastantes, com o escudo em destaque e a inscrição Corinthians, conforme a foto enviada. Uma opção para decorar o quarto, a sala ou o cantinho do churrasco e criar o clima de torcida para acompanhar os jogos com amigos e família. Para quem procura um presente para corinthiano, a bandeira leva a paixão pelo clube para a decoração do dia a dia. Esta apresentação destaca a versão grande; como o anúncio reúne opções de tamanho, selecione a variação desejada e confira as medidas, o material e o acabamento na Shopee antes de comprar.",
       "highlights": [
-        "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
-        "Consulte medidas, características e itens inclusos no anúncio."
+        "Bandeira do Corinthians em preto e branco, com escudo e nome do clube, conforme a foto fornecida.",
+        "Apresentação dedicada ao tamanho grande. O anúncio também foi identificado com opção pequena; selecione a variação correta na Shopee.",
+        "Uma opção de decoração para o espaço de torcer e de presente para corinthianos.",
+        "Medidas exatas, tecido e forma de fixação devem ser confirmados no anúncio do vendedor.",
+        "O preço varia conforme o tamanho selecionado; a referência histórica exibida não representa necessariamente o valor da bandeira grande.",
+        "A foto mostra a bandeira em uma estrutura de suporte; confirme os itens inclusos, sem presumir que suporte ou haste acompanhem o produto."
       ],
-      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado na foto e na indicação de tamanho grande fornecidas pelo responsável em 16/10/2026, preservando a informação prévia de variações grande e pequena. Material, dimensões, resistência ao tempo, licenciamento e acessórios inclusos não foram confirmados.",
+      "images": [
+        "./assets/produtos/SHP-014/01-bandeira-grande.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Uma foto fornecida pelo responsável em 16/10/2026 e otimizada em WebP, preservando a resolução original de 800 × 800 pixels. Imagem usada como capa e na página do produto."
     },
     {
       "id": "SHP-015",
