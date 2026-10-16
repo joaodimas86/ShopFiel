@@ -1100,8 +1100,8 @@
       "url": "https://s.shopee.com.br/6Almz4csLw",
       "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
-      "product_name": "Cobertor Solteiro Corinthians Microfibra 1,50m x 2,00m Jolitex",
-      "product_image": null,
+      "product_name": "Manta Cobertor Corinthians Solteiro Jolitex Microfibra 1,50 × 2,00 m",
+      "product_image": "./assets/produtos/SHP-021/01-manta-cama.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -1129,12 +1129,29 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Cobertor solteiro do Corinthians, anunciado pela Jolitex em microfibra, com medidas de 1,50 m × 2,00 m. Consulte os detalhes do tecido e as orientações de lavagem na Shopee.",
+      "description": "O aconchego também veste preto e branco. A Manta Cobertor Corinthians Solteiro Jolitex Microfibra 1,50 × 2,00 m leva a paixão pelo Timão para os momentos de descanso, seja na cama, no sofá ou acompanhando o jogo em casa. A estampa combina o escudo do Corinthians, monogramas e a inscrição SCCP 1910 sobre fundo preto, com detalhes em branco e vermelho, conforme as imagens. Informada pelo vendedor como 100% microfibra de poliéster, a manta é apresentada com toque macio e proposta leve para o uso cotidiano. Além de compor a cama de solteiro, é uma opção de presente para corinthianos e de decoração para o cantinho da Fiel. O anúncio e a embalagem fotografada identificam o produto como oficial e licenciado; confira a etiqueta, a identificação da marca e os cuidados de conservação na Shopee.",
       "highlights": [
-        "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
-        "Consulte medidas, características e itens inclusos no anúncio."
+        "Manta cobertor solteiro com medidas informadas de 1,50 m × 2,00 m, equivalentes a 150 × 200 cm.",
+        "Marca Jolitex e composição 100% microfibra de poliéster, conforme a descrição fornecida do anúncio.",
+        "Estampa com escudos, monogramas e SCCP 1910 em preto, branco e vermelho, conforme as imagens.",
+        "Uma opção para a cama de solteiro, para se aconchegar no sofá ou para presentear torcedores do Corinthians.",
+        "Produto identificado como oficial e licenciado na descrição enviada e na embalagem fotografada; confira o selo e a etiqueta da peça.",
+        "O material enviado indica lavagem em máquina e uso de secadora. Siga a etiqueta do fabricante para escolher ciclo, temperatura e secagem adequados.",
+        "Fotos de ambientes ilustram sugestões de uso. Cama, almofadas, quadros, canecas e demais objetos de decoração não são apresentados como itens inclusos.",
+        "Consulte preço, disponibilidade e condições atuais no anúncio; valores e promoções de capturas anteriores não representam oferta ativa."
       ],
-      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado nas sete imagens e na descrição fornecidas pelo responsável em 16/10/2026. Marca Jolitex, medidas, composição e toque são informações do anúncio. Lavagem em máquina e secadora são indicações do material enviado, condicionadas à etiqueta do fabricante. Licenciamento é informado no anúncio e na embalagem fotografada, sem verificação independente. Não se afirmam superioridade de torcida, durabilidade incomparável ou promoção ativa.",
+      "images": [
+        "./assets/produtos/SHP-021/01-manta-cama.webp",
+        "./assets/produtos/SHP-021/02-manta-sofa.webp",
+        "./assets/produtos/SHP-021/03-textura-escudo.webp",
+        "./assets/produtos/SHP-021/04-embalagem-selo.webp",
+        "./assets/produtos/SHP-021/05-medidas-composicao.webp",
+        "./assets/produtos/SHP-021/06-manta-em-uso.webp",
+        "./assets/produtos/SHP-021/07-manta-poltrona.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Sete imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP na resolução original de 1024 × 1024 pixels. Capa com a manta na cama; galeria com sofá, textura, embalagem, informações e ambientes ilustrativos."
     },
     {
       "id": "SHP-022",
