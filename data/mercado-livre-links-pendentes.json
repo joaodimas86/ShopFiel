@@ -306,11 +306,40 @@
       "marketplace": "mercado_livre",
       "url": "https://meli.la/11NTtT9",
       "affiliate_link_verified": false,
-      "status": "pending_identification",
-      "product_name": null,
-      "product_image": null,
+      "status": "identified",
+      "product_name": "Camisa Corinthians Retrô Pepsi-Cola Branca Masculina 90 Anos",
+      "product_image": "./assets/produtos/ML-009/01-modelo-frente.webp",
       "price_brl": null,
-      "verified_at": null
+      "verified_at": null,
+      "category_id": "historicas",
+      "availability": "not_verified",
+      "description": "Uma camisa para vestir as lembranças e reconhecer a paixão nos detalhes. A Camisa Corinthians Retrô Pepsi-Cola Branca Masculina 90 Anos combina o corpo branco com a inscrição azul no peito e gola polo preta com amarração, em um visual que aproxima futebol e estilo vintage. O monograma CP com a referência 1910, o emblema de 90 anos na manga e a etiqueta comemorativa apresentados nas fotos dão personalidade à peça. Para acompanhar os jogos, encontrar os amigos ou presentear um colecionador de camisas do Corinthians, o modelo leva a identidade alvinegra para o dia a dia. A galeria também mostra o detalhe “Bi Campeão Brasileiro 98/99”. Confira a composição, a identificação da edição, a procedência e a tabela de medidas no Mercado Livre antes de escolher seu tamanho.",
+      "highlights": [
+        "Camisa retrô masculina branca, com inscrição Pepsi-Cola em azul e gola polo preta com amarração, conforme as fotos.",
+        "Monograma CP e referência 1910 no peito; emblema de 90 anos na manga e etiqueta comemorativa na peça fotografada.",
+        "A galeria apresenta o detalhe “Bi Campeão Brasileiro 98/99”. O título enviado menciona 1990, mas essa data não foi adotada por divergir dos elementos mostrados nas imagens.",
+        "As imagens exibem marca Topper e indicação de produto oficial na etiqueta. Confira a autenticidade e a procedência no anúncio; não há verificação independente.",
+        "A composição não foi informada. Consulte o material do tecido, as medidas e as instruções de conservação com o vendedor.",
+        "Compare a tabela com uma camisa que já veste bem. Se estiver entre dois tamanhos, confira as medidas de ambos e o caimento desejado.",
+        "Tonalidades podem variar conforme a iluminação e a tela. Confirme preço, estoque e condições atuais da oferta no Mercado Livre."
+      ],
+      "price_snapshot": {
+        "amount_brl": 189.9,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em 16/10/2026; condições de pagamento não especificadas."
+      },
+      "description_source": "Texto editorial original baseado nas cinco imagens e na descrição fornecidas pelo responsável em 16/10/2026. A referência a 1990 foi substituída no título editorial por 90 Anos devido às inscrições comemorativas e 98/99 visíveis nas fotos. Não se identifica um ano exato de fabricação, composição não informada, licenciamento ou autenticidade verificada.",
+      "images": [
+        "./assets/produtos/ML-009/01-modelo-frente.webp",
+        "./assets/produtos/ML-009/02-frente-amarracao.webp",
+        "./assets/produtos/ML-009/03-etiqueta-comemorativa.webp",
+        "./assets/produtos/ML-009/04-manga-90-anos.webp",
+        "./assets/produtos/ML-009/05-detalhe-9899.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Cinco imagens fornecidas pelo responsável e otimizadas em WebP sem ampliação. Capa frontal no modelo; galeria com amarração, etiqueta comemorativa e detalhes das mangas."
     },
     {
       "id": "ML-010",
@@ -357,5 +386,5 @@
       "verified_at": null
     }
   ],
-  "identified_count": 7
+  "identified_count": 8
 }
