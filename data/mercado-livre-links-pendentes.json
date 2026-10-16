@@ -267,11 +267,39 @@
       "marketplace": "mercado_livre",
       "url": "https://meli.la/1Xi14RD",
       "affiliate_link_verified": false,
-      "status": "pending_identification",
-      "product_name": null,
-      "product_image": null,
+      "status": "identified",
+      "product_name": "Camisa Corinthians Branca e Preta com Escudo Central",
+      "product_image": "./assets/produtos/ML-008/01-camisa-frente.webp",
       "price_brl": null,
-      "verified_at": null
+      "verified_at": null,
+      "category_id": "camisas-atuais",
+      "availability": "not_verified",
+      "description": "Preto e branco para vestir uma paixão que dispensa explicação. A Camisa Corinthians Branca e Preta com Escudo Central combina o corpo claro com mangas e laterais pretas, em um visual clássico que coloca o símbolo do Timão em destaque. A gola redonda e as mangas curtas completam a peça, enquanto a inscrição interna “Todo Poderoso Timão”, visível no material enviado, acrescenta um detalhe de identificação com a Fiel. Para acompanhar o jogo, reunir os amigos ou levar a torcida para o dia a dia, é uma opção de camisa alvinegra e de presente para corinthianos. O vendedor descreve o tecido como leve e respirável; confira a composição, a tabela de medidas e a procedência no Mercado Livre antes de escolher seu tamanho.",
+      "highlights": [
+        "Camisa Corinthians com corpo branco, mangas e laterais pretas e escudo central, conforme as imagens.",
+        "Gola redonda e mangas curtas, com detalhes listrados próximos à parte traseira da gola.",
+        "Inscrição interna “Todo Poderoso Timão” apresentada na imagem de detalhe enviada.",
+        "Tecido descrito pelo vendedor como leve e respirável. A composição não foi informada; confira a etiqueta e o anúncio.",
+        "Galeria com vista frontal da camisa, apresentação no modelo, costas e detalhe do peito.",
+        "As imagens exibem marca Nike e referência Dri-FIT no material de detalhe; não constituem confirmação independente de autenticidade ou tecnologia da peça vendida.",
+        "Consulte medidas, tamanhos, conservação e condições atuais da oferta. Bermuda, tênis e acessórios do modelo não são apresentados como inclusos."
+      ],
+      "price_snapshot": {
+        "amount_brl": 182.38,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em 16/10/2026; condições de pagamento não especificadas."
+      },
+      "description_source": "Texto editorial original baseado nas imagens e na descrição fornecidas pelo responsável em 16/10/2026. Leveza e respirabilidade são informações do vendedor. Não se afirmam temporada, composição, costuras reforçadas verificadas, licenciamento, autenticidade Nike ou desempenho Dri-FIT.",
+      "images": [
+        "./assets/produtos/ML-008/01-camisa-frente.webp",
+        "./assets/produtos/ML-008/02-modelo-frente.webp",
+        "./assets/produtos/ML-008/03-costas.webp",
+        "./assets/produtos/ML-008/04-escudo-detalhe.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Quatro imagens acessíveis fornecidas pelo responsável foram otimizadas em WebP sem ampliação. Capa frontal da camisa. O arquivo adicional 05880951A3.jpg não estava acessível no caminho informado e não foi incluído na galeria."
     },
     {
       "id": "ML-009",
@@ -329,5 +357,5 @@
       "verified_at": null
     }
   ],
-  "identified_count": 6
+  "identified_count": 7
 }
