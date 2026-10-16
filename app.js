@@ -1,5 +1,5 @@
 "use strict";
-/* Fiel Shop — vitrine estática de afiliados. Sem checkout próprio. */
+/* Shop Fiel — vitrine estática de afiliados. Sem checkout próprio. */
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
 const make = (tag,klass,value) => {
@@ -27,7 +27,7 @@ function productVisual(product,season){
    const art=make("div","shop-visual shop-visual-photo");
    const img=make("img","shop-product-image");
    img.src=photos[0];
-   img.alt="Foto do produto: "+(product.product_name||product.name||"Fiel Shop");
+   img.alt="Foto do produto: "+(product.product_name||product.name||"Shop Fiel");
    img.loading="lazy";
    img.decoding="async";
    img.addEventListener("error",()=>art.replaceWith(productVisual({...product,images:[]},season)),{once:true});
@@ -94,7 +94,7 @@ function actualProductCard(product){
  media.append(productVisual(product,false));
  media.append(make("span","shop-card-badge",out?"ESGOTADO NA CAPTURA":product.availability==="pending_new_link"?"LINK EM ATUALIZAÇÃO":"SHOPEE"));
  const body=make("div","shop-card-body");
- body.append(make("span","shop-card-eyebrow",product.id+" · "+(collections[product.category_id]?.title||"FIEL SHOP")));
+ body.append(make("span","shop-card-eyebrow",product.id+" · "+(collections[product.category_id]?.title||"SHOP FIEL")));
  body.append(make("h3","shop-card-title",product.product_name));
  const price=snapshotDetails(product);
  if(price)body.append(price);

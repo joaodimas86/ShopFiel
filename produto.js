@@ -1,5 +1,5 @@
 "use strict";
-/* Fiel Shop — detalhes de produto. Os links originais de afiliado vêm somente do catálogo JSON. */
+/* Shop Fiel — detalhes de produto. Os links originais de afiliado vêm somente do catálogo JSON. */
 const $ = selector => document.querySelector(selector);
 const make = (tag,klass,value) => {
   const element=document.createElement(tag);
@@ -24,7 +24,7 @@ function productVisual(product,season){
    const art=make("div","shop-visual shop-visual-photo");
    const img=make("img","shop-product-image");
    img.src=photos[0];
-   img.alt="Foto do produto: "+(product.product_name||product.name||"Fiel Shop");
+   img.alt="Foto do produto: "+(product.product_name||product.name||"Shop Fiel");
    img.loading="lazy";
    img.decoding="async";
    img.addEventListener("error",()=>art.replaceWith(productVisual({...product,images:[]},season)),{once:true});
@@ -106,7 +106,7 @@ function buyBlock(product){
   link.rel="noopener noreferrer sponsored nofollow";
   link.setAttribute("aria-label","Comprar "+product.product_name+" na Shopee, em nova aba");
   box.append(link);
-  box.append(make("p","pd-affiliate-note","Você será direcionado à Shopee pelo link de indicação da Fiel Shop."));
+  box.append(make("p","pd-affiliate-note","Você será direcionado à Shopee pelo link de indicação da Shop Fiel."));
 }
 function checklist(product){
   const name=searchTerm(product.product_name);
@@ -137,14 +137,14 @@ function relatedProducts(current,products){
     card.setAttribute("aria-label","Ver detalhes de "+item.product_name);
     const figure=make("div","pd-related-image");
     figure.append(productVisual(item,false));
-    card.append(figure,make("span","pd-related-category",categories[item.category_id]||"Fiel Shop"),make("h3","pd-related-name",item.product_name),make("span","pd-related-more","VER DETALHES ↗"));
+    card.append(figure,make("span","pd-related-category",categories[item.category_id]||"Shop Fiel"),make("h3","pd-related-name",item.product_name),make("span","pd-related-more","VER DETALHES ↗"));
     container.append(card);
   }
 }
 function showError(message){
   $("#pd-message").textContent=message;
   $("#pd-message").replaceChildren(document.createTextNode(message));
-  const link=make("a","pd-error-link","VOLTAR À FIEL SHOP ↗");
+  const link=make("a","pd-error-link","VOLTAR À SHOP FIEL ↗");
   link.href="./index.html#catalogo";
   $("#pd-message").append(link);
   $("#pd-detail").hidden=true;
@@ -196,7 +196,7 @@ function renderGallery(product){
 function renderProduct(product,allProducts){
   const fromCollection=new URLSearchParams(window.location.search).get("colecao");
   const visibleCategory=fromCollection==="camisas-atuais"&&Array.isArray(product.featured_in)&&product.featured_in.includes("camisas-atuais")?"camisas-atuais":product.category_id;
-  const category=categories[visibleCategory]||"Fiel Shop";
+  const category=categories[visibleCategory]||"Shop Fiel";
   const categoryLink=categoryHref(visibleCategory);
   const breadcrumb=$("#pd-breadcrumb-category");
   breadcrumb.textContent=category;
@@ -204,7 +204,7 @@ function renderProduct(product,allProducts){
   $("#pd-breadcrumb-current").textContent=product.product_name;
   $("#pd-eyebrow").textContent=product.id+" · "+category.toUpperCase()+" · SHOPEE";
   $("#pd-title").textContent=product.product_name;
-  $("#pd-summary").textContent=product.description||"Um produto selecionado pela Fiel Shop. Confira informações e variações no anúncio da Shopee.";
+  $("#pd-summary").textContent=product.description||"Um produto selecionado pela Shop Fiel. Confira informações e variações no anúncio da Shopee.";
   $("#pd-long-description").textContent=product.description||"Produto disponível para consulta no anúncio do vendedor.";
   const highlights=$("#pd-highlights");
   highlights.replaceChildren();
@@ -217,7 +217,7 @@ function renderProduct(product,allProducts){
   priceBlock(product);
   buyBlock(product);
   relatedProducts(product,allProducts);
-  document.title=product.product_name+" | Fiel Shop";
+  document.title=product.product_name+" | Shop Fiel";
   const desc=$('meta[name="description"]');
   if(desc)desc.setAttribute("content",(product.description||product.product_name).slice(0,155));
   $("#pd-message").hidden=true;
@@ -238,7 +238,7 @@ async function init(){
     if(!product){showError("Este produto não está disponível na vitrine no momento.");return;}
     renderProduct(product,products);
   }catch(error){
-    console.error("Fiel Shop: falha ao abrir produto",error);
+    console.error("Shop Fiel: falha ao abrir produto",error);
     showError("Não foi possível carregar o produto agora. Tente novamente.");
   }
 }

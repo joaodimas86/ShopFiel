@@ -1,5 +1,5 @@
 {
-  "project": "Fiel Shop",
+  "project": "Shop Fiel",
   "type": "affiliate_links_inbox",
   "description": "Links encaminhados pelo responsável. Cada link precisa de identificação do produto, conferência de validade e confirmação das regras de comissão antes de ativar no catálogo.",
   "total": 25,
@@ -8,7 +8,7 @@
       "id": "SHP-001",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/9V297awrtB",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Camisa Corinthians Urban Ouro Masculina Oficial",
       "product_image": "./assets/produtos/SHP-001/01-frente.webp",
@@ -41,7 +41,7 @@
         "Uma opção para levar o Corinthians ao dia a dia.",
         "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
       "images": [
         "./assets/produtos/SHP-001/01-frente.webp",
         "./assets/produtos/SHP-001/02-angulo.webp",
@@ -50,14 +50,14 @@
         "./assets/produtos/SHP-001/05-look.webp",
         "./assets/produtos/SHP-001/06-selo.webp"
       ],
-      "image_source_note": "Fotografias do anúncio compartilhadas pelo responsável para uso na Fiel Shop; confirmar direito de uso.",
+      "image_source_note": "Fotografias do anúncio compartilhadas pelo responsável para uso na Shop Fiel; confirmar direito de uso.",
       "photo_added_on": "2026-10-15"
     },
     {
       "id": "SHP-002",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/4B0clsNwzB",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Camisa Polo Retrô Corinthians 1990 Kalunga Masculina Oficial",
       "product_image": "./assets/produtos/SHP-002/01-frente.webp",
@@ -97,7 +97,7 @@
         "Visual inspirado em referências históricas e no estilo retrô.",
         "Confira composição, numeração e detalhes da peça na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
       "images": [
         "./assets/produtos/SHP-002/01-frente.webp",
         "./assets/produtos/SHP-002/02-angulo.webp",
@@ -105,14 +105,14 @@
         "./assets/produtos/SHP-002/04-escudo.webp",
         "./assets/produtos/SHP-002/05-look.webp"
       ],
-      "image_source_note": "Fotografias do anúncio compartilhadas pelo responsável para uso na Fiel Shop; confirmar direito de uso.",
+      "image_source_note": "Fotografias do anúncio compartilhadas pelo responsável para uso na Shop Fiel; confirmar direito de uso.",
       "photo_added_on": "2026-10-15"
     },
     {
       "id": "SHP-003",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/BUU0erc8w",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Camiseta Retrô Corinthians Democracia N° 8 Masculina Oficial",
       "product_image": "./assets/produtos/SHP-003/01-frente.webp",
@@ -147,7 +147,7 @@
         "Visual inspirado em referências históricas e no estilo retrô.",
         "Confira composição, numeração e detalhes da peça na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
       "link_update_status": "awaiting_replacement_affiliate_link",
       "link_update_requested_on": "2026-10-15",
       "images": [
@@ -159,14 +159,14 @@
         "./assets/produtos/SHP-003/06-escudo.webp",
         "./assets/produtos/SHP-003/07-detalhe.webp"
       ],
-      "image_source_note": "Fotografias do anúncio compartilhadas pelo responsável para uso na Fiel Shop; confirmar direito de uso.",
+      "image_source_note": "Fotografias do anúncio compartilhadas pelo responsável para uso na Shop Fiel; confirmar direito de uso.",
       "photo_added_on": "2026-10-15"
     },
     {
       "id": "SHP-004",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/9APIjEaHSx",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Camiseta Masculina 100% Algodão Estampa Corinthians",
       "product_image": "./assets/produtos/SHP-004/01-branca-frente-costas.webp",
@@ -199,7 +199,7 @@
         "Estampa temática frontal e lettering nas costas.",
         "Consulte tabela de medidas, material e disponibilidade na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
       "images": [
         "./assets/produtos/SHP-004/01-branca-frente-costas.webp",
         "./assets/produtos/SHP-004/02-branca-lifestyle.webp",
@@ -216,7 +216,7 @@
       "id": "SHP-005",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/7faUwcl9ex",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Camisa Corinthians Invasão 2.0.2.6 (Todos os Patrocinadores)",
       "product_image": "./assets/produtos/SHP-005/01-frente.webp",
@@ -249,7 +249,7 @@
         "Escudo com acabamento em relevo nas imagens, detalhes pretos e recortes nas laterais.",
         "Consulte vendedor para confirmar modelo, autenticidade, opções, medidas, composição e disponibilidade."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor.",
       "featured_in": [
         "camisas-atuais"
       ],
@@ -301,7 +301,7 @@
         "Oito fotografias: frente, costas, camisa no corpo, gola, escudo e etiqueta.",
         "Confirme na Shopee o modelo e a cor selecionados, tamanhos, composição, originalidade e disponibilidade."
       ],
-      "description_source": "Texto editorial da Fiel Shop com base nas oito fotos fornecidas diretamente pelo responsável. Título escolhido pelo responsável, sem verificação independente de licença/autenticidade.",
+      "description_source": "Texto editorial da Shop Fiel com base nas oito fotos fornecidas diretamente pelo responsável. Título escolhido pelo responsável, sem verificação independente de licença/autenticidade.",
       "featured_in": [
         "camisas-atuais"
       ],
@@ -316,13 +316,13 @@
         "./assets/produtos/SHP-006/08-detalhe-costas.webp"
       ],
       "photo_added_on": "2026-10-15",
-      "image_source_note": "Oito fotos fornecidas pelo responsável da Fiel Shop em 15/10/2026, convertidas em WebP para a galeria; conferir direito de uso e correspondência com a variante anunciada."
+      "image_source_note": "Oito fotos fornecidas pelo responsável da Shop Fiel em 15/10/2026, convertidas em WebP para a galeria; conferir direito de uso e correspondência com a variante anunciada."
     },
     {
       "id": "SHP-007",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/7ptv923tBM",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Camisa Polo Feminina Corinthians CP Retrô – Creme e Preta",
       "product_image": "./assets/produtos/SHP-007/01-modelo-frente.webp",
@@ -354,7 +354,7 @@
         "Galeria com sete imagens da frente, costas, caimento e detalhes do produto.",
         "Consulte no anúncio a composição, tabela de medidas, cuidados de lavagem, preço e disponibilidade."
       ],
-      "description_source": "Texto original preparado para a Fiel Shop, aprovado pelo responsável em 16/10/2026 e fundamentado nas sete fotos enviadas; tecido, licenciamento e estoque não verificados.",
+      "description_source": "Texto original preparado para a Shop Fiel, aprovado pelo responsável em 16/10/2026 e fundamentado nas sete fotos enviadas; tecido, licenciamento e estoque não verificados.",
       "images": [
         "./assets/produtos/SHP-007/01-modelo-frente.webp",
         "./assets/produtos/SHP-007/02-modelo-meio-corpo.webp",
@@ -365,9 +365,9 @@
         "./assets/produtos/SHP-007/07-costas.webp"
       ],
       "photo_added_on": "2026-10-16",
-      "image_source_note": "Sete imagens originais enviadas diretamente pelo responsável da Fiel Shop em 16/10/2026. Correspondência com as cores, variações e procedência do anúncio deve ser confirmada com o vendedor.",
-      "meta_title": "Camisa Polo Feminina Corinthians CP Retrô Creme e Preta | Fiel Shop",
-      "meta_description": "Conheça a camisa polo feminina Corinthians CP retrô em creme e preto. Gola contrastante, monograma no peito e sete fotos. Veja na Fiel Shop.",
+      "image_source_note": "Sete imagens originais enviadas diretamente pelo responsável da Shop Fiel em 16/10/2026. Correspondência com as cores, variações e procedência do anúncio deve ser confirmada com o vendedor.",
+      "meta_title": "Camisa Polo Feminina Corinthians CP Retrô Creme e Preta | Shop Fiel",
+      "meta_description": "Conheça a camisa polo feminina Corinthians CP retrô em creme e preto. Gola contrastante, monograma no peito e sete fotos. Veja na Shop Fiel.",
       "historical_price_snapshot": {
         "amount_brl": 175.66,
         "type": "Pix",
@@ -382,7 +382,7 @@
       "id": "SHP-008",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/60SGxhevap",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Camisa Corinthians III 2024/25 Listrada — Mulheres Negras",
       "product_image": "./assets/produtos/SHP-008/01-frente-angulo.webp",
@@ -439,7 +439,7 @@
       "id": "SHP-009",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/3Vkvz9eZS7",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Kit Churrasco Corinthians Personalizado com Tábua de Teca, Faca, Garfo e Chaira",
       "product_image": "./assets/produtos/SHP-009/01-kit-completo.webp",
@@ -495,7 +495,7 @@
       "id": "SHP-010",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/9pezWpxeL1",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Faca para Churrasco Corinthians em Aço Inoxidável — Todo Poderoso",
       "product_image": "./assets/produtos/SHP-010/01-faca-estojo.webp",
@@ -547,7 +547,7 @@
       "id": "SHP-011",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/5LCaAcQlgD",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Moletom Corinthians Democracia Corinthiana Unissex com Capuz",
       "product_image": "./assets/produtos/SHP-011/01-preto-costas.webp",
@@ -607,7 +607,7 @@
       "id": "SHP-012",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/2BFYOs5rtz",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Taça Corinthians Série Ouro Presente",
       "product_image": null,
@@ -642,13 +642,13 @@
         "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
         "Consulte medidas, características e itens inclusos no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-013",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/6AlhAGpUtX",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Capinha Anti-impacto Corinthians para Samsung — Diversos Modelos",
       "product_image": null,
@@ -683,13 +683,13 @@
         "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
         "Consulte medidas, características e itens inclusos no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-014",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/4VdTBGGYnQ",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Bandeira Grande Corinthians — Tamanhos Grande e Pequeno",
       "product_image": null,
@@ -725,13 +725,13 @@
         "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
         "Consulte medidas, características e itens inclusos no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-015",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/3qNqTn3iVy",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Kit Camiseta Retrô Corinthians 1914 Tricô Edição Limitada",
       "product_image": null,
@@ -766,13 +766,13 @@
         "Visual inspirado em referências históricas e no estilo retrô.",
         "Confira composição, numeração e detalhes da peça na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-016",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/2LZ2hAJX5z",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Camisa Corinthians Lifestyle 1910 Listrada SCCP Masculina",
       "product_image": null,
@@ -807,13 +807,13 @@
         "Visual inspirado em referências históricas e no estilo retrô.",
         "Confira composição, numeração e detalhes da peça na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-017",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/20wE1Bu40o",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Camiseta Gola Redonda Unissex Corinthians Versículo",
       "product_image": null,
@@ -848,13 +848,13 @@
         "Uma opção para levar o Corinthians ao dia a dia.",
         "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-018",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/2BFeDUtQfr",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Camiseta Oversized Unissex Evolução dos Escudos do Corinthians",
       "product_image": null,
@@ -889,13 +889,13 @@
         "Uma opção para levar o Corinthians ao dia a dia.",
         "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-019",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/1gJNcZvKgm",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Kit 6 Copos de Vidro Americano Corinthians Licenciado 190ml",
       "product_image": null,
@@ -930,13 +930,13 @@
         "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
         "Consulte medidas, características e itens inclusos no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-020",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/1qcnosuhLp",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Copo Térmico Timão 360ml Personalizado",
       "product_image": null,
@@ -971,13 +971,13 @@
         "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
         "Consulte medidas, características e itens inclusos no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-021",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/6Almz4csLw",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Cobertor Solteiro Corinthians Microfibra 1,50m x 2,00m Jolitex",
       "product_image": null,
@@ -1013,13 +1013,13 @@
         "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
         "Consulte medidas, características e itens inclusos no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-022",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/60SMmldVgv",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Capinha de Silicone Anti-impacto Corinthians para Samsung",
       "product_image": null,
@@ -1054,13 +1054,13 @@
         "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
         "Consulte medidas, características e itens inclusos no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-023",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/6VOdNgbbg2",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Chinelo Corinthians Slide Nuvem Timão",
       "product_image": null,
@@ -1082,13 +1082,13 @@
         "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
         "Consulte medidas, características e itens inclusos no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-024",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/6L5DBNcF11",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Kit Camisetas Pai e Filho Corinthians Estampadas",
       "product_image": null,
@@ -1108,13 +1108,13 @@
         "Uma opção para levar o Corinthians ao dia a dia.",
         "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     },
     {
       "id": "SHP-025",
       "marketplace": "shopee",
       "url": "https://s.shopee.com.br/qkGdbShJi",
-      "source": "links compartilhados pelo responsável da Fiel Shop",
+      "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
       "product_name": "Camiseta Feminina Corinthians Bordada",
       "product_image": null,
@@ -1136,7 +1136,7 @@
         "Uma opção para levar o Corinthians ao dia a dia.",
         "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
     }
   ],
   "identified_count": 25,
