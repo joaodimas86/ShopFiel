@@ -384,8 +384,8 @@
       "url": "https://s.shopee.com.br/60SGxhevap",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
-      "product_name": "Camiseta Masculina Listrada Corinthians Mulheres Negras 2.0.2.4",
-      "product_image": null,
+      "product_name": "Camisa Corinthians III 2024/25 Listrada — Mulheres Negras",
+      "product_image": "./assets/produtos/SHP-008/01-frente-angulo.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -412,12 +412,28 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Camiseta listrada com tema Corinthians Mulheres Negras, apresentada em referência a 2024. Para quem procura uma peça casual com uma mensagem de identidade e torcida.",
+      "description": "A camisa Corinthians III 2024/25 listrada traz a força do preto e branco em uma referência à coleção inspirada nas mulheres negras do Timão e à luta antirracista no futebol. Sob a mensagem “É UMA PELA OUTRA”, essa inspiração celebra união, respeito e a presença de quem abre caminhos dentro e fora de campo. Com listras verticais e escudo no peito, a peça combina identidade corinthiana e um visual marcante para acompanhar o jogo ou compor o look do dia a dia. Confira no anúncio da Shopee os tamanhos, as variações e as características do produto vendido.",
       "highlights": [
-        "Uma opção para levar o Corinthians ao dia a dia.",
-        "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
+        "Referência à camisa III do Corinthians da coleção 2024/25 e à homenagem às mulheres negras do Timão.",
+        "“É UMA PELA OUTRA”: inspiração que valoriza união, respeito e a luta contra o racismo.",
+        "Visual listrado em preto e branco, com escudo no peito nas fotos fornecidas.",
+        "Confira composição, medidas e instruções de lavagem com o vendedor antes da compra."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado na inspiração e nas fotos enviadas pelo responsável em 16/10/2026. Referência à coleção não comprova autenticidade ou licenciamento do produto anunciado. Composição e lavagem não confirmadas no anúncio e não afirmadas na ficha.",
+      "images": [
+        "./assets/produtos/SHP-008/01-frente-angulo.webp",
+        "./assets/produtos/SHP-008/02-costas.webp",
+        "./assets/produtos/SHP-008/03-look-completo.webp",
+        "./assets/produtos/SHP-008/04-modelo-costas.webp",
+        "./assets/produtos/SHP-008/05-modelo-frente.webp",
+        "./assets/produtos/SHP-008/06-simbolo-peito.webp",
+        "./assets/produtos/SHP-008/07-escudo.webp",
+        "./assets/produtos/SHP-008/08-gola-modelo.webp",
+        "./assets/produtos/SHP-008/09-barra-etiqueta.webp",
+        "./assets/produtos/SHP-008/10-gola-detalhe.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Dez fotos fornecidas pelo responsável, convertidas para WebP. Publicação com dez imagens autorizada pelo responsável; capa com vista frontal em ângulo e galeria com costas, modelo e detalhes."
     },
     {
       "id": "SHP-009",
