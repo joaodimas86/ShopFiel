@@ -102,7 +102,7 @@ function buyBlock(product){
     return;
   }
   const marketplace=product.marketplace==="mercado_livre"?"Mercado Livre":"Shopee";
-  const link=make("a","pd-buy-cta","COMPRAR "+(marketplace==="Shopee"?"NO MARKETPLACE":"NO MERCADO LIVRE")+" ↗");
+  const link=make("a","pd-buy-cta","COMPRAR "+(marketplace==="Shopee"?"NA SHOPEE":"NO MERCADO LIVRE")+" ↗");
   link.href=product.url;
   link.target="_blank";
   link.rel="noopener noreferrer sponsored nofollow";
