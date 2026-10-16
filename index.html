@@ -15,49 +15,68 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://joaodimas86.github.io/ShopFiel/#organizacao","name":"Fiel Shop","url":"https://joaodimas86.github.io/ShopFiel/","description":"Vitrine independente de curadoria de produtos para torcedores, sem vínculo oficial com o Corinthians.","logo":"https://joaodimas86.github.io/ShopFiel/assets/logo-fiel-shop.svg"},{"@type":"WebSite","@id":"https://joaodimas86.github.io/ShopFiel/#website","url":"https://joaodimas86.github.io/ShopFiel/","name":"Fiel Shop","inLanguage":"pt-BR","publisher":{"@id":"https://joaodimas86.github.io/ShopFiel/#organizacao"}}]}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&family=Permanent+Marker&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css?v=20261015-fotos">
   <script defer src="./app.js?v=20261015-fotos"></script>
 <style id="fs-banner-style">
-.fs-carousel{position:relative;overflow:hidden;background:#101010;color:#fff}
-.fs-slide{position:absolute;inset:0;visibility:hidden;opacity:0;pointer-events:none;transition:opacity .35s ease}
-.fs-slide.is-active{position:relative;visibility:visible;opacity:1;pointer-events:auto}
-.fs-slide-grid{min-height:470px;display:grid;grid-template-columns:1.06fr 1fr;align-items:stretch}
-.fs-slide-text{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:18px;padding:44px 30px 44px 0}
-.fs-slide-text small{font-size:11px;color:#bcbcbc;font-weight:900;letter-spacing:.17em}
-.fs-slide-text h1,.fs-slide-text h2{font:900 clamp(66px,7.3vw,108px)/.86 var(--display);margin:0;letter-spacing:-.02em}
-.fs-slide-text em{font-style:normal;color:#bdbdbd}
-.fs-slide-text p{font-size:16px;line-height:1.55;color:#dedede;max-width:450px;margin:0}
-.fs-button{display:inline-block;background:#fff;color:#101010;padding:16px 22px;font-size:12px;letter-spacing:.08em;font-weight:900}
-.fs-button:hover{color:#111;background:#ddd}
-.fs-disclaimer{font-size:9px;color:#a5a5a5;letter-spacing:.09em;font-weight:800}
-.fs-slide-art{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;overflow:hidden;background:radial-gradient(circle,#555 0,#272727 45%,#111 84%)}
-.fs-art-white{background:radial-gradient(circle,#777 0,#393939 47%,#151515 84%)}
-.fs-slide-art:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-45deg,transparent 0 21px,#ffffff08 21px 23px)}
-.fs-slide-art img{z-index:1;display:block;object-fit:contain;max-width:85%;width:auto;max-height:390px;border-radius:4px;filter:drop-shadow(0 16px 22px #0008)}
-.fs-watermark{position:absolute;color:#ffffff22;font:900 clamp(160px,22vw,330px)/1 var(--display);transform:rotate(-12deg)}
-.fs-corner{z-index:2;position:absolute;bottom:25px;right:15px;border:1px solid #eee;padding:9px;transform:rotate(-6deg);font:900 15px var(--display)}
-.fs-navigation{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #ffffff22;min-height:55px;position:relative;z-index:3}
-.fs-dots,.fs-arrows{display:flex;gap:9px;align-items:center}
-.fs-dots button{width:37px;height:7px;border:0;background:#ffffff50;padding:0}
-.fs-dots button.is-active{background:#fff}
-.fs-arrows button{border:1px solid #ffffff60;color:#fff;background:transparent;width:38px;height:35px;font-size:21px}
-.fs-arrows button:hover{background:#fff;color:#111}
-@media(max-width:750px){
-.fs-slide-grid{display:flex;flex-direction:column;min-height:0}
-.fs-slide-text{min-height:310px;padding:35px 0 16px;gap:14px;justify-content:flex-start}
-.fs-slide-text h1,.fs-slide-text h2{font-size:clamp(55px,12vw,80px)}
-.fs-slide-text p{font-size:13px}
-.fs-button{font-size:11px;padding:13px 17px}
-.fs-disclaimer{font-size:8px}
-.fs-slide-art{min-height:250px;margin:0 -18px}
-.fs-slide-art img{max-height:228px;max-width:75%}
-.fs-watermark{font-size:170px}
-.fs-corner{bottom:12px;font-size:12px}
-.fs-navigation{min-height:50px}
+/* Fiel Shop | editorial hero inspirado na linguagem fotográfica da antiga Fiel Store */
+.fs-carousel{position:relative;background:#090909;color:#fff;isolation:isolate;overflow:hidden}
+.fs-slide{position:absolute;inset:0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .5s ease,visibility .5s}
+.fs-slide.is-active{position:relative;opacity:1;visibility:visible;pointer-events:auto}
+.fs-campaign{min-height:470px;position:relative;display:flex;align-items:center;overflow:hidden;background:#111}
+.fs-campaign:before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#080808 0%,#0a0a0af5 20%,#101010d6 42%,#10101050 66%,#07070745 100%)}
+.fs-campaign:after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.33;background:repeating-linear-gradient(130deg,transparent 0 39px,#fff1 40px 40.5px)}
+.fs-campaign-visual{position:absolute;inset:0;z-index:0;overflow:hidden}
+.fs-campaign-photo{position:absolute;left:33%;top:0;width:53%;height:100%;object-fit:cover;object-position:center 27%;filter:brightness(.85) contrast(1.13) saturate(.91)}
+.fs-campaign-photo-detail{position:absolute;right:0;top:0;width:28%;height:100%;object-fit:cover;object-position:center center;filter:brightness(.72) contrast(1.12) saturate(.9);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 24%);mask-image:linear-gradient(90deg,transparent 0,#000 24%)}
+.fs-campaign-invasao .fs-campaign-photo{left:40%;width:48%;object-position:center 35%;filter:brightness(.75) contrast(1.1)}
+.fs-campaign-invasao .fs-campaign-photo-detail{width:28%;filter:grayscale(.45) brightness(.65) contrast(1.12)}
+.fs-campaign-copy{position:relative;z-index:2;padding-top:56px;padding-bottom:60px;pointer-events:none}
+.fs-campaign-copy>*{pointer-events:auto}
+.fs-campaign-copybox{max-width:625px}
+.fs-campaign-label{display:inline-flex;align-items:center;gap:9px;font-size:10px;font-weight:900;letter-spacing:.18em;color:#ddd;text-transform:uppercase}
+.fs-campaign-label:before{content:"";width:29px;height:2px;background:#fff}
+.fs-campaign-title{font:900 clamp(66px,7.7vw,118px)/.85 var(--display);letter-spacing:-.025em;margin:26px 0 14px;color:#fff;text-transform:uppercase;text-shadow:0 5px 18px #0005}
+.fs-campaign-title strong{display:block;font:400 clamp(68px,8.5vw,128px)/.89 'Permanent Marker',Impact,cursive;letter-spacing:-.06em;transform:rotate(-3deg);transform-origin:left center;color:#f2f2f2}
+.fs-campaign-title strong.fs-orange{color:#ff8a29}
+.fs-campaign-copy p{color:#e6e6e6;max-width:375px;font-size:13px;line-height:1.62;margin:23px 0 25px;font-weight:500}
+.fs-campaign-cta{display:inline-flex;align-items:center;gap:25px;padding:13px 18px;background:#fff;border-radius:3px;color:#111;font-size:11px;font-weight:900;letter-spacing:.055em;box-shadow:0 10px 25px #0005;transition:transform .2s,background .2s}
+.fs-campaign-cta:hover{background:#e8e8e8;transform:translateY(-2px)}
+.fs-campaign-footnote{display:block;margin-top:16px;color:#ccc;font-size:9px;letter-spacing:.06em;max-width:370px}
+.fs-campaign-bottom{position:absolute;z-index:2;bottom:18px;right:28px;display:flex;align-items:center;gap:9px;color:#eee;font-size:10px;font-weight:900;letter-spacing:.15em;text-shadow:0 2px 10px #000}
+.fs-campaign-bottom:before{content:"";width:33px;height:1px;background:#fff8}
+.fs-carousel-controls{position:absolute;bottom:16px;left:max(28px,calc((100vw - 1164px)/2));z-index:4;display:flex;gap:7px;align-items:center}
+.fs-carousel-controls .fs-dot{width:31px;height:4px;border:0;background:#ffffff66;padding:0}
+.fs-carousel-controls .fs-dot.is-active{background:#fff;width:50px}
+.fs-carousel-controls .fs-arrow{border:1px solid #ffffff80;background:#1119;color:#fff;border-radius:50%;width:31px;height:31px;font-size:18px;line-height:1;display:grid;place-items:center}
+.fs-carousel-controls .fs-arrow:hover{background:#fff;color:#111}
+.fs-carousel-controls .fs-arrow:first-of-type{margin-left:15px}
+@media(max-width:980px){
+.fs-campaign{min-height:435px}.fs-campaign-title{font-size:clamp(66px,8.7vw,100px)}.fs-campaign-title strong{font-size:clamp(70px,9.5vw,112px)}
+.fs-campaign-photo{left:34%;width:60%}.fs-campaign-photo-detail{right:-5%;width:30%}.fs-campaign-copybox{max-width:560px}
 }
-@media(max-width:400px){.fs-slide-text{min-height:345px}}
-@media(prefers-reduced-motion:reduce){.fs-slide{transition:none}}
+@media(max-width:750px){
+.fs-campaign{min-height:482px;align-items:flex-start}
+.fs-campaign:before{background:linear-gradient(180deg,#090909c9 0%,#0909098a 35%,#08080865 52%,#080808df 100%),linear-gradient(90deg,#090909b0 0%,transparent 75%)}
+.fs-campaign-photo{left:19%;width:81%;object-position:center 16%;filter:brightness(.83) contrast(1.08)}
+.fs-campaign-photo-detail{width:38%;opacity:.65;right:-12%}
+.fs-campaign-invasao .fs-campaign-photo{left:28%;width:72%}
+.fs-campaign-copy{padding-top:28px;padding-bottom:85px;width:100%}
+.fs-campaign-copybox{max-width:100%}
+.fs-campaign-label{font-size:9px}
+.fs-campaign-title{font-size:clamp(61px,12.5vw,88px);margin-top:24px;line-height:.91}
+.fs-campaign-title strong{font-size:clamp(63px,13vw,93px)}
+.fs-campaign-copy p{font-size:12px;line-height:1.55;max-width:300px;margin:20px 0}
+.fs-campaign-cta{font-size:10px;padding:12px 15px}
+.fs-campaign-footnote{font-size:8px;max-width:260px}
+.fs-campaign-bottom{bottom:24px;right:17px;font-size:8px}
+.fs-carousel-controls{left:18px;bottom:23px}
+.fs-carousel-controls .fs-dot{width:21px}
+.fs-carousel-controls .fs-dot.is-active{width:31px}
+.fs-carousel-controls .fs-arrow{width:29px;height:29px}
+}
+@media(max-width:400px){.fs-campaign{min-height:500px}.fs-campaign-title{font-size:58px}.fs-campaign-title strong{font-size:63px}.fs-campaign-copy p{max-width:250px}}
+@media(prefers-reduced-motion:reduce){.fs-slide,.fs-campaign-cta{transition:none}}
 </style>
 </head>
 <body>
@@ -77,20 +96,49 @@
   </div>
 </nav>
 <main>
-<section id="inicio" class="fs-carousel" aria-label="Destaques da Fiel Shop" aria-roledescription="carrossel">
-  <div class="fs-slide is-active" data-fs-slide aria-hidden="false">
-    <div class="wrap fs-slide-grid">
-      <div class="fs-slide-text"><small>01 / 02 · ESCOLHAS DA FIEL</small><h1>O ESTILO<br>É <em>TOTAL 90.</em></h1><p>Camisa masculina preta com detalhes laranja. Um visual marcante para mostrar sua paixão pelo Corinthians.</p><a class="fs-button" href="./produto.html?id=SHP-006">VER CAMISA TOTAL 90 ↗</a><span class="fs-disclaimer">CONFIRA CORES E VARIAÇÕES NO MARKETPLACE PARCEIRO.</span></div>
-      <div class="fs-slide-art"><span aria-hidden="true" class="fs-watermark">90</span><img src="./assets/produtos/SHP-006/01-frente.webp" alt="Camisa preta com detalhes laranja, modelo Total 90" width="480" height="480" fetchpriority="high"><span class="fs-corner">A PAIXÃO NÃO TEM FIM</span></div>
+<section id="inicio" class="fs-carousel" aria-label="Campanhas e destaques da Fiel Shop" aria-roledescription="carrossel">
+  <article class="fs-slide is-active" data-fs-slide aria-hidden="false" aria-label="1 de 2: Camisa Corinthians Total 90">
+    <div class="fs-campaign fs-campaign-total90">
+      <div class="fs-campaign-visual" aria-hidden="true">
+        <img class="fs-campaign-photo" src="./assets/produtos/SHP-006/04-modelo-pose.webp" alt="" fetchpriority="high">
+        <img class="fs-campaign-photo-detail" src="./assets/produtos/SHP-006/05-gola-escudo.webp" alt="" fetchpriority="high">
+      </div>
+      <div class="wrap fs-campaign-copy">
+        <div class="fs-campaign-copybox">
+          <span class="fs-campaign-label">FIEL SHOP · ESTILO TOTAL 90</span>
+          <h1 class="fs-campaign-title">É TUDO<br><strong class="fs-orange">NOSSO.</strong></h1>
+          <p>A camisa preta com detalhes laranja que carrega a atitude de quem vive o Corinthians todos os dias.</p>
+          <a class="fs-campaign-cta" href="./produto.html?id=SHP-006">CONHECER A CAMISA <span aria-hidden="true">↗</span></a>
+          <small class="fs-campaign-footnote">Confira a cor, a procedência e as opções disponíveis no anúncio parceiro.</small>
+        </div>
+      </div>
+      <span class="fs-campaign-bottom">DE TORCEDOR PARA TORCEDOR</span>
     </div>
-  </div>
-  <div class="fs-slide" data-fs-slide aria-hidden="true">
-    <div class="wrap fs-slide-grid">
-      <div class="fs-slide-text"><small>02 / 02 · CAMISAS DA FIEL</small><h2>INVASÃO<br><em>2026.</em></h2><p>Conheça a camisa branca Invasão 2026. Veja as fotos de frente, costas e os detalhes do escudo e acabamento.</p><a class="fs-button" href="./produto.html?id=SHP-005" tabindex="-1">CONHECER A CAMISA ↗</a><span class="fs-disclaimer">COMPRA REALIZADA DIRETAMENTE NO MARKETPLACE PARCEIRO.</span></div>
-      <div class="fs-slide-art fs-art-white"><span aria-hidden="true" class="fs-watermark">FIEL</span><img src="./assets/produtos/SHP-005/01-frente.webp" alt="Camisa branca Corinthians Invasão 2026" width="480" height="480" loading="lazy"><span class="fs-corner">DE TORCEDOR PARA TORCEDOR</span></div>
+  </article>
+  <article class="fs-slide" data-fs-slide aria-hidden="true" aria-label="2 de 2: Camisa Corinthians Invasão 2026">
+    <div class="fs-campaign fs-campaign-invasao">
+      <div class="fs-campaign-visual" aria-hidden="true">
+        <img class="fs-campaign-photo" src="./assets/produtos/SHP-005/03-no-corpo.webp" alt="" loading="lazy">
+        <img class="fs-campaign-photo-detail" src="./assets/produtos/SHP-005/04-escudo.webp" alt="" loading="lazy">
+      </div>
+      <div class="wrap fs-campaign-copy">
+        <div class="fs-campaign-copybox">
+          <span class="fs-campaign-label">FIEL SHOP · INVASÃO 2026</span>
+          <h2 class="fs-campaign-title">A FIEL<br><strong>INVADIU.</strong></h2>
+          <p>O manto branco Invasão 2026: escudo em destaque, detalhes em preto e identidade de arquibancada.</p>
+          <a class="fs-campaign-cta" href="./produto.html?id=SHP-005" tabindex="-1">VER CAMISA INVASÃO <span aria-hidden="true">↗</span></a>
+          <small class="fs-campaign-footnote">Confira tamanhos, composição e variações diretamente na Shopee.</small>
+        </div>
+      </div>
+      <span class="fs-campaign-bottom">A PAIXÃO NÃO TEM FIM</span>
     </div>
+  </article>
+  <div class="fs-carousel-controls" aria-label="Navegação dos banners">
+    <button class="fs-dot is-active" type="button" data-fs-dot="0" aria-pressed="true" aria-label="Banner 1: Total 90"></button>
+    <button class="fs-dot" type="button" data-fs-dot="1" aria-pressed="false" aria-label="Banner 2: Invasão 2026"></button>
+    <button class="fs-arrow" type="button" data-fs-prev aria-label="Banner anterior">‹</button>
+    <button class="fs-arrow" type="button" data-fs-next aria-label="Próximo banner">›</button>
   </div>
-  <div class="wrap fs-navigation"><div class="fs-dots" aria-label="Escolha o banner"><button type="button" class="is-active" data-fs-dot="0" aria-label="Ver banner Total 90" aria-pressed="true"></button><button type="button" data-fs-dot="1" aria-label="Ver banner Invasão 2026" aria-pressed="false"></button></div><div class="fs-arrows"><button type="button" data-fs-prev aria-label="Banner anterior">←</button><button type="button" data-fs-next aria-label="Próximo banner">→</button></div></div>
 </section>
 <div class="strap"><div class="wrap strap-row"><span>◆ FEITO PARA A FIEL</span><span>↗ ESCOLHA ONDE COMPRAR</span><span>✳ SELEÇÃO PARA O TORCEDOR</span></div></div>
 <section class="collections-section" id="catalogo" aria-labelledby="collections-heading">
@@ -126,23 +174,27 @@
 
 <script id="fs-banner-script">
 (function(){
-const carousel=document.querySelector(".fs-carousel");if(!carousel)return;
-const slides=[...carousel.querySelectorAll("[data-fs-slide]")],dots=[...carousel.querySelectorAll("[data-fs-dot]")];
-let active=0,interval=null,touchX=null;
-const motion=window.matchMedia("(prefers-reduced-motion: reduce)");
-function set(i){active=(i+slides.length)%slides.length;slides.forEach((s,j)=>{let on=j===active;s.classList.toggle("is-active",on);s.setAttribute("aria-hidden",String(!on));s.querySelectorAll("a").forEach(a=>a.tabIndex=on?0:-1)});dots.forEach((b,j)=>{b.classList.toggle("is-active",j===active);b.setAttribute("aria-pressed",String(j===active))})}
-function stop(){if(interval){clearInterval(interval);interval=null}}
-function play(){stop();if(!motion.matches&&!document.hidden)interval=setInterval(()=>set(active+1),6500)}
-carousel.querySelector("[data-fs-prev]").addEventListener("click",()=>{set(active-1);play()});
-carousel.querySelector("[data-fs-next]").addEventListener("click",()=>{set(active+1);play()});
-dots.forEach((d,i)=>d.addEventListener("click",()=>{set(i);play()}));
-carousel.addEventListener("mouseenter",stop);carousel.addEventListener("mouseleave",play);
-carousel.addEventListener("focusin",stop);carousel.addEventListener("focusout",e=>{if(!carousel.contains(e.relatedTarget))play()});
-carousel.addEventListener("touchstart",e=>{touchX=e.changedTouches[0].screenX},{passive:true});
-carousel.addEventListener("touchend",e=>{if(touchX===null)return;const shift=e.changedTouches[0].screenX-touchX;touchX=null;if(Math.abs(shift)>45){set(active+(shift<0?1:-1));play()}},{passive:true});
-document.addEventListener("visibilitychange",()=>document.hidden?stop():play());
-if(motion.addEventListener)motion.addEventListener("change",play);
-set(0);play();
+ const root=document.querySelector(".fs-carousel");if(!root)return;
+ const slides=[...root.querySelectorAll("[data-fs-slide]")];
+ const dots=[...root.querySelectorAll("[data-fs-dot]")];
+ const motion=window.matchMedia("(prefers-reduced-motion: reduce)");
+ let current=0,timer=null,startX=null;
+ function select(i){current=(i+slides.length)%slides.length;
+  slides.forEach((el,n)=>{const active=n===current;el.classList.toggle("is-active",active);el.setAttribute("aria-hidden",String(!active));
+   el.querySelectorAll("a").forEach(link=>{link.tabIndex=active?0:-1})});
+  dots.forEach((dot,n)=>{const active=n===current;dot.classList.toggle("is-active",active);dot.setAttribute("aria-pressed",String(active))})}
+ function stop(){if(timer){clearInterval(timer);timer=null}}
+ function play(){stop();if(!motion.matches&&!document.hidden)timer=setInterval(()=>select(current+1),6500)}
+ root.querySelector("[data-fs-prev]").addEventListener("click",()=>{select(current-1);play()});
+ root.querySelector("[data-fs-next]").addEventListener("click",()=>{select(current+1);play()});
+ dots.forEach((dot,n)=>dot.addEventListener("click",()=>{select(n);play()}));
+ root.addEventListener("mouseenter",stop);root.addEventListener("mouseleave",play);
+ root.addEventListener("focusin",stop);root.addEventListener("focusout",ev=>{if(!root.contains(ev.relatedTarget))play()});
+ root.addEventListener("touchstart",ev=>{startX=ev.changedTouches[0].screenX},{passive:true});
+ root.addEventListener("touchend",ev=>{if(startX===null)return;const dx=ev.changedTouches[0].screenX-startX;startX=null;if(Math.abs(dx)>45){select(current+(dx<0?1:-1));play()}},{passive:true});
+ document.addEventListener("visibilitychange",()=>document.hidden?stop():play());
+ if(motion.addEventListener)motion.addEventListener("change",play);
+ select(0);play();
 })();
 </script>
 </body>
