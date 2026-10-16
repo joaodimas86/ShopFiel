@@ -549,8 +549,8 @@
       "url": "https://s.shopee.com.br/5LCaAcQlgD",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
-      "product_name": "Moletom Corinthians Democracia Corinthiana 2025",
-      "product_image": null,
+      "product_name": "Moletom Corinthians Democracia Corinthiana Unissex com Capuz",
+      "product_image": "./assets/produtos/SHP-011/01-preto-costas.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -577,12 +577,31 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Moletom com referência à Democracia Corinthiana, combinando tema histórico do clube e estilo casual. Confira composição, tamanhos e disponibilidade com o vendedor.",
+      "description": "Vestir o Corinthians também é carregar uma ideia: a força de muitas vozes construindo o mesmo caminho. O Moletom Democracia Corinthiana transforma essa identificação em uma peça para o dia a dia, com uma estampa que celebra participação, liberdade e o orgulho de pertencer à Fiel. A mensagem nas costas dá protagonismo à Democracia Corinthiana, enquanto o monograma no peito mantém a identidade da torcida presente na frente. Para acompanhar o jogo, encontrar os amigos ou encarar os dias frios, o modelo canguru unissex reúne capuz, bolso frontal e tecido com 75% algodão e 25% poliéster, conforme a descrição do vendedor. Uma escolha para quem encontra no Corinthians uma paixão compartilhada e na democracia um valor para levar consigo.",
       "highlights": [
-        "Uma opção para levar o Corinthians ao dia a dia.",
-        "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
+        "Modelo canguru unissex, com capuz e bolso frontal; monograma no peito e estampa Democracia Corinthiana nas costas, conforme as fotos.",
+        "Composição informada pelo vendedor: 75% algodão e 25% poliéster.",
+        "Fotos das versões preta, bege e branca. Confira as cores e os tamanhos disponíveis no anúncio da Shopee.",
+        "Tamanho P: altura 64 cm × largura 53 cm × manga 58 cm.",
+        "Tamanho M: altura 64 cm × largura 55 cm × manga 62 cm.",
+        "Tamanho G: altura 70 cm × largura 61 cm × manga 66 cm.",
+        "Tamanho GG: altura 75 cm × largura 64 cm × manga 68 cm.",
+        "As medidas informadas pelo vendedor podem variar até 2 cm para mais ou para menos. Compare com uma peça sua esticada sobre uma mesa.",
+        "Lave do avesso, em água fria, sem alvejante e sem deixar de molho. Evite água quente e o modo pesado da máquina.",
+        "Seque preferencialmente à sombra e não passe o ferro sobre a estampa."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original preparado com base nas sete fotos e na descrição fornecida pelo responsável em 16/10/2026. Composição, medidas e cuidados são informações do vendedor. Não se afirma licenciamento, durabilidade comprovada, estoque atual ou prazo de entrega.",
+      "images": [
+        "./assets/produtos/SHP-011/01-preto-costas.webp",
+        "./assets/produtos/SHP-011/02-preto-frente.webp",
+        "./assets/produtos/SHP-011/03-bege-costas.webp",
+        "./assets/produtos/SHP-011/04-bege-frente.webp",
+        "./assets/produtos/SHP-011/05-branco-frente.webp",
+        "./assets/produtos/SHP-011/06-estampa-branca.webp",
+        "./assets/produtos/SHP-011/07-estampa-bege.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Sete imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP, preservando as dimensões de origem. Capa com costas do moletom preto e mensagem Democracia Corinthiana; detalhes da estampa têm resolução original menor."
     },
     {
       "id": "SHP-012",
