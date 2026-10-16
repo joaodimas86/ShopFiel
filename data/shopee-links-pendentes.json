@@ -1156,43 +1156,54 @@
     {
       "id": "SHP-022",
       "marketplace": "shopee",
-      "url": "https://s.shopee.com.br/60SMmldVgv",
+      "url": "https://s.shopee.com.br/4qGSaJBijY?share_channel_code=1",
       "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
-      "product_name": "Capinha de Silicone Anti-impacto Corinthians para Samsung",
-      "product_image": null,
+      "product_name": "Capinha Corinthians para iPhone Acrílico e Silicone com Escudos",
+      "product_image": "./assets/produtos/SHP-022/01-preta-escudos.webp",
       "price_brl": null,
       "verified_at": null,
-      "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
+      "notes": "Oferta substituída pelo responsável em 16/10/2026 por anúncio para iPhone. Link curto de afiliado preservado exatamente como fornecido, incluindo share_channel_code=1. Preço, avaliações, estoque e dados do antigo anúncio Samsung não se aplicam. Confirme o modelo exato do iPhone entre as variações na Shopee.",
       "category_id": "souvenirs",
-      "seller_product_id": "23194800853",
-      "seller_shop_id": "1489259796",
-      "listing_title_verified_at": "2026-10-15",
-      "price_snapshot": {
-        "amount_brl": 18.8,
-        "type": "com cupom",
-        "other_amount_brl": 19.8,
-        "other_type": "sem cupom",
-        "observed_on": "2026-10-15",
-        "live_price": false,
-        "source": "print do anúncio enviado pelo responsável"
-      },
-      "rating_snapshot": {
-        "rating": 4.9,
-        "review_count": 8,
-        "sales_count_at_least": 21,
-        "observed_on": "2026-10-15"
-      },
+      "seller_product_id": "22794802701",
+      "seller_shop_id": "1618131099",
       "availability": "not_verified",
       "affiliate_link_mapping_status": "confirmed_by_owner",
-      "affiliate_link_mapping_confirmed_at": "2026-10-15",
-      "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Capinha com tema do Corinthians, anunciada em silicone e com proteção contra impactos para aparelhos Samsung. É importante escolher a versão exata do celular antes de comprar.",
+      "affiliate_link_mapping_confirmed_at": "2026-10-16",
+      "affiliate_link_mapping_confirmation_source": "Responsável solicitou a troca completa do SHP-022 para o anúncio iPhone e forneceu novo link curto e URL do produto.",
+      "description": "A identidade do Timão acompanha você em cada detalhe. A Capinha Corinthians para iPhone em Acrílico e Silicone com Escudos combina uma sequência de emblemas corinthianos com listras verticais, criando um visual de torcida para o uso diário. As fotos apresentam opções preta, clara e rosa, com acabamento ao redor do conjunto de câmeras. Segundo a descrição do vendedor, a capa é feita de acrílico e silicone e foi pensada para ajudar a proteger o aparelho contra riscos e impactos cotidianos. Uma opção para personalizar seu iPhone ou presentear quem leva a paixão pelo Corinthians por onde passa. Antes de comprar, selecione na Shopee o modelo exato do seu iPhone e a cor desejada: os recortes e o encaixe variam conforme o aparelho.",
       "highlights": [
-        "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
-        "Consulte medidas, características e itens inclusos no anúncio."
+        "Capinha com tema Corinthians para iPhone, com sequência de escudos e listras, conforme as imagens.",
+        "Materiais informados pelo vendedor: acrílico e silicone.",
+        "Galeria com opções preta, clara e rosa. Confira as cores disponíveis na variação escolhida.",
+        "Selecione o modelo exato do iPhone no anúncio. Não é uma capa universal, e as fotos não confirmam compatibilidade com todas as gerações.",
+        "A proteção contra riscos e impactos é uma característica anunciada pelo vendedor; não garante que o aparelho fique livre de danos em quedas ou colisões.",
+        "Fotos com duas capas ilustram opções de cor; não representam necessariamente um kit. Confira quantidade e itens inclusos no anúncio.",
+        "Não há confirmação de MagSafe, carregamento sem fio, impermeabilidade ou inclusão de película para as lentes.",
+        "As tonalidades podem variar conforme a iluminação das fotos e a tela. Consulte preço, estoque e prazo de entrega atuais na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado nas nove fotos, na descrição e nos novos links fornecidos pelo responsável em 16/10/2026. Acrílico e silicone são informações do vendedor. Não se afirmam licenciamento, proteção absoluta, compatibilidade com gerações específicas ou estoque atual.",
+      "previous_listing": {
+        "url": "https://s.shopee.com.br/60SMmldVgv",
+        "seller_shop_id": "1489259796",
+        "seller_product_id": "23194800853",
+        "replaced_on": "2026-10-16",
+        "reason": "Substituição da capinha Samsung por capinha iPhone solicitada pelo responsável."
+      },
+      "metadata_source": "Novo link curto, URL longa e descrição do anúncio fornecidos pelo responsável em 16/10/2026. IDs do vendedor e produto extraídos da URL longa; página Shopee não acessível para verificação independente.",
+      "images": [
+        "./assets/produtos/SHP-022/01-preta-escudos.webp",
+        "./assets/produtos/SHP-022/02-clara-escudos.webp",
+        "./assets/produtos/SHP-022/03-rosa-escudos.webp",
+        "./assets/produtos/SHP-022/04-preta-clara.webp",
+        "./assets/produtos/SHP-022/05-clara-rosa.webp",
+        "./assets/produtos/SHP-022/06-cores.webp",
+        "./assets/produtos/SHP-022/07-preta-horizontal.webp",
+        "./assets/produtos/SHP-022/08-clara-horizontal.webp",
+        "./assets/produtos/SHP-022/09-rosa-horizontal.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Nove imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP na resolução original de 800 × 800 pixels. Capa com a opção preta; galeria com opções clara e rosa. Aparelhos e objetos de cenário não são apresentados como itens inclusos."
     },
     {
       "id": "SHP-023",

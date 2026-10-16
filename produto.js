@@ -8,7 +8,7 @@ const make = (tag,klass,value) => {
   return element;
 };
 const searchTerm = text => String(text||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
-const affiliateUrl = url => typeof url==="string" && /^https:\/\/s\.shopee\.com\.br\/[A-Za-z0-9]+$/.test(url);
+const affiliateUrl = url => typeof url==="string" && /^https:\/\/s\.shopee\.com\.br\/[A-Za-z0-9]+(?:\?share_channel_code=1)?$/.test(url);
 const money = n => Number(n).toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
 const categories={
   "casuais":"Moda Casual",
