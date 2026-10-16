@@ -188,7 +188,7 @@
       "affiliate_link_verified": false,
       "status": "identified",
       "product_name": "Cropped Feminino Corinthians Rosa e Branco com Gola Polo",
-      "product_image": "./assets/produtos/ML-006/01-cropped-frente.webp",
+      "product_image": "./assets/produtos/ML-006/04-look-estadio.webp",
       "price_brl": null,
       "verified_at": null,
       "category_id": "casuais",
@@ -214,14 +214,14 @@
       },
       "description_source": "Texto editorial original baseado nas cinco imagens e na descrição fornecidas pelo responsável em 16/10/2026. Composição, tamanhos, bordado, licenciamento e garantia são informações do vendedor, sem verificação independente. Não se afirmam durabilidade superior, retenção permanente de cor e forma, envio rápido garantido ou devolução incondicional.",
       "images": [
+        "./assets/produtos/ML-006/04-look-estadio.webp",
         "./assets/produtos/ML-006/01-cropped-frente.webp",
         "./assets/produtos/ML-006/02-costas.webp",
         "./assets/produtos/ML-006/03-escudo-etiqueta.webp",
-        "./assets/produtos/ML-006/04-look-estadio.webp",
         "./assets/produtos/ML-006/05-editorial-torcedoras.webp"
       ],
       "photo_added_on": "2026-10-16",
-      "image_source_note": "Cinco imagens fornecidas pelo responsável e otimizadas em WebP sem ampliação. Capa com vista frontal no cabide; galeria com costas, etiqueta e imagens ambientadas, que não comprovam medidas ou modelagem exata."
+      "image_source_note": "Cinco imagens fornecidas pelo responsável e otimizadas em WebP sem ampliação. Capa com mulher vestindo o cropped no estádio, escolhida pelo responsável; galeria com frente no cabide, costas, etiqueta e imagem de torcedoras."
     },
     {
       "id": "ML-007",
