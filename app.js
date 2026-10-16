@@ -15,7 +15,7 @@ const isIdentified = product => product&&product.status==="identified"&&product.
 const unavailable = product => product.availability==="out_of_stock";
 const state={items:[],category:"casuais",query:"",sort:"featured",loaded:false};
 const collections={
- "camisas-atuais":{kicker:"CAMISAS COM LINKS CONFERIDOS",title:"CAMISAS",accent:"DA FIEL.",description:"Modelos selecionados com anúncios na Shopee. Os uniformes oficiais Nike 2026/27 ainda aguardam ofertas específicas verificadas."},
+ "camisas-atuais":{kicker:"CAMISAS COM LINKS CONFERIDOS",title:"CAMISAS",accent:"DA FIEL.",description:"Camisas de futebol para vestir a paixão pelo Corinthians: explore os modelos e escolha seu manto."},
  "casuais":{kicker:"ROUPAS PARA O DIA A DIA",title:"MODA",accent:"CASUAL.",description:"Camisetas, polos e moletons para levar o Timão para qualquer lugar."},
  "historicas":{kicker:"TRADIÇÃO QUE NÃO ACABA",title:"CAMISAS",accent:"HISTÓRICAS.",description:"Modelos retrô e homenagens às temporadas e momentos que marcaram a Fiel."},
  "souvenirs":{kicker:"PRESENTES PARA A FIEL",title:"SOUVENIRS",accent:"& ACESSÓRIOS.",description:"Copos, capinhas, bandeiras, itens para casa e presentes para torcedores."}
@@ -106,9 +106,7 @@ function actualProductCard(product){
  return card;
 }
 function filteredProducts(){
- const source=state.items.filter(p=>state.category==="camisas-atuais"?
-   Array.isArray(p.featured_in)&&p.featured_in.includes("camisas-atuais"):
-   p.category_id===state.category);
+ const source=state.items.filter(p=>p.category_id===state.category);
  const query=searchTerm(state.query).trim();
  let values=source.filter(p=>searchTerm((p.product_name||"")+" "+(p.id||"")).includes(query));
  if(state.sort==="az")values=values.sort((a,b)=>a.product_name.localeCompare(b.product_name,"pt-BR"));
@@ -118,7 +116,7 @@ function filteredProducts(){
 }
 function updateCategoryCounts(){
  const counts={
-   "camisas-atuais":state.items.filter(p=>Array.isArray(p.featured_in)&&p.featured_in.includes("camisas-atuais")).length,
+   "camisas-atuais":state.items.filter(p=>p.category_id==="camisas-atuais").length,
    "casuais":state.items.filter(p=>p.category_id==="casuais").length,
    "historicas":state.items.filter(p=>p.category_id==="historicas").length,
    "souvenirs":state.items.filter(p=>p.category_id==="souvenirs").length
