@@ -1322,8 +1322,8 @@
       "url": "https://s.shopee.com.br/qkGdbShJi",
       "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
-      "product_name": "Camiseta Feminina Corinthians Bordada",
-      "product_image": null,
+      "product_name": "Camiseta Feminina Corinthians Preta com Escudo Bordado e Detalhes Dourados",
+      "product_image": "./assets/produtos/SHP-025/01-modelo-frente.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Descrição do vendedor: Camiseta Feminina Corinthians Bordado Oficial Licenciado. Imagem e produto identificados via captura; declaração de licenciamento ainda não confirmada de modo independente. Utilizar link de afiliado curto original.",
@@ -1331,18 +1331,35 @@
       "subcategory_id": "feminino",
       "seller_shop_id": "1021676691",
       "seller_product_id": "58259857899",
-      "price_snapshot": null,
+      "price_snapshot": {
+        "amount_brl": 125.68,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em conversa em 16/10/2026; condições de pagamento e variação não especificadas."
+      },
       "listing_title_verified_at": "2026-10-15",
       "availability": "not_verified",
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Camiseta feminina com detalhe bordado do Corinthians e proposta casual. Confira a modelagem, a composição e as opções disponíveis diretamente com o vendedor.",
+      "description": "A paixão pelo Timão também aparece nos detalhes. A Camiseta Feminina Corinthians Preta com Escudo Bordado e Detalhes Dourados combina a força do preto com um acabamento que valoriza o escudo no peito. A gola redonda e as mangas curtas recebem frisos em tom dourado, criando um visual fácil de combinar com jeans, saia ou peças de alfaiataria. Para acompanhar o jogo, sair com os amigos ou levar a identidade corinthiana à rotina, a peça une proposta casual e um toque de elegância. Segundo a descrição fornecida do anúncio, a camiseta tem modelagem feminina e tecido macio, e é apresentada como produto oficial licenciado. Confira na Shopee a composição, a tabela de medidas e a identificação de procedência antes de escolher sua numeração.",
       "highlights": [
-        "Uma opção para levar o Corinthians ao dia a dia.",
-        "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
+        "Camiseta feminina preta, com gola redonda e mangas curtas, conforme as fotos.",
+        "Escudo do Corinthians bordado no peito e detalhes em tom dourado na gola e nas mangas, conforme o material enviado.",
+        "Modelagem feminina e tecido macio descritos pelo vendedor. A composição não foi informada; confira a etiqueta e o anúncio.",
+        "Uma opção para looks casuais, dias de jogo e para presentear torcedoras do Corinthians.",
+        "Produto apresentado como oficial e licenciado na descrição do anúncio, sem verificação independente de autenticidade.",
+        "Galeria com vista frontal da peça no modelo e foto aproximada do bordado e dos acabamentos.",
+        "Compare a tabela de medidas com uma camiseta que já veste bem e consulte as instruções de lavagem e conservação na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado nas duas fotos e na descrição fornecidas pelo responsável em 16/10/2026. Bordado, modelagem feminina, tecido macio e licenciamento são informações do material enviado. Não se afirmam composição não informada, qualidade superior, maior durabilidade que estampas ou autenticidade verificada.",
+      "images": [
+        "./assets/produtos/SHP-025/01-modelo-frente.webp",
+        "./assets/produtos/SHP-025/02-bordado-detalhes.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Duas imagens fornecidas pelo responsável em 16/10/2026, otimizadas em WebP sem ampliar a resolução original. Capa frontal de 544 × 544 pixels e detalhe do bordado de 1024 × 1024 pixels. Acessórios e outras peças do look não são apresentados como itens inclusos."
     }
   ],
   "identified_count": 25,
