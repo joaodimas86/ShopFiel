@@ -1233,7 +1233,13 @@
       "seller_product_id": "58250486387",
       "seller_shop_id": "337932294",
       "listing_title_verified_at": "2026-10-15",
-      "price_snapshot": null,
+      "price_snapshot": {
+        "amount_brl": 176.7,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em conversa em 16/10/2026; condições de pagamento e variação não especificadas."
+      },
       "rating_snapshot": null,
       "availability": "not_verified",
       "affiliate_link_mapping_status": "confirmed_by_owner",
