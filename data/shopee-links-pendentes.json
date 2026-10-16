@@ -1218,8 +1218,8 @@
       "url": "https://s.shopee.com.br/6VOdNgbbg2",
       "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
-      "product_name": "Chinelo Corinthians Slide Nuvem Timão",
-      "product_image": null,
+      "product_name": "Chinelo Nuvem Corinthians Slide Unissex em EVA CR3319",
+      "product_image": "./assets/produtos/SHP-023/01-preto-par.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -1233,12 +1233,30 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Chinelo slide estilo nuvem com temática do Timão, para momentos de descanso e uso casual. Consulte numeração, cores e informações do solado no anúncio.",
+      "description": "O descanso também tem lugar na torcida. O Chinelo Nuvem Corinthians Slide Unissex em EVA CR3319 leva o escudo do Timão para os momentos de lazer, com um modelo aberto e fácil de calçar. A tira larga, a base encorpada e os detalhes SCCP dão identidade ao visual, enquanto as versões preta, creme e branca apresentadas nas fotos permitem combinar o chinelo com diferentes looks casuais. Segundo a descrição do vendedor, a composição em EVA oferece leveza e maciez, com solado de formato anatômico. Para usar em casa, depois do treino ou no fim de semana, é uma opção de presente para quem gosta de carregar o Corinthians até nos pés. O anúncio informa que o produto é oficial e licenciado; confira a identificação, as cores e a tabela de numeração na Shopee antes de escolher seu par.",
       "highlights": [
-        "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
-        "Consulte medidas, características e itens inclusos no anúncio."
+        "Modelo slide unissex, estilo nuvem, com tira larga e escudo do Corinthians em destaque.",
+        "Referência informada pelo vendedor: CR3319. Composição anunciada: EVA.",
+        "Leveza, maciez e formato anatômico são características descritas pelo vendedor.",
+        "Fotos das opções preta, creme e branca, com detalhes do escudo, laterais e solado. Confira as cores disponíveis no anúncio.",
+        "Produto informado como oficial e licenciado na descrição fornecida; confira a identificação de procedência no anúncio e no produto.",
+        "Consulte a tabela de numeração e as medidas em centímetros antes de comprar; a indicação numérica em uma foto não define todos os tamanhos disponíveis.",
+        "Os relevos visíveis no solado não comprovam desempenho antiderrapante. Não se atribuem benefícios ortopédicos ao produto.",
+        "Consulte o preço atual, a disponibilidade da variação e os cuidados de limpeza e conservação na Shopee."
       ],
-      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado nas oito fotos e na descrição fornecidas pelo responsável em 16/10/2026. Referência CR3319, composição EVA, modelagem unissex, maciez, leveza e formato anatômico são informações do vendedor. Licenciamento é atribuído ao anúncio, sem verificação independente. Não se afirmam desempenho antiderrapante, benefícios ortopédicos ou durabilidade comprovada.",
+      "images": [
+        "./assets/produtos/SHP-023/01-preto-par.webp",
+        "./assets/produtos/SHP-023/02-creme-par.webp",
+        "./assets/produtos/SHP-023/03-creme-angulo.webp",
+        "./assets/produtos/SHP-023/04-branco-par.webp",
+        "./assets/produtos/SHP-023/05-branco-escudo.webp",
+        "./assets/produtos/SHP-023/06-preto-solado.webp",
+        "./assets/produtos/SHP-023/07-creme-solado.webp",
+        "./assets/produtos/SHP-023/08-preto-lateral.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Oito imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP sem ampliar a resolução original. Capa com o par preto; galeria com versões creme e branca, escudo, solados e vista lateral."
     },
     {
       "id": "SHP-024",
