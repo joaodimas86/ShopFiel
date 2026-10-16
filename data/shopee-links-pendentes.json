@@ -1042,8 +1042,8 @@
       "url": "https://s.shopee.com.br/1qcnosuhLp",
       "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
-      "product_name": "Copo Térmico Timão 360ml Personalizado",
-      "product_image": null,
+      "product_name": "Copo Térmico Corinthians 360 ml Personalizado com Nome a Laser",
+      "product_image": "./assets/produtos/SHP-020/01-branco-personalizado.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -1070,12 +1070,29 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Copo térmico personalizado com identidade do Timão, anunciado com capacidade de 360 ml. Uma ideia de presente ou acessório para acompanhar a rotina do torcedor.",
+      "description": "Seu nome, o escudo do Timão e uma paixão para acompanhar a rotina. O Copo Térmico Corinthians 360 ml Personalizado com Nome a Laser combina a identidade da Fiel com uma gravação feita para você. Para o café, o encontro com os amigos ou a bebida nos dias de jogo, é uma opção de presente para corinthianos que gostam de unir uso cotidiano e torcida. As fotos apresentam tampa transparente, interior indicado como aço inox e versões branca, preta, rosa e roxa. Segundo o vendedor, o copo conserva bebidas geladas por até 6 horas e quentes por até 1 hora; o resultado pode variar conforme a temperatura inicial, o ambiente e a forma de uso. Após a compra, envie pelo chat da Shopee o nome desejado, o time escolhido e a cor do copo, conforme as orientações do anúncio.",
       "highlights": [
-        "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
-        "Consulte medidas, características e itens inclusos no anúncio."
+        "Capacidade informada: 360 ml. Personalização com nome e escudo do Corinthians por gravação a laser, conforme o anúncio.",
+        "Após a compra, envie ao vendedor pelo chat da Shopee: nome desejado, time escolhido e cor do copo. Confira a disponibilidade da cor antes de finalizar.",
+        "Fotos das versões branca, preta, rosa e roxa; nomes gravados nas imagens são exemplos de personalização.",
+        "Medidas apresentadas na imagem do vendedor: altura de 11,5 cm, diâmetro superior de 8 cm e base de 6 cm.",
+        "Interior indicado como aço inox, base antiderrapante e tampa transparente, conforme as imagens fornecidas.",
+        "Conservação térmica anunciada: bebidas geladas por até 6 horas e quentes por até 1 hora. Tempos informados pelo vendedor, sem teste independente; variam com as condições de uso.",
+        "Imagens com vários copos ilustram cores e situações de uso; não indicam um kit. Confirme quantidade, embalagem e itens inclusos na variação escolhida.",
+        "Consulte instruções de limpeza, uso da tampa e conservação no anúncio. Não há confirmação de vedação contra vazamentos."
       ],
-      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado nas sete imagens e na descrição fornecidas pelo responsável em 16/10/2026. Capacidade, gravação a laser e instruções de personalização são informações do anúncio; medidas, interior em aço inox e base antiderrapante constam nas imagens. Desempenho térmico é atribuído ao vendedor, sem verificação independente. Não se afirma licenciamento, vedação hermética, durabilidade permanente ou desempenho ambiental comprovado.",
+      "images": [
+        "./assets/produtos/SHP-020/01-branco-personalizado.webp",
+        "./assets/produtos/SHP-020/02-preto-personalizado.webp",
+        "./assets/produtos/SHP-020/03-roxo-personalizado.webp",
+        "./assets/produtos/SHP-020/04-opcoes-cores.webp",
+        "./assets/produtos/SHP-020/05-medidas-detalhes.webp",
+        "./assets/produtos/SHP-020/06-em-uso.webp",
+        "./assets/produtos/SHP-020/07-informacoes-termicas.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Sete imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP na resolução original de 1024 × 1024 pixels. Capa com copo branco personalizado; galeria com cores, medidas, uso e informações do vendedor. Nomes e objetos de cenário são ilustrativos."
     },
     {
       "id": "SHP-021",
