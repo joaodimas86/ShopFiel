@@ -51,11 +51,39 @@
       "marketplace": "mercado_livre",
       "url": "https://meli.la/2J1AeXd",
       "affiliate_link_verified": false,
-      "status": "pending_identification",
-      "product_name": null,
-      "product_image": null,
+      "status": "identified",
+      "product_name": "Camisa Corinthians III 2026/27 Azul com Gola Polo",
+      "product_image": "./assets/produtos/ML-002/01-polo-azul-modelo.webp",
       "price_brl": null,
-      "verified_at": null
+      "verified_at": null,
+      "category_id": "camisas-atuais",
+      "availability": "not_verified",
+      "description": "A paixão pelo Timão ganha uma nova cor para acompanhar a Fiel. A Camisa Corinthians III 2026/27 Azul com Gola Polo, identificada pelo responsável da Shop Fiel como o terceiro uniforme da temporada, combina o escudo no peito com grafismos em tons de azul, mangas curtas e detalhes escuros nos ombros. Uma opção para vestir a torcida nos dias de jogo e levar a identidade corinthiana para outros momentos da rotina. A descrição do vendedor apresenta a peça como leve, confortável e de bom caimento. Confira no Mercado Livre a composição, a tabela de medidas, a procedência e as variações disponíveis antes de escolher seu tamanho.",
+      "highlights": [
+        "Modelo identificado pelo responsável da Shop Fiel como o terceiro uniforme Corinthians 2026/27.",
+        "Visual azul com grafismos tonais, gola polo, mangas curtas e escudo no peito, conforme as fotos.",
+        "Galeria com apresentação no modelo, vista frontal, costas e detalhe do escudo.",
+        "Leveza e conforto são características descritas pelo vendedor; a composição do tecido não foi informada.",
+        "Esta ficha apresenta a camisa. Bermuda, boné, óculos, tênis e outros itens do look não são apresentados como inclusos.",
+        "Confirme tabela de medidas, tamanhos, autenticidade e eventuais informações de licenciamento no anúncio.",
+        "Prazo de postagem, frete e condições de devolução devem ser conferidos no Mercado Livre no momento da compra."
+      ],
+      "description_source": "Texto editorial original baseado nas quatro imagens e na descrição fornecidas pelo responsável. Identificação como terceiro uniforme 2026/27 e classificação na coleção Camisas solicitadas expressamente pelo responsável; sem confirmação independente de temporada, autenticidade ou licenciamento. Não se garantem prazo de envio ou política de devolução além das condições da plataforma.",
+      "price_snapshot": {
+        "amount_brl": 225.8,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em 16/10/2026; condições de pagamento não especificadas."
+      },
+      "images": [
+        "./assets/produtos/ML-002/01-polo-azul-modelo.webp",
+        "./assets/produtos/ML-002/02-frente-completa.webp",
+        "./assets/produtos/ML-002/03-costas.webp",
+        "./assets/produtos/ML-002/04-escudo-detalhe.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Quatro imagens fornecidas pelo responsável e otimizadas em WebP sem ampliação. Capa com a camisa azul no modelo; galeria com vista frontal, costas e detalhe do escudo."
     },
     {
       "id": "ML-003",
@@ -179,5 +207,5 @@
       "verified_at": null
     }
   ],
-  "identified_count": 1
+  "identified_count": 2
 }
