@@ -228,11 +228,39 @@
       "marketplace": "mercado_livre",
       "url": "https://meli.la/19bLvkK",
       "affiliate_link_verified": false,
-      "status": "pending_identification",
-      "product_name": null,
-      "product_image": null,
+      "status": "identified",
+      "product_name": "Camisa Corinthians Friso Laranja Masculina 100% Poliéster",
+      "product_image": "./assets/produtos/ML-007/01-modelo-frente.webp",
       "price_brl": null,
-      "verified_at": null
+      "verified_at": null,
+      "category_id": "casuais",
+      "availability": "not_verified",
+      "description": "Uma cor marcante para uma paixão que acompanha você em qualquer lugar. A Camisa Corinthians Friso Laranja Masculina 100% Poliéster combina o escudo aplicado no peito com detalhes pretos na gola, nos ombros, nas mangas e nas laterais, conforme as fotos. A faixa lateral com inscrições SCCP reforça a identidade do Timão em um visual para acompanhar o jogo, encontrar os amigos ou compor um look casual com jeans e bermuda. Segundo as especificações fornecidas, a peça é de origem nacional, tem mangas curtas, gola careca e composição 100% poliéster. Uma opção para torcedores que procuram uma camisa do Corinthians laranja com contraste preto e presença no dia a dia. Confira a tabela de medidas e escolha seu tamanho no Mercado Livre.",
+      "highlights": [
+        "Camisa masculina Corinthians Friso Laranja, com detalhes pretos e escudo aplicado no peito.",
+        "Composição informada: 100% poliéster. Origem nacional, conforme as especificações enviadas.",
+        "Mangas curtas e gola careca, com acabamento preto nas extremidades e nos ombros.",
+        "Faixa lateral com inscrições SCCP e parte traseira predominantemente lisa, conforme as imagens.",
+        "Galeria com vista frontal no modelo, lateral, pose de torcida e costas.",
+        "Uma opção de roupa casual para dias de jogo, passeios e para presentear torcedores do Corinthians.",
+        "Consulte medidas, numeração disponível, cuidados de conservação e condições atuais da oferta no Mercado Livre. As tonalidades podem variar conforme a tela."
+      ],
+      "price_snapshot": {
+        "amount_brl": 148.95,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em 16/10/2026; condições de pagamento não especificadas."
+      },
+      "description_source": "Texto editorial original baseado nas quatro imagens e nas especificações fornecidas pelo responsável em 16/10/2026. Composição, cor predominante laranja, origem nacional, escudo aplicado e modelagem masculina são informações enviadas. Não se afirma licenciamento oficial, associação a uniforme de jogo, tecnologia de tecido ou desempenho não comprovado.",
+      "images": [
+        "./assets/produtos/ML-007/01-modelo-frente.webp",
+        "./assets/produtos/ML-007/02-modelo-lateral.webp",
+        "./assets/produtos/ML-007/03-modelo-torcida.webp",
+        "./assets/produtos/ML-007/04-costas.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Quatro imagens fornecidas pelo responsável e otimizadas em WebP sem ampliação. Capa frontal no modelo; galeria com lateral, pose de torcida e costas."
     },
     {
       "id": "ML-008",
@@ -301,5 +329,5 @@
       "verified_at": null
     }
   ],
-  "identified_count": 5
+  "identified_count": 6
 }
