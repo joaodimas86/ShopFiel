@@ -990,8 +990,8 @@
       "url": "https://s.shopee.com.br/1gJNcZvKgm",
       "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
-      "product_name": "Kit 6 Copos de Vidro Americano Corinthians Licenciado 190ml",
-      "product_image": null,
+      "product_name": "Kit 6 Copos Americanos Corinthians de Vidro 190 ml",
+      "product_image": "./assets/produtos/SHP-019/01-kit-embalagem.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -1018,12 +1018,23 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Kit anunciado com seis copos de vidro estilo americano, de 190 ml cada, com tema do Corinthians. Confira na Shopee os detalhes do conjunto e os cuidados indicados pelo vendedor.",
+      "description": "A mesa também pode vestir as cores da Fiel. O Kit 6 Copos Americanos Corinthians de Vidro 190 ml reúne seis estampas diferentes com símbolos ligados ao Timão, incluindo o escudo, o mosqueteiro, monogramas, uma flâmula e a representação do estádio, conforme as fotos. Com capacidade de 190 ml em cada copo, o conjunto é uma opção para servir suas bebidas favoritas no dia a dia, receber os amigos para acompanhar os jogos ou completar o cantinho corinthiano da casa. A embalagem temática valoriza a apresentação e faz do kit uma sugestão de presente para quem gosta de levar a paixão pelo Corinthians para cada detalhe. A descrição do anúncio e a embalagem apresentada identificam o produto como oficialmente licenciado pelo clube. Confira as condições atuais da oferta e as orientações de conservação na Shopee.",
       "highlights": [
-        "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
-        "Consulte medidas, características e itens inclusos no anúncio."
+        "Conjunto com 6 copos de vidro no formato americano, com capacidade de 190 ml cada.",
+        "Seis estampas diferentes com referências ao Corinthians, conforme as imagens fornecidas.",
+        "Embalagem temática apresentada nas fotos, uma opção para presentear torcedores e compor a mesa da Fiel.",
+        "Produto identificado como oficialmente licenciado na descrição enviada e na embalagem fotografada; confira a identificação e o selo no produto recebido.",
+        "A oferta corresponde a um conjunto de seis copos. As imagens da embalagem repetem os desenhos para apresentação, sem indicar unidades adicionais.",
+        "Consulte dimensões, instruções de limpeza e compatibilidade com lava-louças e micro-ondas no anúncio do vendedor."
       ],
-      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado nas três fotos e na descrição fornecidas pelo responsável em 16/10/2026. Quantidade, vidro e capacidade são informações do anúncio. Licenciamento é informado no texto e na embalagem apresentada, sem verificação independente do selo físico. Não se afirmam resistência a impactos, durabilidade comprovada ou compatibilidade com eletrodomésticos.",
+      "images": [
+        "./assets/produtos/SHP-019/01-kit-embalagem.webp",
+        "./assets/produtos/SHP-019/02-seis-copos.webp",
+        "./assets/produtos/SHP-019/03-caixa.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Três imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP na resolução original de 800 × 800 pixels. Capa com os seis copos e a embalagem; galeria com o conjunto e a caixa."
     },
     {
       "id": "SHP-020",
