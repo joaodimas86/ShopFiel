@@ -827,12 +827,12 @@
       "url": "https://s.shopee.com.br/2LZ2hAJX5z",
       "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
-      "product_name": "Camisa Corinthians Lifestyle 1910 Listrada SCCP Masculina",
-      "product_image": null,
+      "product_name": "Camisa Casual Corinthians SCCP 1910 Masculina Listrada Off-White e Preta",
+      "product_image": "./assets/produtos/SHP-016/01-modelo-frente.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
-      "category_id": "historicas",
+      "category_id": "casuais",
       "seller_product_id": "47252847374",
       "seller_shop_id": "698219490",
       "listing_title_verified_at": "2026-10-15",
@@ -855,12 +855,27 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Camisa listrada de proposta lifestyle, com referências ao ano de 1910 e à sigla SCCP. Para quem prefere levar a identidade do clube também à moda casual.",
+      "description": "Preto no branco, com a identidade de quem leva o Timão para além do estádio. A Camisa Casual Corinthians SCCP 1910 Masculina Listrada Off-White e Preta combina listras clássicas, gola V e referências retrô em uma peça para o dia a dia. O escudo ton-sur-ton bordado e a inscrição SCCP em relevo, descritos no material do anúncio, dão destaque ao peito ao lado do detalhe 1910. Para o encontro com os amigos, o pré-jogo ou um look casual, a camisa reúne as cores da Fiel e detalhes que valorizam o orgulho de torcer. A descrição fornecida apresenta a malha como encorpada e de toque macio; confira a composição, as medidas e o caimento da numeração escolhida na Shopee antes de comprar.",
       "highlights": [
-        "Visual inspirado em referências históricas e no estilo retrô.",
-        "Confira composição, numeração e detalhes da peça na Shopee."
+        "Camisa casual masculina de manga curta, com listras em off-white e preto e gola V, conforme as fotos.",
+        "Escudo ton-sur-ton bordado e inscrição SCCP em relevo, conforme a descrição fornecida do anúncio.",
+        "Detalhe 1910 no peito e visual de inspiração retrô para levar a identidade corinthiana ao dia a dia.",
+        "Malha descrita no material do anúncio como encorpada e de toque macio. A composição não foi informada; confira com o vendedor.",
+        "Galeria com foto frontal, vista em ângulo, detalhes do peito e do escudo, costas e imagem editorial.",
+        "A foto editorial mostra peças de modelagens diferentes. Esta ficha corresponde à camisa masculina; não representa um kit ou a inclusão da peça feminina.",
+        "Consulte a tabela de medidas, os tamanhos disponíveis e os cuidados de conservação no anúncio."
       ],
-      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado nas seis fotos e na descrição fornecidas pelo responsável em 16/10/2026. Bordado ton-sur-ton, SCCP em relevo e características da malha são informações do material enviado; composição, desempenho, licenciamento e disponibilidade não foram verificados. Classificada em Moda Casual pela proposta lifestyle apresentada.",
+      "images": [
+        "./assets/produtos/SHP-016/01-modelo-frente.webp",
+        "./assets/produtos/SHP-016/02-modelo-angulo.webp",
+        "./assets/produtos/SHP-016/03-peito-sccp.webp",
+        "./assets/produtos/SHP-016/04-escudo-detalhe.webp",
+        "./assets/produtos/SHP-016/05-costas.webp",
+        "./assets/produtos/SHP-016/06-editorial.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Seis fotos fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP na resolução original de 1024 × 1024 pixels. Capa frontal da camisa masculina; foto com duas pessoas é editorial e não comprova inclusão de outra peça."
     },
     {
       "id": "SHP-017",
