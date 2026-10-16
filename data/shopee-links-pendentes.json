@@ -441,8 +441,8 @@
       "url": "https://s.shopee.com.br/3Vkvz9eZS7",
       "source": "links compartilhados pelo responsável da Fiel Shop",
       "status": "identified",
-      "product_name": "Kit Churrasco Corinthians com Tábua, Faca, Garfo e Afiador",
-      "product_image": null,
+      "product_name": "Kit Churrasco Corinthians Personalizado com Tábua de Teca, Faca, Garfo e Chaira",
+      "product_image": "./assets/produtos/SHP-009/01-kit-completo.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Produto identificado pela captura do vendedor. Preço e estoque não são informações em tempo real. Verificar procedência e titularidade de marca antes de chamar de 'oficial'. Preservar SEMPRE o link curto de afiliado na vitrine.",
@@ -469,12 +469,27 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Kit de churrasco com temática do Corinthians, anunciado com tábua, faca, garfo e afiador. Pensado para os encontros da Fiel; consulte dimensões e itens inclusos na Shopee.",
+      "description": "Leve a paixão pelo Timão para o churrasco com o Kit Churrasco Corinthians Personalizado. Uma opção de presente para corinthianos e para reunir a Fiel à mesa, o conjunto inclui tábua de madeira teca de 47 × 30 × 2 cm, faca de 8 polegadas, garfo e chaira. Os utensílios têm partes metálicas em aço inox e cabos em polipropileno, conforme a descrição fornecida do anúncio. A personalização com o símbolo do Corinthians e o nome na tábua, na faca e no garfo é oferecida sem custo adicional. Após a compra, envie o nome desejado diretamente ao vendedor pelo chat da Shopee; sem essa informação, o envio será feito somente com o símbolo do Corinthians. Projetos diferentes precisam de consulta de valores com o vendedor.",
       "highlights": [
-        "Uma sugestão de acessório ou presente para quem torce pelo Corinthians.",
-        "Consulte medidas, características e itens inclusos no anúncio."
+        "Inclui 1 tábua retangular de madeira teca, de 47 × 30 × 2 cm, e 3 utensílios: faca de 8 polegadas, garfo e chaira.",
+        "Utensílios com aço inox e cabos em polipropileno, conforme a descrição fornecida do anúncio.",
+        "Personalização sem custo adicional com símbolo do Corinthians e nome na tábua, faca e garfo.",
+        "Envie a personalização pelo chat da Shopee logo após a compra. Sem envio do nome, o vendedor informa que despacha somente com o símbolo do Corinthians.",
+        "Para novos projetos, consulte valores e possibilidades com o vendedor antes da compra.",
+        "Os nomes e frases mostrados nas fotos são exemplos de personalização."
       ],
-      "description_source": "Texto editorial preparado para a Fiel Shop com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original baseado nas sete fotos e na descrição do anúncio fornecidas pelo responsável. Não foi feita verificação independente de licenciamento ou da alegação de documentação florestal; não se afirma certificação DOF.",
+      "images": [
+        "./assets/produtos/SHP-009/01-kit-completo.webp",
+        "./assets/produtos/SHP-009/02-kit-embalagens.webp",
+        "./assets/produtos/SHP-009/03-medidas-personalizacao.webp",
+        "./assets/produtos/SHP-009/04-tabua-teca.webp",
+        "./assets/produtos/SHP-009/05-faca-garfo-chaira.webp",
+        "./assets/produtos/SHP-009/06-detalhe-gravacao.webp",
+        "./assets/produtos/SHP-009/07-embalagens.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Sete fotos fornecidas pelo responsável em 16/10/2026, otimizadas em WebP. Capa mostra tábua, faca, garfo e chaira; nomes e frases nas imagens são exemplos."
     },
     {
       "id": "SHP-010",
