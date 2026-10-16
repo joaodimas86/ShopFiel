@@ -1276,8 +1276,8 @@
       "url": "https://s.shopee.com.br/6L5DBNcF11",
       "source": "links compartilhados pelo responsável da Shop Fiel",
       "status": "identified",
-      "product_name": "Kit Camisetas Pai e Filho Corinthians Estampadas",
-      "product_image": null,
+      "product_name": "Kit Camisetas Corinthians Pai e Filho 100% Algodão São Jorge",
+      "product_image": "./assets/produtos/SHP-024/01-pai-filho-frente.webp",
       "price_brl": null,
       "verified_at": null,
       "notes": "Identificado via captura; preço não confirmado. Usar URL curta original do afiliado.",
@@ -1289,12 +1289,25 @@
       "affiliate_link_mapping_status": "confirmed_by_owner",
       "affiliate_link_mapping_confirmed_at": "2026-10-15",
       "affiliate_link_mapping_confirmation_source": "Responsável confirmou em conversa que os 25 produtos e links da última lista estão corretos",
-      "description": "Kit com camisetas estampadas do Corinthians para pai e filho, pensado para quem gosta de combinar o visual em família. Confirme as peças, os tamanhos e as variações incluídas.",
+      "description": "Tem paixão que começa no colo e cresce no abraço de cada gol. O Kit Camisetas Corinthians Pai e Filho 100% Algodão São Jorge é um convite para vestir juntos as memórias que ficam: o primeiro jogo acompanhado, a comemoração na sala e os passeios em família. Nas fotos, as camisetas pretas combinam o monograma CP no peito com uma estampa de São Jorge nas costas, criando um visual que aproxima gerações pela mesma torcida. Segundo a descrição do vendedor, as peças são confeccionadas em algodão de fio penteado, com composição 100% algodão e toque macio. Uma opção de presente para o Dia dos Pais, aniversários ou para transformar um dia comum em um registro especial entre pai e filho. Antes da compra, confira na Shopee o conteúdo do kit e como selecionar os tamanhos adulto e infantil.",
       "highlights": [
-        "Uma opção para levar o Corinthians ao dia a dia.",
-        "Tamanhos, material, cores e variações devem ser confirmados no anúncio."
+        "Proposta pai e filho, com camisetas combinando para compartilhar a torcida e os momentos em família.",
+        "Camisetas pretas com monograma CP na frente e estampa de São Jorge nas costas, conforme as quatro fotos fornecidas.",
+        "Composição 100% algodão e fio penteado informados na descrição do vendedor.",
+        "Uma ideia de presente para o Dia dos Pais, aniversários e para vestir juntos em passeios, fotos e dias de jogo.",
+        "A galeria mostra versões adulta e infantil. Confirme a quantidade de peças incluídas na opção escolhida e a seleção de cada tamanho no anúncio.",
+        "Compare as tabelas de medidas adulta e infantil com peças que já vestem bem; as medidas não foram fornecidas nesta descrição.",
+        "Consulte disponibilidade, conservação e prazo de postagem na Shopee. O envio em até 12 horas mencionado no material do vendedor não é uma garantia desta vitrine."
       ],
-      "description_source": "Texto editorial preparado para a Shop Fiel com base no título do anúncio; características específicas devem ser confirmadas com o vendedor."
+      "description_source": "Texto editorial original de tom emocional baseado nas quatro fotos e na descrição fornecidas pelo responsável em 16/10/2026. Composição, fio penteado e toque macio são informações do vendedor; composição do kit e tabelas de medidas devem ser conferidas no anúncio. Não se afirmam licenciamento, desempenho térmico, durabilidade comprovada ou prazo de envio garantido.",
+      "images": [
+        "./assets/produtos/SHP-024/01-pai-filho-frente.webp",
+        "./assets/produtos/SHP-024/02-pai-filho-costas.webp",
+        "./assets/produtos/SHP-024/03-adulto-frente-costas.webp",
+        "./assets/produtos/SHP-024/04-infantil-frente-costas.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Quatro imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP sem ampliar a resolução original. Capa com pai e filho juntos; galeria com vista das costas e apresentação das peças adulta e infantil."
     },
     {
       "id": "SHP-025",
