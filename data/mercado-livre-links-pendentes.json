@@ -186,11 +186,42 @@
       "marketplace": "mercado_livre",
       "url": "https://meli.la/2nDdyka",
       "affiliate_link_verified": false,
-      "status": "pending_identification",
-      "product_name": null,
-      "product_image": null,
+      "status": "identified",
+      "product_name": "Cropped Feminino Corinthians Rosa e Branco com Gola Polo",
+      "product_image": "./assets/produtos/ML-006/01-cropped-frente.webp",
       "price_brl": null,
-      "verified_at": null
+      "verified_at": null,
+      "category_id": "casuais",
+      "subcategory_id": "feminino",
+      "availability": "not_verified",
+      "description": "A torcida é a mesma; o jeito de vestir essa paixão é seu. O Cropped Feminino Corinthians Rosa e Branco com Gola Polo leva a identidade do Timão para um visual casual, com grafismos nas faixas claras e rosas e contraste preto na gola com abertura em V. O escudo no peito e a inscrição Corinthians nas costas completam a peça, conforme as fotos. Para acompanhar o jogo, encontrar as amigas ou combinar com jeans, shorts e saias, o corte cropped cria uma opção de look para torcedoras que gostam de colocar personalidade na produção. Segundo a descrição do vendedor, a composição é 100% algodão, com emblema bordado e tamanhos P, M, G e GG. O anúncio apresenta o produto como oficial e licenciado; confira a etiqueta, a tabela de medidas e a identificação de procedência no Mercado Livre.",
+      "highlights": [
+        "Cropped feminino em rosa e branco, com grafismos, gola polo preta com abertura em V e mangas curtas, conforme as fotos.",
+        "Escudo no peito e inscrição Corinthians na parte superior das costas. O bordado é informado na descrição do vendedor.",
+        "Composição anunciada: 100% algodão. Confira a etiqueta e a ficha do anúncio para confirmar o material da variação escolhida.",
+        "Tamanhos P, M, G e GG informados pelo vendedor; compare as medidas antes de selecionar a numeração.",
+        "Produto apresentado como oficial e licenciado na descrição enviada; confira identificação e procedência no anúncio.",
+        "Galeria com frente, costas, detalhe do escudo e etiqueta, além de imagens ambientadas de looks.",
+        "As fotos com várias torcedoras são ilustrativas e não indicam um kit. Acessórios e demais roupas não são apresentados como inclusos.",
+        "Garantia de fábrica de 3 meses e devolução em até 30 dias são condições informadas no texto do vendedor; confirme vigência, elegibilidade e regras no Mercado Livre antes da compra."
+      ],
+      "price_snapshot": {
+        "amount_brl": 143.47,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-16",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em 16/10/2026; condições de pagamento não especificadas."
+      },
+      "description_source": "Texto editorial original baseado nas cinco imagens e na descrição fornecidas pelo responsável em 16/10/2026. Composição, tamanhos, bordado, licenciamento e garantia são informações do vendedor, sem verificação independente. Não se afirmam durabilidade superior, retenção permanente de cor e forma, envio rápido garantido ou devolução incondicional.",
+      "images": [
+        "./assets/produtos/ML-006/01-cropped-frente.webp",
+        "./assets/produtos/ML-006/02-costas.webp",
+        "./assets/produtos/ML-006/03-escudo-etiqueta.webp",
+        "./assets/produtos/ML-006/04-look-estadio.webp",
+        "./assets/produtos/ML-006/05-editorial-torcedoras.webp"
+      ],
+      "photo_added_on": "2026-10-16",
+      "image_source_note": "Cinco imagens fornecidas pelo responsável e otimizadas em WebP sem ampliação. Capa com vista frontal no cabide; galeria com costas, etiqueta e imagens ambientadas, que não comprovam medidas ou modelagem exata."
     },
     {
       "id": "ML-007",
@@ -270,5 +301,5 @@
       "verified_at": null
     }
   ],
-  "identified_count": 4
+  "identified_count": 5
 }
