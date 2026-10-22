@@ -20,7 +20,16 @@ const categoryHref=id=>'./'+groups[id].slug+'/';
 const url=p=>origin+'/'+p.replace(/^\.\//,'');
 function dimensions(src){const b=fs.readFileSync(path.join(root,src));if(b.toString('ascii',0,4)!=='RIFF'||b.toString('ascii',8,12)!=='WEBP')throw Error('Imagem inválida: '+src);for(let o=12;o+8<b.length;){const type=b.toString('ascii',o,o+4),n=b.readUInt32LE(o+4),d=o+8;if(type==='VP8X')return [1+b.readUIntLE(d+4,3),1+b.readUIntLE(d+7,3)];if(type==='VP8 ')return [b.readUInt16LE(d+6)&16383,b.readUInt16LE(d+8)&16383];if(type==='VP8L'){const v=b.readUInt32LE(d+1);return [(v&16383)+1,((v>>>14)&16383)+1];}o=d+n+(n%2);}throw Error('Dimensões ausentes: '+src);}
 function image(p,main=false){const src=p.images[0],[w,h]=dimensions(src);return '<div class="shop-visual shop-visual-photo"><img class="shop-product-image" src="'+esc(src)+'" alt="'+esc(p.product_name)+' — vista principal" width="'+w+'" height="'+h+'" '+(main?'fetchpriority="high" loading="eager"':'loading="lazy"')+' decoding="async"></div>';}
-function card(p){return '<a class="shop-card shop-card-link" href="'+esc(productHref(p))+'"><div class="shop-card-media">'+image(p)+'</div><div class="shop-card-body"><h3 class="shop-card-title">'+esc(p.product_name)+'</h3><span class="shop-card-action">VER DETALHES ↗</span></div></a>';}
+function cardPrice(p){
+ const s=p.price_snapshot,amount=s&&(s.amount_brl??s.pix_brl);
+ if(typeof amount!=='number')return '<div class="shop-snapshot"><span class="shop-snapshot-label">Consulte o preço no anúncio</span></div>';
+ const date=/^\d{4}-\d{2}-\d{2}$/.test(s.observed_on||'')?s.observed_on.split('-').reverse().join('/'):'';
+ let condition=s.type|| (s.pix_brl!==undefined?'Pix':'');
+ if(condition==='valor informado pelo responsável'||condition==='preço anunciado')condition='';
+ if(condition==='menor preço da faixa')condition='menor valor entre variações';
+ return '<div class="shop-snapshot"><strong class="shop-snapshot-amount">'+esc(amount.toLocaleString('pt-BR',{style:'currency',currency:'BRL'}))+'</strong><span class="shop-snapshot-label">Preço de referência'+(date?' em '+esc(date):'')+(condition?' · '+esc(condition):'')+'. Confira no anúncio.</span></div>';
+}
+function card(p){return '<a class="shop-card shop-card-link" href="'+esc(productHref(p))+'"><div class="shop-card-media">'+image(p)+'</div><div class="shop-card-body"><h3 class="shop-card-title">'+esc(p.product_name)+'</h3>'+cardPrice(p)+'<span class="shop-card-action">VER DETALHES ↗</span></div></a>';}
 function normalized(s){return s.replaceAll('https://joaodimas86.github.io/ShopFiel',origin).replace(/https:\/\/shopfiel\.com\.br/g,origin).replace(/href="(?:\.\/)?index\.html\?categoria=([a-z-]+)#mantos"/g,(m,id)=>'href="'+categoryHref(id)+'"').replace(/href="#mantos" data-category-target="([a-z-]+)"/g,(m,id)=>'href="'+categoryHref(id)+'" data-category-target="'+id+'"');}
 let home=normalized(read('index.html'));
 home=home.replace(/<div id="featured-products" class="featured-grid" aria-live="polite">[\s\S]*?<\/div>\s*<p class="catalog-disclaimer"/, '<div id="featured-products" class="featured-grid" aria-live="polite">'+products.filter(p=>p.category_id==='casuais').map(card).join('')+'</div>\n  <p class="catalog-disclaimer"');
