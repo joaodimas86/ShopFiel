@@ -402,11 +402,41 @@
       "marketplace": "mercado_livre",
       "url": "https://meli.la/1xxrBPm",
       "affiliate_link_verified": false,
-      "status": "pending_identification",
-      "product_name": null,
-      "product_image": null,
+      "status": "identified",
+      "product_name": "Camisa Corinthians Baby Look Feminina Branca Dry com Recortes",
+      "product_image": "./assets/produtos/ML-012/01-modelo-frente.webp",
       "price_brl": null,
-      "verified_at": null
+      "verified_at": null,
+      "category_id": "casuais",
+      "availability": "not_verified",
+      "description": "Vista a paixão pelo Timão com a Camisa Corinthians Baby Look Feminina Branca Dry com Recortes. O branco ganha contraste com o escudo preto estampado e as costuras escuras que destacam os recortes da peça. A modelagem feminina levemente acinturada combina com jeans, shorts e roupas esportivas, acompanhando os dias de jogo, os treinos e os momentos de lazer. Segundo as informações do vendedor, o tecido Dry 100% poliéster tem toque macio, é leve, respirável e de secagem rápida. As mangas curtas e a gola redonda completam um visual versátil para levar o Corinthians ao dia a dia. Confira a tabela de medidas e os tamanhos disponíveis no Mercado Livre antes de escolher a sua.",
+      "highlights": [
+        "Modelo baby look feminino, com caimento levemente acinturado.",
+        "Cor branca com costuras contrastantes escuras e recortes nas laterais e na região do peito.",
+        "Escudo do Corinthians estampado no peito e na parte superior das costas, conforme as fotos.",
+        "Tecido Dry 100% poliéster, conforme a composição informada pelo vendedor.",
+        "Leveza, respirabilidade, toque macio e secagem rápida são características descritas pelo vendedor.",
+        "Mangas curtas e gola redonda.",
+        "Sugestão de uso: dia a dia, treinos e dias de jogo.",
+        "O anúncio identifica a peça como oficial; confirme etiqueta, procedência e licenciamento com o vendedor.",
+        "Consulte a tabela de medidas e a disponibilidade de tamanhos no anúncio."
+      ],
+      "price_snapshot": {
+        "amount_brl": 109.9,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-22",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em 22/10/2026; condições de pagamento não especificadas."
+      },
+      "description_source": "Texto editorial baseado nas quatro fotos e nas informações fornecidas pelo responsável em 22/10/2026. Composição, desempenho do tecido e identificação como oficial são informações do vendedor, sem autenticação independente.",
+      "photo_added_on": "2026-10-22",
+      "image_source_note": "Quatro fotos fornecidas pelo responsável, convertidas para WebP sem ampliação. Capa com mulher vestindo a peça.",
+      "images": [
+        "./assets/produtos/ML-012/01-modelo-frente.webp",
+        "./assets/produtos/ML-012/02-frente.webp",
+        "./assets/produtos/ML-012/03-escudo-etiqueta.webp",
+        "./assets/produtos/ML-012/04-costas.webp"
+      ]
     },
     {
       "id": "ML-013",
@@ -420,5 +450,5 @@
       "verified_at": null
     }
   ],
-  "identified_count": 9
+  "identified_count": 10
 }

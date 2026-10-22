@@ -39,6 +39,7 @@ for(const url of urls){
   images+=(html.match(/<img /g)||[]).length;
  }
 }
-assert.equal(products,34);
+const catalogProducts=['data/shopee-links-pendentes.json','data/mercado-livre-links-pendentes.json'].flatMap(p=>JSON.parse(read(p)).links).filter(p=>p.status==='identified'&&p.product_name);
+assert.equal(products,catalogProducts.length);
 assert.ok(read('robots.txt').includes(origin+'/sitemap.xml'));
 console.log('OK: '+urls.length+' URLs, '+products+' produtos, '+links+' referências locais e '+images+' elementos de imagem nas fichas.');
