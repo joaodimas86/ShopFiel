@@ -1,32 +1,40 @@
-# Cadastro por e-mail — Blog da Fiel
+# Newsletter Shop Fiel — Arquibancada Fiel
 
-## Situação
+## Status: implementação preparada, aguardando formulário real do Kit
 
-Implementação visual preparada nesta branch de desenvolvimento, **não publicada** na página principal. O formulário só deve ir para `main` quando houver uma conta de newsletter da Shop Fiel e um teste real de inscrição.
+Este trabalho foi desenvolvido na branch `feature/newsletter-arquibancada-fiel` e **não está publicado em `main`**. O código de inscrição do Kit pertence à conta que a Shop Fiel irá criar, por isso não deve ser inventado.
 
-## Provedor: Buttondown
+## Kit — plano gratuito (verificado em 22/10/2026)
 
-- Cadastro de usuários via HTML `POST` tradicional, compatível com GitHub Pages (não enviar o formulário por `fetch`, pois há validação/CAPTCHA com possíveis redirecionamentos).
-- Confirmação de inscrição por e-mail (double opt-in).
-- Lista de assinantes e gerenciamento de cancelamentos na plataforma.
-- Primeiros 100 assinantes sem custo, conforme página de preços consultada em 22/10/2026; conferir valores antes de contratar conforme crescimento.
-- Referência: https://docs.buttondown.com/building-your-subscriber-base
+O plano gratuito atual inclui até **10.000 inscritos**, formulários e páginas ilimitados e envios de newsletter ilimitados. Ultrapassar esse total implica escolher um plano pago para continuar enviando.
 
-## Para ativar
+Fontes oficiais:
+- https://help.kit.com/en/articles/16627071-the-kit-free-plan
+- https://help.kit.com/en/articles/4009572-form-embedding-basics
+- https://help.kit.com/en/articles/2502655-the-confirmation-email
 
-1. Criar uma conta de newsletter em https://buttondown.com/ para a **Shop Fiel** e verificar o e-mail administrativo.
-2. Anotar o nome de usuário da newsletter (exemplo: `shopfiel`, somente se estiver disponível — não supor nem usar um usuário alheio).
-3. Em `blog/index.html`, substituir `CONFIGURAR_USUARIO_SHOPFIEL` pelo nome real confirmado na conta. Não usar chave secreta no HTML.
-4. Revisar se a publicação e os links de cancelamento estão ativos na conta.
-5. Testar inscrição com e-mail de teste próprio, receber confirmação, clicar no link e conferir se o contato apareceu como assinante.
-6. Testar o cancelamento/descadastro; conferir visual em celular e computador.
-7. Somente depois: publicar os arquivos revisados da branch `feature/newsletter-arquibancada-fiel` em `main`.
+## Ativação da conta e do formulário
 
-## Dados e consentimento
+1. Criar a conta Shop Fiel em https://kit.com/ e selecionar **Free**, sem aderir inadvertidamente a um trial pago.
+2. Acessar `Grow > Landing Pages & Forms`; criar um **Form** do tipo **Inline** chamado “Arquibancada Fiel”. Não criar Landing Page: ela não pode ser incorporada como formulário no site.
+3. Na edição, usar visual monocromático (preto, branco, cinza); texto sugerido: “Entre para a lista da Fiel” e botão “Quero receber”.
+4. Em `Settings > Confirmation Email`, habilitar **Send confirmation email** e deixar **Auto-confirm new subscribers** desativado (dupla confirmação).
+5. Publicar o formulário no Kit com **Save & Publish**. Em `Embed > JavaScript`, copiar o código completo do **formulário**, não uma chave privada/API.
+6. Em `blog/index.html`, substituir o bloco de preparação marcado `KIT_FORM_EMBED_SHOPFIEL` (inclusive o aviso de preparação) pelo código oficial de embed fornecido pela conta Shop Fiel.
+7. Revisar identificação do remetente, opção de descadastro e política de privacidade; manter explicação clara do que será enviado e somente coletar dados necessários.
+8. Abrir a página em ambiente de teste, enviar cadastro com endereço de teste controlado, conferir recebimento do email de confirmação, clicar no link, validar status “Confirmed” no Kit e testar descadastro. Validar mobile e desktop.
+9. **Somente após o teste real**, aplicar as mudanças da branch em `main` e conferir o deploy do GitHub Pages.
 
-O formulário solicita apenas o endereço de e-mail e uma confirmação de consentimento. A própria confirmação por e-mail estabelece verificação adicional. O site não guarda dados dos inscritos no GitHub. A lista de assinantes ficará sob a conta Buttondown criada para a Shop Fiel. Manter um contato de privacidade e política de tratamento de dados antes do lançamento.
+## Segurança e privacidade
+
+- **Jamais** publicar chave de API secreta no repositório público.
+- Usar apenas o script público de incorporação gerado na conta Shop Fiel.
+- Consentimento informado explícito na interface, e dupla confirmação ativa no Kit.
+- Dados dos leitores pertencem à lista Kit controlada pela Shop Fiel, não ficam salvos no GitHub.
+- O código da branch é apenas a estrutura visual e não representa um cadastro funcional enquanto não existir formulário publicado e testado.
 
 ## Arquivos nesta branch
 
-- `blog/index.html` — seção de inscrição + âncora no menu
-- `blog/blog.css` — estilos responsivos monocromáticos
+- `blog/index.html` — seção, âncora no menu e espaço para incorporação do Kit
+- `blog/blog.css` — visual responsivo e monocromático
+- `integrations/newsletter/README.md` — instruções de ativação e testes
