@@ -249,3 +249,20 @@ body{background:#fff}
 @media (min-width:751px) and (max-width:1050px){.nav,.nav-cta{display:none}.menu-button{display:block}}
 .footer-instagram{display:inline-block!important;margin-top:10px!important;color:#fff!important;font-size:11px!important;font-weight:800;letter-spacing:.06em}
 .footer-instagram:hover{text-decoration:underline}
+
+/* 2026 Shop Fiel — destaque do Instagram */
+.header-instagram{display:none;align-items:center;justify-content:center;flex:none;width:38px;height:38px;border:1px solid #ddd;color:#151515;background:#fff;transition:background .2s}
+.header-instagram:hover{background:#efefef}
+.follow-fiel{background:#151515;color:#fff;padding:64px 0 68px}
+.follow-fiel-inner{display:flex;align-items:center;justify-content:space-between;gap:38px}
+.follow-fiel-kicker{font-size:11px;font-weight:900;letter-spacing:.2em;color:#c8c8c8}
+.follow-fiel h2{font:900 clamp(44px,5.5vw,71px)/.93 var(--display);letter-spacing:-.01em;margin:13px 0 17px}
+.follow-fiel h2 span{color:#b9b9b9}
+.follow-fiel p{font-size:15px;color:#d7d7d7;max-width:590px;margin:0}
+.follow-fiel-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;flex:none;background:#fff;color:#141414;font-size:13px;font-weight:900;letter-spacing:.04em;min-height:54px;padding:15px 23px;transition:background .2s,transform .2s}
+.follow-fiel-button:hover{background:#e4e4e4;transform:translateY(-2px)}
+.partner-list .partner{min-height:115px}
+.partner-list .partner span{line-height:1.45}
+@media(max-width:1050px){.header-instagram{display:flex}}
+@media(max-width:750px){.follow-fiel{padding:53px 0 56px}.follow-fiel-inner{align-items:flex-start;flex-direction:column;gap:24px}.follow-fiel h2{font-size:clamp(39px,10.2vw,60px)}.follow-fiel-button{width:100%}.header-row{gap:10px}.brand{min-width:0}.brand-logo{width:min(210px,49vw)}.header-instagram{width:38px;height:38px}.partner-list .partner{min-height:105px}}
+@media(max-width:380px){.brand-logo{width:48vw}.menu-button{padding:3px}}
