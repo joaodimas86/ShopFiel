@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://joaodimas86.github.io/ShopFiel/</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://joaodimas86.github.io/ShopFiel/blog/index.html</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://joaodimas86.github.io/ShopFiel/blog/como-escolher-tamanho-camisa-de-futebol.html</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://joaodimas86.github.io/ShopFiel/blog/camisas-retro-corinthians.html</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://joaodimas86.github.io/ShopFiel/blog/presentes-para-corinthianos.html</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://joaodimas86.github.io/ShopFiel/blog/como-lavar-camisa-de-futebol.html</loc><lastmod>2026-10-15</lastmod></url>
+  <url>
+    <loc>https://shopfiel.com.br/</loc>
+  </url>
+  <url>
+    <loc>https://shopfiel.com.br/blog/index.html</loc>
+  </url>
+  <url>
+    <loc>https://shopfiel.com.br/blog/como-escolher-tamanho-camisa-de-futebol.html</loc>
+  </url>
+  <url>
+    <loc>https://shopfiel.com.br/blog/camisas-retro-corinthians.html</loc>
+  </url>
+  <url>
+    <loc>https://shopfiel.com.br/blog/presentes-para-corinthianos.html</loc>
+  </url>
+  <url>
+    <loc>https://shopfiel.com.br/blog/como-lavar-camisa-de-futebol.html</loc>
+  </url>
 </urlset>
