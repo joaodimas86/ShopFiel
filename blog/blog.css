@@ -117,17 +117,31 @@
 @media(max-width:400px){.bl-card-grid{grid-template-columns:1fr}.bl-feature-card{grid-column:auto}.bl-art{aspect-ratio:1.45;min-height:210px}.bl-contents nav{grid-template-columns:1fr}.bl-hero h1{font-size:58px}}
 @media(prefers-reduced-motion:reduce){.bl-card,.bl-art img{transition:none}}
 
-/* Newsletter Arquibancada Fiel — inscrição Google Forms, sem verde */
-.bl-newsletter{background:#181818;color:#fff;padding:75px 0}
-.bl-newsletter-inner{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);align-items:center;gap:54px}
-.bl-newsletter .bl-eyebrow{color:#bbb}
-.bl-newsletter h2{font:900 clamp(46px,5.8vw,78px)/.9 var(--display);margin:16px 0 20px}
-.bl-newsletter h2 span{color:#aaa}
-.bl-newsletter-text>p{font-size:15px;color:#d3d3d3;line-height:1.7;max-width:445px}
-.bl-newsletter-box{padding:15px;background:#fff;color:#151515}
-.bl-google-form{min-height:74px}
-.bl-google-form iframe{display:block;width:100%;height:560px;border:0;max-width:100%;background:#fff}.bl-newsletter-direct{display:block;padding:12px 8px;color:#181818;font-size:11px;font-weight:900;text-align:center;text-decoration:underline;text-underline-offset:3px}
-.bl-newsletter-pending{font-size:13px;line-height:1.6;color:#4f4f4f;margin:0;padding:17px;border:1px solid #d0d0d0}
-.bl-newsletter-privacy{margin:14px 10px 5px;color:#666;font-size:11px;line-height:1.6}
-@media(max-width:880px){.bl-newsletter-inner{grid-template-columns:1fr;gap:20px}.bl-newsletter{padding:55px 0}.bl-newsletter-text>p{max-width:620px}}
-@media(max-width:500px){.bl-newsletter-box{padding:10px}.bl-newsletter h2{font-size:50px}.bl-google-form iframe{height:670px}.bl-newsletter-direct{font-size:10px}}
+/* Arquibancada Fiel — chamada nativa de inscrição, preto, branco e cinza */
+.bl-newsletter{background:#141414;color:#fff;padding:86px 0;scroll-margin-top:86px}
+.bl-newsletter-inner{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:center;gap:clamp(30px,5vw,86px)}
+.bl-newsletter .bl-eyebrow{display:flex;align-items:center;gap:10px;color:#c8c8c8;font-size:10px;letter-spacing:.16em}
+.bl-newsletter .bl-eyebrow:before{content:"";display:inline-block;width:18px;height:2px;background:#fff}
+.bl-newsletter h2{font:900 clamp(50px,6.4vw,88px)/.89 var(--display);margin:22px 0 23px;letter-spacing:-.018em}
+.bl-newsletter h2 span{color:#999}
+.bl-newsletter-text>p{font-size:15px;color:#d5d5d5;line-height:1.75;max-width:515px;margin:0}
+.bl-newsletter-perks{display:flex;flex-wrap:wrap;gap:13px 22px;list-style:none;padding:0;margin:25px 0 0}
+.bl-newsletter-perks li{display:flex;align-items:center;gap:9px;font-size:11px;color:#e0e0e0;font-weight:800;letter-spacing:.025em}
+.bl-newsletter-perks li:before{content:"";display:block;width:7px;height:7px;background:#fff;transform:rotate(45deg);flex:none}
+.bl-newsletter-box{background:#f6f6f5;color:#151515;padding:clamp(25px,3.3vw,45px);border-top:4px solid #fff;box-shadow:12px 12px 0 #ffffff12}
+.bl-newsletter-box-top{display:flex;justify-content:space-between;gap:10px;align-items:center;border-bottom:1px solid #cecece;padding-bottom:15px;font-size:10px;font-weight:900;letter-spacing:.13em}
+.bl-newsletter-box-top span:last-child{color:#777}
+.bl-newsletter-box h3{font:900 clamp(39px,4.2vw,56px)/.94 var(--display);letter-spacing:-.01em;margin:26px 0 13px}
+.bl-newsletter-box h3 span{color:#969696}
+.bl-newsletter-box>p.bl-newsletter-box-intro{font-size:13px;color:#555;line-height:1.65;margin:0 0 26px}
+.bl-newsletter-cta{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:19px 21px;background:#111;color:#fff;font-size:12px;letter-spacing:.045em;font-weight:900;min-height:58px;transition:background .2s,transform .2s}
+.bl-newsletter-cta:hover{background:#454545;transform:translateY(-2px)}
+.bl-newsletter-cta span{font-size:22px;line-height:1}
+.bl-newsletter-privacy{font-size:11px;color:#676767;line-height:1.65;margin:15px 0 0}
+.bl-newsletter-privacy a{text-decoration:underline;text-underline-offset:2px}
+.bl-top-nav a[href="#inscricao"]{background:#151515;color:#fff;padding:9px 13px;white-space:nowrap}
+.bl-top-nav a[href="#inscricao"]:hover{background:#444;text-decoration:none}
+@media(max-width:900px){.bl-newsletter-inner{grid-template-columns:1fr;gap:33px}.bl-newsletter{padding:62px 0}.bl-newsletter-text>p{max-width:660px}}
+@media(max-width:700px){.bl-header{display:grid;grid-template-columns:1fr;justify-items:center;gap:8px;padding-top:12px;padding-bottom:12px}.bl-header .brand{justify-content:center}.bl-header .brand-logo{max-width:150px}.bl-top-nav{margin:0;justify-content:center;gap:9px 13px;flex-wrap:wrap}.bl-top-nav a{font-size:10px;white-space:nowrap}.bl-top-nav a[href="#inscricao"]{padding:8px 10px}.bl-newsletter{padding:54px 0 63px;scroll-margin-top:125px}.bl-newsletter h2{font-size:clamp(47px,12vw,75px)}.bl-newsletter-box{padding:27px 22px}.bl-newsletter-box h3{font-size:46px}.bl-newsletter-perks{gap:12px 17px}}
+@media(max-width:380px){.bl-newsletter h2{font-size:44px}.bl-newsletter-box h3{font-size:41px}.bl-newsletter-box{padding:23px 18px}}
+@media(prefers-reduced-motion:reduce){.bl-newsletter-cta{transition:none}}
