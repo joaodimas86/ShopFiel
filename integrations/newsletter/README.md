@@ -1,40 +1,49 @@
-# Newsletter Shop Fiel — Arquibancada Fiel
+# Inscrição Arquibancada Fiel — operação a custo zero
 
-## Status: implementação preparada, aguardando formulário real do Kit
+## Situação
 
-Este trabalho foi desenvolvido na branch `feature/newsletter-arquibancada-fiel` e **não está publicado em `main`**. O código de inscrição do Kit pertence à conta que a Shop Fiel irá criar, por isso não deve ser inventado.
+Versão preparada na branch `feature/newsletter-arquibancada-fiel`, **não publicada no site oficial até cadastro funcionar e ser testado**. Substitui Buttondown e Kit.
 
-## Kit — plano gratuito (verificado em 22/10/2026)
+## Arquitetura
 
-O plano gratuito atual inclui até **10.000 inscritos**, formulários e páginas ilimitados e envios de newsletter ilimitados. Ultrapassar esse total implica escolher um plano pago para continuar enviando.
+1. Site estático no GitHub Pages (Shop Fiel), hospedagem atual sem contratação nova
+2. Google Forms gratuito: coleta e-mail e aceite informado
+3. Google Sheets vinculado ao Forms: cadastro privado, lista de exclusão/descadastro
+4. Outlook já disponível no computador do responsável: preparo e envio manual de newsletter para contatos autorizados
 
-Fontes oficiais:
-- https://help.kit.com/en/articles/16627071-the-kit-free-plan
-- https://help.kit.com/en/articles/4009572-form-embedding-basics
-- https://help.kit.com/en/articles/2502655-the-confirmation-email
+Sem serviços pagos novos. Serviços gratuitos podem ter limites de armazenamento, política ou envio; esta solução é adequada para começar pequeno, não para disparos em massa.
 
-## Ativação da conta e do formulário
+## Como criar formulário no Google Forms
 
-1. Criar a conta Shop Fiel em https://kit.com/ e selecionar **Free**, sem aderir inadvertidamente a um trial pago.
-2. Acessar `Grow > Landing Pages & Forms`; criar um **Form** do tipo **Inline** chamado “Arquibancada Fiel”. Não criar Landing Page: ela não pode ser incorporada como formulário no site.
-3. Na edição, usar visual monocromático (preto, branco, cinza); texto sugerido: “Entre para a lista da Fiel” e botão “Quero receber”.
-4. Em `Settings > Confirmation Email`, habilitar **Send confirmation email** e deixar **Auto-confirm new subscribers** desativado (dupla confirmação).
-5. Publicar o formulário no Kit com **Save & Publish**. Em `Embed > JavaScript`, copiar o código completo do **formulário**, não uma chave privada/API.
-6. Em `blog/index.html`, substituir o bloco de preparação marcado `KIT_FORM_EMBED_SHOPFIEL` (inclusive o aviso de preparação) pelo código oficial de embed fornecido pela conta Shop Fiel.
-7. Revisar identificação do remetente, opção de descadastro e política de privacidade; manter explicação clara do que será enviado e somente coletar dados necessários.
-8. Abrir a página em ambiente de teste, enviar cadastro com endereço de teste controlado, conferir recebimento do email de confirmação, clicar no link, validar status “Confirmed” no Kit e testar descadastro. Validar mobile e desktop.
-9. **Somente após o teste real**, aplicar as mudanças da branch em `main` e conferir o deploy do GitHub Pages.
+1. Ir a https://forms.google.com e criar um formulário em branco chamado **Arquibancada Fiel — Inscrição gratuita**.
+2. Descrição: "Receba notícias, artigos e novidades da Shop Fiel por e-mail. Sem cobrança. Você poderá cancelar a inscrição a qualquer momento."
+3. Em **Configurações > Respostas > Coletar endereços de e-mail**, escolher **Entrada do participante** (não a opção "Verificado", para não obrigar login com conta Google).
+4. Incluir pergunta obrigatória tipo **caixas de seleção**: "Autorizo a Shop Fiel a enviar notícias, artigos e novidades por e-mail, com opção de descadastro a qualquer momento", opção "Sim, quero receber". Pergunta obrigatória.
+5. Desligar a opção **Limitar a 1 resposta** (ela exigiria login no Google). Não limitar o formulário a pessoas de uma organização. Não pedir nome, CPF, senha ou WhatsApp.
+6. Em **Respostas**, usar o botão para **vincular uma planilha** privada do Google Sheets à coleta, para organizar os inscritos.
+7. **Publicar** o formulário para os respondentes e clicar em **Incorporar HTML (<>)**. Copiar o código completo `<iframe ...></iframe>`.
+8. Na `blog/index.html` da branch de desenvolvimento, substituir o comentário `<!-- GOOGLE_FORMS_EMBED_SHOPFIEL -->` e parágrafo de preparação pelo **iframe oficial**. Não publicar a URL de edição nem a planilha de inscritos.
+9. Fazer um teste completo: preencher como visitante sem login, conferir que chega ao Google Forms e à planilha, validar endereço coletado, privacidade e visual no celular. Não enviar newsletter até confirmar a autorização e verificar que o email é válido.
+10. Publicar a branch na `main` somente quando o fluxo estiver validado.
 
-## Segurança e privacidade
+## Envio das newsletters pelo Outlook
 
-- **Jamais** publicar chave de API secreta no repositório público.
-- Usar apenas o script público de incorporação gerado na conta Shop Fiel.
-- Consentimento informado explícito na interface, e dupla confirmação ativa no Kit.
-- Dados dos leitores pertencem à lista Kit controlada pela Shop Fiel, não ficam salvos no GitHub.
-- O código da branch é apenas a estrutura visual e não representa um cadastro funcional enquanto não existir formulário publicado e testado.
+- Criar campanha manual no Outlook com assunto claro, identificação Shop Fiel, conteúdo objetivo e link real para o site.
+- Usar apenas endereços com consentimento. **Bcc/CCO** preserva privacidade; jamais deixar toda a lista visível em Para/Cc.
+- Preferir poucos destinatários e cadência baixa, sem automatização de disparo massivo. Verificar limites e políticas do provedor de e-mail ligado ao Outlook (Exchange Online não é recomendado pela Microsoft para marketing em massa).
+- Incluir rodapé: "Você está recebendo este e-mail porque se inscreveu na Arquibancada Fiel. Para sair da lista, responda SAIR".
+- Antes de cada envio, verificar e remover contatos que solicitaram cancelamento e aqueles que tiveram erros de entrega. Manter planilha privada e segura.
+- O Google Forms **não comprova posse do e-mail** quando a coleta é por digitação; não afirmar que há double opt-in. Se houver crescimento ou abusos, implementar confirmação verificável.
 
-## Arquivos nesta branch
+## LGPD e segurança
 
-- `blog/index.html` — seção, âncora no menu e espaço para incorporação do Kit
-- `blog/blog.css` — visual responsivo e monocromático
-- `integrations/newsletter/README.md` — instruções de ativação e testes
+- A base é consentimento específico e transparente para a finalidade descrita.
+- Evitar coletar outras informações além do e-mail e da autorização.
+- Restrição de acesso à planilha e opção de excluir dados mediante pedido.
+- Para produção, disponibilizar política de privacidade e contato de cancelamento.
+- Never publish mailbox passwords or tokens in GitHub (não publicar senhas, tokens ou dados dos inscritos no repositório).
+
+## Arquivos
+
+- `blog/index.html`: versão de desenvolvimento da área de cadastro, com espaço para o iframe do Google Forms.
+- `blog/blog.css`: identidade preto/branco/cinza, responsivo.
