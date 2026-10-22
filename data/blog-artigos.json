@@ -4,6 +4,47 @@
   "published": "2026-10-15",
   "articles": [
     {
+      "slug": "marcelo-paz-deixa-corinthians",
+      "title": "Marcelo Paz deixa o Corinthians: pressão da Fiel, crise no futebol e um novo desafio para o Timão",
+      "seoTitle": "Marcelo Paz deixa o Corinthians: entenda a saída",
+      "description": "Marcelo Paz deixa o Corinthians após pressão da torcida e crise no Brasileirão. Veja os motivos e quem assume o futebol do Timão.",
+      "category": "Futebol do Corinthians",
+      "label": "NOTÍCIA E ANÁLISE",
+      "read": "4 min",
+      "cover": "../assets/marcelo-paz.webp",
+      "topic": "CORINTHIANS",
+      "datePublished": "2026-10-22",
+      "lead": "O Corinthians vive mais um capítulo turbulento em sua história. Marcelo Paz não é mais o executivo de futebol do clube. A saída, anunciada na terça-feira (20), acontece em um dos momentos mais delicados da temporada, com o Timão ameaçado pelo rebaixamento no Campeonato Brasileiro.",
+      "sections": [
+        {
+          "id": "saida",
+          "title": "O que provocou a saída de Marcelo Paz?",
+          "html": "<p>Contratado em dezembro de 2025 para substituir Fabinho Soldado, Marcelo Paz chegou ao Parque São Jorge com a missão de organizar o departamento de futebol e ajudar a construir um elenco competitivo, apesar das dificuldades financeiras.</p><p>A temporada, porém, não saiu como o esperado.</p><p>A sequência de nove jogos sem vitória no Brasileirão, as eliminações nas competições de mata-mata e a pressão crescente das arquibancadas aumentaram o desgaste do dirigente, conforme a <a href=\"https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/20/corinthians-demite-marcelo-paz.ghtml\">reportagem do ge sobre a saída</a>.</p><p>Na nota divulgada pelo Corinthians, o encerramento do trabalho foi descrito como uma decisão em comum acordo. Já o <a href=\"https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/21/paz-marcou-reuniao-para-se-queixar-de-pressao-e-foi-demitido-no-corinthians.amp.htm\">UOL relatou pressão e insatisfações nos bastidores</a>, além de problemas financeiros discutidos na reunião com o presidente Osmar Stabile.</p><figure class=\"sf-news-photo \"><img src=\"../assets/marcelo-paz.webp\" alt=\"Marcelo Paz com jaqueta do Corinthians em área externa\" width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\"><figcaption>Marcelo Paz. Foto: reprodução/UOL; imagem fornecida pelo responsável pela Shop Fiel.</figcaption></figure>"
+        },
+        {
+          "id": "balanco",
+          "title": "Nem tudo foi negativo",
+          "html": "<p>Durante a passagem de Marcelo Paz, o Corinthians conquistou a Supercopa Rei de 2026 e contratou reforços como Gabriel Paulista, Jesse Lingard, Allan e Matheus Pereira. A <a href=\"https://ge.globo.com/google/amp/futebol/times/corinthians/noticia/2026/06/15/aprovados-como-foram-os-reforcos-do-corinthians-no-primeiro-semestre-de-2026.ghtml\">retrospectiva do ge sobre o primeiro semestre</a> registra o título e a chegada desses jogadores.</p><p>Entretanto, o desempenho irregular da equipe e as restrições para contratar jogadores dificultaram o planejamento esportivo.</p><p>O resultado foi uma passagem curta, marcada por conquistas, dificuldades e cobranças.</p>"
+        },
+        {
+          "id": "julio-cesar",
+          "title": "Quem assume o futebol do Corinthians?",
+          "html": "<p>A responsabilidade agora fica com Julio Cesar, ex-goleiro e campeão pelo Timão.</p><p>Segundo a <a href=\"https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/21/julio-cesar-assume-cargo-de-executivo-de-futebol-e-vai-acumular-funcoes-no-corinthians.ghtml\">atualização do ge publicada em 21 de outubro</a>, o profissional acumulará as funções de gerente e executivo de futebol na reta final da temporada. A reportagem também registra a confirmação do presidente Osmar Stabile em vídeo divulgado pelo clube.</p><p>O desafio será contribuir para a estabilidade do departamento, fortalecer a comunicação entre diretoria e elenco e ajudar o clube a superar o momento delicado.</p><figure class=\"sf-news-photo sf-news-portrait\"><img src=\"../assets/julio-cesar.jpg\" alt=\"Julio Cesar sorri e faz sinal positivo com o polegar em área externa\" width=\"432\" height=\"577\" loading=\"lazy\" decoding=\"async\"><figcaption>Julio Cesar. Foto: Ari Ferreira/Red Bull Bragantino, via <a href=\"https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/04/15/julio-cesar-chega-ao-corinthians-para-ampliar-elo-entre-direcao-e-vestiario.ghtm\">UOL</a>. Imagem de arquivo.</figcaption></figure>"
+        },
+        {
+          "id": "fiel",
+          "title": "A Fiel quer respostas dentro de campo",
+          "html": "<p class=\"sf-editorial-label\">VISÃO DA ARQUIBANCADA · ANÁLISE DA SHOP FIEL</p><p>A torcida corinthiana conhece como poucas o significado de apoiar um clube nas dificuldades.</p><p>Mas apoio não significa ausência de cobrança.</p><p>A troca de dirigentes pode representar uma tentativa de mudança, porém os problemas financeiros, o desempenho esportivo e a necessidade de planejamento continuam exigindo soluções.</p><p>O Corinthians precisa reencontrar o caminho das vitórias.</p><p><strong>E você, Fiel? A saída de Marcelo Paz foi a decisão correta ou o problema do Corinthians é muito maior do que um único dirigente?</strong></p><p>Compartilhe sua opinião ao divulgar esta matéria.</p><p><strong>Shop Fiel — De torcedor para torcedor.</strong> 🖤🤍</p>"
+        }
+      ],
+      "related": [
+        "camisas-retro-corinthians",
+        "presentes-para-corinthianos"
+      ],
+      "products": [],
+      "categoryId": "historicas"
+    },
+    {
       "slug": "como-escolher-tamanho-camisa-de-futebol",
       "title": "Como escolher o tamanho certo de uma camisa de futebol",
       "seoTitle": "Tamanho de Camisa de Futebol: Como Escolher | Shop Fiel",
