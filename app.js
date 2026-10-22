@@ -85,10 +85,12 @@ function snapshotDetails(product){
  wrap.append(description);
  return wrap;
 }
+function productHref(product){return './produtos/'+product.product_name.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')+'-'+product.id.toLowerCase()+'.html';}
+
 function actualProductCard(product){
  const out=unavailable(product);
  const card=make("a","shop-card shop-card-link"+(out?" is-unavailable":""));
- card.href="./produto.html?id="+encodeURIComponent(product.id)+"&colecao="+encodeURIComponent(state.category);
+ card.href=productHref(product);
  card.dataset.code=product.id;
  card.setAttribute("aria-label","Ver detalhes de "+product.product_name);
  const media=make("div","shop-card-media");

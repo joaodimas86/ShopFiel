@@ -154,6 +154,7 @@ function relatedProducts(current,products){
   }
 }
 function showError(message){
+  document.querySelector('meta[name="robots"]').content="noindex,follow";
   $("#pd-message").textContent=message;
   $("#pd-message").replaceChildren(document.createTextNode(message));
   const link=make("a","pd-error-link","VOLTAR À SHOP FIEL ↗");
@@ -235,6 +236,8 @@ function renderProduct(product,allProducts){
   $("#pd-message").hidden=true;
   $("#pd-detail").hidden=false;
 }
+function productHref(product){return './produtos/'+product.product_name.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')+'-'+product.id.toLowerCase()+'.html';}
+
 async function init(){
   const id=new URLSearchParams(window.location.search).get("id");
   if(!id||!/^(?:SHP|ML)-\d{3}$/.test(id)){
@@ -246,7 +249,11 @@ async function init(){
     const products=payloads.flatMap(payload=>Array.isArray(payload.links)?payload.links:[]);
     const product=products.find(p=>p.id===id&&p.status==="identified"&&p.product_name&&affiliateUrl(p.url));
     if(!product){showError("Este produto não está disponível na vitrine no momento.");return;}
-    renderProduct(product,products);
+    const canonical=document.createElement("link");
+    canonical.rel="canonical";
+    canonical.href=new URL(productHref(product),location.href).href;
+    document.head.append(canonical);
+    location.replace(canonical.href);
   }catch(error){
     console.error("Shop Fiel: falha ao abrir produto",error);
     showError("Não foi possível carregar o produto agora. Tente novamente.");
