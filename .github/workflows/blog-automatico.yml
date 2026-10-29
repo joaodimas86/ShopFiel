@@ -1,0 +1,32 @@
+name: ShopFiel - Blog automatico (teste seguro)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 11,15,21 * * *'
+permissions:
+  contents: read
+jobs:
+  editorial-dry-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validar script
+        run: python -m py_compile scripts/blog_editorial.py
+      - name: Testar sem internet com pauta ficticia
+        run: python scripts/blog_editorial.py --fixture tests/blog-editorial-fixture.json --output reports/blog-fixture-test.json
+      - name: Buscar pautas reais sem publicar
+        run: python scripts/blog_editorial.py --output reports/blog-editorial-dry-run.json
+      - name: Arquivar relatorios de teste
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopfiel-blog-dry-run
+          path: reports/*.json
+          if-no-files-found: warn
+          retention-days: 7
