@@ -834,7 +834,21 @@
         "./assets/produtos/SHP-015/05-carta-1914.webp"
       ],
       "photo_added_on": "2026-10-16",
-      "image_source_note": "Cinco imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP na resolução original de 1000 × 1000 pixels. Capa com a camisa no modelo; galeria com frente/costas, cor, faixa e carta. Inclusão de acessórios deve ser conferida no anúncio."
+      "image_source_note": "Cinco imagens fornecidas pelo responsável em 16/10/2026 e otimizadas em WebP na resolução original de 1000 × 1000 pixels. Capa com a camisa no modelo; galeria com frente/costas, cor, faixa e carta. Inclusão de acessórios deve ser conferida no anúncio.",
+      "external_testimonials": [
+        {
+          "author": "arianenv",
+          "rating": 5,
+          "scale": 5,
+          "text": "Meu marido amou",
+          "date": "2026-07-09",
+          "variation": "Off White, G",
+          "source": "Shopee",
+          "source_profile_url": "https://shopee.com.br/shop/buyer/371107112",
+          "image": "./assets/depoimentos/SHP-015/arianenv.png",
+          "provenance": "Comentário, nota e foto fornecidos pelo responsável da Shop Fiel; avaliação originalmente publicada na Shopee."
+        }
+      ]
     },
     {
       "id": "SHP-016",
