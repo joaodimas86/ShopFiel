@@ -1,4 +1,4 @@
-name: ShopFiel - Blog automatico (teste seguro)
+name: ShopFiel - Blog editorial (fila de aprovacao)
 on:
   workflow_dispatch:
   schedule:
@@ -22,6 +22,8 @@ jobs:
         run: python scripts/blog_editorial.py --fixture tests/blog-editorial-fixture.json --output reports/blog-fixture-test.json
       - name: Buscar pautas reais sem publicar
         run: python scripts/blog_editorial.py --output reports/blog-editorial-dry-run.json
+      - name: Preparar fila de pautas para aprovacao humana
+        run: python scripts/blog_fila_aprovacao.py
       - name: Auditar SEO e associar produtos reais do catalogo
         run: python scripts/blog_seo_comercial.py
       - name: Arquivar relatorios de teste
@@ -29,6 +31,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: shopfiel-blog-dry-run
-          path: reports/*.json
+          path: |
+            reports/*.json
+            reports/blog-fila-aprovacao.html
           if-no-files-found: warn
           retention-days: 7
