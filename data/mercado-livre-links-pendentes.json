@@ -4,7 +4,7 @@
   "marketplace": "mercado_livre",
   "affiliate_status": "not_approved",
   "note": "Links compartilhados pelo responsável, não comprovadamente comissionados. Nome/foto/preço/produto não identificados. Não apresentar como links de afiliados elegíveis até aprovação e validação.",
-  "total": 13,
+  "total": 14,
   "links": [
     {
       "id": "ML-001",
@@ -481,7 +481,49 @@
         "./assets/produtos/ML-013/05-modelo-detalhe.webp",
         "./assets/produtos/ML-013/06-modelo-costas.webp"
       ]
+    },
+    {
+      "id": "ML-014",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/1GMeYaM",
+      "affiliate_link_verified": false,
+      "status": "identified",
+      "product_name": "Boné Corinthians Supercap Branco com Monograma CP e Ajuste Traseiro",
+      "product_image": "./assets/produtos/ML-014/01-frente.webp",
+      "price_brl": null,
+      "verified_at": null,
+      "category_id": "souvenirs",
+      "availability": "not_verified",
+      "description": "Complete o visual alvinegro com o Boné Corinthians Supercap Branco com Monograma CP e Ajuste Traseiro. A combinação da cor branca com o bordado preto na parte frontal traz uma referência discreta ao Timão, fácil de combinar com camisetas, camisas de futebol e roupas casuais. A aba curva e o fechamento traseiro com regulagem permitem adaptar o uso à sua rotina, dos dias de jogo aos passeios pela cidade. As fotos mostram painéis fechados, pequenos ilhoses de ventilação e acabamento interno com a identificação Supercap. Uma opção de acessório para torcer pelo Corinthians ou presentear quem leva o clube para todos os lugares. Confira as medidas, a composição e as características da versão escolhida no Mercado Livre antes de comprar.",
+      "highlights": [
+        "Cor branca com monograma CP preto bordado na parte frontal.",
+        "Marca Supercap, conforme identificação nas fotos e na descrição do vendedor.",
+        "Aba curva e regulagem traseira por tira com fivela, conforme as imagens.",
+        "Painéis fechados com pequenos ilhoses de ventilação nas fotos fornecidas.",
+        "Acabamento interno com identificação Supercap e detalhe do Corinthians na fivela traseira.",
+        "Sugestão de uso casual, dias de jogo e presente para torcedores do Corinthians.",
+        "Garantia de 30 dias informada pelo vendedor; consulte os termos no anúncio.",
+        "O vendedor anuncia o produto como original. Confira etiqueta e procedência com a loja responsável.",
+        "A descrição do vendedor usa o termo trucker, mas as fotos mostram painéis fechados. Confirme o modelo e o material antes da compra."
+      ],
+      "price_snapshot": {
+        "amount_brl": 64.76,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-29",
+        "live_price": false,
+        "source": "Valor informado pelo responsável em 29/10/2026; condições de pagamento não especificadas."
+      },
+      "description_source": "Texto editorial baseado nas cinco imagens e na descrição do vendedor enviadas pelo responsável em 29/10/2026. Não se afirma composição, tamanho ou tela respirável sem confirmação. Originalidade e garantia são informações do vendedor.",
+      "photo_added_on": "2026-10-29",
+      "image_source_note": "Cinco imagens fornecidas pelo responsável, convertidas para WebP sem ampliação. Capa do produto em fundo branco; imagens promocionais mantidas na galeria.",
+      "images": [
+        "./assets/produtos/ML-014/01-frente.webp",
+        "./assets/produtos/ML-014/02-ajuste-costas.webp",
+        "./assets/produtos/ML-014/03-acabamento-interno.webp",
+        "./assets/produtos/ML-014/04-modelo-estadio.webp",
+        "./assets/produtos/ML-014/05-composicao-casual.webp"
+      ]
     }
   ],
-  "identified_count": 11
+  "identified_count": 12
 }
