@@ -22,7 +22,9 @@ jobs:
         run: python scripts/blog_editorial.py --fixture tests/blog-editorial-fixture.json --output reports/blog-fixture-test.json
       - name: Buscar pautas reais sem publicar
         run: python scripts/blog_editorial.py --output reports/blog-editorial-dry-run.json
-      - name: Auditar SEO e associar produtos reais do catalogo\n        run: python scripts/blog_seo_comercial.py\n      - name: Arquivar relatorios de teste
+      - name: Auditar SEO e associar produtos reais do catalogo
+        run: python scripts/blog_seo_comercial.py
+      - name: Arquivar relatorios de teste
         if: always()
         uses: actions/upload-artifact@v4
         with:
