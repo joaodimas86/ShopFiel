@@ -4,7 +4,7 @@
   "marketplace": "mercado_livre",
   "affiliate_status": "not_approved",
   "note": "Links compartilhados pelo responsável, não comprovadamente comissionados. Nome/foto/preço/produto não identificados. Não apresentar como links de afiliados elegíveis até aprovação e validação.",
-  "total": 14,
+  "total": 15,
   "links": [
     {
       "id": "ML-001",
@@ -523,6 +523,46 @@
         "./assets/produtos/ML-014/04-modelo-estadio.webp",
         "./assets/produtos/ML-014/05-composicao-casual.webp"
       ]
+    },
+    {
+      "id": "ML-015",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/2qbKhpB",
+      "affiliate_link_verified": false,
+      "status": "identified",
+      "product_name": "Baralho Plástico Corinthians Copas Personalizado com Escudo — 52 Cartas",
+      "product_image": "./assets/produtos/ML-015/01-baralho-ambiente.webp",
+      "price_brl": null,
+      "verified_at": null,
+      "category_id": "souvenirs",
+      "availability": "not_verified",
+      "description": "O Timão também tem lugar na mesa de jogo! O Baralho Plástico Corinthians Copas Personalizado com Escudo reúne a paixão alvinegra e a diversão de uma boa partida entre amigos ou em família. São 52 cartas em plástico, com personalização do escudo do Corinthians, para levar a identidade da Fiel aos momentos de lazer. Uma ideia de presente para aquele corinthiano que não perde a chance de reunir a turma e falar de futebol. Seja no encontro do fim de semana ou na resenha antes do jogo, coloque as cartas na mesa e deixe a paixão pelo Corinthians participar da partida. Confira no Mercado Livre as características do baralho, os itens incluídos e as condições de entrega.",
+      "highlights": [
+        "Baralho Copas personalizado com o escudo do Corinthians, conforme as informações fornecidas.",
+        "Material informado: plástico.",
+        "Quantidade informada: 52 cartas. Confirme com o vendedor se os coringas mostrados nas fotos acompanham o conjunto e como são contabilizados.",
+        "Visual alvinegro com escudo do Timão, conforme as imagens do produto.",
+        "Uma opção para partidas entre amigos, encontros em família e para presentear torcedores do Corinthians.",
+        "Galeria com cinco imagens: ambientação, verso das cartas, embalagem, naipes e coringa. Caneca, televisão e objetos do cenário não fazem parte da oferta.",
+        "Confira dimensões, conteúdo da embalagem, cuidados de conservação, preço, frete e disponibilidade no anúncio."
+      ],
+      "price_snapshot": {
+        "amount_brl": 37.5,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-10-29",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em 29/10/2026; condições de pagamento não especificadas."
+      },
+      "images": [
+        "./assets/produtos/ML-015/01-baralho-ambiente.webp",
+        "./assets/produtos/ML-015/02-cartas-escudo.webp",
+        "./assets/produtos/ML-015/03-embalagem.webp",
+        "./assets/produtos/ML-015/04-cartas-naipes.webp",
+        "./assets/produtos/ML-015/05-coringa.webp"
+      ],
+      "photo_added_on": "2026-10-29",
+      "description_source": "Texto editorial baseado nas informações e nas cinco imagens fornecidas pelo responsável; sem verificação independente de estoque, licenciamento ou preço no destino.",
+      "image_source_note": "Cinco imagens fornecidas pelo responsável, otimizadas em WebP. Imagem ambientada ilustrativa; objetos do cenário não incluídos."
     }
   ],
   "identified_count": 12
