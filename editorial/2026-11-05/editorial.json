@@ -1,47 +1,57 @@
 {
   "date": "2026-11-05",
   "approval": {
-    "status": "AGUARDANDO_AUTORIZACAO_EDITORIAL",
-    "publish": false
+    "status": "AUTORIZADO_PELO_USUARIO",
+    "publish": true,
+    "authorization": "pode publicar!!!",
+    "date": "2026-11-05"
   },
   "imageCommit": "444f90df543b28876382a009078f58f8822968e6",
   "metricool": {
     "brandId": "7745113",
     "instagram": "shopfiel",
     "created": true,
-    "draft": true,
-    "autoPublish": false,
+    "draft": false,
+    "autoPublish": true,
     "posts": [
       {
-        "id": 417664249,
+        "id": 417669635,
         "uuid": "3782859762674647875",
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7745113&openWithPostUuid=3782859762674647875",
-        "draft": true,
-        "autoPublish": false
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.instagram.com/p/DfXCcjbiDZU/",
+        "publicationDate": {
+          "dateTime": "2026-11-05T09:30:00",
+          "timezone": "America/Sao_Paulo"
+        }
       },
       {
-        "id": 417664434,
+        "id": 417669715,
         "uuid": "-8480789594150124127",
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7745113&openWithPostUuid=-8480789594150124127",
-        "draft": true,
-        "autoPublish": false
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.instagram.com/p/DfXCbv9iCH7/",
+        "publicationDate": {
+          "dateTime": "2026-11-05T09:31:00",
+          "timezone": "America/Sao_Paulo"
+        }
       },
       {
-        "id": 417664571,
+        "id": 417669825,
         "uuid": "-5040980802652847255",
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7745113&openWithPostUuid=-5040980802652847255",
-        "draft": true,
-        "autoPublish": false
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.instagram.com/p/DfXChcHCrB5/",
+        "publicationDate": {
+          "dateTime": "2026-11-05T09:32:00",
+          "timezone": "America/Sao_Paulo"
+        }
       }
     ]
   },
   "notes": [
-    "PNGs solicitados ausentes; usuário autorizou JPGs após conferência visual.",
-    "Créditos/origem de reprodução das imagens ainda devem ser registrados antes de publicar; upload não identifica licença/autoria.",
-    "Garro: conferir eventual resultado dos exames antes de publicar.",
-    "Yuri: fontes divergem entre 34 e 36 minutos; minuto omitido.",
-    "Horários usados em tentativa de rascunho não constituem agenda aprovada.",
-    "Usuário solicitou retirar links das fontes do final das matérias; URLs preservadas apenas no registro interno."
+    "JPGs enviados pelo usuário, conferidos visualmente e autorizados para uso.",
+    "Fontes verificadas em 05/11/2026; links não exibidos no final das matérias por solicitação do usuário.",
+    "Rechecagem médica antes de publicar: fontes consultadas ainda não apresentavam o resultado dos exames de Garro.",
+    "Yuri: minuto exato omitido pela divergência entre fontes.",
+    "Três páginas públicas e destaques no índice conferidos; três posts confirmados como PUBLISHED pelo Metricool."
   ],
   "articles": [
     {
@@ -65,7 +75,7 @@
         ],
         [
           "Próximo compromisso",
-          "Segundo a programação informada pelo ge, o Corinthians enfrenta o Botafogo em 18 de novembro, na Neo Química Arena. Yuri Alberto cumprirá suspensão automática. Antes da publicação, a Shop Fiel voltará a conferir a tabela e a programação da partida."
+          "Segundo a programação informada pelo ge, o Corinthians enfrenta o Botafogo em 18 de novembro, na Neo Química Arena. Yuri Alberto cumprirá suspensão automática."
         ]
       ],
       "caption": "MAJESTOSO SEM GOLS. 🖤🤍 Corinthians e São Paulo ficaram no 0 a 0 na Vila Belmiro, em 4/11, pela 34ª rodada do Brasileirão. O Timão chegou a 37 pontos e permaneceu em 17º, no Z-4. O que precisa mudar para a reta final? 🦅\n\nShop Fiel — De torcedor para torcedor.\n#Corinthians #VaiCorinthians #Brasileirao #ShopFiel",
@@ -74,8 +84,9 @@
         "https://ge.globo.com/google/amp/futebol/times/corinthians/noticia/2026/11/04/yuri-alberto-e-expulso-em-classico-e-corinthians-tem-mais-dois-suspensos-contra-o-botafogo.ghtml"
       ],
       "mediaUrl": "https://raw.githubusercontent.com/joaodimas86/ShopFiel/444f90df543b28876382a009078f58f8822968e6/assets/blog/empate%20majestoso.jpg",
-      "status": "AGUARDANDO_AUTORIZACAO_EDITORIAL",
-      "publish": false
+      "status": "PUBLICADO",
+      "publish": true,
+      "url": "https://www.shopfiel.com.br/blog/corinthians-sao-paulo-empate-majestoso-4-novembro-2026.html"
     },
     {
       "id": "garro",
@@ -98,7 +109,7 @@
         ],
         [
           "Acompanhamento da situação",
-          "A atualização dos exames será necessária para esclarecer a condição do jogador. A Shop Fiel revisará esta matéria antes de liberá-la, incorporando eventual comunicado médico posterior do Corinthians."
+          "A avaliação médica deverá esclarecer a condição do jogador e orientar os próximos passos da recuperação. Até a checagem desta matéria, na manhã de 5 de novembro, as reportagens consultadas não apresentavam o resultado dos exames."
         ]
       ],
       "caption": "PREOCUPAÇÃO COM GARRO. 🚨 O meia deixou o Majestoso de 4/11 com dores no joelho direito. Segundo ge e UOL, houve trauma seguido de entorse, com exames previstos para 5/11. As fontes consultadas ainda não confirmavam a gravidade nem um prazo de retorno.\n\nForça, Garro! 🖤🤍\nShop Fiel — De torcedor para torcedor.\n#Corinthians #RodrigoGarro #VaiCorinthians #ShopFiel",
@@ -107,8 +118,9 @@
         "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/04/garro-sente-trauma-no-joelho-passara-por-exames-e-preocupa-o-corinthians.ghtm"
       ],
       "mediaUrl": "https://raw.githubusercontent.com/joaodimas86/ShopFiel/444f90df543b28876382a009078f58f8822968e6/assets/blog/rodrigo-garro-foi-substituido-com-um-problema-no-od941w.jpg",
-      "status": "AGUARDANDO_AUTORIZACAO_EDITORIAL",
-      "publish": false
+      "status": "PUBLICADO",
+      "publish": true,
+      "url": "https://www.shopfiel.com.br/blog/garro-joelho-direito-majestoso-novembro-2026.html"
     },
     {
       "id": "yuri",
@@ -131,7 +143,7 @@
         ],
         [
           "O que fica para a reta final",
-          "A ausência do centroavante é mais um fator para a preparação alvinegra. A suspensão automática está confirmada nas fontes consultadas; esta matéria não antecipa qualquer julgamento disciplinar ou eventual punição adicional."
+          "A ausência do centroavante é mais um fator para a preparação alvinegra. A suspensão automática vale para o próximo compromisso; eventual punição adicional depende de decisão disciplinar."
         ]
       ],
       "caption": "VERMELHO NO MAJESTOSO. 🟥 Yuri Alberto foi expulso após entrada em Ferreira no empate por 0 a 0 com o São Paulo, em 4/11. Raphael Claus mostrou amarelo inicialmente e mudou para vermelho direto após revisão do VAR. O atacante cumprirá suspensão automática contra o Botafogo.\n\nComo você avalia o lance?\nShop Fiel — De torcedor para torcedor. 🖤🤍\n#Corinthians #YuriAlberto #Brasileirao #ShopFiel",
@@ -140,9 +152,14 @@
         "https://ge.globo.com/google/amp/futebol/times/corinthians/noticia/2026/11/04/yuri-alberto-e-expulso-em-classico-e-corinthians-tem-mais-dois-suspensos-contra-o-botafogo.ghtml"
       ],
       "mediaUrl": "https://raw.githubusercontent.com/joaodimas86/ShopFiel/444f90df543b28876382a009078f58f8822968e6/assets/blog/yuri%20expulso.jpg",
-      "status": "AGUARDANDO_AUTORIZACAO_EDITORIAL",
-      "publish": false
+      "status": "PUBLICADO",
+      "publish": true,
+      "url": "https://www.shopfiel.com.br/blog/yuri-alberto-expulso-majestoso-suspenso-botafogo-2026.html"
     }
   ],
-  "displaySources": false
+  "blog": {
+    "status": "PUBLICADO",
+    "verified": true,
+    "commit": "fe752a112dd8ce3935927c262d8c0b77afd17e3a"
+  }
 }
