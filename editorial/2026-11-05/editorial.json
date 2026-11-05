@@ -8,15 +8,40 @@
   "metricool": {
     "brandId": "7745113",
     "instagram": "shopfiel",
-    "created": false,
-    "reason": "Revisão automática bloqueou ferramenta de agendamento apesar de draft=true; nenhuma publicação criada."
+    "created": true,
+    "draft": true,
+    "autoPublish": false,
+    "posts": [
+      {
+        "id": 417664249,
+        "uuid": "3782859762674647875",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7745113&openWithPostUuid=3782859762674647875",
+        "draft": true,
+        "autoPublish": false
+      },
+      {
+        "id": 417664434,
+        "uuid": "-8480789594150124127",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7745113&openWithPostUuid=-8480789594150124127",
+        "draft": true,
+        "autoPublish": false
+      },
+      {
+        "id": 417664571,
+        "uuid": "-5040980802652847255",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7745113&openWithPostUuid=-5040980802652847255",
+        "draft": true,
+        "autoPublish": false
+      }
+    ]
   },
   "notes": [
     "PNGs solicitados ausentes; usuário autorizou JPGs após conferência visual.",
     "Créditos/origem de reprodução das imagens ainda devem ser registrados antes de publicar; upload não identifica licença/autoria.",
     "Garro: conferir eventual resultado dos exames antes de publicar.",
     "Yuri: fontes divergem entre 34 e 36 minutos; minuto omitido.",
-    "Horários usados em tentativa de rascunho não constituem agenda aprovada."
+    "Horários usados em tentativa de rascunho não constituem agenda aprovada.",
+    "Usuário solicitou retirar links das fontes do final das matérias; URLs preservadas apenas no registro interno."
   ],
   "articles": [
     {
@@ -118,5 +143,6 @@
       "status": "AGUARDANDO_AUTORIZACAO_EDITORIAL",
       "publish": false
     }
-  ]
+  ],
+  "displaySources": false
 }
