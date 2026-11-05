@@ -35,11 +35,6 @@ MAJESTOSO SEM GOLS. 🖤🤍 Corinthians e São Paulo ficaram no 0 a 0 na Vila B
 Shop Fiel — De torcedor para torcedor.
 #Corinthians #VaiCorinthians #Brasileirao #ShopFiel
 
-### Fontes lidas em 05/11/2026
-
-- [Fonte 1](https://www.cnnbrasil.com.br/esportes/brasileirao/sao-paulo-nao-aproveita-expulsao-e-empate-com-corinthians-que-segue-no-z4/)
-- [Fonte 2](https://ge.globo.com/google/amp/futebol/times/corinthians/noticia/2026/11/04/yuri-alberto-e-expulso-em-classico-e-corinthians-tem-mais-dois-suspensos-contra-o-botafogo.ghtml)
-
 
 ## Garro sofre trauma no joelho direito e preocupa o Corinthians
 
@@ -71,11 +66,6 @@ Força, Garro! 🖤🤍
 Shop Fiel — De torcedor para torcedor.
 #Corinthians #RodrigoGarro #VaiCorinthians #ShopFiel
 
-### Fontes lidas em 05/11/2026
-
-- [Fonte 1](https://ge.globo.com/google/amp/futebol/times/corinthians/noticia/2026/11/04/sao-paulo-x-corinthians-garro-sente-dores-no-joelho-e-deixa-o-campo-chorando-muito-video.ghtml)
-- [Fonte 2](https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/04/garro-sente-trauma-no-joelho-passara-por-exames-e-preocupa-o-corinthians.ghtm)
-
 
 ## Yuri Alberto é expulso no Majestoso após revisão do VAR
 
@@ -106,8 +96,3 @@ VERMELHO NO MAJESTOSO. 🟥 Yuri Alberto foi expulso após entrada em Ferreira n
 Como você avalia o lance?
 Shop Fiel — De torcedor para torcedor. 🖤🤍
 #Corinthians #YuriAlberto #Brasileirao #ShopFiel
-
-### Fontes lidas em 05/11/2026
-
-- [Fonte 1](https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/04/yuri-e-expulso-no-majestoso-e-chuta-bandeira-do-sao-paulo-ao-sair-de-campo.ghtm)
-- [Fonte 2](https://ge.globo.com/google/amp/futebol/times/corinthians/noticia/2026/11/04/yuri-alberto-e-expulso-em-classico-e-corinthians-tem-mais-dois-suspensos-contra-o-botafogo.ghtml)
