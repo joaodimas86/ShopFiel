@@ -4,7 +4,7 @@
 
 Imagens JPG conferidas no upload `444f90d`. Nenhum PNG solicitado foi encontrado. Uso dos JPGs autorizado pelo usuário. As imagens não são artes 1080 × 1350. Créditos e origem de reprodução devem ser registrados antes da publicação. Garro exige nova checagem médica antes da liberação.
 
-Metricool: nenhum rascunho criado; tentativa com draft=true rejeitada pela revisão automática. Nenhum agendamento autorizado.
+Metricool: três rascunhos criados e conferidos, todos com draft=true e autoPublish=false. A publicação continua aguardando autorização editorial final. Links das fontes removidos das matérias; checagem preservada apenas no registro interno.
 
 ## Corinthians empata com o São Paulo e segue no Z-4 do Brasileirão
 
