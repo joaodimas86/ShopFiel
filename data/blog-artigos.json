@@ -4,6 +4,105 @@
   "published": "2026-10-15",
   "articles": [
     {
+      "slug": "corinthians-sao-paulo-empate-majestoso-4-novembro-2026",
+      "title": "Corinthians empata com o São Paulo e segue no Z-4 do Brasileirão",
+      "seoTitle": "Corinthians empata com o São Paulo e segue no Z-4 do Brasileirão",
+      "description": "Majestoso termina em 0 a 0 na Vila Belmiro. Corinthians chega a 37 pontos e permanece em 17º após a 34ª rodada do Brasileirão.",
+      "category": "Futebol do Corinthians",
+      "label": "NOTÍCIA",
+      "read": "2 min",
+      "cover": "../assets/blog/empate%20majestoso.jpg",
+      "topic": "CORINTHIANS",
+      "datePublished": "2026-11-05",
+      "lead": "O Corinthians empatou por 0 a 0 com o São Paulo na quarta-feira, 4 de novembro, na Vila Belmiro, pela 34ª rodada do Campeonato Brasileiro. O ponto conquistado levou o Timão a 37, mas a equipe permaneceu na 17ª posição, dentro da zona de rebaixamento.",
+      "sections": [
+        {
+          "id": "sec0",
+          "title": "Clássico sem gols na Vila",
+          "html": "<p>O duelo teve oportunidades para os dois lados, mas terminou sem que as redes balançassem. Para o Corinthians, o resultado mantém a necessidade de buscar pontos na reta final da competição.</p>"
+        },
+        {
+          "id": "sec1",
+          "title": "Duas preocupações no Majestoso",
+          "html": "<p>Além do empate, o Timão deixou o clássico com dois problemas: Rodrigo Garro precisou ser substituído por dores no joelho direito, e Yuri Alberto recebeu cartão vermelho após revisão do VAR. A situação clínica do meia depende de exames.</p>"
+        },
+        {
+          "id": "sec2",
+          "title": "Próximo compromisso",
+          "html": "<p>Segundo a programação informada pelo ge, o Corinthians enfrenta o Botafogo em 18 de novembro, na Neo Química Arena. Yuri Alberto cumprirá suspensão automática.</p>"
+        }
+      ],
+      "related": [],
+      "products": [],
+      "categoryId": "historicas"
+    },
+    {
+      "slug": "garro-joelho-direito-majestoso-novembro-2026",
+      "title": "Garro sofre trauma no joelho direito e preocupa o Corinthians",
+      "seoTitle": "Garro sofre trauma no joelho direito e preocupa o Corinthians",
+      "description": "Meia deixou o Majestoso com dores no joelho direito. Exames previstos para 5 de novembro vão esclarecer a gravidade do problema.",
+      "category": "Futebol do Corinthians",
+      "label": "NOTÍCIA",
+      "read": "2 min",
+      "cover": "../assets/blog/rodrigo-garro-foi-substituido-com-um-problema-no-od941w.jpg",
+      "topic": "CORINTHIANS",
+      "datePublished": "2026-11-05",
+      "lead": "Rodrigo Garro deixou o clássico contra o São Paulo com dores no joelho direito, ainda no primeiro tempo. O Majestoso de 4 de novembro, disputado na Vila Belmiro, terminou empatado por 0 a 0.",
+      "sections": [
+        {
+          "id": "sec0",
+          "title": "O que foi informado",
+          "html": "<p>O ge atribuiu ao departamento médico do Corinthians a informação de que houve trauma seguido de entorse. O UOL também relatou o quadro e informou a previsão de exames para quinta-feira, 5 de novembro.</p>"
+        },
+        {
+          "id": "sec1",
+          "title": "Sem prazo de recuperação confirmado",
+          "html": "<p>As reportagens consultadas ainda não apresentavam um diagnóstico definitivo nem um prazo de retorno. Por isso, não é possível afirmar a extensão da lesão ou antecipar por quanto tempo o meia poderá ficar fora.</p>"
+        },
+        {
+          "id": "sec2",
+          "title": "Acompanhamento da situação",
+          "html": "<p>A avaliação médica deverá esclarecer a condição do jogador e orientar os próximos passos da recuperação. Até a checagem desta matéria, na manhã de 5 de novembro, as reportagens consultadas não apresentavam o resultado dos exames.</p>"
+        }
+      ],
+      "related": [],
+      "products": [],
+      "categoryId": "historicas"
+    },
+    {
+      "slug": "yuri-alberto-expulso-majestoso-suspenso-botafogo-2026",
+      "title": "Yuri Alberto é expulso no Majestoso após revisão do VAR",
+      "seoTitle": "Yuri Alberto é expulso no Majestoso após revisão do VAR",
+      "description": "Atacante recebeu vermelho direto por entrada em Ferreira no empate com o São Paulo e cumprirá suspensão automática contra o Botafogo.",
+      "category": "Futebol do Corinthians",
+      "label": "NOTÍCIA",
+      "read": "2 min",
+      "cover": "../assets/blog/yuri%20expulso.jpg",
+      "topic": "CORINTHIANS",
+      "datePublished": "2026-11-05",
+      "lead": "Yuri Alberto foi expulso no segundo tempo do empate por 0 a 0 entre Corinthians e São Paulo, em 4 de novembro, na Vila Belmiro. O atacante recebeu vermelho direto após revisão de uma entrada em Ferreira pelo VAR.",
+      "sections": [
+        {
+          "id": "sec0",
+          "title": "Como ocorreu a decisão",
+          "html": "<p>Raphael Claus inicialmente aplicou cartão amarelo. Após ser chamado para rever a jogada no monitor, o árbitro retirou a advertência e apresentou o cartão vermelho, deixando o Corinthians com um jogador a menos.</p>"
+        },
+        {
+          "id": "sec1",
+          "title": "Suspensão para o próximo jogo",
+          "html": "<p>O ge informou que Yuri Alberto cumprirá suspensão automática diante do Botafogo, pela 35ª rodada. A reportagem também aponta Matheus Pereira e André Ramalho como desfalques por suspensão.</p>"
+        },
+        {
+          "id": "sec2",
+          "title": "O que fica para a reta final",
+          "html": "<p>A ausência do centroavante é mais um fator para a preparação alvinegra. A suspensão automática vale para o próximo compromisso; eventual punição adicional depende de decisão disciplinar.</p>"
+        }
+      ],
+      "related": [],
+      "products": [],
+      "categoryId": "historicas"
+    },
+    {
       "slug": "marcelo-paz-deixa-corinthians",
       "title": "Marcelo Paz deixa o Corinthians: pressão da Fiel, crise no futebol e um novo desafio para o Timão",
       "seoTitle": "Marcelo Paz deixa o Corinthians: entenda a saída",
