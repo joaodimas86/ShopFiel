@@ -1,0 +1,486 @@
+{
+  "auditedOn": "2026-11-09",
+  "scope": "Technical audit; Google index status and image rights not verified",
+  "pages": [
+    {
+      "page": "blog/andre-luiz-corinthians-convocado-selecao-brasileira.html",
+      "published": "2026-10-29",
+      "cover": {
+        "original": "assets/blog/optimized/9715383f17ad8a.webp",
+        "path": "assets/blog/optimized/9715383f17ad8a.webp",
+        "width": 1536,
+        "height": 1024,
+        "originalWidth": 1536,
+        "bytes": 173246,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": true,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/camisas-retro-corinthians.html",
+      "published": "2026-10-15",
+      "cover": {
+        "original": "assets/blog/optimized/cf03d6147b2154.webp",
+        "path": "assets/blog/optimized/cf03d6147b2154.webp",
+        "width": 1024,
+        "height": 1024,
+        "originalWidth": 1024,
+        "bytes": 102574,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/como-escolher-tamanho-camisa-de-futebol.html",
+      "published": "2026-10-15",
+      "cover": {
+        "original": "assets/blog/optimized/38134ee6bfc8e9.webp",
+        "path": "assets/blog/optimized/38134ee6bfc8e9.webp",
+        "width": 1024,
+        "height": 1024,
+        "originalWidth": 1024,
+        "bytes": 46786,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/como-lavar-camisa-de-futebol.html",
+      "published": "2026-10-15",
+      "cover": {
+        "original": "assets/blog/optimized/6231ba1ac45f38.webp",
+        "path": "assets/blog/optimized/6231ba1ac45f38.webp",
+        "width": 1024,
+        "height": 1024,
+        "originalWidth": 1024,
+        "bytes": 46944,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/como-verificar-anuncio-camisa-corinthians.html",
+      "published": "2026-10-29",
+      "cover": {
+        "original": "assets/blog/optimized/34e1cbee766e5e.webp",
+        "path": "assets/blog/optimized/34e1cbee766e5e.webp",
+        "width": 757,
+        "height": 374,
+        "originalWidth": 757,
+        "bytes": 52582,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/corinthians-atraso-26-milhoes-acordo-divida-pgfn-8-novembro-2026.html",
+      "published": "2026-11-08",
+      "cover": {
+        "original": "assets/blog/optimized/9e2c9916d0a3e6.webp",
+        "path": "assets/blog/optimized/9e2c9916d0a3e6.webp",
+        "width": 600,
+        "height": 450,
+        "originalWidth": 600,
+        "bytes": 57722,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/corinthians-botafogo-proximo-jogo-novembro-2026.html",
+      "published": "2026-11-06",
+      "cover": {
+        "original": "assets/blog/optimized/7125d4d14700f9.webp",
+        "path": "assets/blog/optimized/7125d4d14700f9.webp",
+        "width": 450,
+        "height": 597,
+        "originalWidth": 450,
+        "bytes": 34764,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/corinthians-cruzeiro-final-libertadores-feminina-2026.html",
+      "published": "2026-10-30",
+      "cover": {
+        "original": "assets/blog/optimized/55d6e3479563fd.webp",
+        "path": "assets/blog/optimized/55d6e3479563fd.webp",
+        "width": 836,
+        "height": 471,
+        "originalWidth": 836,
+        "bytes": 50058,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/corinthians-desfalques-botafogo-novembro-2026.html",
+      "published": "2026-11-06",
+      "cover": {
+        "original": "assets/blog/optimized/896913a360df1b.webp",
+        "path": "assets/blog/optimized/896913a360df1b.webp",
+        "width": 392,
+        "height": 520,
+        "originalWidth": 392,
+        "bytes": 33764,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/corinthians-escalacao-vasco-seedorf.html",
+      "published": "2026-10-24",
+      "cover": {
+        "original": "assets/blog/optimized/1e3b0f572f4882.webp",
+        "path": "assets/blog/optimized/1e3b0f572f4882.webp",
+        "width": 166,
+        "height": 150,
+        "originalWidth": 166,
+        "bytes": 4476,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/corinthians-futebol-feminino-imersao-espanha-outubro-2026.html",
+      "published": "2026-10-31",
+      "cover": {
+        "original": "assets/blog/optimized/17e9f741776176.webp",
+        "path": "assets/blog/optimized/17e9f741776176.webp",
+        "width": 1179,
+        "height": 739,
+        "originalWidth": 1179,
+        "bytes": 74966,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/corinthians-mirassol-previa-30-outubro-2026.html",
+      "published": "2026-10-30",
+      "cover": {
+        "original": "assets/blog/optimized/32aca4272b7dd2.webp",
+        "path": "assets/blog/optimized/32aca4272b7dd2.webp",
+        "width": 836,
+        "height": 470,
+        "originalWidth": 836,
+        "bytes": 72672,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/corinthians-risco-rebaixamento-51-1-por-cento-ufmg-8-novembro-2026.html",
+      "published": "2026-11-08",
+      "cover": {
+        "original": "assets/blog/optimized/476287d5e90a73.webp",
+        "path": "assets/blog/optimized/476287d5e90a73.webp",
+        "width": 481,
+        "height": 637,
+        "originalWidth": 481,
+        "bytes": 80180,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/corinthians-sao-paulo-empate-majestoso-4-novembro-2026.html",
+      "published": "2026-11-05T09:30:00-03:00",
+      "cover": {
+        "original": "assets/blog/optimized/c7aaf0b04d603b.webp",
+        "path": "assets/blog/optimized/c7aaf0b04d603b.webp",
+        "width": 472,
+        "height": 553,
+        "originalWidth": 472,
+        "bytes": 34122,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/corinthians-vence-mirassol-2-a-0-fim-jejum-30-outubro-2026.html",
+      "published": "2026-10-30",
+      "cover": {
+        "original": "assets/blog/optimized/9c50ab2c9f127c.webp",
+        "path": "assets/blog/optimized/9c50ab2c9f127c.webp",
+        "width": 1179,
+        "height": 979,
+        "originalWidth": 1179,
+        "bytes": 60362,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/democracia-corinthiana-serie-hbo-max-2026.html",
+      "published": "2026-10-31",
+      "cover": {
+        "original": "assets/blog/optimized/41f9ffbb9d05db.webp",
+        "path": "assets/blog/optimized/41f9ffbb9d05db.webp",
+        "width": 554,
+        "height": 554,
+        "originalWidth": 554,
+        "bytes": 90952,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/eleicoes-corinthians-comissao-autoriza-sergio-janikian-novembro-2026.html",
+      "published": "2026-11-07",
+      "cover": {
+        "original": "assets/blog/optimized/ae84b36609c4e6.webp",
+        "path": "assets/blog/optimized/ae84b36609c4e6.webp",
+        "width": 1179,
+        "height": 1315,
+        "originalWidth": 1179,
+        "bytes": 97096,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/garro-diagnostico-lesao-joelho-6-novembro-2026.html",
+      "published": "2026-11-06",
+      "cover": {
+        "original": "assets/blog/optimized/dfb4e67c9f956c.webp",
+        "path": "assets/blog/optimized/dfb4e67c9f956c.webp",
+        "width": 1200,
+        "height": 702,
+        "originalWidth": 1200,
+        "bytes": 61212,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": true,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/garro-joelho-direito-majestoso-novembro-2026.html",
+      "published": "2026-11-05T09:30:00-03:00",
+      "cover": {
+        "original": "assets/blog/optimized/1f3b384eba05d3.webp",
+        "path": "assets/blog/optimized/1f3b384eba05d3.webp",
+        "width": 941,
+        "height": 529,
+        "originalWidth": 941,
+        "bytes": 65468,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/gavioes-da-fiel-cobra-corinthians.html",
+      "published": "2026-10-22",
+      "cover": {
+        "original": "assets/blog/optimized/2d833318bd9c1a.webp",
+        "path": "assets/blog/optimized/2d833318bd9c1a.webp",
+        "width": 260,
+        "height": 183,
+        "originalWidth": 260,
+        "bytes": 5660,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/index.html",
+      "published": null,
+      "cover": {
+        "original": "assets/blog/optimized/921936ae27712a.webp",
+        "path": "assets/blog/optimized/921936ae27712a.webp",
+        "width": 406,
+        "height": 463,
+        "originalWidth": 406,
+        "bytes": 32484,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/julio-cesar-corinthians-vazamentos-vestiario-outubro-2026.html",
+      "published": "2026-10-31",
+      "cover": {
+        "original": "assets/blog/optimized/6346f61a88335a.webp",
+        "path": "assets/blog/optimized/6346f61a88335a.webp",
+        "width": 1200,
+        "height": 675,
+        "originalWidth": 1200,
+        "bytes": 42004,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": true,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/levy-dias-primeiro-contrato-profissional-corinthians-2026.html",
+      "published": "2026-10-31",
+      "cover": {
+        "original": "assets/blog/optimized/b861f158f9c8a5.webp",
+        "path": "assets/blog/optimized/b861f158f9c8a5.webp",
+        "width": 1080,
+        "height": 1038,
+        "originalWidth": 1080,
+        "bytes": 79458,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/marcelo-paz-deixa-corinthians.html",
+      "published": "2026-10-22",
+      "cover": {
+        "original": "assets/blog/optimized/24f4d82dbb067e.webp",
+        "path": "assets/blog/optimized/24f4d82dbb067e.webp",
+        "width": 1280,
+        "height": 720,
+        "originalWidth": 1280,
+        "bytes": 27072,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": true,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/memphis-depay-retorno-corinthians-sao-paulo-2026.html",
+      "published": "2026-10-30",
+      "cover": {
+        "original": "assets/blog/optimized/55e3a7b704ca20.webp",
+        "path": "assets/blog/optimized/55e3a7b704ca20.webp",
+        "width": 836,
+        "height": 471,
+        "originalWidth": 836,
+        "bytes": 37158,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/presentes-para-corinthianos.html",
+      "published": "2026-10-15",
+      "cover": {
+        "original": "assets/produtos/SHP-009/01-kit-completo.webp",
+        "path": "assets/blog/optimized/d35f545dd1b7c0.webp",
+        "width": 1024,
+        "height": 1024,
+        "originalWidth": 1024,
+        "bytes": 62820,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/raniele-recuperacao-menisco-joaquim-grava-8-novembro-2026.html",
+      "published": "2026-11-08",
+      "cover": {
+        "original": "assets/blog/optimized/644f0c62880f01.webp",
+        "path": "assets/blog/optimized/644f0c62880f01.webp",
+        "width": 1224,
+        "height": 689,
+        "originalWidth": 1224,
+        "bytes": 42566,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": true,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/seedorf-pressao-demissao-corinthians-outubro-2026.html",
+      "published": "2026-10-30",
+      "cover": {
+        "original": "assets/blog/optimized/c247e764de6dcd.webp",
+        "path": "assets/blog/optimized/c247e764de6dcd.webp",
+        "width": 836,
+        "height": 470,
+        "originalWidth": 836,
+        "bytes": 26402,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/um-so-corinthians-acao-fiel-mirassol.html",
+      "published": "2026-10-29",
+      "cover": {
+        "original": "assets/blog/optimized/720c13b30d759c.webp",
+        "path": "assets/blog/optimized/720c13b30d759c.webp",
+        "width": 1600,
+        "height": 890,
+        "originalWidth": 1600,
+        "bytes": 170166,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": true,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/vitinho-ganha-espaco-seedorf-futuro-corinthians-2027.html",
+      "published": "2026-11-07",
+      "cover": {
+        "original": "assets/blog/optimized/c95e3c035b20a0.webp",
+        "path": "assets/blog/optimized/c95e3c035b20a0.webp",
+        "width": 1179,
+        "height": 1798,
+        "originalWidth": 1179,
+        "bytes": 90790,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/yuri-alberto-expulso-majestoso-suspenso-botafogo-2026.html",
+      "published": "2026-11-05T09:30:00-03:00",
+      "cover": {
+        "original": "assets/blog/optimized/9ff12cf5d9596e.webp",
+        "path": "assets/blog/optimized/9ff12cf5d9596e.webp",
+        "width": 548,
+        "height": 383,
+        "originalWidth": 548,
+        "bytes": 25044,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    },
+    {
+      "page": "blog/yuri-alberto-suspenso-stjd-dois-jogos-9-novembro-2026.html",
+      "published": "2026-11-09",
+      "cover": {
+        "original": "assets/blog/optimized/921936ae27712a.webp",
+        "path": "assets/blog/optimized/921936ae27712a.webp",
+        "width": 406,
+        "height": 463,
+        "originalWidth": 406,
+        "bytes": 32484,
+        "rights": "Não comprovados nesta auditoria"
+      },
+      "largeImage": false,
+      "rightsVerified": false
+    }
+  ]
+}

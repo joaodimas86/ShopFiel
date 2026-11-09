@@ -73,7 +73,7 @@ for(const [id,g] of Object.entries(groups)){
  write(g.slug+'/index.html',shell(g.name+' | Shop Fiel',g.intro,canonical,body,[crumbs([['Shop Fiel',origin+'/'],[g.name,canonical]]),{'@context':'https://schema.org','@type':'CollectionPage',name:g.name,url:canonical,mainEntity:{'@type':'ItemList',itemListElement:items.map((p,i)=>({'@type':'ListItem',position:i+1,url:url(productHref(p)),name:p.product_name}))}}]));
 }
 write('robots.txt','User-agent: *\nAllow: /\n\nSitemap: '+origin+'/sitemap.xml');
-const urls=[origin+'/',...fs.readdirSync(path.join(root,'blog')).filter(p=>p.endsWith('.html')).map(p=>origin+'/blog/'+p),...Object.keys(groups).map(id=>url(categoryHref(id))),...products.map(p=>url(productHref(p)))];
+const urls=[origin+'/',...fs.readdirSync(path.join(root,'blog')).filter(p=>p.endsWith('.html')).map(p=>origin+'/blog/'+p),...['sobre-editorial.html','politica-editorial.html','contato.html','transparencia.html'].filter(p=>fs.existsSync(path.join(root,p))).map(p=>origin+'/'+p),...Object.keys(groups).map(id=>url(categoryHref(id))),...products.map(p=>url(productHref(p)))];
 write('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+urls.map(u=>'  <url><loc>'+esc(u)+'</loc></url>').join('\n')+'\n</urlset>');
 write('data/seo-urls.json',JSON.stringify(Object.fromEntries(products.map(p=>[p.id,productHref(p)])),null,2));
 console.log('Geradas '+products.length+' fichas, '+Object.keys(groups).length+' categorias e '+urls.length+' URLs no sitemap.');

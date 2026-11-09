@@ -153,3 +153,11 @@
  .bl-feature-card .bl-art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:none}
  .bl-feature-card .bl-card-body{min-width:0;position:relative;z-index:1}
 }
+/* Editorial transparency and narrow-screen reading. */
+.sf-editorial-links{display:flex;flex-wrap:wrap;gap:12px 24px;max-width:1200px;margin:24px auto;padding:24px 20px;border-top:1px solid #ddd;font-size:14px;line-height:1.6}
+.sf-editorial-links a,.sf-editorial-byline a,.sf-policy a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.sf-editorial-byline{font:400 14px/1.6 Arial,sans-serif;margin:16px 0 24px}
+.sf-policy{max-width:820px;margin:0 auto;padding:48px 20px 80px;font:400 18px/1.8 Arial,sans-serif;overflow-wrap:anywhere}
+.sf-policy h1{font-size:clamp(30px,6vw,48px);line-height:1.15}.sf-policy h2{margin-top:32px;font-size:26px}
+.bl-page main{overflow-wrap:break-word}.bl-page img{max-width:100%}
+@media(max-width:600px){.bl-page .bl-top-nav{flex-wrap:wrap;gap:12px}.bl-page .bl-header{flex-wrap:wrap}.bl-page h1{overflow-wrap:anywhere}.sf-editorial-links a{padding:8px 0}.bl-page figure{max-width:100%;margin-left:0;margin-right:0}}
