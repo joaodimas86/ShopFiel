@@ -563,6 +563,57 @@
       "photo_added_on": "2026-10-29",
       "description_source": "Texto editorial baseado nas informações e nas cinco imagens fornecidas pelo responsável; sem verificação independente de estoque, licenciamento ou preço no destino.",
       "image_source_note": "Cinco imagens fornecidas pelo responsável, otimizadas em WebP. Imagem ambientada ilustrativa; objetos do cenário não incluídos."
+    },
+    {
+      "id": "ML-016",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/2sZ9pbS",
+      "affiliate_link_verified": false,
+      "status": "identified",
+      "product_name": "Camiseta Corinthians x Sabotage Oversized Preta 100% Algodão",
+      "product_image": "./assets/produtos/ML-016/01-frente.webp",
+      "price_brl": null,
+      "verified_at": null,
+      "category_id": "casuais",
+      "availability": "not_verified",
+      "description": "O peso do rap. A força da Fiel. Uma camiseta que veste as suas raízes. A Camiseta Corinthians x Sabotage oversized preta une a paixão pelo Timão à memória de uma voz marcante do rap nacional. Uma peça para quem se identifica com a cultura das ruas, a música e o sentimento que atravessa gerações de corinthianos. Com visual urbano e modelagem ampla, combina uma estampa frontal com os nomes Corinthians e Sabotage a uma arte de destaque nas costas, reunindo o retrato do rapper e elementos do clube. Confeccionada em malha encorpada 100% algodão, oferece toque macio e caimento solto. A gola em ribana larga complementa o estilo, e as estampas em silk com tinta à base de água valorizam a homenagem. Use com jeans, bermuda ou calça cargo para assistir ao jogo, encontrar os amigos ou curtir um show. Acompanha caixa promocional exclusiva: uma opção de presente para corinthianos e fãs de rap. Consulte a tabela de medidas do vendedor antes de escolher o tamanho.",
+      "highlights": [
+        "Cor preta; composição 100% algodão, conforme ficha fornecida.",
+        "Modelagem oversized: ampla, com caimento solto no corpo e nas mangas.",
+        "Malha encorpada e gola em ribana larga.",
+        "Estampas frente e costas em silk com tinta à base de água.",
+        "Arte com retrato do Sabotage e elementos do Corinthians nas costas.",
+        "Público informado pelo fabricante: masculino.",
+        "Acompanha caixa promocional exclusiva, conforme informações fornecidas.",
+        "Presente para corinthianos e fãs de rap; estilo urbano para o dia a dia.",
+        "Consulte a tabela de medidas e confirme tamanho, estoque, frete e conteúdo da embalagem no anúncio."
+      ],
+      "price_snapshot": {
+        "amount_brl": 128.44,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-11-10",
+        "live_price": false,
+        "source": "Preço informado pelo responsável, sem verificação independente."
+      },
+      "additional_offers": [
+        {
+          "marketplace": "shopee",
+          "url": "https://s.shopee.com.br/7puicZg1E8",
+          "price_snapshot": {
+            "amount_brl": 189.9,
+            "observed_on": "2026-11-10",
+            "live_price": false
+          }
+        }
+      ],
+      "images": [
+        "./assets/produtos/ML-016/01-frente.webp",
+        "./assets/produtos/ML-016/02-costas.webp",
+        "./assets/produtos/ML-016/03-detalhe-estampa.webp",
+        "./assets/produtos/ML-016/04-modelagem.webp",
+        "./assets/produtos/ML-016/05-caixa-promocional.webp"
+      ],
+      "photo_added_on": "2026-11-10"
     }
   ],
   "identified_count": 12
