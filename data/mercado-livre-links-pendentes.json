@@ -614,6 +614,48 @@
         "./assets/produtos/ML-016/05-caixa-promocional.webp"
       ],
       "photo_added_on": "2026-11-10"
+    },
+    {
+      "id": "ML-017",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/1SevMp1",
+      "affiliate_link_verified": false,
+      "status": "identified",
+      "product_name": "Jaqueta Corinthians Masculina Preta e Cinza com Capuz e Zíper",
+      "product_image": "./assets/produtos/ML-017/01-frente.webp",
+      "price_brl": null,
+      "verified_at": null,
+      "category_id": "casuais",
+      "availability": "not_verified",
+      "description": "O escudo no peito. A identidade da Fiel em cada detalhe. A jaqueta Corinthians masculina preta e cinza com capuz é para quem leva o Timão para além dos dias de jogo. Com visual esportivo, combinação de cores versátil e escudo em destaque no peito, a peça coloca a paixão corinthiana no centro do seu estilo. Da arquibancada à rotina na cidade, é uma opção para completar o visual com personalidade. O contraste entre a parte superior preta e o corpo cinza facilita as combinações com jeans, calça esportiva ou jogger. O escudo em tons escuros acompanha a proposta discreta, enquanto os detalhes gráficos nas mangas acrescentam personalidade. O capuz com ajuste, o fechamento frontal completo e os bolsos laterais com zíper reúnem praticidade no dia a dia. Procurando um presente para corinthiano? Esta jaqueta reúne estilo esportivo e identificação com o clube em uma peça fácil de incluir no guarda-roupa. Vista a sua paixão. Leve o Corinthians com você.",
+      "highlights": [
+        "Jaqueta masculina do Corinthians nas cores preta e cinza, conforme as fotos fornecidas.",
+        "Capuz com cordões de ajuste.",
+        "Fechamento frontal completo em zíper.",
+        "Bolsos laterais com zíper para pequenos objetos.",
+        "Mangas longas com acabamento elástico nos punhos e detalhes gráficos.",
+        "Escudo do Corinthians aplicado no peito em tons escuros.",
+        "As fotos mostram etiqueta com a identificação Produto Oficial Licenciado. Confira a procedência e a marca no anúncio do vendedor.",
+        "Compare a tabela de medidas com uma jaqueta que você já usa. Para vestir sobre outra blusa, considere essa combinação ao escolher o tamanho.",
+        "Consulte composição, cuidados de lavagem, tamanhos e disponibilidade no anúncio. Impermeabilidade e proteção térmica não foram confirmadas."
+      ],
+      "images": [
+        "./assets/produtos/ML-017/01-frente.webp",
+        "./assets/produtos/ML-017/02-verso-bolsos.webp",
+        "./assets/produtos/ML-017/03-escudo-no-peito.webp",
+        "./assets/produtos/ML-017/04-etiqueta-capuz.webp",
+        "./assets/produtos/ML-017/05-detalhe-escudo.webp"
+      ],
+      "price_snapshot": {
+        "amount_brl": 287.97,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-11-18",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em 18/11/2026; não verificado no destino."
+      },
+      "photo_added_on": "2026-11-18",
+      "description_source": "Descrição editorial baseada nas cinco fotos fornecidas pelo responsável.",
+      "image_source_note": "Fotos fornecidas pelo responsável, otimizadas em WebP."
     }
   ],
   "identified_count": 12
