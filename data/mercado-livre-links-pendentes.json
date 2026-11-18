@@ -656,6 +656,48 @@
       "photo_added_on": "2026-11-18",
       "description_source": "Descrição editorial baseada nas cinco fotos fornecidas pelo responsável.",
       "image_source_note": "Fotos fornecidas pelo responsável, otimizadas em WebP."
+    },
+    {
+      "id": "ML-018",
+      "marketplace": "mercado_livre",
+      "url": "https://meli.la/1CG6p8p",
+      "affiliate_link_verified": false,
+      "status": "identified",
+      "product_name": "Bola de Futebol Corinthians Estádios 5 Licenciada PVC 32 Gomos",
+      "product_image": "./assets/produtos/ML-018/01-escudo.webp",
+      "price_brl": null,
+      "verified_at": null,
+      "category_id": "souvenirs",
+      "availability": "not_verified",
+      "description": "A paixão pelo Timão também entra em campo. A Bola de Futebol Corinthians Estádios 5 leva o escudo e as cores do clube para a sua próxima partida. Com visual preto e branco, detalhes gráficos e a inscrição Tu és orgulho, é uma escolha para quem quer transformar a brincadeira, a resenha e o futebol com os amigos em mais uma forma de representar o Corinthians. Indicada para uso recreativo, combina a identidade alvinegra com cobertura em PVC FOAM e construção de 32 gomos costurados à máquina. Uma opção para momentos de lazer com a bola nos pés ou para presentear aquele corinthiano que vive futebol. O modelo tem peso aproximado de 420 a 450 gramas, conforme as especificações fornecidas pelo vendedor. O escudo do Sport Club Corinthians Paulista aparece em destaque, acompanhado pelo nome Corinthians e por elementos gráficos em preto e branco. Reúna os amigos, prepare a brincadeira e coloque a paixão alvinegra em jogo.",
+      "highlights": [
+        "Modelo: Bola Corinthians Estádios 5.",
+        "Material externo: PVC (policloreto de vinila); cobertura informada em PVC FOAM.",
+        "Construção: 32 gomos costurados à máquina.",
+        "Peso aproximado informado: 420 a 450 g.",
+        "Cores: preto e branco, com escudo colorido do Corinthians.",
+        "Público unissex; uso recreativo e práticas ocasionais.",
+        "Produto identificado pelo vendedor como licenciado. Confira procedência no anúncio.",
+        "Conteúdo: 1 bola de futebol do Corinthians. A bola é enviada vazia.",
+        "Infle respeitando a pressão indicada na bola ou embalagem.",
+        "Garantia de fábrica informada pelo vendedor: 30 dias. Confira condições no anúncio."
+      ],
+      "images": [
+        "./assets/produtos/ML-018/01-escudo.webp",
+        "./assets/produtos/ML-018/02-corinthians.webp",
+        "./assets/produtos/ML-018/03-vista.webp",
+        "./assets/produtos/ML-018/04-costuras-valvula.webp",
+        "./assets/produtos/ML-018/05-detalhe.webp"
+      ],
+      "price_snapshot": {
+        "amount_brl": 77.9,
+        "type": "valor informado pelo responsável",
+        "observed_on": "2026-11-18",
+        "live_price": false,
+        "source": "Preço informado pelo responsável em 18/11/2026."
+      },
+      "photo_added_on": "2026-11-18",
+      "description_source": "Informações e cinco fotos fornecidas pelo responsável. Material da câmara interna omitido por divergência entre látex e borracha butílica no texto de origem."
     }
   ],
   "identified_count": 12
